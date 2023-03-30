@@ -1,75 +1,75 @@
 {
     "sw-flow-call-webhook": {
-        "tabLog": "",
-        "labelWebhookLog": "",
+        "tabLog": "Ereignis-Log",
+        "labelWebhookLog": "Webhook Log",
         "action": {
-            "titleCallWebhook": "",
-            "descriptionWebhook": ""
+            "titleCallWebhook": "URL aufrufen (Webhook)",
+            "descriptionWebhook": "Methode: {method} <div class='sw-flow-sequence-action__webhook-description'>URL: {baseUrl}</div>"
         },
         "modal": {
-            "titleCallUrl": "",
-            "tabGeneral": "",
-            "tabHeader": "",
+            "titleCallUrl": "URL aufrufen",
+            "tabGeneral": "Allgemein",
+            "tabHeader": "Header-Parameter",
             "tabBody": "",
             "tabBasicAuth": "",
             "columnName": "",
-            "placeholderName": "",
-            "columnData": "",
-            "placeholderData": "",
-            "placeholderCustomData": "",
-            "buttonAddAction": "",
-            "buttonSaveAction": "",
+            "placeholderName": "Parameter eingeben ...",
+            "columnData": "Daten",
+            "placeholderData": "Daten auswählen ...",
+            "placeholderCustomData": "Eigene Daten eingeben ...",
+            "buttonAddAction": "Aktion hinzufügen",
+            "buttonSaveAction": "Aktion speichern",
             "contextButton": {
-                "useOwnParam": "",
-                "choosePredefinedParam": "",
-                "deleteParameter": ""
+                "useOwnParam": "Eigenen Parameter eingeben",
+                "choosePredefinedParam": "Vordefinierte Parameter nutzen",
+                "deleteParameter": "Parameter löschen"
             },
             "general": {
-                "labelMethod": "",
+                "labelMethod": "Methode",
                 "labelBaseUrl": "",
-                "placeholderBaseUrl": "",
-                "labelUrlPreview": "",
-                "labelDescription": "",
-                "placeholderDescription": "",
-                "titleParameters": ""
+                "placeholderBaseUrl": "URL eingeben...",
+                "labelUrlPreview": "URL-Vorschau",
+                "labelDescription": "Beschreibung",
+                "placeholderDescription": "Beschreibung eingeben ...",
+                "titleParameters": "Parameter"
             },
             "body": {
-                "labelBodyType": "",
+                "labelBodyType": "Body Typ",
                 "labelCode": ""
             },
             "basicAuth": {
-                "labelActive": "",
-                "labelUsername": "",
-                "labelPassword": "",
-                "placeholderUsername": "",
-                "placeholderPassword": ""
+                "labelActive": "Aktiv",
+                "labelUsername": "Benutzername",
+                "labelPassword": "Passwort",
+                "placeholderUsername": "Benutzernamen eingeben ...",
+                "placeholderPassword": "Passwort eingeben ..."
             }
         },
         "log": {
             "list": {
-                "columnDate": "",
+                "columnDate": "Datum",
                 "columnName": "",
                 "columnStatus": "",
-                "actionShowInfo": "",
-                "labelSuccess": "",
-                "labelFailed": "",
-                "emptyStateTitle": "",
-                "labelFrom": "",
-                "labelTo": "",
+                "actionShowInfo": "Details anzeigen",
+                "labelSuccess": "Erfolg",
+                "labelFailed": "Gescheitert",
+                "emptyStateTitle": "Bisher keine Webhook Logs",
+                "labelFrom": "Von",
+                "labelTo": "Bis",
                 "labelStatus": "",
-                "placeholderStatus": "",
-                "fetchErrorMessage": ""
+                "placeholderStatus": "Wähle einen Status ...",
+                "fetchErrorMessage": "Beim Abrufen der Daten ist ein Fehler aufgetreten."
             },
             "modal": {
-                "title": "",
-                "tabRequest": "",
+                "title": "Log-Informationen",
+                "tabRequest": "Angefragt:",
                 "tabResponse": "",
-                "actionClose": "",
-                "labelContent": "",
-                "labelMethod": "",
+                "actionClose": "Schließen",
+                "labelContent": "Inhalt",
+                "labelMethod": "Methode",
                 "labelUrl": "",
-                "labelHttpStatus": "",
-                "labelDuration": ""
+                "labelHttpStatus": "HTTP-Status",
+                "labelDuration": "Dauer"
             }
         }
     }
