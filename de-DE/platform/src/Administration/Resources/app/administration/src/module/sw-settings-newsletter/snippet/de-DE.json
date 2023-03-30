@@ -2,10 +2,10 @@
   "sw-settings-newsletter": {
     "general": {
       "mainMenuItemGeneral": "",
-      "description": "",
+      "description": "Hier können Einstellungen für den Newsletter vorgenommen werden.",
       "textHeadline": "",
-      "buttonSave": "",
-      "messageSaveSuccess": ""
+      "buttonSave": "Speichern",
+      "messageSaveSuccess": "Die Konfiguration wurde erfolgreich gespeichert."
     }
   }
 }
