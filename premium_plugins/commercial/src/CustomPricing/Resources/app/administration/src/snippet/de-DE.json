@@ -1,9 +1,0 @@
-{
-  "sw-privileges": {
-    "permissions": {
-      "custom_price": {
-        "label": "Kundenindividuelle Preise"
-      }
-    }
-  }
-}
