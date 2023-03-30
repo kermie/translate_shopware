@@ -1,25 +1,25 @@
 {
   "sw-settings": {
     "general": {
-      "mainMenuItemGeneral": ""
+      "mainMenuItemGeneral": "Einstellungen"
     },
     "index": {
-      "title": "",
+      "title": "Einstellungen",
       "tabShop": "",
       "tabSystem": "",
-      "tabPlugins": ""
+      "tabPlugins": "Erweiterungen"
     },
     "system-config": {
-      "labelSalesChannelSelect": "",
-      "inherited": "",
-      "compileNotice": "",
-      "scssHelpText": ""
+      "labelSalesChannelSelect": "Verkaufskanal",
+      "inherited": "Vererbt",
+      "compileNotice": "Diese Konfiguration enthält Felder, die für das Theme verwendet werden. Damit die Änderungen sichtbar werden, muss das Theme neu kompiliert werden.",
+      "scssHelpText": "SCSS Variablenname: "
     }
   },
   "sw-privileges": {
     "additional_permissions": {
       "system": {
-        "system_config": ""
+        "system_config": "Grundlegende Einstellungen"
       }
     }
   }
