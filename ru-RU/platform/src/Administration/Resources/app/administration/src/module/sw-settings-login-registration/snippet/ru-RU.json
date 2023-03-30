@@ -1,0 +1,11 @@
+{
+  "sw-settings-login-registration": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "description": "",
+      "textHeadline": "",
+      "buttonSave": "",
+      "messageSaveSuccess": ""
+    }
+  }
+}
