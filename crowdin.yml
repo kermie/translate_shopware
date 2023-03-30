@@ -1,0 +1,223 @@
+files:
+  - source: /en/platform/src/Administration/Resources/app/administration/src/app/component/base/sw-error-summary/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/app/component/base/sw-error-summary/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/app/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/app/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-shopware-updates/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-shopware-updates/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-language/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-language/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-profile/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-profile/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-privilege-error/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-privilege-error/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-document/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-document/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-number-range/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-number-range/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-customer/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-customer/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-snippet/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-snippet/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-promotion-v2/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-promotion-v2/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-listing/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-listing/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-store/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-store/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-tag/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-tag/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-cart/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-cart/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-media/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-media/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-flow/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-flow/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-dashboard/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-dashboard/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-inactivity-login/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-inactivity-login/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-tax/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-tax/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-delivery-times/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-delivery-times/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-address/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-address/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-sitemap/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-sitemap/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-landing-page/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-landing-page/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-payment/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-payment/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-units/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-units/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-order/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-order/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-currency/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-currency/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-seo/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-seo/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-search/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-search/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-product-feature-sets/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-product-feature-sets/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-extension/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-extension/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-cache/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-cache/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-newsletter-recipient/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-newsletter-recipient/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-customer-group/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-customer-group/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-cms/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-cms/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-product-stream/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-product-stream/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-product/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-product/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-logging/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-logging/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-salutation/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-salutation/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-manufacturer/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-manufacturer/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-integration/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-integration/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-login/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-login/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-rule/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-rule/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-shipping/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-shipping/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-property/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-property/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-mailer/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-mailer/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-bulk-edit/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-bulk-edit/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-basic-information/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-basic-information/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-review/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-review/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-sales-channel/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-sales-channel/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-newsletter/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-newsletter/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-extension-sdk/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-extension-sdk/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-category/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-category/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-login-registration/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-login-registration/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-import-export/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-import-export/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-country/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-country/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-first-run-wizard/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-first-run-wizard/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-custom-entity/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-custom-entity/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-users-permissions/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-users-permissions/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-settings-custom-field/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-settings-custom-field/snippet/%locale%.json
+  - source: /en/platform/src/Administration/Resources/app/administration/src/module/sw-mail-template/snippet/en-GB.json
+    translation: /%locale%/platform/src/Administration/Resources/app/administration/src/module/sw-mail-template/snippet/%locale%.json
+  - source: /en/platform/src/Storefront/Resources/app/administration/src/app/snippet/en-GB.json
+    translation: /%locale%/platform/src/Storefront/Resources/app/administration/src/app/snippet/%locale%.json
+  - source: /en/platform/src/Storefront/Resources/app/administration/src/modules/sw-theme-manager/snippet/en-GB.json
+    translation: /%locale%/platform/src/Storefront/Resources/app/administration/src/modules/sw-theme-manager/snippet/%locale%.json
+  - source: /en/platform/src/Storefront/Resources/app/administration/src/modules/sw-settings-storefront/snippet/en-GB.json
+    translation: /%locale%/platform/src/Storefront/Resources/app/administration/src/modules/sw-settings-storefront/snippet/%locale%.json
+  - source: /en/platform/src/Storefront/Resources/snippet/en_GB/storefront.en-GB.json
+    translation: /%locale%/platform/src/Storefront/Resources/snippet/%locale%/storefront.%locale%.json
+  - source: /en/plugins/swagmigrationmagento/src/Resources/app/administration/src/app/snippet/en-GB.json
+    translation: /%locale%/plugins/swagmigrationmagento/src/Resources/app/administration/src/app/snippet/%locale%.json
+  - source: /en/plugins/paypal/src/Resources/app/administration/src/module/extension/sw-settings-shipping/snippets/en-GB.json
+    translation: /%locale%/plugins/paypal/src/Resources/app/administration/src/module/extension/sw-settings-shipping/snippets/%locale%.json
+  - source: /en/plugins/paypal/src/Resources/app/administration/src/module/extension/sw-first-run-wizard/snippets/en-GB.json
+    translation: /%locale%/plugins/paypal/src/Resources/app/administration/src/module/extension/sw-first-run-wizard/snippets/%locale%.json
+  - source: /en/plugins/paypal/src/Resources/app/administration/src/module/swag-paypal-disputes/snippet/en-GB.json
+    translation: /%locale%/plugins/paypal/src/Resources/app/administration/src/module/swag-paypal-disputes/snippet/%locale%.json
+  - source: /en/plugins/paypal/src/Resources/app/administration/src/module/swag-paypal-payment/snippet/en-GB.json
+    translation: /%locale%/plugins/paypal/src/Resources/app/administration/src/module/swag-paypal-payment/snippet/%locale%.json
+  - source: /en/plugins/paypal/src/Resources/app/administration/src/module/swag-paypal-pos/snippet/en-GB.json
+    translation: /%locale%/plugins/paypal/src/Resources/app/administration/src/module/swag-paypal-pos/snippet/%locale%.json
+  - source: /en/plugins/paypal/src/Resources/app/administration/src/module/swag-paypal/snippet/en-GB.json
+    translation: /%locale%/plugins/paypal/src/Resources/app/administration/src/module/swag-paypal/snippet/%locale%.json
+  - source: /en/plugins/paypal/src/Resources/snippet/storefront/paypal.en-GB.json
+    translation: /%locale%/plugins/paypal/src/Resources/snippet/storefront/paypal.%locale%.json
+  - source: /en/plugins/migration-assistant/Resources/app/administration/src/app/snippet/en-GB.json
+    translation: /%locale%/plugins/migration-assistant/Resources/app/administration/src/app/snippet/%locale%.json
+  - source: /en/plugins/amazon_pay/src/Resources/app/administration/src/module/swag-amazon-pay-order/snippets/en-GB.json
+    translation: /%locale%/plugins/amazon_pay/src/Resources/app/administration/src/module/swag-amazon-pay-order/snippets/%locale%.json
+  - source: /en/plugins/amazon_pay/src/Resources/app/administration/src/module/sw-settings-payment/snippets/en-GB.json
+    translation: /%locale%/plugins/amazon_pay/src/Resources/app/administration/src/module/sw-settings-payment/snippets/%locale%.json
+  - source: /en/plugins/amazon_pay/src/Resources/app/administration/src/module/swag-amazon-pay-configuration/snippets/en-GB.json
+    translation: /%locale%/plugins/amazon_pay/src/Resources/app/administration/src/module/swag-amazon-pay-configuration/snippets/%locale%.json
+  - source: /en/plugins/amazon_pay/src/Resources/snippet/storefront/amazonpay.en-GB.json
+    translation: /%locale%/plugins/amazon_pay/src/Resources/snippet/storefront/amazonpay.%locale%.json
+  - source: /en/premium_plugins/swagsocialshopping/src/Resources/app/administration/src/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/swagsocialshopping/src/Resources/app/administration/src/snippet/%locale%.json
+  - source: /en/premium_plugins/b2b/components/SwagB2bPlatform/Resources/app/administration/src/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/b2b/components/SwagB2bPlatform/Resources/app/administration/src/snippet/%locale%.json
+  - source: /en/premium_plugins/b2b/components/SwagB2bPlatform/Resources/app/administration/src/module/b2b-salesrep-clients/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/b2b/components/SwagB2bPlatform/Resources/app/administration/src/module/b2b-salesrep-clients/snippet/%locale%.json
+  - source: /en/premium_plugins/b2b/components/SwagB2bPlatform/Resources/app/administration/src/module/b2b-offer/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/b2b/components/SwagB2bPlatform/Resources/app/administration/src/module/b2b-offer/snippet/%locale%.json
+  - source: /en/premium_plugins/b2b/components/SwagB2bPlatform/Resources/snippet/storefront.en-GB.json
+    translation: /%locale%/premium_plugins/b2b/components/SwagB2bPlatform/Resources/snippet/storefront.%locale%.json
+  - source: /en/premium_plugins/b2b/example-plugins/B2bAcl/src/Resources/snippet/storefront/storefront.en-GB.json
+    translation: /%locale%/premium_plugins/b2b/example-plugins/B2bAcl/src/Resources/snippet/storefront/storefront.%locale%.json
+  - source: /en/premium_plugins/publisher/src/Resources/app/administration/src/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/publisher/src/Resources/app/administration/src/snippet/%locale%.json
+  - source: /en/premium_plugins/publisher/src/Resources/snippet/storefront.en-GB.json
+    translation: /%locale%/premium_plugins/publisher/src/Resources/snippet/storefront.%locale%.json
+  - source: /en/premium_plugins/swagenterprisesearchplatform/src/Resources/app/administration/src/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/swagenterprisesearchplatform/src/Resources/app/administration/src/snippet/%locale%.json
+  - source: /en/premium_plugins/swagenterprisesearchplatform/src/Resources/snippet/storefront.en-GB.json
+    translation: /%locale%/premium_plugins/swagenterprisesearchplatform/src/Resources/snippet/storefront.%locale%.json
+  - source: /en/premium_plugins/cms-extensions/src/Resources/app/administration/src/app/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/cms-extensions/src/Resources/app/administration/src/app/snippet/%locale%.json
+  - source: /en/premium_plugins/cms-extensions/src/Resources/snippet/storefront/cms-extensions.en-GB.json
+    translation: /%locale%/premium_plugins/cms-extensions/src/Resources/snippet/storefront/cms-extensions.%locale%.json
+  - source: /en/premium_plugins/customized-product/src/Resources/app/administration/src/module/swag-customized-products/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/customized-product/src/Resources/app/administration/src/module/swag-customized-products/snippet/%locale%.json
+  - source: /en/premium_plugins/customized-product/src/Resources/app/administration/src/module/sw-product/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/customized-product/src/Resources/app/administration/src/module/sw-product/snippet/%locale%.json
+  - source: /en/premium_plugins/customized-product/src/Resources/snippet/storefront/customized-products.en-GB.json
+    translation: /%locale%/premium_plugins/customized-product/src/Resources/snippet/storefront/customized-products.%locale%.json
+  - source: /en/premium_plugins/commercial/src/FlowBuilder/WebhookFlowAction/Resources/app/administration/src/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/FlowBuilder/WebhookFlowAction/Resources/app/administration/src/snippet/%locale%.json
+  - source: /en/premium_plugins/commercial/src/FlowBuilder/DelayedFlowAction/Resources/app/administration/src/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/FlowBuilder/DelayedFlowAction/Resources/app/administration/src/snippet/%locale%.json
+  - source: /en/premium_plugins/commercial/src/FlowBuilder/FlowSharing/Resources/app/administration/src/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/FlowBuilder/FlowSharing/Resources/app/administration/src/snippet/%locale%.json
+  - source: /en/premium_plugins/commercial/src/ReturnManagement/Resources/app/administration/src/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/ReturnManagement/Resources/app/administration/src/snippet/%locale%.json
+  - source: /en/premium_plugins/commercial/src/ReturnManagement/Resources/app/administration/src/core/modules/sw-profile/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/ReturnManagement/Resources/app/administration/src/core/modules/sw-profile/snippet/%locale%.json
+  - source: /en/premium_plugins/commercial/src/ReturnManagement/Resources/snippet/storefront/swag-return-management.en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/ReturnManagement/Resources/snippet/storefront/swag-return-management.%locale%.json
+  - source: /en/premium_plugins/commercial/src/TextGenerator/Resources/app/administration/src/module/sw-product/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/TextGenerator/Resources/app/administration/src/module/sw-product/snippet/%locale%.json
+  - source: /en/premium_plugins/commercial/src/RuleBuilderPreview/Resources/app/administration/src/modules/rule/component/sw-rule-builder-preview/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/RuleBuilderPreview/Resources/app/administration/src/modules/rule/component/sw-rule-builder-preview/snippet/%locale%.json
+  - source: /en/premium_plugins/commercial/src/RuleBuilderPreview/Resources/app/administration/src/modules/rule/component/sw-rule-builder-preview-indicator/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/RuleBuilderPreview/Resources/app/administration/src/modules/rule/component/sw-rule-builder-preview-indicator/snippet/%locale%.json
+  - source: /en/premium_plugins/commercial/src/CustomPricing/Resources/app/administration/src/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/CustomPricing/Resources/app/administration/src/snippet/%locale%.json
+  - source: /en/premium_plugins/commercial/src/MultiWarehouse/Resources/app/administration/src/module/sw-settings-warehouse/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/MultiWarehouse/Resources/app/administration/src/module/sw-settings-warehouse/snippet/%locale%.json
+  - source: /en/premium_plugins/commercial/src/MultiWarehouse/Resources/app/administration/src/module/sw-settings-warehouse-group/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/MultiWarehouse/Resources/app/administration/src/module/sw-settings-warehouse-group/snippet/%locale%.json
+  - source: /en/premium_plugins/commercial/src/MultiWarehouse/Resources/app/administration/src/module/sw-product/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/commercial/src/MultiWarehouse/Resources/app/administration/src/module/sw-product/snippet/%locale%.json
+  - source: /en/premium_plugins/rufus/src/Resources/app/shopconfiguration/src/translations/snippets/en-GB.json
+    translation: /%locale%/premium_plugins/rufus/src/Resources/app/shopconfiguration/src/translations/snippets/%locale%.json
+  - source: /en/premium_plugins/rufus/src/Resources/app/administration/src/snippets/entities/en-GB.json
+    translation: /%locale%/premium_plugins/rufus/src/Resources/app/administration/src/snippets/entities/%locale%.json
+  - source: /en/premium_plugins/rufus/src/Resources/app/administration/src/snippets/en-GB.json
+    translation: /%locale%/premium_plugins/rufus/src/Resources/app/administration/src/snippets/%locale%.json
