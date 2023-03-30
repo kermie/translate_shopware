@@ -1,108 +1,108 @@
 {
   "sw-media": {
     "general": {
-      "mainMenuItemGeneral": "",
-      "descriptionTextModule": "",
-      "placeholderSearchBar": "",
+      "mainMenuItemGeneral": "Medien",
+      "descriptionTextModule": "Verwaltung von Mediendateien.",
+      "placeholderSearchBar": "Durchsuche den aktuellen Ordner ...",
       "notification": {
         "urlCopied": {
-          "message": ""
+          "message": "URL in Zwischenablage kopiert."
         }
       }
     },
     "sidebar": {
-      "labelHeadlineMultiple": "",
-      "labelNoMediaSelected": "",
+      "labelHeadlineMultiple": "{count} ausgewählte Dateien",
+      "labelNoMediaSelected": "Keine Medien ausgewählt",
       "actions": {
-        "copyLink": "",
-        "delete": "",
-        "dissolve": "",
+        "copyLink": "Link kopieren",
+        "delete": "Löschen",
+        "dissolve": "Auflösen",
         "download": "",
-        "move": "",
-        "replace": "",
-        "settings": ""
+        "move": "Verschieben",
+        "replace": "Ersetzen",
+        "settings": "Einstellungen"
       },
       "sections": {
-        "actions": "",
-        "preview": "",
-        "metadata": "",
-        "usage": "",
-        "selectedFiles": ""
+        "actions": "Aktionen",
+        "preview": "Vorschau",
+        "metadata": "Metadaten",
+        "usage": "Wird verwendet in",
+        "selectedFiles": "Ausgewählte Dateien"
       },
       "infoMissingFile": {
-        "titleMissingFile": "",
-        "descriptionMissingFile": ""
+        "titleMissingFile": "Datei nicht gefunden",
+        "descriptionMissingFile": "Wir konnten diese Datei nicht finden. Du kannst eine neue Datei hochladen oder diese löschen."
       },
       "metadata": {
         "name": "",
-        "fileType": "",
-        "altText": "",
-        "title": "",
+        "fileType": "Dateityp",
+        "altText": "Alt Text",
+        "title": "Titel",
         "mimeType": "",
-        "fileSize": "",
-        "createdAt": "",
-        "width": "",
-        "height": "",
-        "totalSize": ""
+        "fileSize": "Größe",
+        "createdAt": "Hochgeladen am",
+        "width": "Breite",
+        "height": "Höhe",
+        "totalSize": "Insgesamt"
       },
       "usage": {
-        "tooltipFoundInProducts": "",
-        "tooltipFoundInCategories": "",
-        "tooltipFoundInManufacturers": "",
-        "tooltipFoundInMailTemplate": "",
-        "tooltipFoundInDocument": "",
-        "tooltipFoundInUser": "",
-        "tooltipFoundInPayment": "",
-        "tooltipFoundShipping": "",
-        "tooltipFoundLayout": "",
-        "titleMediaNotUsed": "",
-        "labelMediaNotUsed": ""
+        "tooltipFoundInProducts": "Gefunden in Produkten",
+        "tooltipFoundInCategories": "Gefunden in Kategorien",
+        "tooltipFoundInManufacturers": "Gefunden in Herstellern",
+        "tooltipFoundInMailTemplate": "Gefunden in E-Mail-Templates",
+        "tooltipFoundInDocument": "Gefunden in Document",
+        "tooltipFoundInUser": "Gefunden in User",
+        "tooltipFoundInPayment": "Gefunden in Zahlungart",
+        "tooltipFoundShipping": "Gefunden in Versandart",
+        "tooltipFoundLayout": "Gefunden in Erlebniswelten",
+        "titleMediaNotUsed": "Medium nicht verwendet",
+        "labelMediaNotUsed": "Das Medium wird zurzeit nicht verwendet."
       }
     },
     "index": {
-      "buttonCreateFolder": "",
-      "rootFolderName": ""
+      "buttonCreateFolder": "Neuen Ordner hinzufügen",
+      "rootFolderName": "Medien"
     },
     "mediaLibrary": {
-      "labelButtonLoadMore": "",
-      "titleEmptyState": "",
-      "descriptionEmptyState": ""
+      "labelButtonLoadMore": "Weitere laden",
+      "titleEmptyState": "Noch keine Medien vorhanden",
+      "descriptionEmptyState": "Verwaltung von Medien."
     },
     "sorting": {
-      "labelSort": "",
+      "labelSort": "Sortiere nach:",
       "labelSortByNameAsc": "",
       "labelSortByNameDsc": "",
-      "labelSortBySizeAsc": "",
-      "labelSortBySizeDsc": "",
-      "labelSortByCreatedAsc": "",
-      "labelSortByCreatedDsc": ""
+      "labelSortBySizeAsc": "Größe, aufsteigend",
+      "labelSortBySizeDsc": "Größe, absteigend",
+      "labelSortByCreatedAsc": "Erstelldatum, aufsteigend",
+      "labelSortByCreatedDsc": "Erstelldatum, absteigend"
     },
     "presentation": {
-      "labelPresentation": "",
-      "labelPresentationSmall": "",
-      "labelPresentationMedium": "",
-      "labelPresentationLarge": "",
-      "labelPresentationList": ""
+      "labelPresentation": "Darstellung:",
+      "labelPresentationSmall": "Kleine Vorschau",
+      "labelPresentationMedium": "Normale Vorschau",
+      "labelPresentationLarge": "Große Vorschau",
+      "labelPresentationList": "Liste"
     },
     "sw-media-modal": {
-      "titleModal": "",
-      "labelTabItemLibrary": "",
-      "labelTabItemUpload": "",
-      "labelButtonCancel": "",
-      "labelButtonSaveSelection": ""
+      "titleModal": "Medien auswählen",
+      "labelTabItemLibrary": "Bibliothek",
+      "labelTabItemUpload": "Dateien hochladen",
+      "labelButtonCancel": "Abbrechen",
+      "labelButtonSaveSelection": "Medien hinzufügen"
     },
     "sw-media-modal-v2": {
-      "titleModal": "",
-      "labelTabItemLibrary": "",
-      "labelTabItemUpload": "",
-      "labelButtonCancel": "",
-      "labelButtonSaveSelection": ""
+      "titleModal": "Medien auswählen",
+      "labelTabItemLibrary": "Bibliothek",
+      "labelTabItemUpload": "Dateien hochladen",
+      "labelButtonCancel": "Abbrechen",
+      "labelButtonSaveSelection": "Medien hinzufügen"
     }
   },
   "sw-privileges": {
     "permissions": {
       "media": {
-        "label": ""
+        "label": "Medien"
       }
     }
   }
