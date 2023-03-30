@@ -5,239 +5,239 @@
                 "swag_amazonpay": ""
             },
             "swag_amazonpay": {
-                "label": ""
+                "label": "Amazon Pay-Einstellungen"
             }
         }
     },
     "swag-amazon-pay-configuration": {
         "module": {
             "title": "",
-            "description": ""
+            "description": "Amazon Pay Zahlungsplugin für Shopware 6"
         },
         "actions": {
-            "insertPrivateKey": "",
-            "testConnection": "",
-            "exportConfig": "",
-            "importConfig": "",
-            "setAsDefaultPaymentMethod": ""
+            "insertPrivateKey": "Private Key eingeben",
+            "testConnection": "API-Zugangsdaten testen",
+            "exportConfig": "Einstellungen exportieren",
+            "importConfig": "Import-Einstellungen",
+            "setAsDefaultPaymentMethod": "Als Standardzahlungsmethode für den ausgewählten Verkaufskanal festlegen"
         },
         "notification": {
-            "inspectConnectionTitle": "",
-            "inspectConnectionSuccess": "",
-            "configSaveSuccessMessage": ""
+            "inspectConnectionTitle": "API Zugangsdaten testen",
+            "inspectConnectionSuccess": "Die API-Zugangsdaten wurden erfolgreich validiert.",
+            "configSaveSuccessMessage": "Die Konfiguration wurde erfolgreich gespeichert."
         },
         "exception": {
-            "genericError": "",
+            "genericError": "Es ist ein unbekannter Fehler aufgetreten, bitte überprüfe die Logdateien für weitere Informationen.",
             "inspectConnection": {
-                "credentialsNotFound": "",
-                "privateKeyInvalid": "",
-                "invalidProtocol": "",
-                "initialisingClientError": "",
-                "createSessionError": "",
-                "obtainSessionError": ""
+                "credentialsNotFound": "Bitte überprüfe Deine Plugin-Konfiguration",
+                "privateKeyInvalid": "Der angegebene Private Key ist ungültig.",
+                "invalidProtocol": "Fehler beim Prüfen der API-Zugangsdaten: Amazon Pay muss über eine HTTPS-Domain aufgerufen werden (Ausnahme: localhost). Bitte konfiguriere Deinen Server zur Verwendung von HTTPS und rufe die Shop-Administration über die entsprechende HTTPS-URL auf.",
+                "initialisingClientError": "Fehler bei der Initialisierung des Clients:",
+                "createSessionError": "Fehler bei der Erzeugung einer Checkout-Session:",
+                "obtainSessionError": "Fehler beim Abruf der Checkout-Session:"
             },
             "exportConfig": {
-                "title": "",
-                "message": ""
+                "title": "Export fehlgeschlagen",
+                "message": "Die Plugineinstellungen konnten aufgrund eines unbekannten Fehlers nicht exportiert werden."
             }
         },
         "inputKeyModal": {
-            "title": "",
-            "infoText": "",
+            "title": "Private Key",
+            "infoText": "Die Kommunikation mit Amazon Pay erfolgt asymmetrisch verschlüsselt. Dafür wird ein Schlüsselpaar (private/public) mit einer zugehörigen Public-Key-Id benötigt. Dieses Schlüsselpaar kannst Du im Amazon Pay Integration Central erzeugen. <a href=\"http://amazonpaycheckoutintegrationguide.s3.amazonaws.com/amazon-pay-checkout/get-set-up-for-integration.html#4-get-your-public-key-id\" target=\"_blank\" rel=\"noopener\">Weitere Informationen</a>",
             "labelContent": "",
-            "buttonSend": "",
-            "buttonCancel": "",
+            "buttonSend": "Abschicken",
+            "buttonCancel": "Abbrechen",
             "notification": {
-                "warning": "",
-                "invalidKeyFormat": ""
+                "warning": "Warnung!",
+                "invalidKeyFormat": "Der angegebene private key entspricht nicht dem geforderten Format"
             }
         },
         "configForm": {
-            "registerHeadline": "",
-            "registerExplanation": "",
-            "existingAccountHeadline": "",
-            "existingAccountExplanation": "",
-            "accountHeadline": "",
-            "credentialsHeadline": "",
-            "stateMappingExplanation": "",
-            "loggingHeadline": "",
-            "loggingExplanation": "",
-            "loggingBasicHelp": "",
-            "loggingAdvancedHelp": "",
-            "labelIpnUrl": "",
-            "ipnHelpText": "",
-            "privateKeyEmpty": "",
+            "registerHeadline": "Neu bei Amazon Pay?",
+            "registerExplanation": "Wenn Du noch kein Händlerkonto zur Nutzung von Amazon Pay besitzen, kannst Du hier ein neues Konto registrieren: <ul><li>Deutschland (EUR): <a href=\"https://pay.amazon.de/signup\" target=\"_blank\" rel=\"noopener\">https://pay.amazon.de/signup</a></li><li>Vereinigtes Königreich (GBP): <a href=\"https://pay.amazon.co.uk/signup\" target=\"_blank\" rel=\"noopener\">https://pay.amazon.co.uk/signup</a></li></ul>",
+            "existingAccountHeadline": "Du hast bereits ein Händlerkonto?",
+            "existingAccountExplanation": "Wenn Du bereits ein Händlerkonto zur Nutzung von Amazon Pay besitzt, folge bitte den <a href=\"https://docs.shopware.com/de/shopware-6-de/erweiterungen/amazon-pay#amazon-pay-zugangsdaten\" target=\"_blank\" rel=\"noopener\">hier</a> beschriebenen Schritten um die für die Konfiguration des Plugins benötigten Zugangsdaten zu erhalten.",
+            "accountHeadline": "Kontoinformationen",
+            "credentialsHeadline": "Zugangsdaten",
+            "stateMappingExplanation": "Je nach Konfiguration ist zu beachten, dass Shopware nicht den Übergang von jedem Ausgangs- zu jedem Zielstatus gestattet. Ist im Zuge einer Aktion eine Statusänderung nicht zulässig, bleibt dieser unverändert. Ist kein Zielstatus definiert, erfolgt eine Statusänderung gemäß dem Shopware-Standard.",
+            "loggingHeadline": "Wähle einen Log-Modus",
+            "loggingExplanation": "Diese Erweiterung schreibt relevante Informationen in eine Logdatei.",
+            "loggingBasicHelp": "Im Fehlerfall wird ein Logeintrag angelegt",
+            "loggingAdvancedHelp": "Debug Modus: Jeder Request und die zugehörige Response wird geloggt.",
+            "labelIpnUrl": "IPN-Url",
+            "ipnHelpText": "URL, an die Zahlungsereignisse (IPNs) verschickt werden von Amazon Pay. Bitte im Seller Central über \"Einstellungen\" > \"Integrationseinstellungen\" eintragen.",
+            "privateKeyEmpty": "Es wurde noch kein Private Key konfiguriert",
             "cards": {
-                "help": "",
-                "account": "",
-                "general": "",
-                "displayOptions": "",
-                "paymentStateMapping": "",
-                "advanced": "",
-                "logHandling": ""
+                "help": "Hilfe",
+                "account": "Konto",
+                "general": "Allgemein",
+                "displayOptions": "Anzeigeoptionen",
+                "paymentStateMapping": "Zahlungsstatus-Zuweisung",
+                "advanced": "Erweitert",
+                "logHandling": "Logging"
             },
             "fields": {
                 "ledgerCurrency": {
-                    "label": "",
-                    "placeholder": "",
-                    "helpText": "",
+                    "label": "Zahlungsregion",
+                    "placeholder": "Wähle Deine Zahlungsregion aus ...",
+                    "helpText": "Die Zahlungs- bzw. Währungsregion, in der das Händlerkonto von Amazon Pay registriert wurde. Für alle Euro-Länder hier bitte EUR (Euro-Region) wählen. Für Händlerkonten, die im Vereinigten Königreich registriert sind, hier bitte GBP (Vereinigtes Königreich) wählen.",
                     "options": {
                         "EUR": "",
                         "GBP": ""
                     }
                 },
                 "merchantId": {
-                    "label": "",
-                    "placeholder": "",
-                    "helpText": ""
+                    "label": "Händler-ID",
+                    "placeholder": "Händler-Id eingeben ...",
+                    "helpText": "Identifizierungsmerkmal des Händlerkontos. Verfügbar im Seller Central über \"Integration\" > \"Integration Central\". Stelle sicher, dass auf der \"Integration Central Page\" oben Shopware 6 ausgewählt ist."
                 },
                 "publicKeyId": {
-                    "label": "",
-                    "placeholder": "",
-                    "helpText": ""
+                    "label": "Public-Key-ID",
+                    "placeholder": "Public Key ID eingeben ...",
+                    "helpText": "Identifizierungsmerkmal des Public Keys. Verfügbar im \"Integration Central\" nach Erstellen eines API-Schlüssels."
                 },
                 "clientId": {
-                    "label": "",
-                    "placeholder": "",
-                    "helpText": ""
+                    "label": "Store-ID",
+                    "placeholder": "Store-ID eingeben ...",
+                    "helpText": "Identifizierungsmerkmal für den Store/die Anwendung. Pro Händlerkonto können mehrere Stores angelegt werden (bspw. für einen DE- und einen CH-Shop). Verfügbar über das \"Integration Central\"."
                 },
                 "privateKey": {
                     "label": "",
-                    "helpText": ""
+                    "helpText": "Privater Teil des API-Schlüssels, der beim Erstellen im \"Integration Central\" vom Browser heruntergeladen wird. Bitte geheim halten!"
                 },
                 "inheritFromDefault": {
-                    "label": ""
+                    "label": "Konfiguration des übergeordneten Verkaufkanals erben"
                 },
                 "sandbox": {
-                    "label": "",
-                    "helpText": ""
+                    "label": "Sandbox aktivieren",
+                    "helpText": "Aktiviert den Sandbox-Modus von Amazon Pay, der zum Testen des Checkouts verwendet wird."
                 },
                 "softDescriptor": {
-                    "label": "",
-                    "helpText": "",
-                    "placeholder": ""
+                    "label": "Verwendungszweck",
+                    "helpText": "Gibt den Wert an, den der Kunde als Verwendungszweck auf seinen Kontoauszügen sehen kann.",
+                    "placeholder": "Gib einen Verwendungszweck an ..."
                 },
                 "hideOneClickCheckoutButtons": {
-                    "label": "",
-                    "helpText": ""
+                    "label": "Amazon Pay Button global verstecken",
+                    "helpText": "Mit der folgenden Option kannst Du Amazon Pay global auf allen Seiten verstecken (Buttons und Zahlungsmethode). Bitte beachte, dass Amazon Pay in Deinem aktuellen Browser (durch Setzen eines Cookies) möglicherweise weiterhin angezeigt wird, da diese Funktion primär zum Testen der Funktionalitäten von Amazon Pay gedacht ist. Wenn Du dies unterdrücken möchtest, öffne die Seite einfach in einem anderen Browser, oder in einem Inkognito-Fenster."
                 },
                 "displayButtonOnProductPage": {
-                    "label": "",
-                    "helpText": ""
+                    "label": "Amazon Pay Button auf Produktseiten anzeigen",
+                    "helpText": "Wenn aktiv, wird der Amazon Pay Button auf den Produktseiten angezeigt."
                 },
                 "displayButtonOnCheckoutRegisterPage": {
-                    "label": "",
-                    "helpText": ""
+                    "label": "Amazon Pay Button auf \"Login/Register\"-Seite im Checkout anzeigen",
+                    "helpText": "Wenn aktiv, wird ein Amazon Pay Button auf der \"Login/Register\"-Seite angezeigt."
                 },
                 "displayLoginButtonOnRegistrationPage": {
-                    "label": "",
-                    "helpText": ""
+                    "label": "\"Anmelden mit Amazon\" Button auf Seite \"Login/Mein Konto\" anzeigen",
+                    "helpText": "Wenn aktiv, wird ein \"Anmelden mit Amazon\" Button auf der \"Login/Mein-Konto\"-Seite angezeigt."
                 },
                 "buttonColors": {
-                    "label": "",
-                    "helpText": "",
+                    "label": "Buttonfarbe",
+                    "helpText": "Die Farbe, welche für die \"Amazon Pay\" und \"Anmelden mit Amazon\" Buttons verwendet wird.",
                     "gold": "",
-                    "lightGray": "",
-                    "darkGray": ""
+                    "lightGray": "Hellgrau",
+                    "darkGray": "Dunkelgrau"
                 },
                 "paymentStateMappingAuthorize": {
-                    "label": "",
-                    "placeholder": "",
-                    "helpText": ""
+                    "label": "Zahlungsstatus nach erfolgreicher Authorisierung",
+                    "placeholder": "Wähle einen Zahlstatus ...",
+                    "helpText": "Zahlungsstatus der Shopware-Bestellung, wenn eine Zahlung über Amazon Pay erfolgreich autorisiert wurde."
                 },
                 "paymentStateMappingCharge": {
-                    "label": "",
-                    "placeholder": "",
-                    "helpText": ""
+                    "label": "Zahlungsstatus nach erfolgreichem Einzug",
+                    "placeholder": "Wähle einen Zahlstatus ...",
+                    "helpText": "Zahlungsstatus der Shopware-Bestellung, wenn eine Zahlung über Amazon Pay erfolgreich eingezogen wurde."
                 },
                 "paymentStateMappingPartialCharge": {
-                    "label": "",
-                    "placeholder": "",
-                    "helpText": ""
+                    "label": "Zahlungsstatus nach erfolgreichem Teileinzug",
+                    "placeholder": "Wähle einen Zahlstatus ...",
+                    "helpText": "Zahlungsstatus der Shopware-Bestellung, wenn ein Teilbetrag des Gesamtbetrags über Amazon Pay erfolgreich eingezogen wurde."
                 },
                 "paymentStateMappingRefund": {
-                    "label": "",
-                    "placeholder": "",
-                    "helpText": ""
+                    "label": "Zahlungsstatus nach erfolgreicher Rückerstattung",
+                    "placeholder": "Wähle einen Zahlstatus ...",
+                    "helpText": "Zahlungsstatus der Shopware-Bestellung, wenn eine Zahlung über Amazon Pay erfolgreich zurückerstattet wurde."
                 },
                 "paymentStateMappingPartialRefund": {
-                    "label": "",
-                    "placeholder": "",
-                    "helpText": ""
+                    "label": "Zahlungsstatus nach erfolgreicher Teilrückerstattung",
+                    "placeholder": "Wähle einen Zahlstatus ...",
+                    "helpText": "Zahlungsstatus der Shopware-Bestellung, wenn ein Teilbetrag des Gesamtbetrags über Amazon Pay erfolgreich zurückerstattet wurde."
                 },
                 "paymentStateMappingCancel": {
-                    "label": "",
-                    "placeholder": "",
-                    "helpText": ""
+                    "label": "Zahlungsstatus nach Abbruch",
+                    "placeholder": "Wähle einen Zahlstatus ...",
+                    "helpText": "Zahlungsstatus der Shopware-Bestellung, wenn eine Amazon Pay Zahlung abgebrochen wurde."
                 },
                 "chargeMode": {
-                    "label": "",
-                    "placeholder": "",
-                    "helpText": "",
+                    "label": "Einzugsmodus",
+                    "placeholder": "Wähle einen Einzugsmodus ...",
+                    "helpText": "Legt fest, wann eine Zahlung eingezogen wird. Zahlungen können entweder sofort (empfohlen), beim Wechsel in einen bestimmten Bestellstatus oder auch manuell eingezogen werden.",
                     "options": {
-                        "direct": "",
-                        "shipped": "",
-                        "manually": ""
+                        "direct": "Zahlung sofort einziehen",
+                        "shipped": "Zahlung bei Bestellstatuswechsel einziehen",
+                        "manually": "Zahlung manuell einziehen"
                     }
                 },
                 "excludedProductIds": {
-                    "label": "",
-                    "helpText": ""
+                    "label": "Ausgeschlossene Produkte",
+                    "helpText": "Hier ausgewählte Produkte können nicht mit Amazon Pay gekauft werden."
                 },
                 "excludedProductStreamIds": {
-                    "label": "",
-                    "helpText": ""
+                    "label": "Ausgeschlossene Dynamische Produkt Gruppen",
+                    "helpText": "Hier ausgewählte Dynamische Produktgruppen können nicht mit Amazon Pay gekauft werden."
                 },
                 "orderChargeTriggerState": {
-                    "label": "",
-                    "helpText": "",
-                    "placeholder": ""
+                    "label": "Bestellstatus zum Auslösen der Belastung",
+                    "helpText": "Belastung der Transaktion wird ausgelöst beim Ändern des Bestellstatus, wenn als Einzugsmodus \"Zahlung bei Bestellstatuswechsel einziehen\" konfiguriert ist.",
+                    "placeholder": "Wähle einen Bestellstatus zum Auslösen der Belastung ..."
                 },
                 "sendErrorMail": {
-                    "label": ""
+                    "label": "Im Fehlerfall E-Mail an den Shopbetreiber senden aktiv"
                 },
                 "excludedItems": {
-                    "label": "",
-                    "placeholder": ""
+                    "label": "Produkte vom Express Checkout ausschließen",
+                    "placeholder": "Wähle eine Dynamische Produktgruppe ..."
                 },
                 "loggingMode": {
                     "options": {
-                        "basic": "",
-                        "advanced": ""
+                        "basic": "Einfaches Logging",
+                        "advanced": "Erweitertes Logging"
                     }
                 }
             }
         },
         "insecureDomainNotification": {
-            "success": "",
-            "general": "",
-            "salesChannel": ""
+            "success": "Der ausgewählte Verkaufskanal nutzt ausschließlich sichere Domains und ist vollständig kompatibel mit Amazon Pay.",
+            "general": "Bitte beachte, dass nur HTTPS Domains von Amazon Pay unterstützt werden.",
+            "salesChannel": "Achtung! Du hast für den ausgewählten Verkaufskanal mindestens eine HTTP Domain hinterlegt. Amazon Pay wird für diese Domain nicht vollständig funktionieren. Bitte verwende ausschließlich sichere Kommunikation, um die Bezahlfunktion zu gewährleisten. Folgende Domains sind betroffen:"
         },
         "importModal": {
-            "title": "",
-            "infoText": "",
+            "title": "Einstellungen hochladen",
+            "infoText": "Wähle unten Deine Einstellungsdatei",
             "warning": {
-                "title": "",
-                "content": ""
+                "title": "Warnung!",
+                "content": "Durch das Anwenden dieser Option werden bereits vorhandene Einstellungen überschrieben. Dieser Prozess kann nicht Rückgängig gemacht werden!"
             },
             "notification": {
                 "noFileSelected": "",
-                "success": "",
-                "error": ""
+                "success": "Die Konfigurationsdatei wurde erfolgreich importiert.",
+                "error": "Während der Importierung der ausgewählten Konfigurationsdatei ist ein unerwarteter Fehler aufgetreten! Bitte überprüfe die Logs für weitere Informationen."
             },
             "versionMismatch": {
-                "info": "",
-                "current": "",
-                "export": "",
-                "proceed": ""
+                "info": "Der Export der Konfiguration erfolgte unter Verwendung einer anderen Shopware- und/oder Plugin-Version!",
+                "current": "Du nutzt aktuell <b>Shopware</b> {shopwareVersion} und <b>Amazon Pay</b> in der Version {pluginVersion}",
+                "export": "Der Export erfolgte unter <b>Shopware</b> {shopwareVersion} und <b>Amazon Pay</b> in der Version {pluginVersion}",
+                "proceed": "Trotzdem fortfahren"
             }
         },
         "logDownload": {
-            "selectLabel": "",
+            "selectLabel": "Wähle Logdateien zum Download aus:",
             "buttonDownload": ""
         },
         "help": {
-            "helpText": ""
+            "helpText": "Eine Anleitung zur Konfiguration des Amazon Pay Plugins kannst Du über die offizielle Hilfe-Seite von Shopware 6 abrufen.<br/> Bitte klicke <a href=\"https://docs.shopware.com/de/shopware-6-de/plugins/amazon-pay\" target=\"_blank\" rel=\"noopener\">hier</a> um zur entsprechenden Seite in der Hilfe zu gelangen."
         }
     }
 }
