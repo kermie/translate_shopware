@@ -1,0 +1,74 @@
+{
+  "sw-settings-payment": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": ""
+    },
+    "overview": {
+      "openSortingModalButton": "",
+      "editDetails": "",
+      "activeToggle": "",
+      "missingEditorPermission": "",
+      "notification": {
+        "activationSuccess": "",
+        "deactivationSuccess": "",
+        "activationError": "",
+        "deactivationError": ""
+      }
+    },
+    "sorting-modal": {
+      "modalTitle": "",
+      "subTitle": "",
+      "saveSuccessful": "",
+      "errorMessage": ""
+    },
+    "list": {
+      "textHeadline": "",
+      "textDeleteConfirm": "",
+      "columnName": "",
+      "columnDescription": "",
+      "columnActive": "",
+      "columnPosition": "",
+      "columnExtension": "",
+      "buttonAddPaymentMethod": "",
+      "contextMenuEdit": "",
+      "contextMenuDelete": "",
+      "messageDeleteSuccess": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "pluginDeleteTitleText": ""
+    },
+    "detail": {
+      "textHeadline": "",
+      "titleCard": "",
+      "messageSaveSuccess": "",
+      "messageSaveError": "",
+      "labelName": "",
+      "labelPosition": "",
+      "labelActive": "",
+      "labelAfterOrderEnabled": "",
+      "labelDescription": "",
+      "labelLogoUpload": "",
+      "sidebar": {
+        "labelUseAsLogo": ""
+      },
+      "topRule": "",
+      "placeholderName": "",
+      "placeholderPosition": "",
+      "placeholderDescription": "",
+      "placeholderAvailabilityRule": "",
+      "buttonCancel": "",
+      "buttonSave": ""
+    }
+  },
+  "sw-plugin-box": {
+    "buttonPluginSettings": ""
+  },
+  "sw-privileges": {
+    "permissions": {
+      "payment": {
+        "label": ""
+      }
+    }
+  }
+}
