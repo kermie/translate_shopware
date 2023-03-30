@@ -1,0 +1,50 @@
+{
+  "sw-integration": {
+    "general": {
+      "mainMenuItemIndex": "",
+      "headlineIntegrations": "",
+      "buttonCreateIntegration": "",
+      "heroHeadlineIntegrations": "",
+      "heroDescriptionIntegrations": ""
+    },
+    "list": {
+      "contextMenuEdit": "",
+      "contextMenuDelete": "",
+      "messageEmpty": "",
+      "sublineEmpty": "",
+      "permissions": "",
+      "writeAccess": "",
+      "readAccess": "",
+      "integrationName": ""
+    },
+    "detail": {
+      "deleteModalTitle": "",
+      "detailModalTitle": "",
+      "detailModalTitleEdit": "",
+      "confirmDelete": "",
+      "buttonApply": "",
+      "buttonApplyEdit": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "buttonCreateNewApiKeys": "",
+      "hintCreateNewApiKeys": "",
+      "labelFieldLabel": "",
+      "idFieldLabel": "",
+      "secretFieldLabel": "",
+      "secretHelpText": "",
+      "permissions": "",
+      "readAccessFieldLabel": "",
+      "writeAccessFieldLabel": "",
+      "messageSaveSuccess": "",
+      "messageSaveError": "",
+      "messageCreateNewError": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "integration": {
+        "label": ""
+      }
+    }
+  }
+}
