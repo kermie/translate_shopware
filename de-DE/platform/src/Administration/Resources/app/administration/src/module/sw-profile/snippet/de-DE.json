@@ -1,100 +1,100 @@
 {
   "sw-profile": {
     "general": {
-      "mainMenuItemGeneral": "",
-      "description": "",
-      "headlineProfile": ""
+      "mainMenuItemGeneral": "Profile",
+      "description": "Verwaltung Deines Profils.",
+      "headlineProfile": "Dein Profil"
     },
     "index": {
-      "buttonSaveLabel": "",
-      "titleInfoCard": "",
-      "titleImageCard": "",
-      "titlePasswordCard": "",
-      "labelFirstNameField": "",
-      "labelLastNameField": "",
-      "labelUsernameField": "",
-      "labelEmailField": "",
-      "labelTimezoneField": "",
-      "labelOldPassword": "",
-      "placeholderOldPassword": "",
-      "labelNewPassword": "",
-      "placeholderNewPassword": "",
-      "labelNewPasswordConfirm": "",
-      "placeholderNewPasswordConfirm": "",
-      "notificationPasswordErrorMessage": "",
-      "notificationNewPasswordIsSameAsOldErrorMessage": "",
-      "notificationInvalidEmailErrorMessage": "",
-      "notificationSaveSuccessMessage": "",
-      "notificationSaveErrorMessage": "",
-      "labelUploadAvatar": "",
-      "labelUseAsAvatar": ""
+      "buttonSaveLabel": "Speichern",
+      "titleInfoCard": "Profil-Informationen",
+      "titleImageCard": "Profilbild",
+      "titlePasswordCard": "Passwort",
+      "labelFirstNameField": "Vorname",
+      "labelLastNameField": "Nachname",
+      "labelUsernameField": "Benutzername",
+      "labelEmailField": "E-Mail-Adresse",
+      "labelTimezoneField": "Zeitzone",
+      "labelOldPassword": "Altes Passwort",
+      "placeholderOldPassword": "Gib Dein altes Passwort ein ...",
+      "labelNewPassword": "Neues Passwort",
+      "placeholderNewPassword": "Gib ein neues Passwort ein ...",
+      "labelNewPasswordConfirm": "Passwort bestätigen",
+      "placeholderNewPasswordConfirm": "Wiederhole Dein neues Passwort ...",
+      "notificationPasswordErrorMessage": "Die eingegebenen Passwörter stimmen nicht überein.",
+      "notificationNewPasswordIsSameAsOldErrorMessage": "Dein neues Passwort stimmt mit dem alten überein. Bitte überlege dir ein neues Passwort.",
+      "notificationInvalidEmailErrorMessage": "Bitte gib eine gültige E-Mail-Adresse ein.",
+      "notificationSaveSuccessMessage": "Deine Profilinformationen wurden erfolgreich gespeichert.",
+      "notificationSaveErrorMessage": "Deine Profilinformationen konnten nicht gespeichert werden.",
+      "labelUploadAvatar": "Lade ein Profilbild hoch",
+      "labelUseAsAvatar": "Als Profilbild nutzen"
     },
     "tabGeneral": {
-      "title": ""
+      "title": "Allgemein"
     },
     "tabSearchPreferences": {
-      "title": "",
+      "title": "Sucheinstellungen",
       "alert_elasticsearch": {
-        "title": "",
-        "text": ""
+        "title": "Elasticsearch ist nun aktiviert",
+        "text": "Sie haben die elasticsearch für den Admin-Bereich aktiviert, diese Felder sind durchsuchbar und können nicht deaktiviert werden. Sie können aber die Entitäten, die durchsuchbar sind, deaktivieren"
       },
       "cardSearchableElements": {
-        "title": "",
-        "description": "",
-        "buttonSelect": "",
-        "buttonDeselect": "",
-        "buttonReset": ""
+        "title": "Durchsuchbare Elemente",
+        "description": "Lege die durchsuchbaren Inhalte für Module und Einträge fest.",
+        "buttonSelect": "Alle auswählen",
+        "buttonDeselect": "Alle abwählen",
+        "buttonReset": "Standard wiederherstellen"
       },
       "modules": {
         "order": {
-          "countryName": "",
-          "city": "",
-          "street": "",
-          "company": "",
-          "zipcode": "",
-          "lastName": "",
-          "firstName": "",
-          "phoneNumber": "",
-          "additionalAddressLine1": "",
-          "additionalAddressLine2": "",
-          "trackingCodes": "",
-          "amountTotal": "",
-          "orderNumber": "",
-          "email": "",
+          "countryName": "Land",
+          "city": "Stadt",
+          "street": "Straße",
+          "company": "Firma",
+          "zipcode": "Postleitzahl",
+          "lastName": "Nachname",
+          "firstName": "Vorname",
+          "phoneNumber": "Telefonnummer",
+          "additionalAddressLine1": "Adresszusatz 1",
+          "additionalAddressLine2": "Adresszusatz 2",
+          "trackingCodes": "Sendungsnummer(n)",
+          "amountTotal": "Gesamtsumme",
+          "orderNumber": "Bestellnummer",
+          "email": "E-Mail-Adresse",
           "tagsName": "",
-          "customerNumber": "",
-          "documentNumber": "",
-          "promotionCode": ""
+          "customerNumber": "Kundennummer",
+          "documentNumber": "Die Dokumentnummer",
+          "promotionCode": "Angewandter Aktionscode"
         },
         "customer": {
           "tagsName": "",
-          "email": "",
-          "company": "",
-          "firstName": "",
-          "lastName": "",
-          "customerNumber": "",
-          "countryName": "",
-          "city": "",
-          "street": "",
-          "zipcode": "",
-          "phoneNumber": "",
-          "additionalAddressLine1": "",
-          "additionalAddressLine2": ""
+          "email": "E-Mail-Adresse",
+          "company": "Firma",
+          "firstName": "Vorname",
+          "lastName": "Nachname",
+          "customerNumber": "Kundennummer",
+          "countryName": "Land",
+          "city": "Stadt",
+          "street": "Straße",
+          "zipcode": "Postleitzahl",
+          "phoneNumber": "Telefonnummer",
+          "additionalAddressLine1": "Adresszusatz 1",
+          "additionalAddressLine2": "Adresszusatz 2"
         },
         "product": {
           "ean": "",
           "name": "",
           "tagsName": "",
-          "productNumber": "",
-          "manufacturerNumber": "",
+          "productNumber": "Produktnummer",
+          "manufacturerNumber": "Herstellernummer",
           "customSearchKeywords": ""
         },
         "media": {
-          "alt": "",
+          "alt": "Alt Text",
           "tagsName": "",
-          "title": "",
+          "title": "Titel",
           "fileName": "",
-          "mediaFolderName": ""
+          "mediaFolderName": "Ordner"
         },
         "landing_page": {
           "name": "",
@@ -130,7 +130,7 @@
           "name": ""
         },
         "newsletter_recipient": {
-          "email": ""
+          "email": "E-Mail-Adresse"
         },
         "product_manufacturer": {
           "name": ""
@@ -144,7 +144,7 @@
   "sw-privileges": {
     "additional_permissions": {
       "user": {
-        "update_profile": ""
+        "update_profile": "Eigenes Profil ändern"
       }
     }
   }
