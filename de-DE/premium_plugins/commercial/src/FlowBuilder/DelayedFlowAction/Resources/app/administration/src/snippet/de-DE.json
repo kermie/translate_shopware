@@ -1,0 +1,90 @@
+{
+    "sw-flow-delay": {
+        "tabDelay": "",
+        "labelDelayedAction": "",
+        "action": {
+            "contextButton": {
+                "editDelayAction": "",
+                "deleteDelayAction": ""
+            }
+        },
+        "modal": {
+            "titleDelayAction": "",
+            "typeDelayAction": "",
+            "labelTime": "",
+            "labelHour": "",
+            "labelDay": "",
+            "labelWeek": "",
+            "labelMonth": "",
+            "labelCustom": "",
+            "placeholderTime": "",
+            "placeholderCustomTime": "",
+            "helpTextCustomTime": "",
+            "customTimeInvalid": ""
+        },
+        "delay": {
+            "list": {
+                "emptyStateTitle": "",
+                "actionCancelDelayedAction": "",
+                "placeholderSearch": "",
+                "columnOrderNumber": "",
+                "columnCustomer": "",
+                "columnName": "",
+                "columnRemainingTime": "",
+                "columnScheduleFor": "",
+                "fetchErrorMessage": "",
+                "expiredAction": "",
+                "notAvailable": "",
+                "day": "",
+                "hour": "",
+                "minute": "",
+                "actionExecuteDelayedAction": "",
+                "executeActionErrorMessage": "",
+                "buttonExecute": "",
+                "confirmExecuteActionText": "",
+                "cancelWarningMessage": "",
+                "btnExecuteAll": "",
+                "executeAllWarningMessage": "",
+                "inactivateWarningMessage": "",
+                "filterLabel": "",
+                "filter": "",
+                "resetFilter": ""
+            },
+            "itemDetail": {
+                "details": "",
+                "actions": "",
+                "delay": "",
+                "condition": "",
+                "conditionIf": "",
+                "delayed": ""
+            }
+        },
+        "detail": {
+            "sequence": {
+                "selectorDelayAction": "",
+                "noDelayAction": "",
+                "delayActionTitle": "",
+                "delayActionExplainsTitle": "",
+                "delayActionExplainsDescription": "",
+                "labelThen": "",
+                "warningText": "",
+                "continueButton": "",
+                "labelDontRemind": "",
+                "labelChangingAction": "",
+                "labelChangingCondition": "",
+                "labelChangingDelay": "",
+                "labelDeletingDelay": ""
+            }
+        },
+        "list": {
+            "sequence": {
+                "warningText": ""
+            }
+        },
+        "actions": {
+            "group": {
+                "swagflowbuilder": ""
+            }
+        }
+    }
+}
