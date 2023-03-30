@@ -1,0 +1,79 @@
+{
+    "swag-amazon-pay-order": {
+        "general": {
+            "title": "",
+            "description": "",
+            "generalCardTitle": "",
+            "errors": {
+                "incompletePaymentProcess": ""
+            }
+        },
+        "checkout-info": {
+            "billingAddressHeadline": "",
+            "shippingAddressHeadline": "",
+            "referenceIdHealine": "",
+            "statusHeadline": ""
+        },
+        "action-toolbar": {
+            "refund": "",
+            "charge": "",
+            "cancel": ""
+        },
+        "amount-info": {
+            "chargeTooltip": "",
+            "refundTooltip": "",
+            "refundPending": ""
+        },
+        "charge-modal": {
+            "title": "",
+            "infoText": "",
+            "maximumAmount": "",
+            "amountFieldLabel": "",
+            "buttonConfirm": "",
+            "notification": {
+                "success": "",
+                "error": ""
+            }
+        },
+        "refund-modal": {
+            "title": "",
+            "infoText": "",
+            "maximumAmount": "",
+            "amountFieldLabel": "",
+            "reasonFieldLabel": "",
+            "reasonPlaceholder": "",
+            "buttonConfirm": "",
+            "notification": {
+                "success": "",
+                "required": "",
+                "missingReason": ""
+            }
+        },
+        "cancel-modal": {
+            "title": "",
+            "infoText": "",
+            "infoTextReason": "",
+            "reasonFieldLabel": "",
+            "reasonPlaceholder": "",
+            "buttonConfirm": "",
+            "notification": {
+                "success": ""
+            }
+        },
+        "payment-history": {
+            "cardTitle": "",
+            "columns": {
+                "objectId": "",
+                "subject": "",
+                "processed": "",
+                "date": ""
+            }
+        },
+        "notification": {
+            "invalidTransaction": "",
+            "invalidChargePermission": "",
+            "partialCharge": "",
+            "isPartialCharged": ""
+        }
+    }
+}
