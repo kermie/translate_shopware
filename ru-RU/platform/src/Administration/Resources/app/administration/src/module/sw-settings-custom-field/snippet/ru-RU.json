@@ -1,0 +1,129 @@
+{
+  "sw-settings-custom-field": {
+    "general": {
+      "description": "",
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": "",
+      "tooltipTechnicalName": "",
+      "tooltipType": ""
+    },
+    "set": {
+      "list": {
+        "textHeadline": "",
+        "textDeleteConfirm": "",
+        "buttonCancel": "",
+        "buttonAdd": "",
+        "columnName": "",
+        "contextMenuEdit": "",
+        "buttonDelete": "",
+        "messageDeleteSuccess": "",
+        "messageEmpty": "",
+        "helpTextGlobalSet": ""
+      },
+      "detail": {
+        "labelTechnicalName": "",
+        "labelPosition": "",
+        "textHeadline": "",
+        "buttonCancel": "",
+        "buttonSave": "",
+        "titleCardInformation": "",
+        "labelName": "",
+        "placeholderName": "",
+        "labelCheckboxTranslated": "",
+        "messageSaveSuccess": "",
+        "messageCustomFieldsEmpty": "",
+        "addCustomField": "",
+        "buttonApply": "",
+        "labelEntities": "",
+        "placeholderEntities": "",
+        "messageNameNotUnique": "",
+        "entityTypeRequired": "",
+        "emptyStateDescription": ""
+      }
+    },
+    "customField": {
+      "detail": {
+        "titleNewCustomField": "",
+        "titleEditCustomField": "",
+        "buttonSaveApply": "",
+        "buttonEditApply": "",
+        "buttonCancel": "",
+        "labelCustomFieldType": "",
+        "placeholderCustomFieldType": "",
+        "labelRequired": "",
+        "labelTechnicalName": "",
+        "labelLabel": "",
+        "buttonAddOption": "",
+        "labelDeleteOption": "",
+        "labelOption": "",
+        "labelPlaceholder": "",
+        "labelMax": "",
+        "labelMin": "",
+        "labelStep": "",
+        "labelFloat": "",
+        "labelInt": "",
+        "labelNumberType": "",
+        "labelDatetime": "",
+        "labelDate": "",
+        "labelTime": "",
+        "labelDateType": "",
+        "labelHelpText": "",
+        "labelTimeForm": "",
+        "labelYes": "",
+        "labelNo": "",
+        "labelCustomFieldPosition": "",
+        "labelMultiSelect": "",
+        "helpTextMultiSelect": "",
+        "labelEntityTypeSelect": "",
+        "helpTextEntitySelect": "",
+        "tooltipCustomFieldPosition": "",
+        "tooltipRequired": "",
+        "infoText": "",
+        "labelAllowCustomerWrite": "",
+        "tooltipAllowCustomerWrite": ""
+      },
+      "list": {
+        "labelCustomFieldLabel": "",
+        "labelCustomFieldType": "",
+        "labelCustomFieldPosition": "",
+        "contextMenuCustomFieldResetDelete": "",
+        "contextMenuCustomFieldView": "",
+        "contextMenuCustomFieldDelete": "",
+        "titleDeleteAction": "",
+        "textDeleteActionConfirmation": ""
+      },
+      "entity": {
+        "product": "",
+        "category": "",
+        "shippingMethod": "",
+        "paymentMethod": "",
+        "country": "",
+        "customer": "",
+        "salesChannel": "",
+        "manufacturer": "",
+        "dynamicProductGroup": "",
+        "shoppingExperienceLayout": ""
+      }
+    },
+    "types": {
+      "select": "",
+      "entity": "",
+      "text": "",
+      "number": "",
+      "media": "",
+      "date": "",
+      "checkbox": "",
+      "switch": "",
+      "textEditor": "",
+      "colorpicker": "",
+      "price": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "custom_field": {
+        "label": ""
+      }
+    }
+  }
+}
