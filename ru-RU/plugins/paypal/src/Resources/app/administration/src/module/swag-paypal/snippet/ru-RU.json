@@ -1,0 +1,326 @@
+{
+    "sw-privileges": {
+        "permissions": {
+            "parents": {
+                "swag_paypal": ""
+            },
+            "swag_paypal": {
+                "label": ""
+            },
+            "swag_paypal_disputes": {
+                "label": ""
+            }
+        }
+    },
+    "sw-settings-payment-list": {
+        "needOnboardingTooltip": ""
+    },
+    "sw-settings-payment-detail": {
+        "tooltip": ""
+    },
+    "swag-paypal": {
+        "header": "",
+        "saleschannelCard": {
+            "button": {
+                "description": "",
+                "label": ""
+            }
+        },
+        "shippingAlert": {
+            "title": "",
+            "message": ""
+        },
+        "general": {
+            "mainMenuItemGeneral": "",
+            "descriptionTextModule": ""
+        },
+        "messageNotBlank": "",
+        "settingForm": {
+            "testLive": "",
+            "testSandbox": "",
+            "checkout": {
+                "cardTitle": "",
+                "settingsLink": "",
+                "header": "",
+                "description": "",
+                "banner": "",
+                "button": {
+                    "liveTitle": "",
+                    "sandboxTitle": "",
+                    "changeLiveTitle": "",
+                    "changeSandboxTitle": "",
+                    "onboardingLiveTitle": "",
+                    "onboardingSandboxTitle": "",
+                    "restartOnboardingLiveTitle": "",
+                    "restartOnboardingSandboxTitle": ""
+                },
+                "sandbox": {
+                    "label": "",
+                    "onlySandboxTooltip": "",
+                    "onlyLiveTooltip": "",
+                    "helpText": ""
+                },
+                "switch": {
+                    "label": ""
+                },
+                "paymentMethodText": "",
+                "showCredentials": "",
+                "appImageAlt": "",
+                "editDetail": "",
+                "startOnboardingButtonLabel": "",
+                "availabilityToolTip": {
+                    "bancontactapmhandler": "",
+                    "blikapmhandler": "",
+                    "boletobancarioapmhandler": "",
+                    "epsapmhandler": "",
+                    "giropayapmhandler": "",
+                    "idealapmhandler": "",
+                    "multibancoapmhandler": "",
+                    "mybankapmhandler": "",
+                    "oxxoapmhandler": "",
+                    "p24apmhandler": "",
+                    "paylaterhandler": "",
+                    "puihandler": "",
+                    "sepahandler": "",
+                    "sofortapmhandler": "",
+                    "venmohandler": "",
+                    "trustlyapmhandler": ""
+                },
+                "onboardingStatusText": {
+                    "active": "",
+                    "limited": "",
+                    "pending": "",
+                    "ineligible": "",
+                    "inactive": ""
+                },
+                "onboardingStatusTooltip": {
+                    "ineligible": "",
+                    "limited": ""
+                },
+                "paymentMethodStatusChangedSuccess": {
+                    "active": "",
+                    "inactive": ""
+                },
+                "deactivatePayPalPlusModal": {
+                    "title": "",
+                    "text": "",
+                    "warning": "",
+                    "button": {
+                        "deactivate": "",
+                        "cancel": ""
+                    }
+                }
+            },
+            "credentials": {
+                "cardTitle": "",
+                "clientId": {
+                    "label": "",
+                    "tooltipText": ""
+                },
+                "clientSecret": {
+                    "label": "",
+                    "tooltipText": ""
+                },
+                "merchantPayerId": {
+                    "label": "",
+                    "tooltipText": ""
+                },
+                "clientIdSandbox": {
+                    "label": "",
+                    "tooltipText": ""
+                },
+                "clientSecretSandbox": {
+                    "label": "",
+                    "tooltipText": ""
+                },
+                "merchantPayerIdSandbox": {
+                    "label": "",
+                    "tooltipText": ""
+                },
+                "sandbox": {
+                    "label": "",
+                    "tooltipText": ""
+                },
+                "button": {
+                    "title": "",
+                    "titleSandbox": "",
+                    "messageFetchedError": ""
+                }
+            },
+            "behavior": {
+                "cardTitle": "",
+                "merchantLocation": {
+                    "label": "",
+                    "germany": "",
+                    "other": ""
+                },
+                "intent": {
+                    "label": "",
+                    "CAPTURE": "",
+                    "AUTHORIZE": ""
+                },
+                "submitCart": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "brandName": {
+                    "label": "",
+                    "tooltipText": ""
+                },
+                "landingPage": {
+                    "label": "",
+                    "helpText": {
+                        "login": "",
+                        "billing": "",
+                        "no_preference": ""
+                    },
+                    "options": {
+                        "login": "",
+                        "billing": "",
+                        "no_preference": ""
+                    }
+                },
+                "sendOrderNumber": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "orderNumberPrefix": {
+                    "label": "",
+                    "tooltipText": ""
+                },
+                "orderNumberSuffix": {
+                    "label": "",
+                    "tooltipText": ""
+                },
+                "loggingLevel": {
+                    "label": "",
+                    "tooltipText": "",
+                    "options": {
+                        "basic": "",
+                        "advanced": ""
+                    }
+                },
+                "excludedProductIds": {
+                    "label": "",
+                    "tooltipText": ""
+                },
+                "excludedProductStreamIds": {
+                    "label": "",
+                    "tooltipText": ""
+                }
+            },
+            "express": {
+                "cardTitle": "",
+                "ecsDetailEnabled": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "ecsCartEnabled": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "ecsOffCanvasEnabled": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "ecsLoginEnabled": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "ecsListingEnabled": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "ecsButtonColor": {
+                    "label": "",
+                    "options": {
+                        "blue": "",
+                        "black": "",
+                        "gold": "",
+                        "silver": "",
+                        "white": ""
+                    }
+                },
+                "ecsButtonShape": {
+                    "label": "",
+                    "options": {
+                        "pill": "",
+                        "rect": ""
+                    }
+                },
+                "ecsSubmitCart": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "ecsButtonLanguageIso": {
+                    "label": "",
+                    "helpText": ""
+                }
+            },
+            "installment": {
+                "cardTitle": "",
+                "installmentBannerEnabled": {
+                    "label": ""
+                }
+            },
+            "acdc": {
+                "cardTitle": "",
+                "acdcForce3DS": {
+                    "label": "",
+                    "helpText": ""
+                }
+            },
+            "pui": {
+                "cardTitle": "",
+                "customerServiceInstructions": {
+                    "label": "",
+                    "helpText": ""
+                }
+            },
+            "spb": {
+                "cardTitle": "",
+                "spbCheckoutEnabled": {
+                    "label": ""
+                },
+                "spbButtonLanguageIso": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "spbAlternativePaymentMethodsEnabled": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "spbShowPayLater": {
+                    "label": ""
+                }
+            },
+            "plus": {
+                "cardTitle": "",
+                "introduction": "",
+                "plusCheckoutEnabled": {
+                    "label": ""
+                },
+                "hint": "",
+                "warning": {
+                    "active": "",
+                    "inactive": ""
+                }
+            },
+            "locale-field": {
+                "infobox": {
+                    "text": "",
+                    "href": ""
+                },
+                "error": {
+                    "detail": ""
+                }
+            },
+            "messageSaveSuccess": "",
+            "messageTestSuccess": "",
+            "messageTestError": "",
+            "messageWebhookCreated": "",
+            "messageWebhookUpdated": "",
+            "messageWebhookError": ""
+        }
+    }
+}
