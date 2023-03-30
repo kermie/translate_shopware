@@ -1,0 +1,151 @@
+{
+  "sw-profile": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "description": "",
+      "headlineProfile": ""
+    },
+    "index": {
+      "buttonSaveLabel": "",
+      "titleInfoCard": "",
+      "titleImageCard": "",
+      "titlePasswordCard": "",
+      "labelFirstNameField": "",
+      "labelLastNameField": "",
+      "labelUsernameField": "",
+      "labelEmailField": "",
+      "labelTimezoneField": "",
+      "labelOldPassword": "",
+      "placeholderOldPassword": "",
+      "labelNewPassword": "",
+      "placeholderNewPassword": "",
+      "labelNewPasswordConfirm": "",
+      "placeholderNewPasswordConfirm": "",
+      "notificationPasswordErrorMessage": "",
+      "notificationNewPasswordIsSameAsOldErrorMessage": "",
+      "notificationInvalidEmailErrorMessage": "",
+      "notificationSaveSuccessMessage": "",
+      "notificationSaveErrorMessage": "",
+      "labelUploadAvatar": "",
+      "labelUseAsAvatar": ""
+    },
+    "tabGeneral": {
+      "title": ""
+    },
+    "tabSearchPreferences": {
+      "title": "",
+      "alert_elasticsearch": {
+        "title": "",
+        "text": ""
+      },
+      "cardSearchableElements": {
+        "title": "",
+        "description": "",
+        "buttonSelect": "",
+        "buttonDeselect": "",
+        "buttonReset": ""
+      },
+      "modules": {
+        "order": {
+          "countryName": "",
+          "city": "",
+          "street": "",
+          "company": "",
+          "zipcode": "",
+          "lastName": "",
+          "firstName": "",
+          "phoneNumber": "",
+          "additionalAddressLine1": "",
+          "additionalAddressLine2": "",
+          "trackingCodes": "",
+          "amountTotal": "",
+          "orderNumber": "",
+          "email": "",
+          "tagsName": "",
+          "customerNumber": "",
+          "documentNumber": "",
+          "promotionCode": ""
+        },
+        "customer": {
+          "tagsName": "",
+          "email": "",
+          "company": "",
+          "firstName": "",
+          "lastName": "",
+          "customerNumber": "",
+          "countryName": "",
+          "city": "",
+          "street": "",
+          "zipcode": "",
+          "phoneNumber": "",
+          "additionalAddressLine1": "",
+          "additionalAddressLine2": ""
+        },
+        "product": {
+          "ean": "",
+          "name": "",
+          "tagsName": "",
+          "productNumber": "",
+          "manufacturerNumber": "",
+          "customSearchKeywords": ""
+        },
+        "media": {
+          "alt": "",
+          "tagsName": "",
+          "title": "",
+          "fileName": "",
+          "mediaFolderName": ""
+        },
+        "landing_page": {
+          "name": "",
+          "tagsName": ""
+        },
+        "category": {
+          "name": "",
+          "tagsName": ""
+        },
+        "shipping_method": {
+          "name": ""
+        },
+        "payment_method": {
+          "name": ""
+        },
+        "customer_group": {
+          "name": ""
+        },
+        "sales_channel": {
+          "name": ""
+        },
+        "property": {
+          "name": ""
+        },
+        "property_group": {
+          "name": ""
+        },
+        "promotion": {
+          "name": "",
+          "code": ""
+        },
+        "product_stream": {
+          "name": ""
+        },
+        "newsletter_recipient": {
+          "email": ""
+        },
+        "product_manufacturer": {
+          "name": ""
+        },
+        "cms_page": {
+          "name": ""
+        }
+      }
+    }
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "user": {
+        "update_profile": ""
+      }
+    }
+  }
+}
