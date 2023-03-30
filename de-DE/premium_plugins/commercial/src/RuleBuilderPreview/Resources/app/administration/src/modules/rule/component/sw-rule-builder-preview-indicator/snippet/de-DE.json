@@ -1,7 +1,7 @@
 {
     "sw-rule-builder-preview-indicator": {
-        "true": "",
-        "false": "",
-        "invalid": ""
+        "true": "Wahr",
+        "false": "Falsch",
+        "invalid": "..."
     }
 }

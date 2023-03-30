@@ -1,14 +1,14 @@
 {
     "sw-rule-builder-preview": {
-        "preview": "",
-        "previewMode": "",
-        "previewDescription": "",
-        "order": "",
-        "orderPlaceholder": "",
-        "dateTime": "",
-        "dateTimeDescription": "",
-        "ruleResultTrue": "",
-        "ruleResultFalse": "",
-        "ruleResultInvalid": ""
+        "preview": "Vorschau",
+        "previewMode": "Vorschaumodus",
+        "previewDescription": "Wähle eine Bestellung aus, anhand derer ermittelt wird, ob eine Bedingung wahr oder falsch wird. Diese Vorschau hat keine Auswirkungen auf die ausgewählte Bestellung.",
+        "order": "Bestellung",
+        "orderPlaceholder": "Bestellung auswählen ...",
+        "dateTime": "Zeit und Datum",
+        "dateTimeDescription": "Die Regel muss zeitbasierte Bedingungen verwenden, um Zeit und Datum für die Vorschau auswählen zu können.",
+        "ruleResultTrue": "Diese Regel ist im Ergebnis \"wahr\"",
+        "ruleResultFalse": "Diese Regel ist im Ergebnis \"falsch\"",
+        "ruleResultInvalid": "Warte ..."
     }
 }

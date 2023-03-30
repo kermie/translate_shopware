@@ -1,562 +1,562 @@
 {
   "sw-order": {
     "general": {
-      "mainMenuItemGeneral": "",
-      "mainMenuItemList": "",
-      "descriptionTextModule": "",
-      "placeholderSearchBar": ""
+      "mainMenuItemGeneral": "Bestellungen",
+      "mainMenuItemList": "Übersicht",
+      "descriptionTextModule": "Verwaltung von Bestellungen.",
+      "placeholderSearchBar": "Durchsuche alle Bestellungen ..."
     },
     "list": {
-      "columnCustomerName": "",
-      "columnBillingAddress": "",
-      "columnAmount": "",
-      "columnState": "",
-      "columnTransactionState": "",
-      "columnDeliveryState": "",
-      "columnOrderNumber": "",
-      "columnSalesChannel": "",
-      "columnAffiliateCode": "",
-      "columnCampaignCode": "",
-      "orderDate": "",
-      "buttonAddOrder": "",
-      "textOrders": "",
-      "textOrdersTotal": "",
-      "contextMenuView": "",
-      "contextMenuDelete": "",
-      "contextMenuConfirmPayment": "",
-      "messageEmpty": "",
-      "titleSidebarItemRefresh": "",
-      "titleSidebarItemFilter": "",
-      "titleSidebarItemFilterAffiliateCode": "",
-      "titleSidebarItemFilterCampaignCode": "",
-      "buttonDelete": "",
-      "buttonCancel": "",
-      "textDeleteConfirm": "",
-      "labelManualOrder": ""
+      "columnCustomerName": "Kundenname",
+      "columnBillingAddress": "Rechnungsadresse",
+      "columnAmount": "Bestellwert",
+      "columnState": "Bestellstatus",
+      "columnTransactionState": "Zahlungsstatus",
+      "columnDeliveryState": "Lieferstatus",
+      "columnOrderNumber": "Bestellnummer",
+      "columnSalesChannel": "Verkaufskanal",
+      "columnAffiliateCode": "Affiliate-Code",
+      "columnCampaignCode": "Kampagnen-Code",
+      "orderDate": "Bestelldatum",
+      "buttonAddOrder": "Bestellung anlegen",
+      "textOrders": "Bestellungen",
+      "textOrdersTotal": "Keine Bestellungen | Eine Bestellung | {count} Bestellungen",
+      "contextMenuView": "Anzeigen",
+      "contextMenuDelete": "Löschen",
+      "contextMenuConfirmPayment": "Zahlung bestätigen",
+      "messageEmpty": "Noch keine Bestellungen",
+      "titleSidebarItemRefresh": "Aktualisieren",
+      "titleSidebarItemFilter": "Filter",
+      "titleSidebarItemFilterAffiliateCode": "Affiliate-Code",
+      "titleSidebarItemFilterCampaignCode": "Kampagnen-Code",
+      "buttonDelete": "Löschen",
+      "buttonCancel": "Abbrechen",
+      "textDeleteConfirm": "Möchten Sie diese Bestellung ({orderNumber}) wirklich löschen?",
+      "labelManualOrder": "Erstellt von Admin"
     },
     "detail": {
-      "buttonCancel": "",
-      "tabOrderDetails": "",
-      "tabDeliveries": "",
-      "textHeadline": "",
-      "textHeadlineNew": "",
-      "tabGeneral": "",
-      "tabDetails": "",
-      "tabDocuments": "",
-      "messageRecalculationError": "",
-      "messageSaveError": "",
-      "messageShippingNotAvailable": "",
-      "labelManualOrder": "",
-      "textUnsavedOrderWarning": ""
+      "buttonCancel": "Änderungen verwerfen",
+      "tabOrderDetails": "Bestelldetails",
+      "tabDeliveries": "Lieferungen",
+      "textHeadline": "Bestellung",
+      "textHeadlineNew": "Neue Bestellung",
+      "tabGeneral": "Allgemein",
+      "tabDetails": "Details",
+      "tabDocuments": "Dokumente",
+      "messageRecalculationError": "Bei der Preisberechnung ist ein Fehler aufgetreten: <br>",
+      "messageSaveError": "Beim Speichern ist ein Fehler aufgetreten",
+      "messageShippingNotAvailable": "Lieferung in das Zielland nicht möglich.",
+      "labelManualOrder": "Erstellt von Admin",
+      "textUnsavedOrderWarning": "Es gibt ungespeicherte Änderungen. Bitte speichern die Bestellung, bevor Du diese Seite verlässt."
     },
     "create": {
-      "textNewOrder": "",
-      "buttonSaveOrder": "",
-      "buttonCancelOrder": "",
-      "messageSaveError": "",
-      "messageSwitchCustomerError": "",
-      "messageFetchCustomerAddressesError": "",
+      "textNewOrder": "Neue Bestellung",
+      "buttonSaveOrder": "Bestellung speichern",
+      "buttonCancelOrder": "Abbrechen",
+      "messageSaveError": "Bestellung konnte nicht gespeichert werden",
+      "messageSwitchCustomerError": "Beim Kundenwechsel ist ein Fehler aufgetreten",
+      "messageFetchCustomerAddressesError": "Beim Abrufen der Kundenadresse ist ein Fehler aufgetreten",
       "remindPaymentModal": {
-        "title": "",
-        "text": "",
-        "primaryAction": ""
+        "title": "Zahlungsaufforderung",
+        "text": "Möchtest du den Kunden auffordern die Bestellung per \"{paymentMethodName}\" zu bezahlen?",
+        "primaryAction": "Auffordern"
       }
     },
     "createBase": {
-      "labelEmail": "",
-      "labelPhoneNumber": "",
-      "placeholderEmail": "",
-      "placeholderPhoneNumber": "",
-      "labelBillingAddress": "",
-      "labelShippingAddress": "",
-      "placeholderBillingAddress": "",
-      "placeholderShippingAddress": "",
-      "labelSalesChannel": "",
-      "labelPaymentMethod": "",
-      "labelShippingMethod": "",
-      "labelOrderLanguage": "",
-      "labelCurrency": "",
-      "placeholderSalesChannel": "",
-      "placeholderPaymentMethod": "",
-      "placeholderShippingMethod": "",
-      "placeholderOrderLanguage": "",
-      "placeholderCurrency": "",
-      "helpTextPaymentMethod": "",
-      "labelToggleAutomaticPromotions": "",
-      "labelPromotions": "",
+      "labelEmail": "E-Mail-Adresse",
+      "labelPhoneNumber": "Telefonnummer",
+      "placeholderEmail": "Gib eine E-Mail-Adresse ein ...",
+      "placeholderPhoneNumber": "Gib eine Telefonnummer ein ...",
+      "labelBillingAddress": "Rechnungsadresse",
+      "labelShippingAddress": "Lieferadresse",
+      "placeholderBillingAddress": "Wähle Rechnungsadresse ...",
+      "placeholderShippingAddress": "Wähle Versandadresse ...",
+      "labelSalesChannel": "Verkaufskanäle",
+      "labelPaymentMethod": "Zahlungsart",
+      "labelShippingMethod": "Versandart",
+      "labelOrderLanguage": "Bestellsprache",
+      "labelCurrency": "Währung",
+      "placeholderSalesChannel": "Wähle Verkaufskanal ...",
+      "placeholderPaymentMethod": "Wähle Zahlart ...",
+      "placeholderShippingMethod": "Wähle Versandart ...",
+      "placeholderOrderLanguage": "Wähle Bestellsprache ...",
+      "placeholderCurrency": "Wähle Währung ...",
+      "helpTextPaymentMethod": "Es werden nur Zahlungsarten angezeigt, die nach dem Bestellabschluss gewechselt werden können.",
+      "labelToggleAutomaticPromotions": "Automatische hinzugefügte Rabattaktionen deaktivieren",
+      "labelPromotions": "Rabattaktionen",
       "generalTab": {
-        "labelLineItemsCard": "",
-        "labelGeneralInfoCard": ""
+        "labelLineItemsCard": "Positionen",
+        "labelGeneralInfoCard": "Info"
       },
       "detailsTab": {
-        "labelTransactionCard": "",
-        "labelDeliveryCard": "",
-        "labelOrderCard": ""
+        "labelTransactionCard": "Zahlung",
+        "labelDeliveryCard": "Versand",
+        "labelOrderCard": "Bestellung"
       },
-      "labelDetailsCard": "",
+      "labelDetailsCard": "Details",
       "detailsHeader": {
-        "textCustomer": "",
-        "placeholder": "",
-        "buttonAddNewCustomer": ""
+        "textCustomer": "Kunde",
+        "placeholder": "Wähle einen Kunden ...",
+        "buttonAddNewCustomer": "Kunden anlegen"
       },
       "detailsBody": {
-        "labelEmail": "",
-        "labelPhoneNumber": "",
-        "placeholderEmail": "",
-        "placeholderPhoneNumber": "",
-        "labelBillingAddress": "",
-        "labelShippingAddress": "",
-        "placeholder": "",
-        "textIdentical": "",
-        "buttonAddNewAddress": "",
-        "placeholderAddress": ""
+        "labelEmail": "E-Mail-Adresse",
+        "labelPhoneNumber": "Telefonnummer",
+        "placeholderEmail": "Gib eine E-Mail-Adresse ein ...",
+        "placeholderPhoneNumber": "Gib eine Telefonnummer ein ...",
+        "labelBillingAddress": "Rechnungsadresse",
+        "labelShippingAddress": "Lieferadresse",
+        "placeholder": "Kunden auswählen oder anlegen ...",
+        "textIdentical": "Rechnungs- und Lieferadresse sind identisch",
+        "buttonAddNewAddress": "Neue Adresse hinzufügen",
+        "placeholderAddress": "Adresse auswählen..."
       },
       "detailsFooter": {
-        "labelSalesChannel": "",
-        "labelPaymentMethod": "",
-        "labelShippingMethod": "",
-        "labelOrderLanguage": "",
-        "labelCurrency": "",
-        "placeholderSalesChannel": "",
-        "placeholderPaymentMethod": "",
-        "placeholderShippingMethod": "",
-        "placeholderOrderLanguage": "",
-        "placeholderCurrency": "",
-        "helpTextPaymentMethod": ""
+        "labelSalesChannel": "Verkaufskanäle",
+        "labelPaymentMethod": "Zahlungsart",
+        "labelShippingMethod": "Versandart",
+        "labelOrderLanguage": "Bestellsprache",
+        "labelCurrency": "Währung",
+        "placeholderSalesChannel": "Wähle Verkaufskanal ...",
+        "placeholderPaymentMethod": "Wähle Zahlart ...",
+        "placeholderShippingMethod": "Wähle Versandart ...",
+        "placeholderOrderLanguage": "Wähle Bestellsprache ...",
+        "placeholderCurrency": "Wähle Währung ...",
+        "helpTextPaymentMethod": "Es werden nur Zahlungsarten angezeigt, die nach dem Bestellabschluss gewechselt werden können."
       },
-      "cardTitleLineItems": "",
-      "placeholderSearchBarItem": "",
-      "columnProductName": "",
-      "columnQuantity": "",
-      "columnPriceNet": "",
-      "columnPriceGross": "",
-      "columnPriceTaxFree": "",
-      "columnTotalPriceNet": "",
-      "columnPrice": "",
-      "columnTotalPrice": "",
-      "columnTotalPriceGross": "",
-      "columnTax": "",
-      "textCreditTax": "",
-      "taxDetail": "",
-      "contextMenuShowProduct": "",
-      "messageEmptyItem": "",
-      "buttonAddItems": "",
-      "buttonAddProduct": "",
-      "buttonAddBlankProduct": "",
-      "buttonAddCredit": "",
-      "summaryLabelAmount": "",
-      "summaryLabelAmountGrandTotal": "",
-      "summaryLabelAmountWithoutTaxes": "",
-      "summaryLabelAmountTotal": "",
-      "summaryLabelAmountTotalRounded": "",
-      "labelShippingCosts": "",
-      "summaryLabelShippingCosts": "",
-      "discountLabelShippingCosts": "",
-      "summaryLabelTaxes": "",
-      "tax": "",
-      "shippingCostsTax": "",
-      "labelAddPromotion": "",
-      "placeholderAddPromotion": "",
-      "textInvalidPromotionCode": "",
+      "cardTitleLineItems": "Positionen",
+      "placeholderSearchBarItem": "Durchsuche Positionen ...",
+      "columnProductName": "Name",
+      "columnQuantity": "Menge",
+      "columnPriceGross": "Bruttopreis",
+      "columnPriceTaxFree": "Preis (steuerfrei)",
+      "columnPrice": "Preis",
+      "columnTotalPrice": "Gesamt",
+      "columnTotalPriceGross": "Gesamt",
+      "columnTax": "Steuersatz",
+      "columnPriceNet": "Nettopreis",
+      "columnTotalPriceNet": "Gesamt",
+      "textCreditTax": "auto",
+      "taxDetail": "{taxRate}%: {tax}",
+      "contextMenuShowProduct": "Produkt anzeigen",
+      "messageEmptyItem": "Noch keine Positionen vorhanden",
+      "buttonAddItems": "Positionen hinzufügen",
+      "buttonAddProduct": "Produkt hinzufügen",
+      "buttonAddBlankProduct": "Leere Position hinzufügen",
+      "buttonAddCredit": "Gutschrift hinzufügen",
+      "summaryLabelAmount": "Summe",
+      "summaryLabelAmountGrandTotal": "Gesamtsumme",
+      "summaryLabelAmountWithoutTaxes": "Gesamtsumme ohne MwSt.",
+      "summaryLabelAmountTotal": "Gesamtsumme inkl. MwSt.",
+      "summaryLabelAmountTotalRounded": "Gesamtsumme gerundet inkl. MwSt.",
+      "labelShippingCosts": "Versandkosten",
+      "summaryLabelShippingCosts": "Versandkosten",
+      "discountLabelShippingCosts": "Versandkostenrabatt",
+      "summaryLabelTaxes": "zzgl. {taxRate}% MwSt.",
+      "tax": "Enthaltene Steuern:",
+      "shippingCostsTax": "{taxRate}%: {tax}",
+      "labelAddPromotion": "Rabattaktion hinzufügen",
+      "placeholderAddPromotion": "Gutscheincode eingeben ...",
+      "textInvalidPromotionCode": "Ungültiger Aktionscode",
       "textPromotionDescription": {
         "cart": {
-          "percentage": "",
-          "absolute": "",
-          "absoluteUpto": "",
-          "fixed_unit": ""
+          "percentage": "{value}% Rabatt auf den Warenkorb",
+          "absolute": "{value} Rabatt auf den Warenkorb",
+          "absoluteUpto": "Bis zu {value} Rabatt. ({totalPrice} Rabatt auf diesen Warenkorb)",
+          "fixed_unit": "Festpreis von {value} auf jeden Artikel im Warenkorb"
         },
         "delivery": {
-          "percentage": "",
-          "absolute": "",
-          "fixed_unit": "",
-          "fixed": ""
+          "percentage": "{value}% Rabatt auf die Versandkosten",
+          "absolute": "{value} Rabatt auf die Versandkosten",
+          "fixed_unit": "Festpreis von {value} auf die Versandkosten",
+          "fixed": "Festpreis von {value} auf die Versandkosten"
         },
         "set": {
-          "percentage": "",
-          "absolute": "",
-          "fixed_unit": "",
-          "fixed": ""
+          "percentage": "{value}% Rabatt auf Produkt-Set",
+          "absolute": "{value} Rabatt auf Produkt-Set",
+          "fixed_unit": "Fester Stückpreis von {value} auf jeden Artikel im Produkt-Set",
+          "fixed": "Festpreis von {value} auf Produkt-Set"
         },
         "setgroup": {
-          "percentage": "",
-          "absolute": "",
-          "fixed_unit": "",
-          "fixed": ""
+          "percentage": "{value}% Rabatt auf die Set-Gruppe {groupId}",
+          "absolute": "{value} Rabatt auf die Set-Gruppe {groupId}",
+          "fixed_unit": "Fester Stückpreis von {value} auf jeden Artikel in der Set-Gruppe {groupId}",
+          "fixed": "Festpreis von {value} auf die Set-Gruppe {groupId}"
         }
       }
     },
     "detailBase": {
-      "cardTitleDetails": "",
-      "cardTitleLineItems": "",
-      "cardTitleGeneralInfo": "",
-      "columnProductName": "",
-      "columnQuantity": "",
-      "columnPriceNet": "",
-      "columnPriceGross": "",
-      "columnPriceTaxFree": "",
-      "columnTotalPriceNet": "",
-      "columnPrice": "",
-      "columnTotalPrice": "",
-      "columnTotalPriceGross": "",
-      "columnTax": "",
-      "columnProductNumber": "",
-      "contextMenuShowProduct": "",
-      "contextMenuDelete": "",
-      "summaryLabelAmount": "",
-      "summaryLabelAmountGrandTotal": "",
-      "summaryLabelAmountWithoutTaxes": "",
-      "summaryLabelAmountTotal": "",
-      "summaryLabelAmountTotalRounded": "",
-      "summaryLabelShippingCosts": "",
-      "discountLabelShippingCosts": "",
-      "summaryLabelTaxes": "",
-      "labelOrderStatus": "",
-      "labelPaymentStatus": "",
-      "labelSalesChannel": "",
-      "labelOrderDate": "",
-      "headlineBillingAddress": "",
-      "headlineDeliveryAddress": "",
-      "buttonPrint": "",
-      "buttonCancel": "",
-      "buttonArchive": "",
-      "buttonDelete": "",
-      "buttonAddProduct": "",
-      "buttonAddBlankProduct": "",
-      "buttonAddCredit": "",
-      "buttonEditAddress": "",
-      "tooltipNestedLineItemsButton": "",
-      "labelNoPhoneNumber": "",
-      "labelNoEmail": "",
-      "labelCustomerPhoneNumber": "",
-      "labelLanguage": "",
-      "labelPaymentMethod": "",
-      "labelShippingMethod": "",
-      "labelPartnerCode": "",
-      "labelCustomerEmail": "",
-      "labelNoDeliveriesYet": "",
-      "labelNoDeliveryTrackingCodeYet": "",
-      "labelLastChange": "",
-      "labelNoChangesYet": "",
-      "labelTrackingCodes": "",
-      "labelAffiliateCode": "",
-      "labelCampaignCode": "",
-      "labelCustomerComment": "",
-      "buttonAddDeliveryAddress": "",
-      "labelSameDeliveryAndBillingAddress": "",
-      "buttonContinueOnVersionedOrder": "",
-      "tax": "",
-      "shippingCostsTax": "",
-      "placeholderTagSelect": "",
-      "placeholderTrackingCodeSelect": "",
-      "addTrackingCode": "",
-      "enterValidTrackingCode": "",
-      "textCreditTax": "",
-      "taxDetail": "",
-      "textPromotionRemoved": "",
-      "textUnsavedChanges": "",
-      "textMissingProductLineItems": "",
-      "textMissingProductLineItemsDescription": "",
-      "textConvertedProductLineItems": "",
-      "textConvertedProductLineItemsDescription": "",
-      "textDeleteLineItemConfirm": ""
+      "cardTitleDetails": "Details",
+      "cardTitleLineItems": "Positionen",
+      "cardTitleGeneralInfo": "Info",
+      "columnProductName": "Name",
+      "columnQuantity": "Menge",
+      "columnPriceGross": "Bruttopreis",
+      "columnPriceTaxFree": "Preis (steuerfrei)",
+      "columnPrice": "Preis",
+      "columnTotalPrice": "Gesamt",
+      "columnTotalPriceGross": "Gesamt",
+      "columnTax": "Steuersatz",
+      "columnPriceNet": "Nettopreis",
+      "columnTotalPriceNet": "Gesamt",
+      "columnProductNumber": "Produktnummer",
+      "contextMenuShowProduct": "Produkt anzeigen",
+      "contextMenuDelete": "Aus Bestellung entfernen",
+      "summaryLabelAmount": "Summe",
+      "summaryLabelAmountGrandTotal": "Gesamtsumme",
+      "summaryLabelAmountWithoutTaxes": "Gesamtsumme ohne MwSt.",
+      "summaryLabelAmountTotal": "Gesamtsumme inkl. MwSt.",
+      "summaryLabelAmountTotalRounded": "Gesamtsumme gerundet inkl. MwSt.",
+      "summaryLabelShippingCosts": "Versandkosten",
+      "discountLabelShippingCosts": "Versandkostenrabatt",
+      "summaryLabelTaxes": "zzgl. {taxRate}% MwSt.",
+      "labelOrderStatus": "Bestellstatus",
+      "labelPaymentStatus": "Zahlungsstatus",
+      "labelSalesChannel": "Verkaufskanal",
+      "labelOrderDate": "Bestelldatum",
+      "headlineBillingAddress": "Rechnungsadresse",
+      "headlineDeliveryAddress": "Lieferadresse",
+      "buttonPrint": "Bestellung drucken",
+      "buttonCancel": "Bestellung stornieren",
+      "buttonArchive": "Bestellung archivieren",
+      "buttonDelete": "Bestellung löschen",
+      "buttonAddProduct": "Produkt hinzufügen",
+      "buttonAddBlankProduct": "Leere Position hinzufügen",
+      "buttonAddCredit": "Gutschrift hinzufügen",
+      "buttonEditAddress": "Bearbeiten",
+      "tooltipNestedLineItemsButton": "Diese Bestellposition enthält Unterpositionen.",
+      "labelNoPhoneNumber": "Keine",
+      "labelNoEmail": "Keine",
+      "labelCustomerPhoneNumber": "Telefonnummer",
+      "labelLanguage": "Sprache der Bestellung",
+      "labelPaymentMethod": "Zahlungsart",
+      "labelShippingMethod": "Versandart",
+      "labelPartnerCode": "Partner-Code",
+      "labelCustomerEmail": "E-Mail-Adresse",
+      "labelNoDeliveriesYet": "Keine Lieferungen",
+      "labelNoDeliveryTrackingCodeYet": "Keine",
+      "labelLastChange": "Zuletzt geändert",
+      "labelNoChangesYet": "Bisher keine Änderungen",
+      "labelTrackingCodes": "Sendungsnummer(n)",
+      "labelAffiliateCode": "Affiliate-Code",
+      "labelCampaignCode": "Kampagnen-Code",
+      "labelCustomerComment": "Zusätzliche Informationen",
+      "buttonContinueOnVersionedOrder": "Laden",
+      "buttonAddDeliveryAddress": "Neue Addresse hinzufügen",
+      "labelSameDeliveryAndBillingAddress": "Rechnungs- und Lieferadresse sind identisch",
+      "tax": "Enthaltene Steuern:",
+      "shippingCostsTax": "{taxRate}%: {tax}",
+      "placeholderTagSelect": "Tags durchsuchen...",
+      "placeholderTrackingCodeSelect": "Tracking-Code hinzufügen ...",
+      "addTrackingCode": "Zum Hinzufügen hier klicken",
+      "enterValidTrackingCode": "Tracking-Code eingeben",
+      "textCreditTax": "auto",
+      "taxDetail": "{taxRate}%: {tax}",
+      "textPromotionRemoved": "Rabatt {promotion} wurde entfernt",
+      "textUnsavedChanges": "Es gibt ungespeicherte Änderungen. Bitte speichere, bevor Du dieses Feld bearbeitest.",
+      "textMissingProductLineItems": "Die folgenden Positionen sind mit Produkten assoziiert, die gelöscht wurden:",
+      "textMissingProductLineItemsDescription": "Preise dieser Produkte können nicht neu berechnet werden. Daher werden diese Positionen beim Speichern der Bestellung in benutzerdefinierte Positionen umgewandelt.",
+      "textConvertedProductLineItems": "Die folgenden Positionen waren mit Produkten assoziiert, die gelöscht wurden:",
+      "textConvertedProductLineItemsDescription": "Preise dieser Produkte können nicht neu berechnet werden. Bitte sei besonders vorsichtig beim Bearbeiten der Bestellung.",
+      "textDeleteLineItemConfirm": "Möchten Sie die Position ({label}) wirklich löschen?"
     },
     "nestedLineItemsModal": {
-      "titlePrefix": "",
-      "headerLabel": "",
-      "headerUnitPrice": "",
-      "headerQuantity": "",
-      "headerTotalPrice": "",
-      "headerTax": ""
-    },
-    "detailDeliveries": {
-      "cardTitleItems": "",
-      "labelShippingMethod": "",
-      "labelDeliveryDate": "",
-      "labelShippingCosts": "",
-      "labelDeliveryState": "",
-      "buttonMerge": "",
-      "buttonDelete": ""
-    },
-    "detailCustomerComment": {
-      "title": ""
+      "titlePrefix": "Position: {lineItemLabel} - {price}",
+      "headerLabel": "Name",
+      "headerUnitPrice": "Bruttopreis",
+      "headerQuantity": "Menge",
+      "headerTotalPrice": "Gesamt",
+      "headerTax": "Steuersatz"
     },
     "addressSelection": {
-      "modalTitleEditAddress": "",
-      "modalTitleSelectAddress": "",
-      "modalTitleAddBillingAddress": "",
-      "modalTitleEditBillingAddress": "",
-      "modalTitleAddShippingAddress": "",
-      "modalTitleEditShippingAddress": "",
-      "headlineTabEditAddress": "",
-      "headlineTabSelectAddress": "",
-      "headlineTabCreateAddress": "",
-      "currentlySelected": "",
-      "searchAddressToolbarPlaceholder": "",
-      "emptySearchResults": ""
+      "modalTitleEditAddress": "Adressen",
+      "modalTitleSelectAddress": "Adresse ändern",
+      "modalTitleAddBillingAddress": "Neue Rechnungsadresse hinzufügen",
+      "modalTitleEditBillingAddress": "Rechnungsadresse ändern",
+      "modalTitleAddShippingAddress": "Neue Lieferadresse hinzufügen",
+      "modalTitleEditShippingAddress": "Lieferadresse ändern",
+      "headlineTabEditAddress": "Adresse bearbeiten",
+      "headlineTabSelectAddress": "Adresse auswählen",
+      "headlineTabCreateAddress": "Adresse erstellen",
+      "currentlySelected": "Aktuelle Auswahl",
+      "searchAddressToolbarPlaceholder": "Adressen suchen...",
+      "emptySearchResults": "Keine Adressen gefunden."
     },
     "leavePageModal": {
-      "headline": "",
-      "description": "",
-      "confirmButton": "",
-      "cancelButton": ""
+      "headline": "Warnung",
+      "description": "Es existieren ungespeicherte Änderungen. Soll die Seite trotzdem verlassen werden?",
+      "confirmButton": "Seite verlassen",
+      "cancelButton": "Auf Seite bleiben"
+    },
+    "detailDeliveries": {
+      "cardTitleItems": "Lieferung {count}",
+      "labelShippingMethod": "Versandart",
+      "labelDeliveryDate": "Lieferdatum",
+      "labelShippingCosts": "Versandkosten",
+      "labelDeliveryState": "Lieferstatus",
+      "buttonMerge": "Lieferung zusammenfügen",
+      "buttonDelete": "Löschen"
+    },
+    "detailCustomerComment": {
+      "title": "Zusätzliche Informationen"
     },
     "stateCard": {
-      "cardTitle": "",
-      "headlineOrderState": "",
-      "headlineTransactionState": "",
-      "headlineDeliveryState": "",
-      "draftPlaceholder": "",
-      "labelHistory": "",
-      "labelShowHistoryModal": "",
-      "labelLastEditedBy": "",
-      "labelSystemUser": "",
-      "labelSelectStatePlaceholder": "",
-      "labelSelectStateButton": "",
-      "labelSendMailSwitch": "",
-      "labelErrorStateChange": "",
-      "labelErrorNoAction": "",
-      "labelNoTransactionState": "",
-      "labelNoDeliveryState": ""
+      "cardTitle": "Statusverlauf",
+      "headlineOrderState": "Bestellstatus",
+      "headlineTransactionState": "Zahlungsstatus",
+      "headlineDeliveryState": "Lieferstatus",
+      "draftPlaceholder": "Entwurf",
+      "labelHistory": "Status geändert {time} von {author}",
+      "labelShowHistoryModal": "Statusverlauf anzeigen",
+      "labelLastEditedBy": "Zuletzt geändert von",
+      "labelSystemUser": "System",
+      "labelSelectStatePlaceholder": "Bitte wählen ...",
+      "labelSelectStateButton": "Status aktualisieren",
+      "labelSendMailSwitch": "E-Mail an Kunden senden",
+      "labelErrorStateChange": "Beim Setzen des Status ist ein Fehler aufgetreten:",
+      "labelErrorNoAction": "Kein neuer Zustand gewählt.",
+      "labelNoTransactionState": "Keine Transaktionen vorhanden",
+      "labelNoDeliveryState": "Keine Lieferungen vorhanden"
     },
     "assignMailTemplateCard": {
-      "cardTitle": "",
-      "headline": "",
-      "placeholderAssignMailTemplate": "",
-      "alertHeadline": "",
-      "alertMessage": "",
-      "buttonCreateMailTemplate": "",
-      "buttonAssignMailTemplate": "",
-      "buttonNotAssignMailTemplate": "",
-      "gridColumnType": "",
-      "gridColumnDescription": ""
+      "cardTitle": "E-Mail-Template zuweisen",
+      "headline": "Diesem Bestellstatus ist noch kein E-Mail-Template zugewiesen!",
+      "placeholderAssignMailTemplate": "Weise ein E-Mail-Template zu ...",
+      "alertHeadline": "Hinweis",
+      "alertMessage": "Eine Zuweisung wirkt sich auf alle nachfolgenden Bestellungen dieses Verkaufskanals aus.",
+      "buttonCreateMailTemplate": "E-Mail-Template erstellen",
+      "buttonAssignMailTemplate": "E-Mail-Template zuweisen",
+      "buttonNotAssignMailTemplate": "Kein E-Mail-Template zuweisen",
+      "gridColumnType": "Typ",
+      "gridColumnDescription": "Beschreibung"
     },
     "documentCard": {
-      "searchBarPlaceholder": "",
-      "cardTitle": "",
-      "modalTitle": "",
-      "labelDate": "",
-      "labelNumber": "",
-      "labelType": "",
-      "labelSent": "",
-      "labelAttach": "",
-      "labelAmount": "",
-      "labelOpenDocument": "",
-      "labelDownloadPdf": "",
-      "labelPrintDocument": "",
-      "labelSendDocument": "",
-      "labelMarkAsSent": "",
-      "labelMarkAsUnsent": "",
-      "labelCreateNew": "",
-      "messageEmptyTitle": "",
-      "messageNoDocumentFound": "",
-      "messageEmptySubline": "",
+      "searchBarPlaceholder": "Belege durchsuchen ...",
+      "cardTitle": "Belege",
+      "modalTitle": "Status aktualisieren",
+      "labelDate": "Datum",
+      "labelNumber": "Nummer",
+      "labelType": "Typ",
+      "labelSent": "Gesendet",
+      "labelAttach": "Anhängen",
+      "labelAmount": "Bestellwert",
+      "labelOpenDocument": "Dokument öffnen",
+      "labelDownloadPdf": "Dokument herunterladen",
+      "labelPrintDocument": "Dokument drucken",
+      "labelSendDocument": "Dokument senden",
+      "labelMarkAsSent": "Als gesendet markieren",
+      "labelMarkAsUnsent": "Als ungesendet markieren",
+      "labelCreateNew": "Neues Dokument erstellen",
+      "messageEmptyTitle": "Noch keine Dokumente",
+      "messageNoDocumentFound": "Keine Dokumente vorhanden",
+      "messageEmptySubline": "Verwaltung von Dokumenten.",
       "error": {
-        "DOCUMENT__NUMBER_ALREADY_EXISTS": ""
+        "DOCUMENT__NUMBER_ALREADY_EXISTS": "Die Dokumentnummer {number} ist bereits in Verwendung."
       },
       "info": {
-        "DOCUMENT__NUMBER_WAS_CHANGED": ""
+        "DOCUMENT__NUMBER_WAS_CHANGED": "Doppelte Dokumentnummer. Eine Folgenummer aus dem entsprechenden Nummernkreis wurde automatisch zugewiesen."
       }
     },
     "generalTab": {
       "info": {
         "summary": {
-          "and": "",
-          "on": "",
-          "by": "",
-          "lastChanged": "",
-          "with": ""
+          "and": "und",
+          "on": "am",
+          "by": "durch",
+          "lastChanged": "Zuletzt geändert",
+          "with": "mit"
         }
       },
       "tagSelect": {
-        "placeholder": ""
+        "placeholder": "Tags hinzufügen ..."
       }
     },
     "detailsTab": {
-      "labelTransactionCard": "",
-      "labelDeliveryCard": "",
-      "labelOrderCard": "",
+      "labelTransactionCard": "Zahlung",
+      "labelDeliveryCard": "Versand",
+      "labelOrderCard": "Bestellung",
       "promotionsField": {
-        "labelPromotions": "",
-        "placeholderPromotions": "",
-        "automaticPromotion": "",
-        "labelToggleAutomaticPromotions": ""
+        "labelPromotions": "Rabattaktionen",
+        "placeholderPromotions": "Rabattcode eingeben...",
+        "automaticPromotion":  "automatisch hinzugefügt",
+        "labelToggleAutomaticPromotions": "Automatische hinzugefügte Werbeaktionen deaktivieren"
       }
     },
     "documentTab": {
-      "tooltipSaveBeforeCreateDocument": ""
+      "tooltipSaveBeforeCreateDocument": "Es gibt ungespeicherte Änderungen. Bitte speichern Sie die Bestellung, bevor Sie ein Dokument erstellen."
     },
     "documentModal": {
-      "modalTitle": "",
-      "labelDocumentDate": "",
-      "labelDeliveryDate": "",
-      "labelDocumentNumber": "",
-      "labelDocumentStornoNumber": "",
-      "labelInvoiceNumber": "",
-      "selectInvoiceNumber": "",
-      "labelDeliveryNoteNumber": "",
-      "labelDocumentComment": "",
-      "labelCreateDownloadPdf": "",
-      "labelCreateSend": "",
-      "labelCreate": "",
-      "labelCancel": "",
-      "labelPreview": "",
-      "labelHighlightedItemsHeader": "",
-      "labelHighlightedItemsEntry": "",
-      "labelNoItems": "",
-      "fileInputLabel": ""
+      "modalTitle": "Dokument anlegen",
+      "labelDocumentDate": "Datum",
+      "labelDeliveryDate": "Lieferdatum",
+      "labelDocumentNumber": "Nummer",
+      "labelDocumentStornoNumber": "Stornonummer",
+      "labelInvoiceNumber": "Rechnungsnummer",
+      "selectInvoiceNumber": "Rechnungsnummer wählen",
+      "labelDeliveryNoteNumber": "Lieferscheinnummer",
+      "labelDocumentComment": "Kommentar",
+      "labelCreateDownloadPdf": "Erstellen und PDF herunterladen",
+      "labelCreateSend": "Beleg erstellen und senden",
+      "labelCreate": "Beleg erstellen",
+      "labelCancel": "Schließen",
+      "labelPreview": "Vorschau",
+      "labelHighlightedItemsHeader": "Name",
+      "labelHighlightedItemsEntry": "Gesamt",
+      "labelNoItems": "Keine Gutschriften hinzugefügt",
+      "fileInputLabel": "Eigenes Dokument hochladen"
     },
     "documentSendModal": {
-      "labelNumber": "",
-      "labelType": "",
-      "labelDate": "",
-      "labelMailTemplate": "",
-      "labelRecipient": "",
-      "labelContent": "",
-      "labelSubject": "",
-      "labelClose": "",
-      "errorMessage": ""
+      "labelNumber": "Nummer",
+      "labelType": "Typ",
+      "labelDate": "Datum",
+      "labelMailTemplate": "E-Mail-Template",
+      "labelRecipient": "E-Mail-Adresse",
+      "labelContent": "Inhalt",
+      "labelSubject": "Betreff",
+      "labelClose": "Schließen",
+      "errorMessage": "Beim Versenden der E-Mail ist etwas schief gelaufen."
     },
     "stateModal": {
-      "modalTitle": ""
+      "modalTitle": "Dokumente anhängen"
     },
     "stateHistoryModal": {
-      "modalTitle": "",
-      "labelSystemUser": "",
+      "modalTitle": "Statusverlauf",
+      "labelSystemUser": "System",
       "column": {
-        "createdAt": "",
-        "entity": "",
-        "user": "",
-        "transaction": "",
-        "delivery": "",
-        "order": ""
+        "createdAt": "Datum",
+        "entity": "Geändert",
+        "user": "Geändert von",
+        "transaction": "Zahlung",
+        "delivery": "Versand",
+        "order": "Bestellung"
       }
     },
     "newCustomerModal": {
-      "labelDetails": "",
-      "labelGuest": ""
+      "labelDetails": "Details",
+      "labelGuest": "Gastbesteller"
     },
     "invalidPromotionModal": {
-      "modalTitle": "",
-      "modalDescription": "",
-      "buttonConfirm": ""
+      "modalTitle": "Ungültige Aktionscodes entfernen",
+      "modalDescription": "Die folgenden, ungültigen Aktionscodes werden entfernt:",
+      "buttonConfirm": "OK"
     },
     "promotionModal": {
-      "labelTitle": "",
-      "message": "",
-      "messageNoItems": "",
-      "buttonDisable": ""
+      "labelTitle": "Automatische Werbeaktionen deaktivieren",
+      "message": "Die folgenden automatischen Werbeaktionen werden deaktiviert:",
+      "messageNoItems": "Keine automatischen Rabattaktionen aktiv.",
+      "buttonDisable": "Deaktivieren"
     },
     "initialModal": {
-      "titleNewOrder": "",
-      "tabCustomer": "",
-      "tabProducts": "",
-      "tabCustomItem": "",
-      "tabOptions": "",
-      "tabCredit": "",
-      "buttonPreviewOrder": "",
+      "titleNewOrder": "Neue Bestellung",
+      "tabCustomer": "Kunden",
+      "tabProducts": "Produkte",
+      "tabCustomItem": "Eigene Position",
+      "tabOptions": "Optionen",
+      "tabCredit": "Gutschrift",
+      "buttonPreviewOrder": "Vorschau",
       "customerGrid": {
-        "buttonAddNewCustomer": "",
-        "placeholderSearchCustomer": "",
-        "textEmptySearch": "",
-        "contextOpenButton": "",
-        "columnCustomerName": "",
-        "columnCustomerNumber": "",
-        "columnSalesChannel": "",
-        "columnEmailAddress": ""
+        "buttonAddNewCustomer": "Kunden anlegen",
+        "placeholderSearchCustomer": "Kundennamen eingeben ...",
+        "textEmptySearch": "Keine Daten für {name} vorhanden",
+        "contextOpenButton": "Öffnen",
+        "columnCustomerName": "Name",
+        "columnCustomerNumber": "Kundennummer",
+        "columnSalesChannel": "Verkaufskanal",
+        "columnEmailAddress": "E-Mail-Adresse"
       },
       "options": {
-        "textHeadlineOrder": "",
-        "textHeadlinePayment": "",
-        "textHeadlineShipment": "",
-        "placeholderAddPromotion": "",
-        "labelSameAsBillingAddress": "",
-        "textSameAsBillingAddress": "",
-        "labelShippingCosts": ""
+        "textHeadlineOrder": "Bestellung",
+        "textHeadlinePayment": "Zahlungsart",
+        "textHeadlineShipment": "Versandart",
+        "placeholderAddPromotion": "Rabattaktion hinzufügen",
+        "labelSameAsBillingAddress": "Lieferadresse ist gleich Rechnungsadresse",
+        "textSameAsBillingAddress": "Wie Rechnungsadresse",
+        "labelShippingCosts": "Versandkosten"
       }
     },
     "filters": {
       "documentFilter": {
-        "label": "",
-        "placeholder": "",
-        "textHasCriteria": "",
-        "textNoCriteria": ""
+        "label": "Dokumente",
+        "placeholder": "Dokumentstatus auswählen ...",
+        "textHasCriteria": "Verfügt über mind. ein Dokument",
+        "textNoCriteria": "Keine Dokumente zugewiesen"
       },
       "orderDateFilter": {
-        "label": "",
+        "label": "Bestelldatum",
         "options": {
-          "lastYear": "",
-          "lastQuarter": "",
-          "lastMonth": "",
-          "lastWeek": "",
-          "lastDay": "",
-          "custom": ""
+          "lastYear": "Letztes Jahr",
+          "lastQuarter": "Letzes Quartal",
+          "lastMonth": "Letzter Monat",
+          "lastWeek": "Letzte Woche",
+          "lastDay": "Letzter Tag",
+          "custom": "Benutzerdefiniert"
         }
       },
       "orderValueFilter": {
-        "label": ""
+        "label": "Bestellwert"
       },
       "statusFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Bestellstatus",
+        "placeholder": "Bestellstatus auswählen ..."
       },
       "paymentStatusFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Zahlungsstatus",
+        "placeholder": "Zahlungsstatus auswählen ..."
       },
       "deliveryStatusFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Lieferstatus",
+        "placeholder": "Lieferstatus auswählen ..."
       },
       "paymentMethodFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Zahlungsart",
+        "placeholder": "Zahlungsart auswählen ..."
       },
       "shippingMethodFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Versandart",
+        "placeholder": "Versandart auswählen ..."
       },
       "salesChannelFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Verkaufskanäle",
+        "placeholder": "Verkaufskanäle auswählen ..."
       },
       "billingCountryFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Rechnungsland",
+        "placeholder": "Rechnungsländer auswählen ..."
       },
       "shippingCountryFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Lieferland",
+        "placeholder": "Lieferländer auswählen ..."
       },
       "customerGroupFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Kundengruppe",
+        "placeholder": "Kundengruppe auswählen ..."
       },
       "tagFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Tags",
+        "placeholder": "Tags auswählen ..."
       },
       "productFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Produkte",
+        "placeholder": "Produkte auswählen ..."
       },
       "affiliateCodeFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Affiliate-Code",
+        "placeholder": "Affiliate-Code auswählen..."
       },
       "campaignCodeFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Kampagnen-Code",
+        "placeholder": "Kampagnen-Code auswählen..."
       },
-      "messageEmptyTitle": "",
-      "messageEmptySubline": ""
+      "messageEmptyTitle": "Nichts gefunden",
+      "messageEmptySubline": "Bearbeite Deine Filter, um Ergebnisse zu finden."
     },
     "components": {
       "selectDocumentTypeModal": {
-        "title": "",
-        "primaryAction": "",
+        "title": "Dokument erstellen",
+        "primaryAction": "Dokument erstellen",
         "helpText": {
-          "storno": "",
-          "credit_note": ""
+          "storno": "Eine Stornorechnung kann nicht ohne Rechnung erstellt werden.",
+          "credit_note": "Um eine Gutschrift zu erstellen, fügen Sie zunächst eine Gutschriftsposition hinzu."
         }
       }
     }
@@ -564,15 +564,15 @@
   "sw-privileges": {
     "permissions": {
       "order": {
-        "label": ""
+        "label": "Bestellungen"
       },
       "order_refund": {
-        "label": ""
+        "label": "Rückerstattungen"
       }
     },
     "additional_permissions": {
       "orders": {
-        "create_discounts": ""
+        "create_discounts": "Gutschriften erstellen"
       }
     }
   }

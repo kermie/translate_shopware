@@ -3,7 +3,7 @@
     "tabSearchPreferences": {
       "modules": {
         "order": {
-          "returnNumber": ""
+          "returnNumber": "Rücksendenummer"
         }
       }
     }

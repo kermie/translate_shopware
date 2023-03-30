@@ -1,56 +1,56 @@
 {
   "sw-review": {
     "general": {
-      "mainMenuItemList": "",
-      "mainMenuItemGeneral": "",
-      "placeholderSearchBar": "",
-      "descriptionTextModule": ""
+      "mainMenuItemList": "Bewertungen",
+      "mainMenuItemGeneral": "Bewertungen",
+      "placeholderSearchBar": "Durchsuche alle Bewertungen ...",
+      "descriptionTextModule": "Verwaltung von Bewertungen."
     },
     "list": {
-      "textReviewOverview": "",
-      "columnProduct": "",
-      "columnPoints": "",
-      "columnUser": "",
-      "columnStatus": "",
-      "columnCreatedAt": "",
-      "columnComment": "",
-      "columnTitle": "",
-      "placeholderSearchBar": "",
-      "messageEmpty": "",
-      "messageEmptySubline": "",
-      "titleSidebarItemRefresh": ""
+      "textReviewOverview": "Bewertungen",
+      "columnProduct": "Produkt",
+      "columnPoints": "Sterne",
+      "columnUser": "Kunde",
+      "columnStatus": "Sichtbar",
+      "columnCreatedAt": "Erstellt am",
+      "columnComment": "Kommentiert",
+      "columnTitle": "Titel",
+      "placeholderSearchBar": "Durchsuche alle Bewertungen ...",
+      "messageEmpty": "Noch keine Bewertungen",
+      "messageEmptySubline": "Verwalte Bewertungen hier",
+      "titleSidebarItemRefresh": "Aktualisieren"
     },
     "detail": {
-      "textHeadline": "",
-      "cardTitleReviewInfo": "",
-      "cardTitleReviewProperties": "",
-      "labelTitle": "",
-      "labelPoints": "",
-      "labelUser": "",
-      "labelSalesChannel": "",
-      "labelCreatedAt": "",
-      "labelProduct": "",
-      "labelEmail": "",
-      "labelLanguage": "",
-      "labelPositive": "",
-      "labelNegative": "",
-      "labelStatus": "",
-      "labelContent": "",
-      "labelComment": "",
-      "labelCustomer": "",
-      "titleCardComment": "",
-      "placeholderComment": "",
-      "review1PointRatingText": "",
-      "review2PointRatingText": "",
-      "review3PointRatingText": "",
-      "review4PointRatingText": "",
-      "review5PointRatingText": ""
+      "textHeadline": "Bewertung",
+      "cardTitleReviewInfo": "Bewertung",
+      "cardTitleReviewProperties": "Eigenschaften",
+      "labelTitle": "Titel",
+      "labelPoints": "Sterne",
+      "labelUser": "Kunde",
+      "labelSalesChannel": "Verkaufskanal",
+      "labelCreatedAt": "Erstelldatum",
+      "labelProduct": "Produkt",
+      "labelEmail": "E-Mail-Adresse",
+      "labelLanguage": "Sprache",
+      "labelPositive": "Positive Bewertungen",
+      "labelNegative": "Negative Bewertungen",
+      "labelStatus": "Sichtbar",
+      "labelContent": "Inhalt",
+      "labelComment": "Kommentar",
+      "labelCustomer": "Kunde",
+      "titleCardComment": "Kommentar",
+      "placeholderComment": "Kommentar eingeben ...",
+      "review1PointRatingText": "Unbefriedigend",
+      "review2PointRatingText": "Akzeptierbar",
+      "review3PointRatingText": "Gut",
+      "review4PointRatingText": "Sehr gut",
+      "review5PointRatingText": "Exzellent"
     }
   },
   "sw-privileges": {
     "permissions": {
       "review": {
-        "label": ""
+        "label": "Bewertungen"
       }
     }
   }

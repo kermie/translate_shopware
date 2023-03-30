@@ -2,34 +2,34 @@
   "sw-settings-units": {
     "detail": {
       "fieldLabels": {
-        "name": "",
-        "shortCode": ""
+        "name": "Name der Maßeinheit",
+        "shortCode": "Kurzform"
       }
     },
     "general": {
-      "mainMenuItemGeneral": "",
-      "placeholderSearchBar": "",
-      "createNewUnit": "",
-      "disableAddNewUnitMessage": ""
+      "mainMenuItemGeneral": "Maßeinheiten",
+      "placeholderSearchBar": "Durchsuche alle Maßeinheiten ...",
+      "createNewUnit": "Maßeinheit erstellen",
+      "disableAddNewUnitMessage": "Neue Maßeinheiten können nur in der System-Standardsprache angelegt werden."
     },
     "grid": {
-      "columnName": "",
-      "columnShortCode": "",
-      "contextMenuDelete": ""
+      "columnName": "Name",
+      "columnShortCode": "Kurzform",
+      "contextMenuDelete": "Löschen"
     },
     "empty-state": {
-      "title": "",
-      "subline": ""
+      "title": "Noch keine Maßeinheiten vorhanden",
+      "subline": "Verwaltung von Maßeinheiten."
     },
     "notification": {
-      "successMessage": "",
-      "errorMessage": ""
+      "successMessage": "Die Maßeinheit wurde erfolgreich gespeichert.",
+      "errorMessage": "Die Maßeinheit konnte nicht gespeichert werden. Überprüfe, ob alle Felder ausgefüllt sind."
     }
   },
   "sw-privileges": {
     "permissions": {
       "scale_unit": {
-        "label": ""
+        "label": "Maßeinheiten"
       }
     }
   }

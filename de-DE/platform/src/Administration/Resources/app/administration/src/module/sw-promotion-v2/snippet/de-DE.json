@@ -1,289 +1,289 @@
 {
     "sw-promotion-v2": {
         "general": {
-            "mainMenuItemGeneral": "",
-            "mainMenuItemList": "",
-            "description": ""
+            "mainMenuItemGeneral": "Rabatte & Aktionen",
+            "mainMenuItemList": "Übersicht",
+            "description": "Verwalte Rabattaktionen."
         },
         "list": {
-            "textTitle": "",
-            "buttonAddPromotion": "",
-            "columnActive": "",
-            "columnName": "",
-            "columnValidFrom": "",
-            "columnValidUntil": "",
-            "titleEmpty": "",
-            "descriptionEmpty": "",
-            "placeholderSearchBar": "",
-            "textDeleteConfirm": "",
-            "titleSidebarItemRefresh": ""
+            "textTitle": "Rabatte & Aktionen",
+            "buttonAddPromotion": "Aktion anlegen",
+            "columnActive": "Aktiv",
+            "columnName": "Name",
+            "columnValidFrom": "Gültig von",
+            "columnValidUntil": "Gültig bis",
+            "titleEmpty": "Noch keine Rabattaktionen.",
+            "descriptionEmpty": "Steigere Deinen Umsatz durch Rabatte auf Deine Produkte und Leistungen.",
+            "placeholderSearchBar": "Durchsuche alle Rabattaktionen ...",
+            "textDeleteConfirm": "Möchtest Du die Rabattaktion \"{name}\" wirklich löschen?",
+            "titleSidebarItemRefresh": "Aktualisieren"
         },
         "detail": {
             "header": {
-                "titleCreate": "",
-                "titleEdit": ""
+                "titleCreate": "Neue Aktion",
+                "titleEdit": "Aktion"
             },
             "tabs": {
-                "tabGeneral": "",
-                "tabConditions": "",
-                "tabDiscounts": ""
+                "tabGeneral": "Allgemein",
+                "tabConditions": "Bedingungen",
+                "tabDiscounts": "Rabatte"
             },
             "codeChangeModal": {
-                "title": "",
-                "text": ""
+                "title": "Ändern des Aktionscode-Typs",
+                "text": "Beim Ändern des Aktionscode-Typs werden alle zuvor erstellten Codes gelöscht."
             },
             "base": {
                 "general": {
-                    "cardTitle": "",
-                    "nameLabel": "",
-                    "namePlaceholder": "",
-                    "priorityLabel": "",
-                    "validFromLabel": "",
-                    "validFromPlaceholder": "",
-                    "validUntilLabel": "",
-                    "validUntilPlaceholder": "",
-                    "maxUsesGlobalLabel": "",
-                    "maxUsesGlobalPlaceholder": "",
-                    "maxUsesPerCustomerLabel": "",
-                    "maxUsesPerCustomerPlaceholder": "",
-                    "activeLabel": ""
+                    "cardTitle": "Allgemeine Einstellungen",
+                    "nameLabel": "Name",
+                    "namePlaceholder": "Namen eingeben ...",
+                    "priorityLabel": "Priorität",
+                    "validFromLabel": "Gültig ab",
+                    "validFromPlaceholder": "Wähle ein Startdatum ...",
+                    "validUntilLabel": "Gültig bis",
+                    "validUntilPlaceholder": "Wähle ein Enddatum ...",
+                    "maxUsesGlobalLabel": "Gesamtnutzungen",
+                    "maxUsesGlobalPlaceholder": "Unbegrenzt",
+                    "maxUsesPerCustomerLabel": "Nutzungen je Kunde",
+                    "maxUsesPerCustomerPlaceholder": "Unbegrenzt",
+                    "activeLabel": "Aktiv"
                 },
                 "codes": {
-                    "cardTitle": "",
-                    "codeTypeLabel": "",
+                    "cardTitle": "Aktionscodes",
+                    "codeTypeLabel": "Aktionscodetypen",
                     "none": {
-                        "description": ""
+                        "description": "Kein Aktionscode erforderlich"
                     },
                     "fixed": {
-                        "description": "",
-                        "codeLabel": "",
-                        "codePlaceholder": "",
-                        "generateButton": ""
+                        "description": "Festgelegter Aktionscode",
+                        "codeLabel": "Aktionscode",
+                        "codePlaceholder": "Gib einen Aktionscode ein ...",
+                        "generateButton": "Zufälligen Code generieren"
                     },
                     "individual": {
-                        "description": "",
-                        "emptyStateTitle": "",
-                        "generateButton": "",
-                        "searchPlaceholder": "",
-                        "addButton": "",
-                        "columnCode": "",
-                        "columnRedeemed": "",
-                        "columnCustomer": "",
-                        "textDeleteConfirm": "",
-                        "openCustomer": "",
-                        "routingError": "",
+                        "description": "Individuelle Aktionscodes",
+                        "emptyStateTitle": "Noch keine Aktionscodes angelegt.",
+                        "generateButton": "Erstelle neue Aktionscodes",
+                        "searchPlaceholder": "Durchsuche Aktionscodes ...",
+                        "addButton": "Füge Aktionscodes hinzu",
+                        "columnCode": "Code",
+                        "columnRedeemed": "Eingelöst",
+                        "columnCustomer": "Kunde",
+                        "textDeleteConfirm": "Möchtest Du den Aktionscode \"{code}\" wirklich löschen? | Möchtest Du diese {count} Aktionscodes wirklich löschen?",
+                        "openCustomer": "Kunde öffnen",
+                        "routingError": "Der Kunde \"{name}\" konnte nicht gefunden werden.",
                         "addCodesModal": {
-                            "title": "",
-                            "description": "",
-                            "addCodesButton": "",
-                            "codeAmountLabel": ""
+                            "title": "Neue Aktionscodes hinzufügen",
+                            "description": "Neue Aktionscodes verwenden dasselbe Präfix, Suffix und Muster, das zur Erzeugung früherer Aktionscodes verwendet wurde.",
+                            "addCodesButton": "Aktionscodes hinzufügen",
+                            "codeAmountLabel": "Anzahl neuer Aktionscodes"
                         },
                         "generateModal": {
-                            "title": "",
-                            "buttonGenerate": "",
-                            "warning": "",
-                            "description": "",
-                            "labelPrefix": "",
-                            "placeholderPrefix": "",
-                            "labelCodeLength": "",
-                            "labelSuffix": "",
-                            "placeholderSuffix": "",
-                            "labelCustomPattern": "",
-                            "placeholderCustomPattern": "",
-                            "helpTextCustomPattern": "",
-                            "labelUseCustomPattern": "",
-                            "labelPreview": "",
-                            "labelCodeAmount": "",
-                            "notComplexEnoughException": "",
-                            "alreadyInUseException": "",
-                            "unknownErrorCode": ""
+                            "title": "Erzeuge neue Aktionscodes",
+                            "buttonGenerate": "Erzeuge neue Aktionscodes",
+                            "warning": "Durch das Generieren neuer Codes werden alle vorhandenen Codes für diese Aktion gelöscht. Gelöschte Codes sind ungültig und können nicht mehr verwendet werden.",
+                            "description": "Aktionscodes werden aus einer zufälligen Zusammenstellung von Großbuchstaben und Ziffern erzeugt. Du kannst aber individuelle Pre- bzw. Suffixe oder auch ein komplett eigenes Muster verwenden. In der Code-Vorschau kannst Du sehen, wie sich Dein Muster auswirkt.",
+                            "labelPrefix": "Präfix",
+                            "placeholderPrefix": "Gib einen Präfix an ...",
+                            "labelCodeLength": "Zeichenlänge des Aktionscodes",
+                            "labelSuffix": "Suffix",
+                            "placeholderSuffix": "Gib einen Suffix an ...",
+                            "labelCustomPattern": "Eigenes Muster",
+                            "placeholderCustomPattern": "Gib ein eigenes Muster an",
+                            "helpTextCustomPattern": "Beachte, dass nur ein aufeinanderfolgender Satz an Variablen umgewandelt werden kann.<br><br>Mögliche Variablen:<br>- %d - Ziffern (0-9)<br>- %s - Buchstaben (A-Z)",
+                            "labelUseCustomPattern": "Eigenes Muster nutzen",
+                            "labelPreview": "Aktionscode-Vorschau",
+                            "labelCodeAmount": "Anzahl der Aktionscodes",
+                            "notComplexEnoughException": "Die angeforderte Anzahl von Aktionscodes konnte nicht erstellt werden. Stelle sicher, dass das Muster ausreichend komplex ist. Um zu gewährleisten, dass die Aktionscodes ausreichend zufällig sind, dürfen höchstens 50% aller möglichen Codes generiert werden.",
+                            "alreadyInUseException": "Das gewählte Code-Muster existiert bereits in einer anderen Aktion. Bitte gebe ein anderes Muster an.",
+                            "unknownErrorCode": "Beim Generieren von Promotion-Codes ist etwas schief gelaufen. Bitte verwende die Entwickler-Tools für weitere Informationen."
                         }
                     }
                 }
             },
             "conditions": {
                 "preConditions": {
-                    "cardTitlePreConditions": "",
-                    "cardTitleRuleConditions": "",
-                    "labelPreventCombination": "",
-                    "helpTextPreventCombination": "",
-                    "labelPromotionExclusions": "",
-                    "placeholderPromotionExclusions": "",
-                    "labelPromotionSalesChannel": "",
-                    "placeholderPromotionSalesChannel": "",
-                    "labelCustomerSelect": "",
-                    "placeholderCustomerSelect": "",
-                    "labelCartConditionSelect": "",
-                    "placeholderCartConditionSelect": "",
-                    "labelOrderConditionSelect": "",
-                    "placeholderOrderConditionSelect": ""
+                    "cardTitlePreConditions": "Voraussetzungen",
+                    "cardTitleRuleConditions": "Regelbasierte Bedingungen",
+                    "labelPreventCombination": "Verhindert die Kombination mit anderen Aktionen",
+                    "helpTextPreventCombination": "Durch die Aktivierung dieser Option werden alle anderen Aktionen ausgeschlossen, unabhängig von der Kombinationsauswahl.",
+                    "labelPromotionExclusions": "Nicht kombinieren mit",
+                    "placeholderPromotionExclusions": "Aktion hinzufügen ...",
+                    "labelPromotionSalesChannel": "Verkaufskanäle",
+                    "placeholderPromotionSalesChannel": "Verkaufskanal hinzufügen ...",
+                    "labelCustomerSelect": "Kunden-Regeln",
+                    "placeholderCustomerSelect": "Wähle Kunden-Regeln aus ...",
+                    "labelCartConditionSelect": "Warenkorb-Regeln",
+                    "placeholderCartConditionSelect": "Wähle Warenkorb-Regeln aus ...",
+                    "labelOrderConditionSelect": "Bestellungs-Regeln",
+                    "placeholderOrderConditionSelect": "Wähle Bestellungs-Regeln aus ..."
                 },
                 "setgroups": {
-                    "switchGroupsEnabled": "",
-                    "buttonAddGroup": "",
-                    "titleName": "",
-                    "labelMode": "",
-                    "labelValue": "",
-                    "labelSorting": "",
-                    "labelRules": "",
-                    "placeholder": "",
+                    "switchGroupsEnabled": "Aktion auf Produkt-Sets anwenden",
+                    "buttonAddGroup": "Set-Gruppe hinzufügen",
+                    "titleName": "Set-Gruppe",
+                    "labelMode": "Modus",
+                    "labelValue": "Wert",
+                    "labelSorting": "Sortierung",
+                    "labelRules": "Produktregeln",
+                    "placeholder": "Wähle eine Produktregel aus ...",
                     "packager": {
-                        "COUNT": "",
-                        "PRICE_UNIT_GROSS": "",
-                        "PRICE_UNIT_NET": ""
+                        "COUNT": "Anzahl",
+                        "PRICE_UNIT_GROSS": "Wert (Brutto)",
+                        "PRICE_UNIT_NET": "Wert (Netto)"
                     },
                     "sorter": {
-                        "PRICE_ASC": "",
-                        "PRICE_DESC": ""
+                        "PRICE_ASC": "Preis aufsteigend",
+                        "PRICE_DESC": "Preis absteigend"
                     }
                 },
                 "filter": {
                     "sorter": {
-                        "PRICE_ASC": "",
-                        "PRICE_DESC": ""
+                        "PRICE_ASC": "Preis aufsteigend",
+                        "PRICE_DESC": "Preis absteigend"
                     },
                     "applier": {
-                        "ALL": "",
-                        "SELECT": ""
+                        "ALL": "Jedes Produkt",
+                        "SELECT": "{count}. Produkt"
                     },
                     "counter": {
-                        "ALL": "",
-                        "SELECT": ""
+                        "ALL": "Unbegrenzt",
+                        "SELECT": "{count} x"
                     },
                     "picker": {
-                        "VERTICAL": "",
-                        "HORIZONTAL": ""
+                        "VERTICAL": "Vertikal",
+                        "HORIZONTAL": "Horizontal"
                     }
                 }
             },
             "discounts": {
-                "emptyStateTitle": "",
-                "addDiscountButton": "",
+                "emptyStateTitle": "Noch keinen Rabatt angelegt.",
+                "addDiscountButton": "Rabatt anlegen",
                 "wizard": {
                     "basic": {
-                        "prefixTitle": "",
-                        "titleDiscountType": "",
-                        "titleProductRules": "",
-                        "description": ""
+                        "prefixTitle": "Einfacher Rabatt - {title}",
+                        "titleDiscountType": "Rabatt-Typ",
+                        "titleProductRules": "Produkt-Regeln",
+                        "description": "Definiere zuerst den Rabatt-Typ. Trigger, die diesen Rabatt aktivieren, kannst Du auf der nächsten Seite setzen."
                     },
                     "shipping-discount": {
-                        "prefixTitle": "",
-                        "titleDiscountType": "",
-                        "titleTriggerSelection": "",
-                        "description": ""
+                        "prefixTitle": "Versand-Rabatt - {title}",
+                        "titleDiscountType": "Rabatt-Typ",
+                        "titleTriggerSelection": "Trigger (optional)",
+                        "description": "Du kannst den Rule Builder verwenden, um individuelle Rabatt-Trigger zu erstellen. Definiere Schwellenwerte, z.B. eine bestimmte Anzahl von Produkten oder einen bestimmten Warenkorbwert, die Rabatte auslösen. Du kannst sogar verschachtelte Trigger-Kaskaden erstellen."
                     },
                     "buy-x-get-y": {
-                        "prefixTitle": "",
-                        "titleDiscountType": "",
-                        "titleTriggerSelection": ""
+                        "prefixTitle": "Kaufe X erhalte Y - {title}",
+                        "titleDiscountType": "Rabatt-Typ",
+                        "titleTriggerSelection": "Trigger (optional)"
                     }
                 },
                 "settings": {
                     "discountType": {
-                        "labelDiscountType": "",
-                        "labelValue": "",
-                        "labelMaxDiscountValue": "",
-                        "labelApplyDiscountTo": "",
-                        "labelApplyTo": "",
+                        "labelDiscountType": "Rabatt-Typ",
+                        "labelValue": "Preis | Prozentwert",
+                        "labelMaxDiscountValue": "Maximaler Rabattwert",
+                        "labelApplyDiscountTo": "Rabatt anwenden auf",
+                        "labelApplyTo": "Anwenden auf",
                         "discountTypeSelection": {
-                            "displayFixedPrice": "",
-                            "displayFixedDiscount": "",
-                            "displayPercentage": "",
-                            "displayFree": ""
+                            "displayFixedPrice": "Festgelegter Preis",
+                            "displayFixedDiscount": "Absolut",
+                            "displayPercentage": "Prozentual",
+                            "displayFree": "Kostenloses Produkt"
                         },
                         "applyDiscountTo": {
-                            "displayTotalPrice": "",
-                            "displayProductPrice": ""
+                            "displayTotalPrice": "Gesamtpreis",
+                            "displayProductPrice": "Produktpreis"
                         }
                     },
                     "ruleSelection": {
-                        "description": "",
-                        "labelSelection": "",
-                        "placeholderSelection": ""
+                        "description": "Wähle oder erstelle Regeln um Produkte zu definieren, die für den Rabatt in Frage kommen.",
+                        "labelSelection": "Regelauswahl",
+                        "placeholderSelection": "Wähle eine Regel aus ..."
                     },
                     "trigger": {
-                        "labelUseTrigger": "",
+                        "labelUseTrigger": "Verwende Trigger",
                         "triggerType": {
-                            "displaySingleTrigger": "",
-                            "displayMultiTrigger": ""
+                            "displaySingleTrigger": "Einzelprodukt-Trigger",
+                            "displayMultiTrigger": "Mehr-Produkt-Trigger"
                         },
-                        "labelNumberOfTriggers": ""
+                        "labelNumberOfTriggers": "Trigger-Typ"
                     }
                 },
                 "pricesModal": {
-                    "advancedPricesHeader": "",
-                    "closeModal": "",
-                    "labelCurrency": "",
-                    "labelPrice": "",
-                    "linkAdvancedPrices": ""
+                    "advancedPricesHeader": "Erweiterte Preise",
+                    "closeModal": "Schließen",
+                    "labelCurrency": "Währung",
+                    "labelPrice": "Wert",
+                    "linkAdvancedPrices": "Erweiterte Preisansicht öffnen"
                 }
             },
             "discount-selection": {
-                "modalTitle": "",
-                "description": "",
+                "modalTitle": "Neuer Rabatt",
+                "description": "Rabatte können als Brutto- oder Nettowert, als feste Summe oder als Prozentsatz angewendet werden. Es ist möglich, einzelne Produkte, ein Produktsortiment oder Versandkosten zu rabattieren.",
                 "basic": {
-                    "name": "",
-                    "description": ""
+                    "name": "Basis-Rabatt",
+                    "description": "Rabattiere ganze Warenkörbe oder eine ausgewählte Gruppe von Produkten."
                 },
                 "buy-x-get-y": {
-                    "name": "",
-                    "description": ""
+                    "name": "X kaufen, Y bekommen",
+                    "description": "Lege einen Rabatt fest, der aktiviert wird, wenn ein bestimmtes Produkt oder bestimmte Produkte in den Warenkorb gelegt werden."
                 },
                 "shipping-discount": {
-                    "name": "",
-                    "description": ""
+                    "name": "Versand-Rabatt",
+                    "description": "Rabattiere die Versandkosten oder biete kostenlosen Versand über optionale Produkt-Trigger an."
                 }
             },
             "shipping-discount-trigger": {
-                "modalTitle": "",
-                "description": "",
-                "labelUseTrigger": ""
+                "modalTitle": "Versand-Rabatt - Trigger (optional)",
+                "description": "Du kannst den Rule Builder verwenden, um individuelle Rabatt-Trigger zu erstellen. Definiere Schwellenwerte, z.B. eine bestimmte Anzahl von Produkten oder einen bestimmten Warenkorbwert, die Rabatte auslösen. Du kannst sogar verschachtelte Trigger-Kaskaden erstellen.",
+                "labelUseTrigger": "Verwende Trigger"
             }
         },
         "ruleSelect": {
-            "labelAddNewRule": ""
+            "labelAddNewRule": "Neue Regel erstellen"
         }
     },
     "sw-promotion": {
         "detail": {
             "main": {
                 "discounts": {
-                    "card": "",
-                    "labelValue": "",
-                    "labelMaxValue": "",
-                    "helpTextMaxValueAdvancedPrices": "",
-                    "placeholderValue": "",
-                    "labelScope": "",
-                    "flagProductScopeLabel": "",
-                    "labelRules": "",
-                    "placeholder": "",
-                    "labelType": "",
-                    "valueScopeCart": "",
-                    "valueTypeAbsolute": "",
-                    "valueScopeDelivery": "",
-                    "valueScopeSet": "",
-                    "valueScopeSetGroup": "",
-                    "valueTypePercentage": "",
-                    "valueTypeFixed": "",
-                    "valueTypeFixedUnit": "",
-                    "buttonAddDiscount": "",
-                    "buttonDeleteDiscount": "",
+                    "card": "Rabatt",
+                    "labelValue": "Wert",
+                    "labelMaxValue": "Maximaler Rabattwert",
+                    "helpTextMaxValueAdvancedPrices": "Der maximale Betrag besitzt erweiterte Preise.",
+                    "placeholderValue": "Gib den Wert der Rabattaktion an ...",
+                    "labelScope": "Anwenden auf:",
+                    "flagProductScopeLabel": "Nur auf ausgewählte Produkte anwenden.",
+                    "labelRules": "Produktregeln",
+                    "placeholder": "Produktregeln zuweisen ...",
+                    "labelType": "Art",
+                    "valueScopeCart": "Warenkorb",
+                    "valueScopeDelivery": "Versandkosten",
+                    "valueScopeSet": "Gesamtes Set",
+                    "valueScopeSetGroup": "Set-Gruppe",
+                    "valueTypeAbsolute": "Absolut",
+                    "valueTypePercentage": "Prozentual",
+                    "valueTypeFixed": "Festpreis",
+                    "valueTypeFixedUnit": "Fester Stückpreis",
+                    "buttonAddDiscount": "Rabatt hinzufügen",
+                    "buttonDeleteDiscount": "Rabatt entfernen",
                     "delete": {
-                        "confirmTitle": "",
-                        "confirmText": "",
-                        "buttonCancel": "",
-                        "buttonDelete": ""
+                        "confirmTitle": "Rabatt entfernen",
+                        "confirmText": "Möchtest Du diesen Rabatt wirklich aus der Rabattaktion entfernen?",
+                        "buttonCancel": "Abbrechen",
+                        "buttonDelete": "Rabatt entfernen"
                     },
-                    "labelSorting": "",
-                    "labelPicking": "",
-                    "labelApplyCount": "",
-                    "labelMaxCount": "",
-                    "linkAdvancedPrices": "",
+                    "labelSorting": "Sortieren nach",
+                    "labelPicking": "Produktauswahl Modus",
+                    "labelApplyCount": "Anwenden auf",
+                    "labelMaxCount": "Maximale Anwendung",
+                    "linkAdvancedPrices": "Erweiterte Preisansicht öffnen",
                     "pricesModal": {
-                        "advancedPricesHeader": "",
-                        "closeModal": "",
-                        "labelCurrency": "",
-                        "labelPrice": ""
+                        "advancedPricesHeader": "Erweiterte Preise",
+                        "closeModal": "Schließen",
+                        "labelCurrency": "Währung",
+                        "labelPrice": "Wert"
                     }
                 }
             }
@@ -292,7 +292,7 @@
     "sw-privileges": {
         "permissions": {
             "promotion": {
-                "label": ""
+                "label": "Rabatte & Aktionen"
             }
         }
     }

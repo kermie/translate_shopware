@@ -1,24 +1,24 @@
 {
   "sw-product": {
     "card": {
-      "textHeadline": "",
-      "textLinkModal": "",
-      "textTooltipMultiSelect": "",
-      "textProductWarehouseModalDisabled": ""
+      "textHeadline": "Lagerbestand & Lieferbarkeit",
+      "textLinkModal": "Verfügbarkeit nach Lagern und Lagergruppen anzeigen",
+      "textTooltipMultiSelect": "Weise Lagerhausgruppen zu, um Deinen Bestand über mehrere Lagerhäuser individuell zu verwalten.",
+      "textProductWarehouseModalDisabled": "Speichere Deine Änderungen, bevor Du weitere Bestandsdetails öffnen kannst."
     },
     "modal-warehouse-group": {
-      "textHeadline": "",
-      "textInlineEdit": "",
-      "buttonSave": "",
-      "buttonCancel": "",
-      "columnName": "",
-      "columnStock": "",
-      "columnPriority": "",
-      "labelTotalStock": "",
-      "navigationLabelStock": ""
+      "textHeadline": "Verfügbarkeit von Lagern und Lagergruppen",
+      "textInlineEdit": "Bestand bearbeiten",
+      "buttonSave": "Speichern",
+      "buttonCancel": "Schließen",
+      "columnName": "Name",
+      "columnStock": "Bestand",
+      "columnPriority": "Priorität",
+      "labelTotalStock": "Gesamtbestand: ",
+      "navigationLabelStock": "Bestand {totalStock}"
     },
     "variants-overview": {
-      "inlineText": ""
+      "inlineText": "siehe Details"
     }
   }
 }

@@ -1,52 +1,52 @@
 {
   "sw-newsletter-recipient": {
     "general": {
-      "description": "",
-      "information": "",
-      "language": "",
-      "salutation": "",
-      "salesChannel": "",
-      "buttonSave": "",
-      "mainMenuItemGeneral": "",
-      "placeholderSearchBarSnippets": "",
-      "tags": ""
+      "description": "Verwaltung von Newsletter-Empfängern.",
+      "information": "Informationen",
+      "language": "Sprache",
+      "salutation": "Anrede",
+      "salesChannel": "Verkaufskanal",
+      "buttonSave": "Speichern",
+      "mainMenuItemGeneral": "Newsletter-Empfänger",
+      "placeholderSearchBarSnippets": "Durchsuche alle Newsletter-Empfänger ...",
+      "tags": "Tags"
     },
     "detail": {
-      "messageSaveSuccess": "",
-      "messageSaveError": ""
+      "messageSaveSuccess": "Die Daten für \"{key}\" wurden erfolgreich gespeichert.",
+      "messageSaveError": "Die Daten für \"{key}\" konnten nicht gespeichert werden."
     },
     "list": {
-      "titleSidebarItemRefresh": "",
-      "titleSidebarItemFilter": "",
-      "status": "",
-      "textHeadline": "",
-      "email": "",
-      "name": "",
-      "title": "",
-      "firstName": "",
-      "lastName": "",
-      "salesChannel": "",
-      "zipCode": "",
-      "city": "",
-      "street": "",
-      "notSet": "",
-      "createdAt": "",
-      "updatedAt": "",
-      "optIn": "",
-      "optOut": "",
-      "direct": "",
-      "messageEmpty": ""
+      "titleSidebarItemRefresh": "Aktualisieren",
+      "titleSidebarItemFilter": "Filter",
+      "status": "Status",
+      "textHeadline": "Newsletter-Empfänger",
+      "email": "E-Mail-Adresse",
+      "name": "Name",
+      "title": "Titel",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "salesChannel": "Verkaufskanal",
+      "zipCode": "Postleitzahl",
+      "city": "Stadt",
+      "street": "Straße",
+      "createdAt": "Hinzugefügt am",
+      "updatedAt": "Aktualisiert am",
+      "notSet": "Warten auf Aktivierung",
+      "optIn": "Aktiv",
+      "optOut": "Warten auf Löschung",
+      "direct": "Sofort aktiv",
+      "messageEmpty": "Noch keine Newsletter-Empfänger"
     }
   },
   "sw-privileges": {
     "permissions": {
       "newsletter_recipient": {
-        "label": ""
+        "label": "Newsletter-Empfänger"
       }
     },
     "additional_permissions": {
       "marketing": {
-        "send_newsletter": ""
+        "send_newsletter": "Newsletter versenden"
       }
     }
   }

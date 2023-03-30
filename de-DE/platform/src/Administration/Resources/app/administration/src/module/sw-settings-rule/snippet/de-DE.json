@@ -1,150 +1,150 @@
 {
   "sw-settings-rule": {
     "general": {
-      "mainMenuItemGeneral": "",
-      "placeholderSearchBar": "",
-      "descriptionTextModule": ""
+      "mainMenuItemGeneral": "Rule Builder",
+      "placeholderSearchBar": "Durchsuche alle Regeln ...",
+      "descriptionTextModule": "Verwaltung von Regeln."
     },
     "filter": {
       "conditionFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Bedingungen",
+        "placeholder": "Bedingungen auswählen ..."
       },
       "groupFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Bedingungstypen",
+        "placeholder": "Typ auswählen ..."
       },
       "assignmentFilter": {
-        "label": "",
-        "placeholder": "",
+        "label": "Zuweisungen",
+        "placeholder": "Zuweisungen auswählen ...",
         "values": {
-          "cartPromotions": "",
-          "orderPromotions": "",
-          "personaPromotions": "",
-          "promotionSetGroups": "",
-          "promotionDiscounts": "",
-          "flowSequences": "",
-          "paymentMethods": "",
-          "productPrices": "",
-          "shippingMethodPriceCalculations": "",
-          "shippingMethodPrices": "",
-          "shippingMethods": ""
+          "cartPromotions": "Rabattaktion-Warenkorbregeln",
+          "orderPromotions": "Rabattaktion-Bestellungsregeln",
+          "personaPromotions": "Rabattaktion-Kundenregeln",
+          "promotionSetGroups": "Rabattaktion-Setgruppenregeln",
+          "promotionDiscounts": "Rabatte",
+          "flowSequences": "Flows",
+          "paymentMethods": "Zahlungsarten",
+          "productPrices": "Produktpreise",
+          "shippingMethodPriceCalculations": "Versandarten-Preismatritzen",
+          "shippingMethodPrices": "Versandartenpreise",
+          "shippingMethods": "Versandartenverfügbarkeit"
         }
       },
       "tagFilter": {
-        "label": "",
-        "placeholder": ""
+        "label": "Tags",
+        "placeholder": "Tags auswählen ..."
       }
     },
     "list": {
-      "textHeadline": "",
-      "buttonAddRule": "",
-      "columnName": "",
-      "columnDescription": "",
-      "columnDateCreated": "",
-      "columnDateUpdated": "",
-      "columnPriority": "",
-      "columnStatus": "",
-      "columnTags": "",
-      "columnCartPromotions": "",
-      "columnOrderPromotions": "",
-      "columnPersonaPromotions": "",
-      "columnPromotionSetGroups": "",
-      "columnPromotionDiscounts": "",
-      "columnFlowSequences": "",
-      "columnPaymentMethods": "",
-      "columnProductPrices": "",
-      "columnShippingMethodPriceCalculations": "",
-      "columnShippingMethodPrices": "",
-      "columnShippingMethods": "",
-      "contextMenuDuplicate": "",
-      "titleSidebarItemRefresh": "",
-      "valid": "",
-      "invalid": "",
-      "messageEmpty": "",
+      "textHeadline": "Rule Builder",
+      "buttonAddRule": "Regel erstellen",
+      "columnName": "Regel",
+      "columnDescription": "Beschreibung",
+      "columnDateCreated": "Erstelldatum",
+      "columnDateUpdated": "Zuletzt bearbeitet",
+      "columnPriority": "Priorität",
+      "columnStatus": "Status",
+      "columnTags": "Tags",
+      "columnCartPromotions": "Rabattaktion-Warenkorbregel-Zuweisungen",
+      "columnOrderPromotions": "Rabattaktion-Bestellungsregel-Zuweisungen",
+      "columnPersonaPromotions": "Rabattaktion-Kundenregel-Zuweisungen",
+      "columnPromotionSetGroups": "Rabattaktion-Setgruppenregel-Zuweisungen",
+      "columnPromotionDiscounts": "Rabatt-Zuweisungen",
+      "columnFlowSequences": "Flow-Zuweisungen",
+      "columnPaymentMethods": "Zahlungsart-Zuweisungen",
+      "columnProductPrices": "Produktpreis-Zuweisungen",
+      "columnShippingMethodPriceCalculations": "Versandarten-Preismatrix-Zuweisungen",
+      "columnShippingMethodPrices": "Versandartenpreis-Zuweisungen",
+      "columnShippingMethods": "Versandartenverfügbarkeit-Zuweisungen",
+      "contextMenuDuplicate": "Duplizieren",
+      "titleSidebarItemRefresh": "Aktualisieren",
+      "valid": "Gültig",
+      "invalid": "Ungütig",
+      "messageEmpty": "Noch keine Regeln",
       "assignments": {
-        "cartPromotions": "",
-        "orderPromotions": "",
-        "personaPromotions": "",
-        "promotionSetGroups": "",
-        "promotionDiscounts": "",
-        "flowSequences": "",
-        "paymentMethods": "",
-        "productPrices": "",
-        "shippingMethodPriceCalculations": "",
-        "shippingMethodPrices": "",
-        "shippingMethods": ""
+        "cartPromotions": "Rabattaktion-Warenkorbregel | Rabattaktion-Warenkorbregeln",
+        "orderPromotions": "Rabattaktion-Bestellungsregel | Rabattaktion-Bestellungsregeln",
+        "personaPromotions": "Rabattaktion-Kundenregel | Rabattaktion-Kundenregeln",
+        "promotionSetGroups": "Rabattaktion-Setgruppenregel | Rabattaktion-Setgruppenregeln",
+        "promotionDiscounts": "Rabatt | Rabatte",
+        "flowSequences": "Flow | Flows",
+        "paymentMethods": "Zahlungsart | Zahlungsarten",
+        "productPrices": "Produktpreis | Produktpreise",
+        "shippingMethodPriceCalculations": "Versandarten-Preismatrix | Versandarten-Preismatritzen",
+        "shippingMethodPrices": "Versandartenpreis | Versandartenpreise",
+        "shippingMethods": "Versandartenverfügbarkeit | Versandartenverfügbarkeiten"
       }
     },
     "detail": {
-      "textHeadline": "",
-      "buttonCancel": "",
-      "buttonSave": "",
-      "titleCard": "",
-      "labelName": "",
-      "labelDescription": "",
-      "labelPriority": "",
-      "labelType": "",
-      "placeholderName": "",
-      "placeholderDescription": "",
-      "placeholderPriority": "",
-      "placeholderTags": "",
-      "messageSaveSuccess": "",
-      "ruleCard": "",
-      "messageSaveError": "",
-      "tabGeneral": "",
-      "tabAssignments": "",
-      "buttonAddAssignment": "",
+      "textHeadline": "Neue Regel",
+      "buttonCancel": "Abbrechen",
+      "buttonSave": "Speichern",
+      "titleCard": "Allgemein",
+      "labelName": "Name",
+      "labelDescription": "Beschreibung",
+      "labelPriority": "Priorität",
+      "labelType": "Typ",
+      "placeholderName": "Lege einen Namen für diese Regel fest ...",
+      "placeholderDescription": "Lege eine Beschreibung für diese Regel fest ...",
+      "placeholderPriority": "Lege eine Priorität für diese Regel fest ...",
+      "placeholderTags": "Gib Tags ein ...",
+      "messageSaveSuccess": "Die Regel \"{name}\" wurde erfolgreich gespeichert.",
+      "ruleCard": "Bedingungen",
+      "messageSaveError": "Beim Speichern der Regel ist ein Fehler aufgetreten",
+      "tabGeneral": "Allgemein",
+      "tabAssignments": "Zuweisungen",
+      "buttonAddAssignment":  "Zuweisung hinzufügen",
       "associations": {
-        "shippingMethods": "",
-        "promotions": "",
-        "products": "",
-        "shippingMethodPrices": "",
-        "paymentMethods": "",
-        "promotionCustomerRules": "",
-        "promotionOrderRules": "",
-        "promotionCartRules": "",
-        "promotionDiscountRules": "",
-        "promotionGroupRules": "",
-        "shippingMethodAvailabilityRule": "",
-        "flows": "",
-        "taxProviders": ""
+        "shippingMethods": "Versandarten",
+        "promotions": "Rabatten & Aktionen",
+        "products": "Produkt-Preisregeln",
+        "shippingMethodPrices": "Versandart-Preisregeln",
+        "paymentMethods": "Zahlungsarten",
+        "promotionCustomerRules": "Rabattaktion-Kundenregeln",
+        "promotionOrderRules": "Rabattaktion-Bestellungsregeln",
+        "promotionCartRules": "Rabattaktion-Warenkorbregeln",
+        "promotionDiscountRules": "Rabattaktion-Produktregeln",
+        "promotionGroupRules": "Rabattaktion-Setgruppenregeln",
+        "shippingMethodAvailabilityRule": "Versandart-Verfügbarkeitsregeln",
+        "flows": "Flow-Builders",
+        "taxProviders": "Steuerservice-Anbieter"
       },
-      "typeHasNoAssociations": "",
-      "hasNoAssociations": "",
-      "associationsLoadingError": "",
-      "textModalDelete": "",
-      "textModalBulkDelete": "",
-      "titleModalDelete": "",
+      "typeHasNoAssociations": "Keine Regeln zugewiesen",
+      "hasNoAssociations": "Diese Regel wird nicht verwendet",
+      "associationsLoadingError": "Die Zuweisungen der Regel konnten nicht geladen werden.",
+      "textModalDelete": "Möchtest du die Zuweisung wirklich entfernen?",
+      "textModalBulkDelete": "Möchtest du die Zuweisung wirklich entfernen? | Möchtest du diese {count} Zuweisungen wirklich entfernen?",
+      "titleModalDelete": "Zuweisung löschen",
       "types": {
-        "shipping": "",
-        "payment": "",
-        "price": "",
-        "flowBuilder": ""
+        "shipping": "Versandart",
+        "payment": "Zahlungsart",
+        "price": "Preis",
+        "flowBuilder": "Flow Builder"
       },
       "groups": {
-        "general": "",
-        "cart": "",
-        "items": "",
-        "customers": "",
-        "promotions": "",
-        "flow": "",
-        "misc": ""
+        "general": "Allgemein",
+        "cart": "Warenkorb",
+        "items": "Positionen im Warenkorb",
+        "customers": "Kunden",
+        "promotions": "Marketing & Rabattaktionen",
+        "flow": "Flow Builder",
+        "misc": "Sonstige"
       },
-      "textUnsavedConditions": ""
+      "textUnsavedConditions": "Es gibt ungespeicherte Änderungen in dieser Regel. Speichere die Änderungen, um Zuweisungen hinzufügen zu können."
     },
     "conditionFilter": {
-      "infoText": ""
+      "infoText": "Nutze Filter, um zu definieren welche Positionen diese Bedingung erfüllen müssen."
     },
     "conditionModal": {
-      "modalTitle": "",
-      "messageSaveError": ""
+      "modalTitle": "Filter",
+      "messageSaveError": "Beim Speichern des Filters ist ein Fehler aufgetreten."
     }
   },
   "sw-privileges": {
     "permissions": {
       "rule": {
-        "label": ""
+        "label": "Rule Builder"
       }
     }
   }
