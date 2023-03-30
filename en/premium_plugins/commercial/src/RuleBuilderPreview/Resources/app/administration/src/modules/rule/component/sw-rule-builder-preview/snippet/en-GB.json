@@ -1,0 +1,14 @@
+{
+    "sw-rule-builder-preview": {
+        "preview": "Preview",
+        "previewMode": "Preview mode",
+        "previewDescription": "Select an order to preview if conditions will return true or false. The preview will not affect the selected order.",
+        "order": "Order",
+        "orderPlaceholder": "Select order...",
+        "dateTime": "Time and date",
+        "dateTimeDescription": "The rule must use time-based conditions in order to select time and date for preview.",
+        "ruleResultTrue": "This rule returns true",
+        "ruleResultFalse": "This rule returns false",
+        "ruleResultInvalid": "Waiting..."
+    }
+}

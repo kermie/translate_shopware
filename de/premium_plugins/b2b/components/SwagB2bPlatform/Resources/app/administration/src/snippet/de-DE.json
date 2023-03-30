@@ -1,0 +1,40 @@
+{
+  "b2b": {
+    "global": {
+      "errors": {
+        "unexpectedErrorTitle": "Fehler!",
+        "unexpectedErrorMessage": "Es ist ein Fehler aufgetreten."
+      }
+    },
+    "order": {
+      "detail": {
+        "orderReferenceLabel": "Bestellreferenznummer",
+        "deliveryDateLabel": "Wunschliefertermin"
+      }
+    },
+    "customer": {
+      "detail": {
+        "easymode": {
+          "title": "Easy-Mode",
+          "label": "Easy-Mode aktivieren",
+          "isActive": "Easy-Mode aktiv",
+          "isNotActive": "Easy-Mode nicht aktiv",
+          "helpText": "Der Easy-Mode ermöglicht eine weniger komplexe Verwaltung. Dadurch ist es nicht mehr nötig Rollen, Budgets und Kontingente zu pflegen! Um diesen Modus zu aktivieren, darf der Nutzer keine Rollen erstellt haben."
+        }
+      }
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "b2b-user": {
+        "label": "B2B-Nutzer"
+      },
+      "b2b-offer": {
+        "label": "Angebote"
+      },
+      "sales-representative-clients": {
+        "label": "Außendienstmitarbeiter-Kunden"
+      }
+    }
+  }
+}

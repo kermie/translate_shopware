@@ -1,0 +1,254 @@
+{
+    "sw-privileges": {
+        "permissions": {
+            "parents": {
+                "swag_amazonpay": "Amazon Pay"
+            },
+            "swag_amazonpay": {
+                "label": "Amazon Pay settings"
+            }
+        }
+    },
+    "swag-amazon-pay-configuration": {
+        "module": {
+            "title": "Amazon Pay",
+            "description": "Amazon Pay payment plugin for Shopware 6"
+        },
+
+        "actions": {
+            "insertPrivateKey": "Insert private key",
+            "testConnection": "Test API credentials",
+            "exportConfig": "Export settings",
+            "importConfig": "Import settings",
+            "setAsDefaultPaymentMethod": "Set as default payment method for the selected Sales Channel"
+        },
+
+        "notification": {
+            "inspectConnectionTitle": "Validate API credentials",
+            "inspectConnectionSuccess": "The API credentials were successfully validated.",
+            "configSaveSuccessMessage": "Configuration has been saved."
+        },
+
+        "exception": {
+            "genericError": "An unknown error occurred. Please check the log files to get more information.",
+
+            "inspectConnection": {
+                "credentialsNotFound": "Please check your plugin configuration",
+                "privateKeyInvalid": "The private key is invalid",
+                "invalidProtocol": "An error occurred while validating the API credentials: Amazon Pay requires a secured connection (exception: localhost). Please configure this server to support HTTPS connections and access the shop's administration via an URL using HTTPS.",
+                "initialisingClientError": "Error while client initialization:",
+                "createSessionError": "Error while creating a checkout session: ",
+                "obtainSessionError": "Error while obtaining the Checkout-Session"
+            },
+
+            "exportConfig": {
+                "title": "Export failure",
+                "message": "Could not export settings due to an unknown error"
+            }
+        },
+
+        "inputKeyModal": {
+            "title": "Enter private key",
+            "infoText": "Amazon Pay uses asymmetric encryption to secure communication. You will need a public/private key pair and a corresponding Public Key ID (a unique Amazon Pay identifier for the key pair) to access Amazon Pay APIs. You can generate a public/private key pair and access the Public Key ID using Amazon Pay Integration Central. <a href=\"http://amazonpaycheckoutintegrationguide.s3.amazonaws.com/amazon-pay-checkout/get-set-up-for-integration.html#4-get-your-public-key-id\" target=\"_blank\" rel=\"noopener\">Further information</a>",
+            "labelContent": "Private key",
+            "buttonSend": "Send",
+            "buttonCancel": "Cancel",
+
+            "notification": {
+                "warning": "Warning!",
+                "invalidKeyFormat": "The entered private key does not match the format"
+            }
+        },
+
+        "configForm": {
+            "registerHeadline": "New at Amazon Pay?",
+            "registerExplanation": "If you do not yet have a merchant account to use Amazon Pay, you can register a new account here: <ul><li>Germany (EUR): <a href=\"https://pay.amazon.de/signup\" target=\"_blank\" rel=\"noopener\">https://pay.amazon.de/signup</a></li><li>United Kingdom (GBP): <a href=\"https://pay.amazon.co.uk/signup\" target=\"_blank\" rel=\"noopener\">https://pay.amazon.co.uk/signup</a></li></ul>",
+            "existingAccountHeadline": "You already have a merchant account?",
+            "existingAccountExplanation": "If you already have a merchant account to use Amazon Pay, please follow the steps described <a href=\"https://docs.shopware.com/en/shopware-6-en/extensions/amazon-pay#amazon-pay-access-credentials\" target=\"_blank\" rel=\"noopener\">here</a> to get the access data needed to configure the plugin.",
+            "accountHeadline": "Account information",
+            "credentialsHeadline": "Account credentials",
+            "stateMappingExplanation": "Depending on the state's configuration, Shopware does not allow all conceivable transitions. If there's no valid state transition, the payment state remains as it is. If no target states are configured, state changes are applied as intended by Shopware.",
+            "loggingHeadline": "Choose a logging mode.",
+            "loggingExplanation": "The plugin writes relevant information to a log file during runtime.",
+            "loggingBasicHelp": "Only errors will get logged",
+            "loggingAdvancedHelp": "Debug Option: Every request and response is getting logged",
+            "labelIpnUrl" : "Url for IPN",
+            "ipnHelpText": "URL, payment notifications (IPNs) are send to by Amazon Pay. Please add this in Seller Central via \"Settings\" > \"Integration Settings\".",
+            "privateKeyEmpty": "No valid private key provided!",
+            "cards": {
+                "help": "Help",
+                "account": "Account",
+                "general": "General",
+                "displayOptions": "Display options",
+                "paymentStateMapping": "Payment state mapping",
+                "advanced": "Advanced",
+                "logHandling": "Log handling"
+            },
+            "fields": {
+                "ledgerCurrency": {
+                    "label": "Payment region",
+                    "placeholder": "Select your payment region...",
+                    "helpText": "The payment or currency region in which the Amazon Pay merchant account was registered. For all Euro countries please select EUR (Euro region) here. For merchant accounts registered in the United Kingdom, please select GBP (United Kingdom) here.",
+                    "options": {
+                        "EUR": "EUR (Euro region)",
+                        "GBP": "GBP (United Kingdom)"
+                    }
+                },
+                "merchantId": {
+                    "label": "Merchant ID",
+                    "placeholder": "Enter your Merchant ID...",
+                    "helpText": "Merchant account identifier. Available in Seller Central via \"Integration\" > \"Integration Central\". Make sure to have Shopware 6 selected on the top of the \"Integration Central\" page."
+                },
+                "publicKeyId": {
+                    "label": "Public-key ID",
+                    "placeholder": "Enter your Public Key ID...",
+                    "helpText": "Identifier of the Public Key. Available in \"Integration Central\" after an API key was generated."
+                },
+                "clientId": {
+                    "label": "Store ID",
+                    "placeholder": "Enter your Store ID...",
+                    "helpText": "Identifier for the Store/Application. You can create multiple stores per merchant account, for instance for a DE and CH shop). Available via \"Integration Central\"."
+                },
+                "privateKey": {
+                    "label": "Private key",
+                    "helpText": "Private part of the API key, that was downloaded by the browser after creation. Keep this secret!"
+                },
+                "inheritFromDefault": {
+                    "label": "Inherit configuration from default sales channel"
+                },
+                "sandbox": {
+                    "label": "Enable sandbox",
+                    "helpText": "Enables Amazon Pay sandbox mode, which is used to test the checkout."
+                },
+                "softDescriptor": {
+                    "label": "Soft descriptor",
+                    "helpText": "Specifies the value that the customer can see as the reason for payment on his bank statements",
+                    "placeholder": "Enter soft descriptor..."
+                },
+                "hideOneClickCheckoutButtons": {
+                    "label": "Hide Amazon Pay Buttons globally",
+                    "helpText": "Please note that Amazon Pay will be still shown in your current browser (due to already set cookies). For avoiding this please start an incognito session."
+                },
+                "displayButtonOnProductPage": {
+                    "label": "Show Amazon Pay button on product pages",
+                    "helpText": "When active, Amazon Pay button is shown on the product pages."
+                },
+                "displayButtonOnCheckoutRegisterPage": {
+                    "label": "Show Amazon Pay button on \"Login/Register\" page in checkout",
+                    "helpText": "When active, Amazon Pay button is shown on the \"Login/Register\" page."
+                },
+                "displayLoginButtonOnRegistrationPage": {
+                    "label": "Show \"Sign in with Amazon\" button on \"Login/My account\" page",
+                    "helpText": "When active, \"Sign in with Amazon\" button is shown on the \"Login/My account\" page."
+                },
+                "buttonColors": {
+                    "label": "Button color",
+                    "helpText": "The color that is used for \"Amazon Pay\" and \"Sign in with Amazon\" buttons.",
+                    "gold": "Gold",
+                    "lightGray": "Light gray",
+                    "darkGray": "Dark gray"
+                },
+                "paymentStateMappingAuthorize": {
+                    "label": "Payment state after successful authorization",
+                    "placeholder": "Choose a payment state...",
+                    "helpText": "Payment state of the order in Shopware after a successful authorization via Amazon Pay."
+                },
+                "paymentStateMappingCharge": {
+                    "label": "Payment state after successful charge",
+                    "placeholder": "Choose a payment state...",
+                    "helpText": "Payment state of the order in Shopware after a successful capture via Amazon Pay."
+                },
+                "paymentStateMappingPartialCharge": {
+                    "label": "Payment state after successful partial charge",
+                    "placeholder": "Choose a payment state...",
+                    "helpText": "Payment state of the order in Shopware after a part of the total order amount was successfully captured via Amazon Pay."
+                },
+                "paymentStateMappingRefund": {
+                    "label": "Payment state after successful refund",
+                    "placeholder": "Choose a payment state...",
+                    "helpText": "Payment state of the order in Shopware after a successful refund via Amazon Pay."
+                },
+                "paymentStateMappingPartialRefund": {
+                    "label": "Payment state after successful partial refund",
+                    "placeholder": "Choose a payment state...",
+                    "helpText": "Payment state of the order in Shopware after a part of the total order amount was successfully refunded via Amazon Pay."
+                },
+                "paymentStateMappingCancel": {
+                    "label": "Payment state after cancel",
+                    "placeholder": "Choose a payment state...",
+                    "helpText": "Payment state of the order in Shopware after an Amazon Pay payment was cancelled."
+                },
+                "chargeMode": {
+                    "label": "Cash collection mode",
+                    "placeholder": "Select a cash collection mode...",
+                    "helpText": "Specifies when a payment is collected. Payments can be collected either immediately (recommended), when changing to a certain order status, or manually.",
+                    "options": {
+                        "direct": "Collect payment immediately",
+                        "shipped": "Collect payment on order state change",
+                        "manually": "Collect payment manually"
+                    }
+                },
+                "excludedProductIds": {
+                    "label": "Excluded products",
+                    "helpText": "Products selected here cannot be purchased with Amazon Pay."
+                },
+                "excludedProductStreamIds": {
+                    "label": "Excluded product groups",
+                    "helpText": "Products included in the Dynamic Product Groups selected here cannot be purchased with Amazon Pay."
+                },
+                "orderChargeTriggerState": {
+                    "label": "Order state to trigger charge",
+                    "helpText": "Performs an automatic capture when an order is shipped if the option \"Cash collect mode\" is set to \"Collect payment on order state change\".",
+                    "placeholder": "Choose order state to trigger charge..."
+                },
+                "sendErrorMail": {
+                    "label": "Send E-Mail to shop owner in case of error"
+                },
+                "excludedItems": {
+                    "label": "Items excluded for Express Checkout",
+                    "placeholder": "Choose a dynamic product group..."
+                },
+                "loggingMode": {
+                    "options": {
+                        "basic": "Basic logging",
+                        "advanced": "Extended logging"
+                    }
+                }
+            }
+        },
+
+        "insecureDomainNotification": {
+            "success": "The selected Sales Channel only uses secure domains and will be compatible with Amazon Pay.",
+            "general": "Please note that only HTTPS domains are supported by Amazon Pay.",
+            "salesChannel": "Attention! You have configured at least one HTTP domain for the selected Sales Channel. Amazon Pay will not fully work for this domain. Please use only secure communication to guarantee the payment function. The following domains are affected:"
+        },
+
+        "importModal": {
+            "title": "Upload settings",
+            "infoText": "Choose your settings file below",
+            "warning": {
+                "title": "Warning!",
+                "content": "Applying this option will overwrite existing settings. This process cannot be undone!"
+            },
+            "notification": {
+                "noFileSelected": "Please select a configuration file to continue.",
+                "success": "The configuration file was successfully imported.",
+                "error": "An unexpected error occurred during the import of the selected configuration file! Please check the logs for more information."
+            },
+            "versionMismatch": {
+                "info": "The configuration has been exported on a different Shopware and/or plugin version!",
+                "current": "You are currently using <b>Shopware {shopwareVersion}</b> and <b>Amazon Pay version {pluginVersion}</b>",
+                "export": "The export has been made with <b>Shopware {shopwareVersion}</b> and <b>Amazon Pay version {pluginVersion}</b>",
+                "proceed": "Proceed"
+            }
+        },
+
+        "logDownload": {
+            "selectLabel": "Select logfiles to download:",
+            "buttonDownload": "Download"
+        },
+        "help": {
+            "helpText": "Instructions for configuring Amazon Pay can be found on the official help pages of Shopware 6.<br/>Please click <a href=\"https://docs.shopware.com/en/shopware-6-en/plugins/amazon-pay\" target=\"_blank\" rel=\"noopener\">here</a> to view the corresponding page in the Shopware 6 documentation."
+        }
+    }
+}

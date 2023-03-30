@@ -1,0 +1,90 @@
+{
+    "sw-flow-delay": {
+        "tabDelay": "Scheduled actions",
+        "labelDelayedAction": "Delayed actions",
+        "action": {
+            "contextButton": {
+                "editDelayAction": "Edit delay",
+                "deleteDelayAction": "Delete delay"
+            }
+        },
+        "modal": {
+            "titleDelayAction": "Delay duration",
+            "typeDelayAction": "Type",
+            "labelTime": "{type}",
+            "labelHour": "hour | hours",
+            "labelDay": "day | days",
+            "labelWeek": "week | weeks",
+            "labelMonth": "month | months",
+            "labelCustom": "Custom",
+            "placeholderTime": "Enter number of {type}",
+            "placeholderCustomTime": "Enter custom delay (MM:WW:DD:hh)...",
+            "helpTextCustomTime": "Custom delay durations have to be entered exactly in the following format (months):(weeks):(days):(hours). <br/> Example: 01:03:00:00 will delay your flow for one month and three weeks.",
+            "customTimeInvalid": "Does not match required format MM:WW:DD:hh."
+        },
+        "delay": {
+            "list": {
+                "emptyStateTitle": "No delayed actions",
+                "actionCancelDelayedAction": "Cancel",
+                "placeholderSearch": "Search order numbers, customers...",
+                "columnOrderNumber": "Order number",
+                "columnCustomer": "Customer",
+                "columnName": "Delayed action or condition",
+                "columnRemainingTime": "Remaining time",
+                "columnScheduleFor": "Scheduled for",
+                "fetchErrorMessage": "An error occurred while fetching data.",
+                "expiredAction": "Expired",
+                "notAvailable": "N/A",
+                "day": "day | days",
+                "hour": "hour | hours",
+                "minute": "minute | minutes",
+                "actionExecuteDelayedAction": "Execute now",
+                "executeActionErrorMessage": "An error occurred while executing the delayed action.",
+                "buttonExecute": "Execute",
+                "confirmExecuteActionText": "Are you sure you want to execute this action? This action cannot be reversed.",
+                "cancelWarningMessage": "Are you sure you want to delete this delayed action?",
+                "btnExecuteAll": "Execute all",
+                "executeAllWarningMessage": "Are you sure you want to execute all these delayed actions? This action cannot be reversed.",
+                "inactivateWarningMessage": "This flow contains delayed actions. Please settle all delayed actions beforehand if you want to inactivate this flow.",
+                "filterLabel": "Delayed action or condition",
+                "filter": "Filter",
+                "resetFilter": "Reset"
+            },
+            "itemDetail": {
+                "details": "Details",
+                "actions": "Actions",
+                "delay": "Delay",
+                "condition": "Condition",
+                "conditionIf": "If condition is",
+                "delayed": "Delayed"
+            }
+        },
+        "detail": {
+            "sequence": {
+                "selectorDelayAction": "Add delay (WAIT)",
+                "noDelayAction": "No delay set",
+                "delayActionTitle": "Delay (WAIT)",
+                "delayActionExplainsTitle": "Set a delay",
+                "delayActionExplainsDescription": "Use delays to add defined periods of inactivity in your flow. Depending on your preferences these periods can be just a few minutes long or last a couple of months.",
+                "labelThen": "Then",
+                "warningText": "There are actions scheduled for this flow. Any changes to this flow will not affect actions that are already scheduled.",
+                "continueButton": "Continue",
+                "labelDontRemind": "Don’t show this message again",
+                "labelChangingAction":  "Changing this action will have an immediate effect on scheduled delayed actions.",
+                "labelChangingCondition": "Changing this condition will have an immediate effect on scheduled delayed conditions.",
+                "labelChangingDelay": "Editing this delay will not affect scheduled delays.",
+                "labelDeletingDelay": "Deleting this delay will cancel all related scheduled delayed actions and conditions."
+            }
+        },
+        "list": {
+            "sequence": {
+                "warningText": "This flow contains delayed actions. If you want to delete this flow, please settle all delayed actions beforehand."
+            }
+        },
+        "actions": {
+            "group": {
+                "swagflowbuilder": "Swag Flow Builder"
+            }
+        }
+    }
+}

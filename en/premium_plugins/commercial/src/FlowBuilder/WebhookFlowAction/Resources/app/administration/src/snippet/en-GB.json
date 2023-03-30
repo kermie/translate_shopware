@@ -1,0 +1,76 @@
+{
+    "sw-flow-call-webhook": {
+        "tabLog": "Log",
+        "labelWebhookLog": "Webhook log",
+        "action": {
+            "titleCallWebhook": "Call URL (Webhook)",
+            "descriptionWebhook": "Method: {method} <div class='sw-flow-sequence-action__webhook-description'>URL: {baseUrl}</div>"
+        },
+        "modal": {
+            "titleCallUrl": "Call URL",
+            "tabGeneral": "General",
+            "tabHeader": "Header parameters",
+            "tabBody": "Body",
+            "tabBasicAuth": "Basic Auth",
+            "columnName": "Name",
+            "placeholderName": "Enter parameter ...",
+            "columnData": "Data",
+            "placeholderData": "Select data ...",
+            "placeholderCustomData": "Enter custom data ...",
+            "buttonAddAction": "Add action",
+            "buttonSaveAction": "Save action",
+            "contextButton": {
+                "useOwnParam": "Use own parameter",
+                "choosePredefinedParam": "Choose predefined parameters",
+                "deleteParameter": "Delete parameter"
+            },
+            "general": {
+                "labelMethod": "Method",
+                "labelBaseUrl": "URL",
+                "placeholderBaseUrl": "Enter URL ...",
+                "labelUrlPreview": "URL preview",
+                "labelDescription": "Description",
+                "placeholderDescription": "Enter description ...",
+                "titleParameters": "Parameters"
+            },
+            "body": {
+                "labelBodyType": "Body type",
+                "labelCode": "Code"
+            },
+            "basicAuth": {
+                "labelActive": "Active",
+                "labelUsername": "Username",
+                "labelPassword": "Password",
+                "placeholderUsername": "Enter username ...",
+                "placeholderPassword": "Enter password ..."
+            }
+        },
+        "log": {
+            "list": {
+                "columnDate": "Date",
+                "columnName": "Name",
+                "columnStatus": "Status",
+                "actionShowInfo": "View details",
+                "labelSuccess": "Success",
+                "labelFailed": "Failed",
+                "emptyStateTitle": "No webhook logs yet",
+                "labelFrom": "From",
+                "labelTo": "To",
+                "labelStatus": "Status",
+                "placeholderStatus": "Select a status ...",
+                "fetchErrorMessage": "An error occurred while fetching data."
+            },
+            "modal": {
+                "title": "Log information",
+                "tabRequest": "Request",
+                "tabResponse": "Response",
+                "actionClose": "Close",
+                "labelContent": "Contents",
+                "labelMethod": "Method",
+                "labelUrl": "URL",
+                "labelHttpStatus": "HTTP Status",
+                "labelDuration": "Duration"
+            }
+        }
+    }
+}

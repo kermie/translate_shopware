@@ -1,0 +1,79 @@
+{
+  "sw-privileges": {
+    "permissions": {
+      "warehouse-group": {
+        "label": "Warehouse Groups"
+      }
+    }
+  },
+  "sw-settings-warehouse-group": {
+    "general": {
+      "title": "Warehouse groups",
+      "subtitle": "Create groups to organise your warehouses and assign rules to manage warehouse responsibilities for your different business cases.",
+      "notificationGeneric": "An error occurred.",
+      "titleDelete": "Delete warehouse group"
+    },
+    "list": {
+      "whitespaceTitle": "No warehouse groups yet.",
+      "whitespaceSubTitle": "Create groups to organise your warehouses in your own individual way.",
+      "actionCreateShort": "Add warehouse group",
+      "actionCreate": "Add new warehouse group",
+      "actionDetail": "Edit",
+      "actionDelete": "Delete",
+      "textDeleteConfirm-1": "Deleting a warehouse group removes its assignment to products. These products may no longer be available.",
+      "textDeleteConfirm-2": "Are you sure you want to delete the warehouse group ",
+      "textDeleteConfirm-3": "?",
+      "buttonCancel": "Cancel",
+      "buttonDelete": "Delete",
+      "columnName": "Name",
+      "columnRule": "Rule",
+      "columnPriority": "Priority"
+    },
+    "detail": {
+      "title": "Warehouse group",
+      "titleCardMain": "Warehouse group information",
+      "titleCardDelete": "Delete warehouse group",
+      "buttonCancel": "Cancel",
+      "buttonSave": "Save",
+      "buttonDelete": "Delete warehouse group",
+      "buttonDeleteModal": "Delete",
+      "labelName": "Warehouse group name",
+      "placeholderName": "Enter a group name...",
+      "labelPriority": "Priority",
+      "placeholderPriority": "1...",
+      "helpTextPriority": "Warehouse groups with a higher priority are given preference if more than one rule applies.",
+      "labelDescription": "Internal description",
+      "placeholderDescription": "Enter an internal description...",
+      "labelRule": "Rule",
+      "placeholderRule": "Select a rule...",
+      "textDeleteWarehouseWarning": "Deleting this warehouse group will be permanent.",
+      "titleModalDelete": "Delete Warehouse group",
+      "textDeleteConfirm-1": "Deleting a warehouse group removes its assignment to products. These products may no longer be available.",
+      "textDeleteConfirm-2": "Are you sure you want to delete the warehouse group ",
+      "textDeleteConfirm-3": "?",
+      "ruleInfoTitle": "Manage availability",
+      "ruleInfoText": "Use rules to manage the availability of this Warehouse group individually. If no rule is selected, your warehouse group will be ignored."
+    },
+    "create": {
+      "title": "New warehouse group"
+    },
+    "warehouseAssignment": {
+      "columnWarehouseName": "Name",
+      "columnWarehousePriority": "Priority",
+      "titleCard": "Warehouse assignments",
+      "buttonAddWarehouses": "Add warehouses",
+      "actionDeleteWarehouse": "Delete",
+      "buttonCancel": "Cancel",
+      "buttonDelete": "Delete",
+      "titleWhitespace": "No assigned warehouses yet",
+      "textDeleteConfirm-1": "Removing an assigned warehouse will make the configured stocks unavailable to this group.",
+      "textDeleteConfirm-2": "Are you sure you want to remove the assigned warehouse ",
+      "textDeleteConfirm-3": "?",
+      "whitespaceButtonAdd": "Add warehouses",
+      "titleWarehouseSelect": "Add warehouses",
+      "whitespaceTitleWarehouseSelection": "No unassigned warehouses found.",
+      "buttonConfirmSelection": "Add {count} warehouses",
+      "helpTextWarehousePriority": "Warehouses with a higher priority are given preference if more than one warehouse is in a position to fulfill a certain product request."
+    }
+  }
+}

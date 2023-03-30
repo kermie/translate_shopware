@@ -1,0 +1,22 @@
+{
+  "sw-product-generated-description": {
+    "modalTitle": "Description assistant",
+    "textDisclaimer": "This AI-based service is designed not to produce incorrect, offensive or harmful content. Nevertheless errors might still occur and you should double-check all generated information with regard to legal compliance, validity and completeness. If in doubt AI generated descriptions should only be used as a source of inspiration for your own work.",
+    "keywords": {
+      "label": "Key information",
+      "placeholder": "Enter keywords, facts, measurements...",
+      "helpText": "Enter information that describes your product specifically. Include precise measurements, facts and required keywords to make them part of the generated description. Without key information, only the product name will factor into the AI generated outcome."
+    },
+    "buttonGenerate": "Generate",
+    "labelGeneratedText": "Generated description",
+    "buttonCopy": "Copy",
+    "labelCopyrightNotice": "Copyright notice",
+    "labelLearnMore": "Learn more",
+    "notifications": {
+      "messageSuccess": "Description generated successfully.",
+      "messageCopied": "Description text was copied to your clipboard.",
+      "messageCopyFailed": "Description text was not copied.",
+      "messageError": "The service is unavailable at the moment. Please try again later."
+    }
+  }
+}

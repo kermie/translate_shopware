@@ -1,0 +1,127 @@
+{
+    "swag-return-management": {
+        "tabReturns": "Returns",
+        "detail" : {
+            "buttonReturnItems": "Return items",
+            "buttonSetStatus": "Set status",
+            "contextMenuSetStatus": "Set status",
+            "messageErrorSetStatusModal": "Only product item or custom item are able to set status",
+            "messageErrorCreateReturnModal": "Only physical product and custom items that are not part of the return or status not of Cancelled, Returned, or Returned partially can be added to a return.",
+            "tooltipChangeItemStatusManually": "This item does not exist in the current order return or has already been removed from the order return, please update its status (Open or Shipped) manually"
+        },
+        "notification": {
+            "labelErrorStateChange": "An error occurred while updating the status: ",
+            "labelErrorUpdateRefund": "An error occurred while updating the refund amount",
+            "labelErrorNoAction": "Status unchanged.",
+            "requiredFields": "Please fill in all required fields.",
+            "messageErrorLineItemQuantity": "The quantity of the ordered item must be greater than or equal to its return quantity: {returnQuantity}"
+        },
+        "returnFilter": {
+            "label": "Return status",
+            "placeholder": "Select return status..."
+        },
+        "returnModal": {
+            "title": "Return items",
+            "subtitle": "Return #{returnNumber} ({state}) created on {time} by {user}",
+            "columnName": "Name",
+            "columnOrderQuantity": "Order quantity",
+            "columnReturnQuantity": "Return quantity",
+            "columnComment": "Comment",
+            "placeholderComment": "Enter comment...",
+            "buttonCreateReturn": "Create return",
+            "buttonAddItemToReturn": "Add to return",
+            "messagePreventAddItem": "This item is already part of the return or its status is Cancelled, Returned, or Returned partially.",
+            "messageErrorNoItemHasQuantity": "Should have at least 1 line item has a quantity more than 0 to create a return",
+            "titleEmptyState": "No acceptable items added"
+        },
+        "returnCard": {
+            "labelTitle": "Return #{returnNumber}",
+            "labelReturnCreated": "Return created on {time} by {user}",
+            "summaryLabelAmount": "Total",
+            "summaryLabelAmountWithoutTaxes": "Total refund excluding VAT",
+            "summaryLabelAmountTotal": "Total refund including VAT",
+            "summaryLabelTaxes": "plus {taxRate}% VAT",
+            "summaryLabelShippingCosts": "plus shipping costs",
+            "excludedTax": "Excluding VAT:",
+            "generalTab": {
+                "labelGeneralInformation": "General information",
+                "labelComment": "Comment",
+                "placeholderComment": "Enter a comment...",
+                "headlineOrderState": "Return status",
+                "numberOfProducts": "Number of products",
+                "items": "(No items) | ({total} item) | ({total} items)"
+            },
+            "positionsTab": {
+                "labelPositions": "Positions"
+            },
+            "statusTab": {
+                "labelStatusHistory": "Status history",
+                "columnDate": "Date",
+                "columnUser": "Changed by",
+                "columnStatus": "Status",
+                "labelSystemUser": "System"
+            }
+        },
+        "returnItemGrid": {
+            "placeholderSearchBarItem": "Search item...",
+            "columnQuantity": "Quantity",
+            "columnProductName": "Product name",
+            "columnStatus": "Status",
+            "columnRefund": "Refund",
+            "columnPriceNet": "Price (net)",
+            "columnPriceGross": "Price (gross)",
+            "columnPriceTaxFree": "Price (tax-free)",
+            "columnTax": "VAT",
+            "columnSubTotal": "Subtotal",
+            "contextMenuReturn": "Return item",
+            "contextMenuSetStatus": "Set status",
+            "contextMenuShowProduct": "Show product",
+            "contextMenuOpenReturnDetails": "Open item detail",
+            "contextMenuDelete": "Remove from return",
+            "buttonSetStatus": "Set status",
+            "textNoItemFound": "No items found",
+            "buttonUpdateRefund": "Update refund",
+            "tooltipSuggestedPrice": "The product refund price is influenced by promotions.<br>Suggested price: {price}",
+            "discountWarning": {
+                "textOrderHasDiscount": "This order has promotion or credit items:",
+                "textCheckRefundAmount": "Please check and update refund amount",
+                "textCreditDescription": "Credit note with {value}"
+            }
+        },
+        "setStatusModal": {
+            "title": "Set status - No items selected | Set status - {content} | Set status - {content} positions",
+            "positions": "{quantity} positions",
+            "labelStatus": "Status"
+        },
+        "openReturnDetails": {
+            "fieldComment": "Comment",
+            "fieldTotalAmount": "Total amount"
+        },
+        "changeStateModal": {
+            "title": "Change status",
+            "description": "Are you sure you want to change status of this return to {state}?",
+            "buttonUpdateStatus": "Update"
+        },
+        "deleteReturnModal": {
+            "confirmation": "Do you really want to delete this return (#{returnNumber})?",
+            "warning": "The status of the items will not be updated.<br>This need to be done manually."
+        },
+        "deleteLineItemModal": {
+            "description": "This item is already added to return. Do you really want to delete it from order and return? | These items are already added to return. Do you really want to delete them from order and return?"
+        },
+        "deleteReturnItemModal": {
+            "description": "Do you really want to remove this item from the return? | Do you really want to remove these items from the return?"
+        },
+        "documentConfig": {
+            "helpTextPartialCancellation": "A partial cancellation invoice can't be created without an invoice.",
+            "includeCancelled": "Include cancelled items"
+        }
+    },
+    "sw-privileges": {
+        "permissions": {
+            "order_return": {
+                "label": "Returns"
+            }
+        }
+    }
+}

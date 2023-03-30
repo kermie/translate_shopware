@@ -1,0 +1,58 @@
+{
+    "sw-flow-sharing": {
+        "uploadButton": "Upload flow",
+        "downloadButton": "Download",
+        "downloadModal": {
+            "title": "Download flow",
+            "description": "This flow file will include all sequences and the configurations used in its conditions and actions. When uploaded to a foreign system, missing data will be created.<br><br>References to categories, products and properties can be excluded from the flow file. When uploaded to a foreign system, these missing references will have to be reassigned.",
+            "dataIncluded": "Data included in this file",
+            "references": "References included in this file",
+            "isNotIncludedReferences": "No references included",
+            "downloadButton": "Download flow",
+            "ruleLabel": "Rule: {ruleName}",
+            "mailTemplateLabel": "Email template: {mail}"
+        },
+        "uploadModal": {
+            "title": "Upload flow",
+            "description": "This flow contains new rules and email templates. Select those rules and email templates that will be created in your system:",
+            "uploadLabel": "Please select a json file to upload a flow template",
+            "uploadFileLabel": "Upload file",
+            "rules": "{rules} rule | {rules} rules",
+            "tags": "{tags} tag | {tags} tags",
+            "emails": "{emails} email template | {emails} email templates",
+            "dataWillBeCreated": "will be created when uploading this flow.",
+            "references": "{references} reference| {references} references",
+            "referencesNeedToAssign": "needs to be reassigned when uploading this flow. | need to be reassigned when uploading this flow.",
+            "ruleLabel": "Rule: {ruleName}",
+            "mailTemplateLabel": "Email template: {mail}",
+            "warningAlert": {
+                "description": "Your system is currently not compatible with the uploaded flow.",
+                "shopwareVersionLabel": "Required Shopware version:",
+                "extensionsLabel": "Required extension:",
+                "ruleConflictLabel": "Conflicting rules",
+                "ruleConflictDescription": "The flow file “{flowFile}” contains rules that already exist in your system. These rules use conditions that are different from conditions used in your local rules. Which rules do you want to use?"
+            },
+            "affectedRules": "Affected rules",
+            "keepLocalRulesLabel": "Keep local rules",
+            "keepLocalRulesDescription": "Your local rules will remain as they are, but the uploaded flow will potentially not work as intended. Please double-check the affected rules within the flow.",
+            "overrideLocalRulesLabel": "Overwrite local rules",
+            "overrideLocalRulesDescription": "Your local rules will be overwritten with rules from the flow file “{flowFile}”. Make sure to double-check the assignments of all affected rules and their conditions for potential changes."
+        },
+        "importError": {
+            "invalidActionHeading": "Invalid Action",
+            "invalidActionText": "This action references data that could not be found in your system.",
+            "invalidRuleHeading": "Invalid Rule",
+            "invalidRuleText": "This rule references data that was not found in your system.",
+            "missingRuleText": "This rule could not be found in your system.",
+            "textAssignCustomerGroup": "Please reassign the customer group:",
+            "textCustomerGroup": "Customer group:",
+            "textMissingObject": "The following data could not be found in your system:",
+            "description": "There are unsaved changes. Are you sure you want to leave this page without saving?",
+            "confirmButton": "Leave page"
+        },
+        "notification": {
+            "messageDownloadSuccess": "Flow has been downloaded.",
+            "messageDownloadError": "The flow could not be downloaded."
+        }
+    }
+}

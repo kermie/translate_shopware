@@ -1,0 +1,23 @@
+{
+    "shop-configuration": {
+        "headline": {
+            "setup": "SETUP"
+        },
+        "main-view": {
+            "heading": "Your online store is almost ready!"
+        },
+        "form": {
+            "paragraph-information": "We just need a few more details.",
+            "label-language": "Default store language",
+            "label-currency": "Default store currency",
+            "paragraph-change-notification": "These are default settings and cannot be changed afterwards.",
+            "label-button-save": "Next",
+            "info-save-finished": "Saving defaults"
+        },
+        "finished": {
+            "heading": "Everything finished!",
+            "phrase": "Your store is ready! Go ahead and explore your new Shopware 6 store.",
+            "label-button-open": "Open your shop"
+        }
+    }
+}

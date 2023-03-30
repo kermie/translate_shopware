@@ -1,0 +1,40 @@
+{
+  "b2b": {
+    "global": {
+      "errors": {
+        "unexpectedErrorTitle": "Error!",
+        "unexpectedErrorMessage": "An error occurred."
+      }
+    },
+    "order": {
+      "detail": {
+        "orderReferenceLabel": "Order reference number",
+        "deliveryDateLabel": "Delivery date"
+      }
+    },
+    "customer": {
+      "detail": {
+        "easymode": {
+          "title": "Easy Mode",
+          "label": "Activate Easy Mode",
+          "isActive": "Easy Mode is active",
+          "isNotActive": "Easy Mode is not active",
+          "helpText": "The Easy Mode enabled a less complex management. This means that it is no longer necessary to maintain roles, budgets and contingents! To activate this mode, the user must not have created any roles."
+        }
+      }
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "b2b-user": {
+        "label": "B2B user"
+      },
+      "b2b-offer": {
+        "label": "Offers"
+      },
+      "sales-representative-clients": {
+        "label": "Sales representative clients"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "b2b-salesrep": {
+        "general": {
+            "title": "B2B-Außendienstmitarbeiter",
+            "description": "Kunden-Zuweisung des Außendienstmitarbeiters"
+        },
+        "customer": {
+            "settings": {
+                "tab": "B2B Konfiguration",
+                "title": "B2B Rollen zuweisen",
+                "titleDebtor": "Debitor",
+                "labelDebtor": "Als Debitor kennzeichnen",
+                "isDebtor": "Kunde ist ein Debitor",
+                "noDebtor": "Kunde ist kein Debitor",
+                "titleSalesRepresentative": "Außendienstmitarbeiter",
+                "labelSalesRepresentative": "Als Außendienstmitarbeiter kennzeichnen",
+                "isSalesRepresentative": "Ist Außendienstmitarbeiter",
+                "noSalesRepresentative": "Ist kein Außendienstmitarbeiter",
+                "titleSaveError": "Fehler beim Speichern",
+                "messageSaveError": "Es ist ein Fehler beim Speichern der neuen Einstellungen aufgetreten.",
+                "tabSalesRepresentativeClientSelection": "Klienten",
+                "salesRepresentativeClients": {
+                    "owner": "Eigentümer"
+                },
+                "salesRepresentativeClientSelection": {
+                    "owner": "Eigentümer",
+                    "assigned": "Zugewiesen",
+                    "email": "E-Mail",
+                    "firstName": "Vorname",
+                    "lastName": "Nachname",
+                    "type": "Typ",
+                    "searchbarPlaceholder": "Kunden durchsuchen ...",
+                    "customerNumber": "Kundennummer",
+                    "company": "Firma"
+                }
+            }
+        }
+    }
+}

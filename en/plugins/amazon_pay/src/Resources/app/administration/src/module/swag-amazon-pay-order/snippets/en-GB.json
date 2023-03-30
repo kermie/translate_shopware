@@ -1,0 +1,79 @@
+{
+    "swag-amazon-pay-order": {
+        "general": {
+            "title": "Amazon Pay",
+            "description": "Manage the Amazon Pay payment",
+            "generalCardTitle": "General",
+            "errors": {
+               "incompletePaymentProcess": "The requested payment details could not be found. This issue may be caused by an incomplete order or payment process."
+            }
+        },
+        "checkout-info": {
+            "billingAddressHeadline": "Billing address",
+            "shippingAddressHeadline": "Shipping address",
+            "referenceIdHealine": "Amazon Reference ID",
+            "statusHeadline": "Status"
+        },
+        "action-toolbar": {
+            "refund": "Refund",
+            "charge": "Charge",
+            "cancel": "Cancel"
+        },
+        "amount-info": {
+            "chargeTooltip": "{amount} has already been captured from the total amount.",
+            "refundTooltip": "{amount} were refunded from the total amount.",
+            "refundPending": "Refund is being processed..."
+        },
+        "charge-modal": {
+            "title": "Capture amount",
+            "infoText": "If the amount has not been paid yet, you can charge it whole or in part.",
+            "maximumAmount": "Enter the amount you like to charge. The total amount is {amount}.",
+            "amountFieldLabel": "Amount",
+            "buttonConfirm": "Confirm",
+            "notification": {
+                "success": "Successfully charged this payment by {amount}",
+                "error": "An unknown error occured!"
+            }
+        },
+        "refund-modal": {
+            "title": "Refund an amount",
+            "infoText": "In case something went wrong with the order, you can refund the amount to your customer. The order can be fully or partially refunded. At your discretion, you can also choose to overcompensate the buyer and refund more than the original Charge amount by either 15% or 75 USD/GBP/EUR or 8,400 YEN (whichever is less).",
+            "maximumAmount": "Enter the amount you want to refund. The maximum refund amount is {refundAmountLimit}.",
+            "amountFieldLabel": "Amount",
+            "reasonFieldLabel": "Reason for this refund",
+            "reasonPlaceholder": "No reason specified",
+            "buttonConfirm": "Confirm",
+            "notification": {
+                "success": "Successfully refunded this payment by {amount}",
+                "required": "Required",
+                "missingReason": "You must enter a reason for refunding an amount!"
+            }
+        },
+        "cancel-modal": {
+            "title": "Cancel charge",
+            "infoText": "In case something went wrong with the order, you can cancel the complete charge The order remains valid.",
+            "infoTextReason": "Enter a short reason for the cancellation to inform your customer.",
+            "reasonFieldLabel": "Reason for cancellation",
+            "reasonPlaceholder": "Enter a reason",
+            "buttonConfirm": "Confirm",
+            "notification": {
+                "success": "Successfully canceled charge for this payment."
+            }
+        },
+        "payment-history": {
+            "cardTitle": "Payment history",
+            "columns": {
+                "objectId": "Object id",
+                "subject": "Subject",
+                "processed": "Processed",
+                "date": "Date"
+            }
+        },
+        "notification": {
+            "invalidTransaction": "The payment process with Amazon Pay was unexpectedly cancelled. No receipt of payment was reported. Please check possible other incoming payments from other payment providers before sending this order.",
+            "invalidChargePermission": "An error occurred while obtaining transaction details from Amazon.",
+            "partialCharge": "Partial captures aren't fully supported yet by the plugin. If you would like to capture additional payments for this order, please use Seller Central. Make sure to set the payment status manually to the desired value (e.g. \"Paid\") after that.",
+            "isPartialCharged": "Warning: this order was captured partially."
+        }
+    }
+}

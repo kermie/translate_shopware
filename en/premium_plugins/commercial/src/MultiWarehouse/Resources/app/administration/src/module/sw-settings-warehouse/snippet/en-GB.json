@@ -1,0 +1,59 @@
+{
+  "sw-privileges": {
+    "permissions": {
+      "warehouse": {
+        "label": "Warehouses"
+      }
+    }
+  },
+  "sw-settings-warehouse": {
+    "general": {
+      "title": "Warehouses",
+      "subtitle": "Create warehouses to manage your available stocks.",
+      "notificationGeneric": "An error occurred."
+    },
+    "list": {
+      "columnName": "Name",
+      "columnWarehouseGroups": "Warehouse groups",
+      "actionDetail": "Edit",
+      "actionDelete": "Delete",
+      "actionCreate": "Add new warehouse",
+      "actionCreateShort": "Add warehouse",
+      "textDeleteConfirm-1": "Deleting a warehouse removes all associated stocks.",
+      "textDeleteConfirm-2": "Are you sure you want to delete the warehouse ",
+      "textDeleteConfirm-3": "?",
+      "buttonCancel": "Cancel",
+      "buttonDelete": "Delete",
+      "whitespaceTitle": "No warehouses yet.",
+      "whitespaceSubTitle": "Create warehouses to manage your available stocks.",
+      "warehouseMessages": {
+        "noRuleAssignedMessageTitle": "Warehouse groups are not functional",
+        "noRuleAssignedMessage": "The configuration of some Warehouse groups is ignored because no rule is assigned. Without a rule, your Warehouse group has no responsibility and is not functional.<br>Assign a rule or create a new rule via the Rule Builder to give your groups responsibility.<br>Affected Warehouse groups: {warehouseGroups}"
+      }
+    },
+    "detail": {
+      "title": "Warehouse",
+      "titleCardMain": "Warehouse information",
+      "titleCardDelete": "Delete warehouse",
+      "textDeleteWarehouseWarning": "Deleting this warehouse will be permanent.",
+      "buttonSave": "Save",
+      "buttonDelete": "Delete warehouse",
+      "buttonCancel": "Cancel",
+      "buttonDeleteModal": "Delete",
+      "titleModalDelete": "Delete warehouse",
+      "textDeleteConfirm-1": "Deleting a warehouse removes all associated stocks.",
+      "textDeleteConfirm-2": "Are you sure you want to delete the warehouse ",
+      "textDeleteConfirm-3": "?",
+      "labelName": "Warehouse name",
+      "placeholderName": "Enter a warehouse name...",
+      "labelDescription": "Internal description",
+      "placeholderDescription": "Enter an internal description...",
+      "labelGroups": "Warehouse groups",
+      "placeholderGroups": "Select warehouse groups...",
+      "helpTextGroups": "Use groups to organise your warehouses and assign rules to manage warehouse responsibilities for your different business cases."
+    },
+    "create": {
+      "title": "New warehouse"
+    }
+  }
+}

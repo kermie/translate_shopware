@@ -1,0 +1,39 @@
+{
+    "b2b-salesrep": {
+        "general": {
+            "title": "B2B Sales Representative",
+            "description": "Sales representative client assignment"
+        },
+        "customer": {
+            "settings": {
+                "tab": "B2B Configuration",
+                "title": "Assign B2B roles",
+                "titleDebtor": "Debtor",
+                "labelDebtor": "Mark as debtor",
+                "isDebtor": "Customer is a debtor",
+                "noDebtor": "Customer is not a debtor",
+                "titleSalesRepresentative": "Sales representative",
+                "labelSalesRepresentative": "Mark as sales representative",
+                "isSalesRepresentative": "Customer is a sales representative",
+                "noSalesRepresentative": "Customer is not a sales representative",
+                "titleSaveError": "Error while saving",
+                "messageSaveError": "An error occurred while saving the new settings.",
+                "tabSalesRepresentativeClientSelection": "Clients",
+                "salesRepresentativeClients": {
+                    "owner": "Owner"
+                },
+                "salesRepresentativeClientSelection": {
+                    "owner": "Owner",
+                    "assigned": "Assigned",
+                    "email": "Email",
+                    "firstName": "First name",
+                    "lastName": "Last name",
+                    "type": "Type",
+                    "searchbarPlaceholder": "Search customers...",
+                    "customerNumber": "Customer number",
+                    "company":  "Company"
+                }
+            }
+        }
+    }
+}

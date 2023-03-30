@@ -1,0 +1,24 @@
+{
+  "sw-product": {
+    "card": {
+      "textHeadline": "Stock & Deliverability",
+      "textLinkModal": "See stock by warehouses and warehouse groups",
+      "textTooltipMultiSelect": "Assign warehouse groups to manage your stock individually across multiple warehouses.",
+      "textProductWarehouseModalDisabled": "Save your changes before you can open further stock details."
+    },
+    "modal-warehouse-group": {
+      "textHeadline": "Stock by warehouse and warehouse groups",
+      "textInlineEdit": "Edit stock",
+      "buttonSave": "Save",
+      "buttonCancel": "Close",
+      "columnName": "Name",
+      "columnStock": "Stock",
+      "columnPriority": "Priority",
+      "labelTotalStock": "Total stock: ",
+      "navigationLabelStock": "Stock {totalStock}"
+    },
+    "variants-overview": {
+      "inlineText": "See details"
+    }
+  }
+}
