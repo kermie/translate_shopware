@@ -1,0 +1,76 @@
+{
+  "sw-property": {
+    "general": {
+      "placeholderSearchBar": "",
+      "mainMenuItemGeneral": "",
+      "descriptionTextModule": ""
+    },
+    "list": {
+      "textProperties": "",
+      "buttonAddProperty": "",
+      "columnName": "",
+      "columnOptions": "",
+      "columnFilterable": "",
+      "contextMenuView": "",
+      "contextMenuDelete": "",
+      "titleSidebarItemRefresh": "",
+      "messageEmpty": "",
+      "columnDescription": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "textDeleteConfirm": ""
+    },
+    "detail": {
+      "mediaDisplayType": "",
+      "textDisplayType": "",
+      "selectDisplayType": "",
+      "colorDisplayType": "",
+      "numericSortingType": "",
+      "alphanumericSortingType": "",
+      "positionSortingType": "",
+      "cardTitleGroupInfo": "",
+      "labelName": "",
+      "placeholderName": "",
+      "labelFilterable": "",
+      "labelvisibleOnProductDetailPage": "",
+      "labelDisplayType": "",
+      "labelSortingType": "",
+      "labelOptionName": "",
+      "labelOptionColor": "",
+      "labelOptionMedia": "",
+      "labelPosition": "",
+      "placeholderPosition": "",
+      "placeholderOptionName": "",
+      "labelOptionPosition": "",
+      "placeholderOptionPosition": "",
+      "addMediaCaption": "",
+      "buttonApply": "",
+      "contextMenuOptionView": "",
+      "contextMenuOptionDelete": "",
+      "textHeadline": "",
+      "buttonCancel": "",
+      "buttonSave": "",
+      "labelDescription": "",
+      "placeholderDescription": "",
+      "placeholderOptionSearch": "",
+      "cardTitle": "",
+      "addOption": "",
+      "addOptionNotPossible": "",
+      "contextMenuOptionResetDelete": "",
+      "textOptionHeadline": "",
+      "messageSaveSuccess": "",
+      "messageSaveError": "",
+      "messageOptionsEmpty": "",
+      "messageOptionsEmptySubline": "",
+      "optionEmptyStateSubline": "",
+      "labelMediaUpload": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "property": {
+        "label": ""
+      }
+    }
+  }
+}
