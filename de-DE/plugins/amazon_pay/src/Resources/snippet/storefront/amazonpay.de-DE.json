@@ -1,14 +1,14 @@
 {
     "SwagAmazonPay": {
         "errors": {
-            "generic": "",
-            "insecure": "",
-            "invalidShippingMethod": "",
-            "finalize": "",
-            "loginWithAmazon": "",
-            "signupTokenInvalid": "",
-            "signupEmailNotUnique": "",
-            "accountAlreadyLinked": ""
+            "generic": "Amazon Pay steht zurzeit nicht zur Verfügung. Bitte wenden Sie sich an den Shopbetreiber für weitere Informationen.",
+            "insecure": "Amazon Pay ist nicht für HTTP verfügbar. Bitte wenden Sie sich an den Shopbetreiber für weitere Informationen.",
+            "invalidShippingMethod": "Amazon Pay steht nicht zur Verfügung. Bitte prüfen Sie die Versandart und versuchen Sie es erneut.",
+            "finalize": "Bei der Durchführung der Zahlung ist ein Problem aufgetreten. Bitte wenden Sie sich an den Shopbetreiber oder versuchen Sie es erneut.",
+            "loginWithAmazon": "Bei dem Login mit Amazon ist ein Fehler aufgetreten. Bitte erstellen Sie ein neues Kundenkonto für diesen Shop oder versuchen Sie es zu einem späteren Zeitpunkt erneut.",
+            "signupTokenInvalid": "Ihre Registrierung per Amazon Pay konnte nicht validiert werden.",
+            "signupEmailNotUnique": "Ein Kunde mit der E-Mail-Adresse ist bereits registriert. Haben Sie ihr Passwort vergessen?",
+            "accountAlreadyLinked": "Ein Kundenkonto ist bereits mit Ihrem Amazon-Konto verknüpft."
         },
         "cookie": {
             "value": {
@@ -17,32 +17,32 @@
         },
         "confirm": {
             "payment": {
-                "changeAmazonPaymentMethod": ""
+                "changeAmazonPaymentMethod": "Amazon Zahlungsart ändern"
             }
         },
         "register": {
-            "headline": "",
-            "text": ""
+            "headline": "Sie sind Amazon-Kunde?",
+            "text": "Überspringen Sie die manuelle Eingabe Ihrer Kunden- und Adressdaten, indem Sie sich einfach mit Ihrem Amazon-Konto anmelden."
         },
         "account": {
             "profile": {
                 "unlink": {
-                    "headline": "",
-                    "subText": "",
-                    "button": "",
+                    "headline": "Amazon-Konto-Verknüpfung entfernen",
+                    "subText": "Wenn Sie die Verbindung zu Ihrem Amazon-Konto aufheben möchten klicken Sie auf die Schaltfläche \"Verbindung zu Amazon-Konto aufheben\".",
+                    "button": "Verbindung zu Amazon-Konto aufheben",
                     "modal": {
-                        "text": ""
+                        "text": "Wenn Sie die Verknüpfung zu ihrem Amazon-Konto aufheben, werden Sie aufgefordert ein neues Kennwort zu vergeben. Sie können ihr Konto dann nur noch mit Ihrer E-Mail-Adresse und dem neuen Passwort verwenden."
                     }
                 },
                 "link": {
-                    "headline": "",
-                    "subText": "",
-                    "success": ""
+                    "headline": "Amazon-Konto verknüpfen",
+                    "subText": "Wenn Sie Ihr Amazon-Konto nutzen möchten, um sich in %shopname% anzumelden, klicken Sie hier:",
+                    "success": "Ihr Kundenkonto ist jetzt mit Amazon verknüpft."
                 }
             }
         },
         "purePaymentRedirect": {
-            "text": ""
+            "text": "Sie werden automatisch zu Amazon Pay weitergeleitet. Bitte verlassen Sie diese Seite nicht."
         }
     }
 }
