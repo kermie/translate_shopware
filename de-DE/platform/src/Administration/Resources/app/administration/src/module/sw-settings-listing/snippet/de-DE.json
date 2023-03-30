@@ -1,36 +1,36 @@
 {
   "sw-settings-listing": {
     "general": {
-      "mainMenuItemGeneral": "",
-      "textHeadline": "",
-      "description": "",
-      "buttonSave": "",
-      "messageSaveSuccess": "",
-      "messageSaveError": "",
-      "labelDefaultSorting": "",
-      "placeholderDefaultSorting": "",
+      "mainMenuItemGeneral": "Produkte",
+      "textHeadline": "Produkte",
+      "description": "Verwalte hier die Anzeige von Produkte.",
+      "buttonSave": "Speichern",
+      "messageSaveSuccess": "Konfiguration gespeichert.",
+      "messageSaveError": "Die Konfiguration konnte nicht gelöscht werden.",
+      "labelDefaultSorting": "Standard-Sortierung",
+      "placeholderDefaultSorting": "Wähle eine Standard-Sortierung ...",
       "productSortingCriteriaGrid": {
         "header": {
           "name": "",
-          "order": "",
-          "priority": ""
+          "order": "Bestellung",
+          "priority": "Priorität"
         },
         "options": {
-          "criteriaAlreadyUsed": "",
-          "customFieldCriteriaNotNull": "",
+          "criteriaAlreadyUsed": "Das Sortier-Kriterium \"{criteriaName}\" wird schon verwendet.",
+          "customFieldCriteriaNotNull": "Bitte wähle ein gültiges Zusatzfeld aus.",
           "label": {
             "product": {
-              "name": "",
-              "ratingAverage": "",
-              "productNumber": "",
-              "releaseDate": "",
-              "stock": "",
-              "listingPrices": "",
-              "cheapestPrice": "",
-              "price": "",
-              "sales": ""
+              "name": "Produktname",
+              "ratingAverage": "Produkt-Bewertung",
+              "productNumber": "Produktnummer",
+              "releaseDate": "Erscheinungsdatum",
+              "stock": "Lagerbestand",
+              "listingPrices": "Produktlisten-Preis",
+              "cheapestPrice": "Günstigster Produkt-Preis",
+              "price": "Standard Preis",
+              "sales": "Verkaufte Einheiten"
             },
-            "customField": "",
+            "customField": "Zusatzfeld",
             "_score": ""
           }
         }
@@ -38,53 +38,53 @@
     },
     "index": {
       "defaultSalesChannel": {
-        "title": "",
-        "description": "",
-        "linkAdvancedVisibility": ""
+        "title": "Standard-Verkaufskanal",
+        "description": "Wähle Standard-Verkaufskanäle, denen neuerstellte Produkte automatisch zugewiesen werden.",
+        "linkAdvancedVisibility": "Sichtbarkeit für ausgewählte Verkaufskanäle einstellen"
       },
       "productSorting": {
-        "title": "",
-        "addButton": "",
-        "messageDeleteError": "",
+        "title": "Sortier-Optionen",
+        "addButton": "Option hinzufügen",
+        "messageDeleteError": "Beim Löschen der Sortier-Option ist ein Fehler aufgetreten.",
         "emptyState": {
-          "title": "",
-          "subline": ""
+          "title": "Keine Optionen gefunden",
+          "subline": "Optionen hinzufügen"
         },
         "grid": {
           "header": {
             "name": "",
-            "criteria": "",
-            "priority": ""
+            "criteria": "Kriterien",
+            "priority": "Priorität"
           }
         }
       },
       "deleteModal": {
-        "title": "",
-        "description": ""
+        "title": "Sortier-Option löschen",
+        "description": "Willst du die Sortier-Option \"{sortingOptionName}\" wirklich löschen?"
       }
     },
     "create": {
-      "smartBarTitle": ""
+      "smartBarTitle": "Produkt-Sortierung erstellen"
     },
     "base": {
-      "smartBarTitle": "",
+      "smartBarTitle": "Produkt-Sortierung bearbeiten",
       "general": {
-        "title": "",
+        "title": "Allgemein",
         "labelName": "",
-        "labelActive": ""
+        "labelActive": "Aktiv"
       },
       "notification": {
-        "saveSuccess": "",
-        "saveError": ""
+        "saveSuccess": "Sortier-Option \"{sortingOptionName}\" gespeichert.",
+        "saveError": "Die Sortier-Option \"{sortingOptionName}\" kann nicht gespeichert werden."
       },
       "criteria": {
-        "title": "",
-        "selectPlaceholder": "",
-        "emptyStateSubline": ""
+        "title": "Sortier-Kriterien",
+        "selectPlaceholder": "Kriterien suchen und hinzufügen ...",
+        "emptyStateSubline": "Diese Sortier-Option hat noch keine Kriterien."
       },
       "delete": {
-        "modalTitle": "",
-        "modalDescription": ""
+        "modalTitle": "Kriterium löschen",
+        "modalDescription": "Willst Du dieses Kriterium wirklich löschen?"
       }
     }
   }
