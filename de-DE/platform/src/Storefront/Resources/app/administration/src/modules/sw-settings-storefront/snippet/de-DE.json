@@ -1,0 +1,17 @@
+{
+  "sw-settings-storefront": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "textHeadline": "",
+      "description": "",
+      "helpText": ""
+    },
+    "configuration": {
+      "cardTitle": "",
+      "iconCache": "",
+      "iconCacheToolTip": ""
+    },
+    "helpText": ""
+  }
+}
+

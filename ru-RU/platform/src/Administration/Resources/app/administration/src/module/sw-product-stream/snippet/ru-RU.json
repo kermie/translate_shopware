@@ -1,0 +1,152 @@
+{
+  "sw-product-stream": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": "",
+      "descriptionTextModule": "",
+      "errorCategory": ""
+    },
+    "acl": {
+      "conditionsAlertHeading": "",
+      "conditionsAlertDescription": ""
+    },
+    "list": {
+      "textProductStreamOverview": "",
+      "columnName": "",
+      "columnDescription": "",
+      "columnDateUpdated": "",
+      "columnStatus": "",
+      "titleSidebarItemRefresh": "",
+      "buttonAddProductStream": "",
+      "status": {
+        "valid": "",
+        "invalid": ""
+      },
+      "messageEmpty": ""
+    },
+    "filter": {
+      "placeholderFieldSelect": "",
+      "placeholderOperatorSelect": "",
+      "valid": "",
+      "type": {
+        "equals": "",
+        "equalsAny": "",
+        "equalsAll": "",
+        "contains": "",
+        "greaterThan": "",
+        "lessThan": "",
+        "greaterThanEquals": "",
+        "lessThanEquals": "",
+        "notEquals": "",
+        "notEqualsAny": "",
+        "notEqualsAll": "",
+        "notContains": "",
+        "range": "",
+        "since": "",
+        "until": ""
+      },
+      "timeUnits": {
+        "days": ""
+      },
+      "values": {
+        "active": "",
+        "availableStock": "",
+        "ratingAverage": "",
+        "additionalText": "",
+        "allowNotification": "",
+        "customFields": "",
+        "category": "",
+        "categories": "",
+        "categoriesRo": "",
+        "cheapestPrice": "",
+        "choose": "",
+        "coverId": "",
+        "createdAt": "",
+        "description": "",
+        "descriptionLong": "",
+        "ean": "",
+        "gross": "",
+        "group": "",
+        "height": "",
+        "isBlog": "",
+        "isCloseout": "",
+        "keywords": "",
+        "length": "",
+        "linked": "",
+        "manufacturerId": "",
+        "manufacturer": "",
+        "manufacturerNumber": "",
+        "markAsTopseller": "",
+        "maxDeliveryTime": "",
+        "maxPurchase": "",
+        "minDeliveryTime": "",
+        "minPurchase": "",
+        "minStock": "",
+        "name": "",
+        "net": "",
+        "option": "",
+        "packUnit": "",
+        "packUnitPlural": "",
+        "price": "",
+        "product": "",
+        "productNumber": "",
+        "purchasePrices": "",
+        "purchaseUnit": "",
+        "referenceUnit": "",
+        "releaseDate": "",
+        "restockTime": "",
+        "sales": "",
+        "salesChannel": "",
+        "shippingFree": "",
+        "stock": "",
+        "tags": "",
+        "tax": "",
+        "taxRate": "",
+        "type": "",
+        "unit": "",
+        "variations": "",
+        "visibilities": "",
+        "visibility": "",
+        "visible": "",
+        "weight": "",
+        "width": "",
+        "deliveryTime": "",
+        "configuratorSettings": "",
+        "options": "",
+        "properties": "",
+        "property_group": "",
+        "property_group_option": "",
+        "product_manufacturer": "",
+        "product_visibility": "",
+        "percentage": ""
+      }
+    },
+    "detail": {
+      "titleCard": "",
+      "buttonCancel": "",
+      "buttonSave": "",
+      "labelName": "",
+      "placeholderName": "",
+      "labelDescription": "",
+      "placeholderDescription": "",
+      "textHeadline": "",
+      "titleFilter": "",
+      "titleResult": "",
+      "messageSaveSuccess": "",
+      "messageSaveError": "",
+      "buttonOpenPreview": ""
+    },
+    "previewModal": {
+      "title": "",
+      "empty": "",
+      "close": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "product_stream": {
+        "label": ""
+      }
+    }
+  }
+}

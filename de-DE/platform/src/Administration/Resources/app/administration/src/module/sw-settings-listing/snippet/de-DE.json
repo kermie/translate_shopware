@@ -1,0 +1,91 @@
+{
+  "sw-settings-listing": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "textHeadline": "",
+      "description": "",
+      "buttonSave": "",
+      "messageSaveSuccess": "",
+      "messageSaveError": "",
+      "labelDefaultSorting": "",
+      "placeholderDefaultSorting": "",
+      "productSortingCriteriaGrid": {
+        "header": {
+          "name": "",
+          "order": "",
+          "priority": ""
+        },
+        "options": {
+          "criteriaAlreadyUsed": "",
+          "customFieldCriteriaNotNull": "",
+          "label": {
+            "product": {
+              "name": "",
+              "ratingAverage": "",
+              "productNumber": "",
+              "releaseDate": "",
+              "stock": "",
+              "listingPrices": "",
+              "cheapestPrice": "",
+              "price": "",
+              "sales": ""
+            },
+            "customField": "",
+            "_score": ""
+          }
+        }
+      }
+    },
+    "index": {
+      "defaultSalesChannel": {
+        "title": "",
+        "description": "",
+        "linkAdvancedVisibility": ""
+      },
+      "productSorting": {
+        "title": "",
+        "addButton": "",
+        "messageDeleteError": "",
+        "emptyState": {
+          "title": "",
+          "subline": ""
+        },
+        "grid": {
+          "header": {
+            "name": "",
+            "criteria": "",
+            "priority": ""
+          }
+        }
+      },
+      "deleteModal": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "create": {
+      "smartBarTitle": ""
+    },
+    "base": {
+      "smartBarTitle": "",
+      "general": {
+        "title": "",
+        "labelName": "",
+        "labelActive": ""
+      },
+      "notification": {
+        "saveSuccess": "",
+        "saveError": ""
+      },
+      "criteria": {
+        "title": "",
+        "selectPlaceholder": "",
+        "emptyStateSubline": ""
+      },
+      "delete": {
+        "modalTitle": "",
+        "modalDescription": ""
+      }
+    }
+  }
+}

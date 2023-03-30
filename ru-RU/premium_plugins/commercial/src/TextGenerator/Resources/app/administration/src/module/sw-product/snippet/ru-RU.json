@@ -1,0 +1,22 @@
+{
+  "sw-product-generated-description": {
+    "modalTitle": "",
+    "textDisclaimer": "",
+    "keywords": {
+      "label": "",
+      "placeholder": "",
+      "helpText": ""
+    },
+    "buttonGenerate": "",
+    "labelGeneratedText": "",
+    "buttonCopy": "",
+    "labelCopyrightNotice": "",
+    "labelLearnMore": "",
+    "notifications": {
+      "messageSuccess": "",
+      "messageCopied": "",
+      "messageCopyFailed": "",
+      "messageError": ""
+    }
+  }
+}

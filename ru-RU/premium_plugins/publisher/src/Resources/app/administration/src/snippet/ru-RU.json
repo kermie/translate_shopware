@@ -1,0 +1,142 @@
+{
+  "publisher": {
+    "listing": {
+      "draft": "",
+      "drafts": "",
+      "draftPageType": "",
+      "modal": {
+        "title": "",
+        "close": "",
+        "whitespace": "",
+        "placeholderSearch": ""
+      },
+      "errors": {
+        "incompatibleWithCmsMessage": ""
+      },
+      "gridName": "",
+      "gridAuthor": "",
+      "gridCreatedAt": ""
+    },
+    "detail": {
+      "preview": "",
+      "previewTooltip": "",
+      "sidebar": {
+        "activity": {
+          "title": "",
+          "whitespace": ""
+        }
+      },
+      "action": {
+        "save": "",
+        "saveDraft": "",
+        "saveAssign": ""
+      },
+      "modal": {
+        "titleUnsaved": "",
+        "discard": "",
+        "saveAsDraft": "",
+        "save": "",
+        "unsavedLineInformation": "",
+        "unsavedLineConfirmation": "",
+        "titleSaveDraft": "",
+        "saveDraftInformation": "",
+        "saveDraftLabelName": "",
+        "saveDraftConfirmation": "",
+        "cancel": "",
+        "titlePublish": "",
+        "publishAffectedCategories": "",
+        "publishInformation": "",
+        "publishConfirmation": "",
+        "saveAndPublish": "",
+        "titleParentChanges": "",
+        "infoParentChanges": "",
+        "descriptionParentChanges": "",
+        "buttonUpdateFromParent": "",
+        "buttonCreateNewLayout": "",
+        "buttonSaveAsNewDraft": ""
+      }
+    },
+    "activity": {
+      "dates": {
+        "editedNow": "",
+        "editedMinutesAgo": "",
+        "editedHoursAgo": "",
+        "editedDaysAgo": ""
+      },
+      "feed": {
+        "title": "",
+        "whitespace": "",
+        "showDetails": "",
+        "hideDetails": "",
+        "badges": {
+          "cms_page": {
+            "discarded": "",
+            "merged": "",
+            "published": "",
+            "layoutEdited": "",
+            "draftCreated": "",
+            "layoutCreated": "",
+            "updated": ""
+          }
+        },
+        "badgeMessages": {
+          "cms_page": {
+            "discarded": "",
+            "merged": ""
+          }
+        },
+        "detail": {
+          "cms_page": {
+            "update": "",
+            "insert": ""
+          },
+          "cms_block": {
+            "update": "",
+            "insert": "",
+            "delete": ""
+          },
+          "cms_slot": {
+            "update": "",
+            "insert": "",
+            "delete": ""
+          },
+          "cms_section": {
+            "update": "",
+            "insert": "",
+            "delete": ""
+          }
+        }
+      }
+    },
+    "error": {
+      "title": "",
+      "action": {
+        "draft": "",
+        "saveAndPublish": "",
+        "getDrafts": "",
+        "duplicateDraft": "",
+        "merge": "",
+        "createNewLayout": "",
+        "getSalesChannelUrl": "",
+        "saveCmsPage": "",
+        "updateFromParent": ""
+      }
+    }
+  },
+  "sw-cms": {
+    "detail": {
+      "label": {
+        "pageType": {
+          "draft": ""
+        }
+      }
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "publisher": {
+        "label": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "sw-settings-currency": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": ""
+    },
+    "list": {
+      "textHeadline": "",
+      "textDeleteConfirm": "",
+      "columnName": "",
+      "columnIsoCode": "",
+      "columnShortName": "",
+      "columnSymbol": "",
+      "columnFactor": "",
+      "columnDecimalPrecision": "",
+      "buttonAddCurrency": "",
+      "contextMenuEdit": "",
+      "contextMenuDelete": "",
+      "messageDeleteSuccess": "",
+      "buttonCancel": "",
+      "buttonDelete": ""
+    },
+    "detail": {
+      "textHeadline": "",
+      "labelPrecision": "",
+      "placeholderPrecision": "",
+      "titleCard": "",
+      "messageSaveSuccess": "",
+      "labelName": "",
+      "labelIsoCode": "",
+      "labelShortName": "",
+      "labelSymbol": "",
+      "labelFactor": "",
+      "placeholderName": "",
+      "placeholderIsoCode": "",
+      "placeholderShortName": "",
+      "placeholderSymbol": "",
+      "placeholderFactor": "",
+      "buttonCancel": "",
+      "buttonSave": "",
+      "notificationErrorMessage": "",
+      "titleRoundingCard": "",
+      "titleCountryRoundingCard": "",
+      "searchbarPlaceholder": "",
+      "notificationCountryErrorMessage": "",
+      "notificationCountrySuccessMessage": "",
+      "currencyCountry": {
+        "countryColumn": "",
+        "itemDecimalsColumn": "",
+        "itemIntervalColumn": "",
+        "itemNetRoundingColumn": "",
+        "totalDecimalsColumn": "",
+        "totalIntervalColumn": "",
+        "totalNetRoundingColumn": ""
+      },
+      "emptyCountryRoundings": "",
+      "emptyCountryRoundingsNewCurrency": "",
+      "buttonAddCountry": "",
+      "taxFreeFrom": "",
+      "taxFreeFromHelpText": ""
+    },
+    "currency-country-modal": {
+      "labelCountrySelect": "",
+      "titleNewCurrencyCountry": "",
+      "countryAlreadyAssigned": ""
+    },
+    "price-rounding": {
+      "itemsHeadline": "",
+      "itemsSubline": "",
+      "labelDecimals": "",
+      "labelInterval": "",
+      "labelRoundForNet": "",
+      "grandHeadline": "",
+      "grandSubline": "",
+      "headerWarning": "",
+      "headerInfo": "",
+      "helpTextDecimals": "",
+      "helpTextInterval": "",
+      "helpTextRoundForNet": "",
+      "labelIntervalNone": "",
+      "tooltipIntervalDisabled": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "currencies": {
+        "label": ""
+      }
+    }
+  }
+}

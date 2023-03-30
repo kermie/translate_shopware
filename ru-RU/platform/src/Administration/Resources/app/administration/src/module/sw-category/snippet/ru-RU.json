@@ -1,0 +1,258 @@
+{
+  "sw-category": {
+    "general": {
+      "mainMenuItemIndex": "",
+      "mainMenuItemList": "",
+      "descriptionTextModule": "",
+      "headlineCategories": "",
+      "placeholderSearchBar": "",
+      "buttonCreate": "",
+      "buttonSafeCategory": "",
+      "descriptionLabel": "",
+      "messageSaveSuccess": "",
+      "useAsLogo": "",
+      "treeHeadline": "",
+      "treeHeadSelected": "",
+      "emptyStateHeadline": "",
+      "errorNavigationEntryPoint": "",
+      "errorNavigationEntryPointMultiple": "",
+      "actions": {
+        "actionsDisabledInLanguage": "",
+        "createSub": "",
+        "createBefore": "",
+        "createAfter": ""
+      }
+    },
+    "view": {
+      "general": "",
+      "cms": "",
+      "products": "",
+      "customEntity": "",
+      "seo": "",
+      "columnInfoHeader": "",
+      "columnInfo": ""
+    },
+    "base": {
+      "general": {
+        "categoryNameLabel": "",
+        "headlineInformationCard": "",
+        "isCategoryActiveLabel": "",
+        "useAsLink": "",
+        "labelCategoryTags": "",
+        "labelCategoryTagsPlaceholder": "",
+        "types": {
+          "title": "",
+          "page": "",
+          "folder": "",
+          "customEntity": "",
+          "link": "",
+          "linkUnavailable": "",
+          "help": "",
+          "helpText": {
+            "page": "",
+            "folder": "",
+            "link": ""
+          }
+        }
+      },
+      "entry-point-card": {
+        "cardTitle": "",
+        "labelEntryPoint": "",
+        "placeholderEntryPoint": "",
+        "existingNavigationDescription": "",
+        "labelSalesChannelsAdd": "",
+        "placeholderSalesChannels": "",
+        "buttonConfigureHome": "",
+        "types": {
+          "labelMainNavigation": "",
+          "helpTextMainNavigation": "",
+          "labelFooterNavigation": "",
+          "helpTextFooterNavigation": "",
+          "labelServiceNavigation": "",
+          "helpTextServiceNavigation": ""
+        }
+      },
+      "entry-point-modal": {
+        "modalTitle": "",
+        "salesChannelSelection": "",
+        "showInMainNavigation": "",
+        "mainNavigationName": "",
+        "mainNavigationNamePlaceholder": "",
+        "mainNavigationNameHelpText": "",
+        "layoutHeadline": "",
+        "seoSettingsHeadline": "",
+        "metaTitleLabel": "",
+        "metaTitlePlaceholder": "",
+        "metaDescriptionLabel": "",
+        "metaDescriptionPlaceholder": "",
+        "seoKeywordsLabel": "",
+        "seoKeywordsPlaceholder": ""
+      },
+      "seo": {
+        "title": "",
+        "labelMetaTitle": "",
+        "labelMetaDescription": "",
+        "labelKeywords": "",
+        "placeholderMetaTitle": "",
+        "placeholderMetaDescription": "",
+        "placeholderKeywords": ""
+      },
+      "menu": {
+        "title": "",
+        "visible": "",
+        "imageLabel": "",
+        "descriptionLabel": "",
+        "descriptionPlaceholder": ""
+      },
+      "customEntity": {
+        "cardTitle": "",
+        "assignment": {
+          "label": "",
+          "helpText": ""
+        },
+        "instanceAssignment": {
+          "title": "",
+          "label": "",
+          "placeholder": "",
+          "emptyState": {
+            "title": ""
+          }
+        }
+      },
+      "cms": {
+        "title": "",
+        "changeLayout": "",
+        "changeLayoutEmpty": "",
+        "editInPagebuilder": "",
+        "editInPagebuilderEmpty": "",
+        "editContent": "",
+        "defaultTitle": "",
+        "defaultDesc": ""
+      },
+      "link": {
+        "title": "",
+        "mainTypeLabel": "",
+        "mainTypePlaceholder": "",
+        "internalTypeLabel": "",
+        "internalTypePlaceholder": "",
+        "categoryPlaceholder": "",
+        "productPlaceholder": "",
+        "landingPagePlaceholder": "",
+        "example": "",
+        "internalExampleText": "",
+        "externalDesc": "",
+        "internalDesc": "",
+        "linkLabel": "",
+        "linkNewTabLabel": "",
+        "type": {
+          "internal": "",
+          "external": ""
+        }
+      },
+      "products": {
+        "productAssignmentHeadline": "",
+        "productAssignmentPlaceholder": "",
+        "productAssignmentLabel": "",
+        "productAssignmentEmptyStateDescription": "",
+        "productStreamAssignmentEmptyStateDescription": "",
+        "columnNameLabel": "",
+        "columnManufacturerLabel": "",
+        "productAssignmentTypeLabel": "",
+        "productAssignmentTypeManualLabel": "",
+        "productAssignmentTypeStreamLabel": "",
+        "productAssignmentTypeStreamPlaceholder": "",
+        "alertManualAssignedProductsOnAssignmentTypeStream": "",
+        "dynamicProductGroupDetailLinkText": "",
+        "dynamicProductGroupInvalidMessage": "",
+        "dynamicProductGroupHelpText": {
+          "label": "",
+          "linkText": "",
+          "videoUrl": "",
+          "videoLink": ""
+        }
+      }
+    },
+    "modal": {
+      "textDeleteConfirm": "",
+      "textDeleteChildrenConfirm": "",
+      "textDeleteMultipleConfirm": ""
+    },
+    "entry-point-overwrite-modal": {
+      "textBefore": "",
+      "textAfter": ""
+    }
+  },
+  "sw-landing-page": {
+    "view": {
+      "general": "",
+      "cms": ""
+    },
+    "general": {
+      "placeholderSearchBar": "",
+      "treeHeadSelected": "",
+      "buttonCreate": "",
+      "treeHeadline": "",
+      "actions": {
+        "actionsDisabledInLanguage": ""
+      }
+    },
+    "base": {
+      "general": {
+        "labelName": "",
+        "headlineInformationCard": "",
+        "isActiveLabel": "",
+        "labelTags": "",
+        "labelTagsPlaceholder": ""
+      },
+      "seo": {
+        "title": "",
+        "titleGeneralInformation": "",
+        "titleSocialMedia": "",
+        "labelSalesChannel": "",
+        "labelMetaTitle": "",
+        "labelSocialMediaTitle": "",
+        "labelMetaDescription": "",
+        "labelSocialMediaDescription": "",
+        "labelKeywords": "",
+        "labelUrl": "",
+        "labelPreviewImage": "",
+        "placeholderSalesChannel": "",
+        "placeholderMetaTitle": "",
+        "placeholderSocialMediaTitle": "",
+        "placeholderMetaDescription": "",
+        "placeholderSocialMediaDescription": "",
+        "placeholderKeywords": "",
+        "placeholderUrl": "",
+        "socialMediaPreview": "",
+        "searchResultPreview": "",
+        "helpTextMetaTitle": "",
+        "helpTextMetaDescription": ""
+      },
+      "cms": {
+        "title": "",
+        "changeLayout": "",
+        "changeLayoutEmpty": "",
+        "editInPagebuilder": "",
+        "editInPagebuilderEmpty": "",
+        "editContent": "",
+        "defaultTitle": "",
+        "defaultDesc": "",
+        "cmsLayoutModalHeadline": ""
+      }
+    },
+    "modal": {
+      "textDeleteConfirm": "",
+      "textDeleteMultipleConfirm": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "category": {
+        "label": ""
+      },
+      "landing_page": {
+        "label": ""
+      }
+    }
+  }
+}

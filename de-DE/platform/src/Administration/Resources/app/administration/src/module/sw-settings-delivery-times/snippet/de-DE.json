@@ -1,0 +1,51 @@
+{
+  "global": {
+    "error-codes": {
+      "DELIVERY_TIME_MIN_INVALID": ""
+    }
+  },
+  "sw-settings-delivery-time": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "description": "",
+      "buttonCancel": "",
+      "buttonCreate": "",
+      "buttonSave": "",
+      "placeholder": ""
+    },
+    "list": {
+      "textHeadline": "",
+      "columnName": "",
+      "columnUnit": "",
+      "columnMin": "",
+      "columnMax": "",
+      "columnUnit_hour": "",
+      "columnUnit_day": "",
+      "columnUnit_week": "",
+      "columnUnit_month": "",
+      "columnUnit_year": "",
+      "errorLoad": ""
+    },
+    "detail": {
+      "textHeadlineNew": "",
+      "labelName": "",
+      "labelUnit": "",
+      "labelMin": "",
+      "labelMax": "",
+      "selectionUnitHour": "",
+      "selectionUnitDay": "",
+      "selectionUnitWeek": "",
+      "selectionUnitMonth": "",
+      "selectionUnitYear": "",
+      "errorLoad": "",
+      "errorSave": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "delivery_times": {
+        "label": ""
+      }
+    }
+  }
+}

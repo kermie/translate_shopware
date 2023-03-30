@@ -1,0 +1,243 @@
+{
+    "sw-privileges": {
+        "permissions": {
+            "parents": {
+                "swag_amazonpay": ""
+            },
+            "swag_amazonpay": {
+                "label": ""
+            }
+        }
+    },
+    "swag-amazon-pay-configuration": {
+        "module": {
+            "title": "",
+            "description": ""
+        },
+        "actions": {
+            "insertPrivateKey": "",
+            "testConnection": "",
+            "exportConfig": "",
+            "importConfig": "",
+            "setAsDefaultPaymentMethod": ""
+        },
+        "notification": {
+            "inspectConnectionTitle": "",
+            "inspectConnectionSuccess": "",
+            "configSaveSuccessMessage": ""
+        },
+        "exception": {
+            "genericError": "",
+            "inspectConnection": {
+                "credentialsNotFound": "",
+                "privateKeyInvalid": "",
+                "invalidProtocol": "",
+                "initialisingClientError": "",
+                "createSessionError": "",
+                "obtainSessionError": ""
+            },
+            "exportConfig": {
+                "title": "",
+                "message": ""
+            }
+        },
+        "inputKeyModal": {
+            "title": "",
+            "infoText": "",
+            "labelContent": "",
+            "buttonSend": "",
+            "buttonCancel": "",
+            "notification": {
+                "warning": "",
+                "invalidKeyFormat": ""
+            }
+        },
+        "configForm": {
+            "registerHeadline": "",
+            "registerExplanation": "",
+            "existingAccountHeadline": "",
+            "existingAccountExplanation": "",
+            "accountHeadline": "",
+            "credentialsHeadline": "",
+            "stateMappingExplanation": "",
+            "loggingHeadline": "",
+            "loggingExplanation": "",
+            "loggingBasicHelp": "",
+            "loggingAdvancedHelp": "",
+            "labelIpnUrl": "",
+            "ipnHelpText": "",
+            "privateKeyEmpty": "",
+            "cards": {
+                "help": "",
+                "account": "",
+                "general": "",
+                "displayOptions": "",
+                "paymentStateMapping": "",
+                "advanced": "",
+                "logHandling": ""
+            },
+            "fields": {
+                "ledgerCurrency": {
+                    "label": "",
+                    "placeholder": "",
+                    "helpText": "",
+                    "options": {
+                        "EUR": "",
+                        "GBP": ""
+                    }
+                },
+                "merchantId": {
+                    "label": "",
+                    "placeholder": "",
+                    "helpText": ""
+                },
+                "publicKeyId": {
+                    "label": "",
+                    "placeholder": "",
+                    "helpText": ""
+                },
+                "clientId": {
+                    "label": "",
+                    "placeholder": "",
+                    "helpText": ""
+                },
+                "privateKey": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "inheritFromDefault": {
+                    "label": ""
+                },
+                "sandbox": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "softDescriptor": {
+                    "label": "",
+                    "helpText": "",
+                    "placeholder": ""
+                },
+                "hideOneClickCheckoutButtons": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "displayButtonOnProductPage": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "displayButtonOnCheckoutRegisterPage": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "displayLoginButtonOnRegistrationPage": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "buttonColors": {
+                    "label": "",
+                    "helpText": "",
+                    "gold": "",
+                    "lightGray": "",
+                    "darkGray": ""
+                },
+                "paymentStateMappingAuthorize": {
+                    "label": "",
+                    "placeholder": "",
+                    "helpText": ""
+                },
+                "paymentStateMappingCharge": {
+                    "label": "",
+                    "placeholder": "",
+                    "helpText": ""
+                },
+                "paymentStateMappingPartialCharge": {
+                    "label": "",
+                    "placeholder": "",
+                    "helpText": ""
+                },
+                "paymentStateMappingRefund": {
+                    "label": "",
+                    "placeholder": "",
+                    "helpText": ""
+                },
+                "paymentStateMappingPartialRefund": {
+                    "label": "",
+                    "placeholder": "",
+                    "helpText": ""
+                },
+                "paymentStateMappingCancel": {
+                    "label": "",
+                    "placeholder": "",
+                    "helpText": ""
+                },
+                "chargeMode": {
+                    "label": "",
+                    "placeholder": "",
+                    "helpText": "",
+                    "options": {
+                        "direct": "",
+                        "shipped": "",
+                        "manually": ""
+                    }
+                },
+                "excludedProductIds": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "excludedProductStreamIds": {
+                    "label": "",
+                    "helpText": ""
+                },
+                "orderChargeTriggerState": {
+                    "label": "",
+                    "helpText": "",
+                    "placeholder": ""
+                },
+                "sendErrorMail": {
+                    "label": ""
+                },
+                "excludedItems": {
+                    "label": "",
+                    "placeholder": ""
+                },
+                "loggingMode": {
+                    "options": {
+                        "basic": "",
+                        "advanced": ""
+                    }
+                }
+            }
+        },
+        "insecureDomainNotification": {
+            "success": "",
+            "general": "",
+            "salesChannel": ""
+        },
+        "importModal": {
+            "title": "",
+            "infoText": "",
+            "warning": {
+                "title": "",
+                "content": ""
+            },
+            "notification": {
+                "noFileSelected": "",
+                "success": "",
+                "error": ""
+            },
+            "versionMismatch": {
+                "info": "",
+                "current": "",
+                "export": "",
+                "proceed": ""
+            }
+        },
+        "logDownload": {
+            "selectLabel": "",
+            "buttonDownload": ""
+        },
+        "help": {
+            "helpText": ""
+        }
+    }
+}

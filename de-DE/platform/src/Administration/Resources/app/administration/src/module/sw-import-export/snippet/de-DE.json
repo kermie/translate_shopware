@@ -1,0 +1,238 @@
+{
+    "sw-import-export": {
+        "general": {
+            "mainMenuItemGeneral": "",
+            "descriptionTextModule": ""
+        },
+        "activity": {
+            "invalidHelpText": "",
+            "dryrun": "",
+            "columns": {
+                "size": "",
+                "profile": "",
+                "date": "",
+                "user": "",
+                "state": "",
+                "records": "",
+                "invalidRecords": ""
+            },
+            "contextMenu": {
+                "showLog": "",
+                "showLogInfo": "",
+                "abortProcess": "",
+                "downloadFile": "",
+                "downloadImportFile": "",
+                "downloadExportFile": "",
+                "showProfile": "",
+                "downloadInvalidFile": "",
+                "showResults": ""
+            },
+            "logInfo": {
+                "modalTitle": "",
+                "labelClose": "",
+                "labelFilename": "",
+                "labelType": "",
+                "labelExportRecords": "",
+                "labelSize": "",
+                "labelUser": "",
+                "labelDate": "",
+                "labelState": "",
+                "labelProfile": "",
+                "exportLabel": "",
+                "importLabel": "",
+                "dryrunLabel": "",
+                "labelDownloadFile": ""
+            },
+            "result": {
+                "modalTitle": "",
+                "activityHeadline": "",
+                "activityDescription": "",
+                "entityName": "",
+                "changes": "",
+                "errors": "",
+                "skipped": "",
+                "labelDownloadFile": "",
+                "labelDownloadInvalidFile": "",
+                "mainEntity": {
+                    "title": "",
+                    "insert": "",
+                    "update": "",
+                    "insertError": "",
+                    "updateError": "",
+                    "otherError": "",
+                    "insertSkip": "",
+                    "updateSkip": ""
+                },
+                "logInfo": {
+                    "title": "",
+                    "labelFilename": "",
+                    "labelType": "",
+                    "labelImported": "",
+                    "labelSize": "",
+                    "labelState": "",
+                    "labelUser": "",
+                    "labelProfile": "",
+                    "labelDate": ""
+                }
+            },
+            "status": {
+                "progress": "",
+                "merging_files": "",
+                "succeeded": "",
+                "failed": "",
+                "aborted": ""
+            },
+            "emptyState": {
+                "titleExport": "",
+                "titleImport": "",
+                "subLineExport": "",
+                "subLineImport": ""
+            }
+        },
+        "profile": {
+            "messageSaveSuccess": "",
+            "messageSaveError": "",
+            "messageDeleteSuccess": "",
+            "messageDeleteError": "",
+            "messageDuplicateSuccess": "",
+            "messageDuplicateError": "",
+            "messageSearchParentProfileError": "",
+            "messageCsvTemplateUploadError": "",
+            "messageCsvTemplateUploadEmptyError": "",
+            "messageCsvTemplateUploadWarning": "",
+            "productLabel": "",
+            "customerLabel": "",
+            "categoriesLabel": "",
+            "orderLabel": "",
+            "mediaLabel": "",
+            "newsletterRecipientLabel": "",
+            "caretsLabel": "",
+            "commasLabel": "",
+            "semicolonLabel": "",
+            "doubleQuoteLabel": "",
+            "newProfileLabel": "",
+            "editProfileLabel": "",
+            "addProfileLabel": "",
+            "addNewProfileLabel": "",
+            "addNewProfileTooltipLanguage": "",
+            "openLabel": "",
+            "indicatorHeadline": "",
+            "duplicateLabel": "",
+            "copyOfLabel": "",
+            "saveProfileLabel": "",
+            "closeProfileLabel": "",
+            "generalTab": "",
+            "fieldIndicatorsTab": "",
+            "csvUploadTab": "",
+            "mappingsTab": "",
+            "advancedTab": "",
+            "profileNameFieldLabel": "",
+            "objectTypeFieldLabel": "",
+            "separatorFieldLabel": "",
+            "enclosureFieldLabel": "",
+            "addMappingTooltipText": "",
+            "objectTypeFieldTooltipText": "",
+            "descriptionBlock": "",
+            "mappingDescriptionBlock": "",
+            "csvDescriptionBlock": "",
+            "cancelLabel": "",
+            "addMappingLabel": "",
+            "deleteMappingLabel": "",
+            "downloadTemplateLabel": "",
+            "deleteLabel": "",
+            "systemDefaultInfoText": "",
+            "mapping": {
+                "fileValueLabel": "",
+                "entityLabel": "",
+                "isRequired": "",
+                "defaultValue": "",
+                "position": "",
+                "notMapped": ""
+            },
+            "identifiers": {
+                "identifierNameLabel": "",
+                "mappedKeyLabel": ""
+            },
+            "typeColumn": "",
+            "nameColumn": "",
+            "customTypeLabel": "",
+            "defaultTypeLabel": "",
+            "propertyLabel": "",
+            "mappingAutomatedDescription": "",
+            "mappingDescription": "",
+            "mappingEmptyState": "",
+            "advancedDescription": "",
+            "configuratorSettingLabel": "",
+            "productCrossSellingLabel": "",
+            "promotionDiscountLabel": "",
+            "promotionIndividualCodesLabel": "",
+            "productPriceLabel": "",
+            "closeViolation": "",
+            "violationMessage": "",
+            "importSettingsHeadline": "",
+            "fieldIndicatorsHeadline": "",
+            "createEntitiesLabel": "",
+            "updateEntitiesLabel": "",
+            "typeFieldLabel": "",
+            "types": {
+                "importExportLabel": "",
+                "importLabel": "",
+                "exportLabel": ""
+            },
+            "profileTypeDisabledText": "",
+            "objectTypeDisabledText": "",
+            "csvUploadText": "",
+            "skipCsvUpload": ""
+        },
+        "exporter": {
+            "messageExportStarted": "",
+            "messageExportSuccess": "",
+            "startExportLabel": "",
+            "showLogLabel": "",
+            "exportActivityLabel": "",
+            "exportActivityDescription": "",
+            "exportLabel": "",
+            "directExportVariantsLabel": "",
+            "directExportPropertiesLabel": "",
+            "close": "",
+            "variantsWarning": "",
+            "exportVariants": ""
+        },
+        "importer": {
+            "messageImportStarted": "",
+            "messageImportSuccess": "",
+            "messageImportError": "",
+            "messageImportWarning": "",
+            "uploadCsvLabel": "",
+            "startImportLabel": "",
+            "selectProfileLabel": "",
+            "profileLabel": "",
+            "warningBlock": "",
+            "importActivityLabel": "",
+            "importLabel": "",
+            "directImportVariantsLabel": "",
+            "directImportPropertiesLabel": "",
+            "close": "",
+            "labelUploadCaption": "",
+            "variantsWarning": "",
+            "importVariants": ""
+        },
+        "page": {
+            "profileTab": "",
+            "importTab": "",
+            "exportTab": ""
+        },
+        "progress": {
+            "startImportLabel": "",
+            "startImportDryrunLabel": "",
+            "startExportLabel": ""
+        }
+    },
+    "sw-privileges": {
+        "additional_permissions": {
+            "system": {
+                "import_export": ""
+            }
+        }
+    }
+}

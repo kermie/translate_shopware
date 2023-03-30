@@ -1,0 +1,46 @@
+{
+  "sw-settings-seo": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "descriptionTextModule": "",
+      "textHeadline": "",
+      "buttonSave": ""
+    }
+  },
+  "sw-settings-seo-entity-detail": {
+    "labelMetaTitle": "",
+    "labelAdditionalText": ""
+  },
+  "sw-seo-url-template-card": {
+    "general": {
+      "titleCard": "",
+      "labelPossibleValues": "",
+      "tooltipValidTemplate": "",
+      "tooltipInvalidTemplate": "",
+      "messageSaveError": "",
+      "messageSaveSuccess": "",
+      "preview": "",
+      "placeholderSelectVariables": "",
+      "labelSalesChannelSelect": "",
+      "textUrlPreviewNotPossible": "",
+      "textUrlNoEntitiesForPreview": "",
+      "textUrlPreviewEmptyTemplate": "",
+      "headlineInfoMessageBoxEmptyProperties": "",
+      "textInfoMessageBoxEmptyProperties": ""
+    },
+    "routeNames": {
+      "frontend-detail-page": "",
+      "frontend-navigation-page": "",
+      "frontend-landing-page": ""
+    }
+  },
+  "sw-seo-url": {
+    "titleCard": "",
+    "labelSalesChannelSelect": "",
+    "labelSeoPathInfo": "",
+    "textEmptySeoUrls": "",
+    "textSeoUrlsDisallowedForHeadless": "",
+    "labelMainCategory": "",
+    "placeholderMainCategory": ""
+  }
+}

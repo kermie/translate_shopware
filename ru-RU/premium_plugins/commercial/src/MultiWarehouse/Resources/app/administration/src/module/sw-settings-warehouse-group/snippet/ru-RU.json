@@ -1,0 +1,79 @@
+{
+  "sw-privileges": {
+    "permissions": {
+      "warehouse-group": {
+        "label": ""
+      }
+    }
+  },
+  "sw-settings-warehouse-group": {
+    "general": {
+      "title": "",
+      "subtitle": "",
+      "notificationGeneric": "",
+      "titleDelete": ""
+    },
+    "list": {
+      "whitespaceTitle": "",
+      "whitespaceSubTitle": "",
+      "actionCreateShort": "",
+      "actionCreate": "",
+      "actionDetail": "",
+      "actionDelete": "",
+      "textDeleteConfirm-1": "",
+      "textDeleteConfirm-2": "",
+      "textDeleteConfirm-3": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "columnName": "",
+      "columnRule": "",
+      "columnPriority": ""
+    },
+    "detail": {
+      "title": "",
+      "titleCardMain": "",
+      "titleCardDelete": "",
+      "buttonCancel": "",
+      "buttonSave": "",
+      "buttonDelete": "",
+      "buttonDeleteModal": "",
+      "labelName": "",
+      "placeholderName": "",
+      "labelPriority": "",
+      "placeholderPriority": "",
+      "helpTextPriority": "",
+      "labelDescription": "",
+      "placeholderDescription": "",
+      "labelRule": "",
+      "placeholderRule": "",
+      "textDeleteWarehouseWarning": "",
+      "titleModalDelete": "",
+      "textDeleteConfirm-1": "",
+      "textDeleteConfirm-2": "",
+      "textDeleteConfirm-3": "",
+      "ruleInfoTitle": "",
+      "ruleInfoText": ""
+    },
+    "create": {
+      "title": ""
+    },
+    "warehouseAssignment": {
+      "columnWarehouseName": "",
+      "columnWarehousePriority": "",
+      "titleCard": "",
+      "buttonAddWarehouses": "",
+      "actionDeleteWarehouse": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "titleWhitespace": "",
+      "textDeleteConfirm-1": "",
+      "textDeleteConfirm-2": "",
+      "textDeleteConfirm-3": "",
+      "whitespaceButtonAdd": "",
+      "titleWarehouseSelect": "",
+      "whitespaceTitleWarehouseSelection": "",
+      "buttonConfirmSelection": "",
+      "helpTextWarehousePriority": ""
+    }
+  }
+}

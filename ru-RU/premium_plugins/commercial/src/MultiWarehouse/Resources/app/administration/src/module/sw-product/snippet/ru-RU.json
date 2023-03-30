@@ -1,0 +1,24 @@
+{
+  "sw-product": {
+    "card": {
+      "textHeadline": "",
+      "textLinkModal": "",
+      "textTooltipMultiSelect": "",
+      "textProductWarehouseModalDisabled": ""
+    },
+    "modal-warehouse-group": {
+      "textHeadline": "",
+      "textInlineEdit": "",
+      "buttonSave": "",
+      "buttonCancel": "",
+      "columnName": "",
+      "columnStock": "",
+      "columnPriority": "",
+      "labelTotalStock": "",
+      "navigationLabelStock": ""
+    },
+    "variants-overview": {
+      "inlineText": ""
+    }
+  }
+}

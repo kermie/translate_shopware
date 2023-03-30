@@ -1,0 +1,127 @@
+{
+    "swag-return-management": {
+        "tabReturns": "",
+        "detail": {
+            "buttonReturnItems": "",
+            "buttonSetStatus": "",
+            "contextMenuSetStatus": "",
+            "messageErrorSetStatusModal": "",
+            "messageErrorCreateReturnModal": "",
+            "tooltipChangeItemStatusManually": ""
+        },
+        "notification": {
+            "labelErrorStateChange": "",
+            "labelErrorUpdateRefund": "",
+            "labelErrorNoAction": "",
+            "requiredFields": "",
+            "messageErrorLineItemQuantity": ""
+        },
+        "returnFilter": {
+            "label": "",
+            "placeholder": ""
+        },
+        "returnModal": {
+            "title": "",
+            "subtitle": "",
+            "columnName": "",
+            "columnOrderQuantity": "",
+            "columnReturnQuantity": "",
+            "columnComment": "",
+            "placeholderComment": "",
+            "buttonCreateReturn": "",
+            "buttonAddItemToReturn": "",
+            "messagePreventAddItem": "",
+            "messageErrorNoItemHasQuantity": "",
+            "titleEmptyState": ""
+        },
+        "returnCard": {
+            "labelTitle": "",
+            "labelReturnCreated": "",
+            "summaryLabelAmount": "",
+            "summaryLabelAmountWithoutTaxes": "",
+            "summaryLabelAmountTotal": "",
+            "summaryLabelTaxes": "",
+            "summaryLabelShippingCosts": "",
+            "excludedTax": "",
+            "generalTab": {
+                "labelGeneralInformation": "",
+                "labelComment": "",
+                "placeholderComment": "",
+                "headlineOrderState": "",
+                "numberOfProducts": "",
+                "items": ""
+            },
+            "positionsTab": {
+                "labelPositions": ""
+            },
+            "statusTab": {
+                "labelStatusHistory": "",
+                "columnDate": "",
+                "columnUser": "",
+                "columnStatus": "",
+                "labelSystemUser": ""
+            }
+        },
+        "returnItemGrid": {
+            "placeholderSearchBarItem": "",
+            "columnQuantity": "",
+            "columnProductName": "",
+            "columnStatus": "",
+            "columnRefund": "",
+            "columnPriceNet": "",
+            "columnPriceGross": "",
+            "columnPriceTaxFree": "",
+            "columnTax": "",
+            "columnSubTotal": "",
+            "contextMenuReturn": "",
+            "contextMenuSetStatus": "",
+            "contextMenuShowProduct": "",
+            "contextMenuOpenReturnDetails": "",
+            "contextMenuDelete": "",
+            "buttonSetStatus": "",
+            "textNoItemFound": "",
+            "buttonUpdateRefund": "",
+            "tooltipSuggestedPrice": "",
+            "discountWarning": {
+                "textOrderHasDiscount": "",
+                "textCheckRefundAmount": "",
+                "textCreditDescription": ""
+            }
+        },
+        "setStatusModal": {
+            "title": "",
+            "positions": "",
+            "labelStatus": ""
+        },
+        "openReturnDetails": {
+            "fieldComment": "",
+            "fieldTotalAmount": ""
+        },
+        "changeStateModal": {
+            "title": "",
+            "description": "",
+            "buttonUpdateStatus": ""
+        },
+        "deleteReturnModal": {
+            "confirmation": "",
+            "warning": ""
+        },
+        "deleteLineItemModal": {
+            "description": ""
+        },
+        "deleteReturnItemModal": {
+            "description": ""
+        },
+        "documentConfig": {
+            "helpTextPartialCancellation": "",
+            "includeCancelled": ""
+        }
+    },
+    "sw-privileges": {
+        "permissions": {
+            "order_return": {
+                "label": ""
+            }
+        }
+    }
+}

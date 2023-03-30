@@ -1,0 +1,1023 @@
+{
+    "global": {
+        "default": {
+            "_comment": "",
+            "back": "",
+            "continue": "",
+            "optional": ""
+        },
+        "error-codes": {
+            "bd79c0ab-ddba-46cc-a703-a7a4b08de310": "",
+            "9ff3fdc4-b214-49db-8718-39c315e33d45": "",
+            "INVALID_VAT_ID_STRUCTURE": "",
+            "INVALID_ZIP_CODE_ERROR_NUMERIC": "",
+            "INVALID_ZIP_CODE_ERROR": "",
+            "INVALID_ZIP_CODE_ERROR_TO_SHORT": "",
+            "NO_ZIP_CODE_VALIDATION_POSSIBLE": "",
+            "SAAS_REQUEST__INVALID_PARAMETER": "",
+            "INVALID_DOMAIN": "",
+            "EMAIL_CONTAINS_MORE_THAN_ONE_AT": ""
+        }
+    },
+    "sw-theme-manager": {
+        "general": {
+            "lockedToolTip": ""
+        }
+    },
+    "sw-saas-rufus": {
+        "component": {
+            "saas-paypal-payment-card": {
+                "merchant-status": {
+                    "error": ""
+                },
+                "paypal-settings": {
+                    "error": ""
+                },
+                "create-referral": {
+                    "error": ""
+                },
+                "headline": "",
+                "text": "",
+                "anchorText": "",
+                "connectRequest": "",
+                "buttonText": "",
+                "changeAccount": "",
+                "disconnectAccount": "",
+                "iconText": "",
+                "bottomText": "",
+                "testHintSignUp": "",
+                "testHintOrders": "",
+                "checkoutBanner": "",
+                "testMode": "",
+                "shippingAlertOnboarding": "",
+                "shippingAlertOnboardingDetails": ""
+            },
+            "saas-paypal-merchant-status": {
+                "emailStatusNotConfirmed": "",
+                "labelStatusConfirmed": "",
+                "labelStatusUnconfirmed": ""
+            },
+            "saas-rufus-dashboard-checklist": {
+                "headline": "",
+                "subheadline": "",
+                "howToHeadline": "",
+                "howToUnderlineVideo": "",
+                "howToVideoLink": "",
+                "howToUnderlineDocs": "",
+                "howToDocsLink": "",
+                "launchBusiness": "",
+                "success-modal": {
+                    "titleSuccess": "",
+                    "textSuccess": "",
+                    "titleIsGoingLive": "",
+                    "textIsGoingLive": "",
+                    "labelBackBtn": "",
+                    "labelStoreLink": ""
+                },
+                "steps": {
+                    "categoryQuestFinished": {
+                        "headline": "",
+                        "subHeadline": "",
+                        "description": "",
+                        "createCategory": {
+                            "video": "",
+                            "buttonLabel": ""
+                        }
+                    },
+                    "productQuestFinished": {
+                        "headline": "",
+                        "subHeadline": "",
+                        "description": "",
+                        "createProduct": {
+                            "video": "",
+                            "buttonLabel": ""
+                        }
+                    },
+                    "getToKnowAdminQuestFinished": {
+                        "headline": "",
+                        "subHeadline": "",
+                        "description": "",
+                        "watchVideoGetToKnowAdmin": {
+                            "video": ""
+                        }
+                    },
+                    "themeQuestFinished": {
+                        "headline": "",
+                        "subHeadline": "",
+                        "description": "",
+                        "changeTheme": {
+                            "video": "",
+                            "buttonLabel": ""
+                        }
+                    },
+                    "shippingAndPaymentQuestFinished": {
+                        "headline": "",
+                        "subHeadline": "",
+                        "description": "",
+                        "updateShipping": {
+                            "video": "",
+                            "buttonLabel": ""
+                        },
+                        "updatePayment": {
+                            "video": "",
+                            "buttonLabel": ""
+                        }
+                    },
+                    "legalRequirementQuestFinished": {
+                        "headline": "",
+                        "subHeadline": "",
+                        "description": "",
+                        "changeImprintPage": {
+                            "video": "",
+                            "buttonLabel": ""
+                        },
+                        "changePrivacyPage": {
+                            "video": "",
+                            "buttonLabel": ""
+                        },
+                        "changeRevocationPage": {
+                            "video": "",
+                            "buttonLabel": ""
+                        },
+                        "changeTosPage": {
+                            "video": "",
+                            "buttonLabel": ""
+                        }
+                    }
+                },
+                "finished": {
+                    "headline": "",
+                    "description": "",
+                    "action": "",
+                    "helpCenter": "",
+                    "helpCenterLink": ""
+                },
+                "numbers": {
+                    "two": "",
+                    "three": ""
+                }
+            },
+            "saas-rufus-dashboard-videos": {
+                "headline": "",
+                "description": "",
+                "links": {
+                    "link-1": {
+                        "name": "",
+                        "link": ""
+                    },
+                    "link-2": {
+                        "name": "",
+                        "link": ""
+                    },
+                    "link-3": {
+                        "name": "",
+                        "link": ""
+                    }
+                }
+            },
+            "saas-rufus-going-live-bar": {
+                "textGoingLive": "",
+                "labelGoingLiveBtn": "",
+                "textTrialExpiresAt": "",
+                "textBookPlanFromTrial": "",
+                "textTrialDaysLeft": "",
+                "textTrialEndTomorrow": "",
+                "textTrialEndToday": "",
+                "textTrialHasExpired": "",
+                "labelBookPlanBtn": "",
+                "textTrialDescription": "",
+                "labelBookNowBtn": ""
+            },
+            "saas-rufus-going-live-success-modal": {
+                "titleSuccess": "",
+                "textSuccess": "",
+                "titleIsGoingLive": "",
+                "textIsGoingLive": "",
+                "labelBackBtn": "",
+                "labelStoreLink": ""
+            },
+            "saas-rufus-storefront-locked": {
+                "titleSalesChannelsLocked": "",
+                "titleShopLocked": "",
+                "contactSupportTeam": "",
+                "contactLinkLabel": "",
+                "contactLinkUrl": ""
+            },
+            "sw-rufus-settings-plans-view": {
+                "payment": "",
+                "planDetails": {
+                    "active": "",
+                    "activeSince": "",
+                    "nextBilling": "",
+                    "billingEmail": "",
+                    "upgrade": "",
+                    "oldPlanPrices": "",
+                    "newEditionsPrices": "",
+                    "emptyState": {
+                        "title": "",
+                        "text": "",
+                        "button": ""
+                    },
+                    "cancelled": "",
+                    "cancellationDate": "",
+                    "reactivate": ""
+                },
+                "textStarterEditionDaysLeft": "",
+                "endOfStarterEditionAnnouncement": {
+                    "free": "",
+                    "advanced": "",
+                    "professional": ""
+                },
+                "professionalEdition": ""
+            },
+            "sw-rufus-settings-company-company": {
+                "companySelectCardTitle": "",
+                "labelCompanySelect": "",
+                "placeholderCompanySelect": "",
+                "labelAddCompany": "",
+                "labelNewCompany": "",
+                "vatIdCardTitle": "",
+                "contactCardTitle": "",
+                "billingCardTitle": "",
+                "companySelectTitle": "",
+                "companySelectDescription": ""
+            },
+            "sw-rufus-settings-company-vat-id": {
+                "titleVatId": "",
+                "fixationTitle": "",
+                "fixationText": "",
+                "helpTextVatId": "",
+                "warningVatId": "",
+                "labelHasVatId": "",
+                "labelHasNoVatId": "",
+                "labelSmallTradesman": "",
+                "labelSmallTradesmanHelptext": "",
+                "placeholderVatId": ""
+            },
+            "sw-rufus-settings-company-contact": {
+                "labelTitle": "",
+                "placeholderTitle": "",
+                "labelTitleMs": "",
+                "labelTitleMr": "",
+                "labelTitleNotSpecified": "",
+                "labelFirstName": "",
+                "placeholderFirstName": "",
+                "labelLastName": "",
+                "placeholderLastName": "",
+                "labelEmail": "",
+                "placeholderEmail": "",
+                "labelPhoneNumber": "",
+                "placeholderPhoneNumber": "",
+                "labelCountry": "",
+                "placeholderCountry": ""
+            },
+            "sw-rufus-settings-company-billing": {
+                "labelCompanyName": "",
+                "placeholderCompanyName": "",
+                "labelEmail": "",
+                "placeholderEmail": "",
+                "labelReminderEmail": "",
+                "labelDifferentReminder": "",
+                "labelStreet": "",
+                "placeholderStreet": "",
+                "labelZipCode": "",
+                "placeholderZipCode": "",
+                "labelCity": "",
+                "placeholderCity": "",
+                "labelCountry": "",
+                "placeholderCountry": "",
+                "labelBusinessSector": "",
+                "placeholderBusinessSector": ""
+            },
+            "sw-rufus-settings-paypal": {
+                "title": "",
+                "infoText": "",
+                "labelConnectNewPayPalAccount": "",
+                "defaultPaymentLabel": "",
+                "labelSetDefaultPayment": "",
+                "errors": {
+                    "titleGenericFailure": "",
+                    "messageGenericFailure": ""
+                },
+                "noCompanyTooltip": "",
+                "infoTextNoAccount": ""
+            },
+            "sw-email-address-field": {
+                "disabledHelpText": ""
+            },
+            "sw-rufus-payment-method-lock": {
+                "error-complete-lock": {
+                    "title": "",
+                    "message": ""
+                },
+                "error-admin-lock": {
+                    "title": "",
+                    "message": ""
+                },
+                "billing-information": "",
+                "wiki": "",
+                "maintenance": "",
+                "maintenanceNotification": {
+                    "title": "",
+                    "message": ""
+                }
+            },
+            "sw-rufus-upgrade-trigger-alert": {
+                "labelButtonUpgrade": ""
+            },
+            "sw-rufus-nps-rating-overlay": {
+                "textHeadline": "",
+                "textNotLikely": "",
+                "textVeryLikely": "",
+                "textFeedbackHeadline": "",
+                "textFeedback": "",
+                "textFeedback--updated": "",
+                "placeholderLeaveComment": "",
+                "labelSubmit": ""
+            },
+            "saas-rufus-reset-demo-shop-bar": {
+                "textDemoExpiresOn": "",
+                "textResetDemoshop": "",
+                "textResetShopOrExtendDemo": "",
+                "labelResetDemoshopBtn": "",
+                "labelRenewDemoshopBtn": ""
+            },
+            "saas-rufus-reset-modal": {
+                "title": "",
+                "subtitle": "",
+                "description": ""
+            },
+            "sw-rufus-settings-cancellation-modal": {
+                "title": "",
+                "titleTrial": "",
+                "stepOne": {
+                    "title": "",
+                    "titleTrial": "",
+                    "paragraph": ""
+                },
+                "stepTwo": {
+                    "title": "",
+                    "titleTrial": "",
+                    "paragraph": "",
+                    "paragraphTrial": "",
+                    "deleteAtEndOfBillingPeriod": "",
+                    "deleteAtEndOfBillingPeriodDescription": "",
+                    "deleteImmediately": "",
+                    "deleteImmediatelyDescription": "",
+                    "alertParagraphOne": "",
+                    "alertParagraphTwo": ""
+                },
+                "cancelPlanButton": "",
+                "deleteShopButton": "",
+                "notificationSuccess": {
+                    "title": "",
+                    "message": ""
+                },
+                "notificationError": {
+                    "message": ""
+                }
+            },
+            "saas-rufus-storefront-demo-link-card": {
+                "heading": "",
+                "description": "",
+                "labelButton": ""
+            },
+            "saas-rufus-not-verified-admin-locked": {
+                "title": "",
+                "secondTitle": "",
+                "subtitle": "",
+                "buttonTitle": "",
+                "buttonLabel": "",
+                "contactLinkLabel": "",
+                "contactLinkUrl": "",
+                "resendNotificationTitle": "",
+                "resendNotificationMessage": "",
+                "resendNotificationErrorTitle": "",
+                "resendNotificationErrorMessage": ""
+            },
+            "saas-rufus-demo-modal": {
+                "continueDemoBtn": "",
+                "continueDemoBtn--updated": "",
+                "resetShopBtn": "",
+                "resetShopBtn--updated": "",
+                "titleDemoIsHalfOver": "",
+                "demoHalfExpiresText": "",
+                "demoResetText": "",
+                "messageDemoExpiration": "",
+                "titleDemoEnds": "",
+                "subtitleDemoEnds": "",
+                "demoExpiresText": "",
+                "messageContinueDemo": "",
+                "messageWarning": "",
+                "deleteShopBtn": "",
+                "supportFooter": ""
+            },
+            "sw-card-view": {
+                "demoInfoTitle": "",
+                "demoInfoWarning": ""
+            },
+            "sw-version": {
+                "expiresIn": "",
+                "expiresTomorrow": "",
+                "expiresToday": "",
+                "expiredAt": "",
+                "demoMode": "",
+                "cancelledPlan": ""
+            },
+            "saas-rufus-demo-expired-card": {
+                "title": "",
+                "titleWithoutRenewDemo": "",
+                "messageReset": "",
+                "messageRenew": "",
+                "deletionNoticeHeading": ""
+            },
+            "saas-rufus-reset-confirm-modal": {
+                "confirmButton": "",
+                "titleConfirm": "",
+                "messageConfirm": "",
+                "messageReset": ""
+            },
+            "saas-rufus-renew-demo-modal": {
+                "title": "",
+                "subtitle": "",
+                "messageError": "",
+                "messageContinueDemoSuccess": ""
+            },
+            "saas-rufus-dashboard-shop-cancelled": {
+                "textShopCancelled": ""
+            },
+            "saas-rufus-custom-domain-link": {
+                "labelLink": ""
+            },
+            "saas-rufus-generate-demo-link-modal": {
+                "title": "",
+                "description": "",
+                "labelTextFieldLink": "",
+                "labelButtonClose": ""
+            },
+            "saas-rufus-dashboard-test-orders": {
+                "title": "",
+                "textAdminTestOrders": "",
+                "adminOrderCta": "",
+                "activeStorefront": {
+                    "textLive": "",
+                    "linkTextDemo": "",
+                    "textConstruction": "",
+                    "storefrontOrderCta": ""
+                }
+            },
+            "saas-rufus-revoke-cancellation-modal": {
+                "title": "",
+                "headline": "",
+                "paragraph": "",
+                "paragraphPlanBooking": "",
+                "revokeCancellationButton": "",
+                "notificationSuccess": {
+                    "title": "",
+                    "message": ""
+                }
+            },
+            "saas-rufus-settings-account-cancellation-card": {
+                "descriptionTextModule": "",
+                "descriptionTextModuleTrial": "",
+                "cancellationCardTitle": "",
+                "cancellationCardTitleTrial": "",
+                "cancellationCardHeadline": "",
+                "cancellationCardHeadlineCancelled": "",
+                "cancellationCardParagraph": "",
+                "cancellationCardParagraphTrial": "",
+                "cancelPlanAndDeleteShopButton": "",
+                "deleteShopButton": "",
+                "cancellationWillTakeEffectOn": "",
+                "revokeCancellationButton": ""
+            }
+        },
+        "module": {
+            "sw-rufus-settings-company": {
+                "mainMenuItemGeneral": "",
+                "descriptionTextModule": "",
+                "buttonSave": ""
+            },
+            "sw-rufus-settings-plans": {
+                "mainMenuItemGeneral": "",
+                "descriptionTextModule": ""
+            },
+            "sw-rufus-settings-domains": {
+                "mainMenuItemGeneral": "",
+                "buttonConnectDomains": "",
+                "columnDomain": "",
+                "buttonDeleteDomain": "",
+                "titleDeleteError": "",
+                "messageLoadingError": "",
+                "messageDeleteErrorGeneric": "",
+                "messageDeleteErrorSalesChannelDomain": "",
+                "messageDeleteErrorDefaultMailer": "",
+                "messageDeleteErrorDefaultMailerAction": ""
+            },
+            "sw-rufus-settings-domains-modal": {
+                "titleConnectDomains": "",
+                "buttonNext": "",
+                "buttonBack": "",
+                "buttonFinish": "",
+                "textVerifyingDomain": "",
+                "textError": "",
+                "titleSetupProvider": "",
+                "textSetupProviderWithCNAME": "",
+                "textSetupProviderWithARecords": "",
+                "labelDomain": "",
+                "placeholderDomain": "",
+                "titleSuccess": "",
+                "textSuccess": "",
+                "labelCnameRecord": "",
+                "labelARecord": "",
+                "headingDocumentation": "",
+                "textDocumentation": "",
+                "labelDocumentationLink": "",
+                "urlDocumentationLink": "",
+                "labelLinksSalesChannelDetailPage": ""
+            },
+            "sw-rufus-settings-cancellation": {
+                "mainMenuItemGeneral": "",
+                "mainMenuItemGeneralTrial": "",
+                "descriptionTextModule": "",
+                "descriptionTextModuleTrial": "",
+                "cancellationCardTitle": "",
+                "cancellationCardTitleTrial": "",
+                "cancellationCardHeadline": "",
+                "cancellationCardHeadlineCancelled": "",
+                "cancellationCardParagraph": "",
+                "cancellationCardParagraphTrial": "",
+                "cancelPlanAndDeleteShopButton": "",
+                "deleteShopButton": "",
+                "cancellationWillTakeEffectOn": "",
+                "revokeCancellationButton": ""
+            },
+            "sw-rufus-settings-payment": {
+                "paymentLabel": ""
+            }
+        },
+        "extension": {
+            "sw-admin-menu-accountItem": "",
+            "sw-settings-tabAccount": "",
+            "sw-settings-account-information": {
+                "title": "",
+                "text": "",
+                "link": ""
+            },
+            "sw-settings-user": {
+                "status": {
+                    "invited": "",
+                    "active": "",
+                    "deactivated": "",
+                    "notVerified": ""
+                },
+                "sw-settings-user-list": {
+                    "labelbuttonInviteUser": "",
+                    "labelColumnStatus": "",
+                    "textDeleteModal": "",
+                    "tooltipCompanyNotSet": ""
+                },
+                "sw-settings-user-detail": {
+                    "alertInviteNotAccepted": "",
+                    "alertChangeInSbp": ""
+                },
+                "invitation-modal": {
+                    "title": "",
+                    "labelEmail": "",
+                    "placeholderEmail": "",
+                    "labelLanguage": "",
+                    "placeholderLanguage": "",
+                    "labelButtonInvite": ""
+                },
+                "plan-usage": {
+                    "text": ""
+                }
+            },
+            "sw-sales-channel-modal": {
+                "plan-usage": {
+                    "text": "",
+                    "text--updated": ""
+                },
+                "additional-sales-channels": {
+                    "text": ""
+                }
+            },
+            "sw-sales-channel-detail-base": {
+                "plan-usage": {
+                    "tooltipLimitCurrency": "",
+                    "tooltipLimitCountry": "",
+                    "textCurrency": "",
+                    "textCountry": "",
+                    "textCombined": ""
+                }
+            },
+            "sw-sales-channel": {
+                "sw-sales-channel-detail-domains": {
+                    "labelUrlSelect": ""
+                }
+            },
+            "sw-dashboard-index": {
+                "introHeadline": "",
+                "introDescription": "",
+                "introHeadlineDemo": "",
+                "introDescriptionDemo": "",
+                "unverifiedAccountHintTitle": "",
+                "unverifiedAccountHintText": "",
+                "unverifiedAccountHintResendMail": ""
+            },
+            "sw-theme-manager": {
+                "sw-theme-manager-list": {
+                    "linkLabelToCancellation": ""
+                }
+            },
+            "swag-migration": {
+                "dashboard": {
+                    "title": "",
+                    "information": "",
+                    "button": "",
+                    "shopInfoCard": {
+                        "header": "",
+                        "button": "",
+                        "resetButton": "",
+                        "connected": "",
+                        "notConnected": "",
+                        "profile": "",
+                        "gateway": "",
+                        "connectionCheck": "",
+                        "lastMigration": "",
+                        "displayDateTime": "",
+                        "noMigrationDoneYet": ""
+                    },
+                    "resetNotification": {
+                        "title": "",
+                        "message": "",
+                        "actionReset": "",
+                        "actionClose": ""
+                    }
+                },
+                "resetMigrationConfirmDialog": {
+                    "content": ""
+                }
+            },
+            "swag-google-shopping": {
+                "productSync": {
+                    "disabled": ""
+                }
+            },
+            "sw-order": {
+                "list": {
+                    "buttonAddTestOrder": ""
+                },
+                "create": {
+                    "textNewTestOrder": "",
+                    "buttonSaveTestOrder": ""
+                },
+                "createBase": {
+                    "testOrderHint": ""
+                },
+                "detailBase": {
+                    "testOrderHint": ""
+                }
+            },
+            "sw-mail-template": {
+                "detail": {
+                    "sidebar": {
+                        "onlyAdminEmailCanBeUsed": ""
+                    }
+                }
+            },
+            "swag-paypal-pos": {
+                "connection": {
+                    "buttonConnect": "",
+                    "error": {
+                        "modalTitle": "",
+                        "headline": "",
+                        "infoDuplicate": "",
+                        "disclaimer": ""
+                    }
+                }
+            },
+            "sw-extension": {
+                "store": {
+                    "component": {
+                        "sw-extension-buy-modal": {
+                            "alertCanNotBuy": {
+                                "inOrderToPurchase": ""
+                            },
+                            "revokeCancellationModal": {
+                                "paragraph": "",
+                                "revokeButtonLabel": ""
+                            }
+                        }
+                    }
+                },
+                "component": {
+                    "sw-extension-card-base": {
+                        "incompatibleLabel": "",
+                        "incompatibleTooltip": ""
+                    },
+                    "sw-extension-card-bought": {
+                        "incompatibilityExpected": ""
+                    },
+                    "sw-self-maintained-extension-card": {
+                        "privateAppLabel": "",
+                        "updateLabel": ""
+                    },
+                    "saas-rufus-private-app-upload": {
+                        "tooltip": "",
+                        "alertUploadModal": "",
+                        "fileInputLabel": "",
+                        "fileInputBackgroundMessage": "",
+                        "warningUploadModal": "",
+                        "continue": "",
+                        "errorModal": {
+                            "header": "",
+                            "description": "",
+                            "download": "",
+                            "tryAgain": ""
+                        },
+                        "selectFileModal": {
+                            "header": "",
+                            "headerUpdate": "",
+                            "description": "",
+                            "descriptionUpdate": ""
+                        },
+                        "successModal": {
+                            "header": "",
+                            "headerUpdate": "",
+                            "description": "",
+                            "descriptionUpdate": ""
+                        },
+                        "loadingModal": {
+                            "header": "",
+                            "headerUpdate": "",
+                            "description": "",
+                            "descriptionUpdate": ""
+                        },
+                        "alreadyInstalledModal": {
+                            "updateButton": "",
+                            "description": ""
+                        }
+                    }
+                },
+                "errors": {
+                    "FRAMEWORK__TOC_NOT_ACCEPTED": {
+                        "message": ""
+                    },
+                    "FRAMEWORK__EXTENSION_THEME_STILL_IN_USE": {
+                        "message": ""
+                    },
+                    "FRAMEWORK__INVALID_EXTENSION_ID": {
+                        "message": ""
+                    },
+                    "FRAMEWORK__INVALID_VARIANT_ID": {
+                        "message": ""
+                    },
+                    "FRAMEWORK__EXTENSION_PERMISSIONS_NOT_ACCEPTED": {
+                        "message": ""
+                    },
+                    "FRAMEWORK__INVALID_EXTENSION_RATING_VALUE": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_RESSOURCE_NOT_FOUND__EXTENSION": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_RESSOURCE_NOT_FOUND__LICENSE": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_RESSOURCE_NOT_FOUND__BINARY": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_CANCELLATION__NOT_POSSIBLE": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_CANCELLATION__STILL_IN_USE": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_RATING__ALREADY_RATED": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_LICENSE__NOT_ALLOWED_TO_REACTIVATE": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_DOWNLOAD__NOT_ALLOWED": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_ORDER__NOT_ALLOWED_PRICE_MODEL": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_ORDER__NO_DEFAULT_PAYMENT_MEAN": {
+                        "message": "",
+                        "labelLink": ""
+                    },
+                    "SAAS_EXTENSION_ORDER__INSUFFICIENT_BALANCE": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_REQUEST__INVALID_CONTENT": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_INVALID_BASKET__MULTIPLE_LICENSES_OR_LICENSE_ALREADY_OWNED": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_INVALID_BASKET__INVALID_ORDER_POSITION": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_INVALID_BASKET__GENERAL": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_INVALID_BASKET__INVALID_COMPANY": {
+                        "message": ""
+                    },
+                    "SAAS_EXTENSION_RATING__INVALID_EXTENSION": {
+                        "message": ""
+                    }
+                }
+            },
+            "sw-help-center": {
+                "supportLinkGenerate": "",
+                "supportLinkRegenerate": "",
+                "supportLink": "",
+                "supportLinkSubheading": "",
+                "supportLinkDetails": "",
+                "supportRequiresPaidEdition": "",
+                "notification": {
+                    "urlCopiedTitle": "",
+                    "urlCopiedText": "",
+                    "urlCopiedFailedTitle": "",
+                    "urlCopiedFailedText": ""
+                }
+            },
+            "sw-extension-my-extensions-index": {
+                "incompatibleAppsTooltip": "",
+                "incompatibleThemesTooltip": ""
+            }
+        },
+        "notification": {
+            "planLimitExceeded": {
+                "title": "",
+                "description": {
+                    "users": "",
+                    "salesChannels": "",
+                    "currencies": "",
+                    "countries": "",
+                    "premiumThemes": "",
+                    "customDomains": "",
+                    "customProducts": "",
+                    "cmsExtensions": "",
+                    "additionalSalesChannelTypes": "",
+                    "publisher": ""
+                },
+                "action": ""
+            },
+            "incompatibleAppsDetected": {
+                "title": "",
+                "message": "",
+                "actions": {
+                    "showExtensions": "",
+                    "remindMeLater": "",
+                    "learnMoreUrl": "",
+                    "learnMore": ""
+                }
+            }
+        },
+        "saas-errors": {
+            "GENERIC_SBP_ERROR": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_SBP__NOT_AVAILABLE": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_REQUEST__INVALID_CONTENT": {
+                "title": "",
+                "message": ""
+            },
+            "FRAMEWORK__INVALID_REQUEST_PARAMETER": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_ACCOUNT": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_PAYMENT__PAYMENT_MUST_BE_PAYPAL": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_COMPANY__ALREADY_ASSIGNED": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_PAYMENT__HEIDELPAY_REDIRECT_TO_PAYPAL_FAILED": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_PAYMENT__HEIDELPAY_CHARGING_FAILED": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_PLAN__DOWNGRADE_CURRENTLY_NOT_PERMITTED": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_PLAN__PLAN_ALREADY_BOOKED": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_PLAN__SHOP_HAS_WRONG_STATE": {
+                "message": ""
+            },
+            "SAAS_PLAN__CONFLICTING_FEATURES": {
+                "message": ""
+            },
+            "SAAS_SHOP_MEMBERSHIP__FORBIDDEN": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_SHOP_MEMBERSHIP__MEMBERSHIP_ALREADY_EXISTS": {
+                "message": ""
+            },
+            "SAAS_SHOP_MEMBERSHIP__SHOP_OWNER_CANNOT_BE_REMOVED": {
+                "message": ""
+            },
+            "SAAS_SHOP_MEMBERSHIP__NOT_A_SHOP_MEMBER": {
+                "message": ""
+            },
+            "SAAS_SHOP_CHANGE_STATE__NOT_PERMITTED": {
+                "message": ""
+            },
+            "SAAS_SHOP_GOING_LIVE__NO_ACTIVE_SALES_CHANNEL_EXISTS": {
+                "message": ""
+            },
+            "SAAS_DEMO_EXTENSION__ALREADY_EXTENDED": {
+                "message": ""
+            },
+            "SAAS_DEMO_EXTENSION__CANNOT_EXTEND": {
+                "message": ""
+            },
+            "SAAS_SHOP_STATE__DEMOSHOP_REQUIRED": {
+                "message": ""
+            },
+            "SAAS_SHOP_STATE__CONSTRUCTION_REQUIRED": {
+                "message": ""
+            },
+            "SAAS_SHOP__HAS_PAYED_FEATURES": {
+                "message": ""
+            },
+            "SAAS_SHOP_GOING_LIVE__GENERAL": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_DEMO__BOOKING_NOT_PERMITTED": {
+                "message": ""
+            },
+            "SAAS_SHOP__RESET_NOT_POSSIBLE": {
+                "message": ""
+            },
+            "SAAS_ACCOUNT__NOT_ALLOWED_FOR_PITCH_DEMOSHOPS": {
+                "message": ""
+            },
+            "SAAS_FRAMEWORK__ACTION_REQUIRES_PLAN": {
+                "message": ""
+            },
+            "SAAS_BOOKING_NOT_ALLOWED__CANCELLATION_DEPOSITED": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_COMPANY__MISSING": {
+                "message": "",
+                "labelLink": ""
+            },
+            "SAAS_PLAN__PLAN_CANCELLATION_ALREADY_DEPOSITED": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_PLAN__PLAN_CANCELLATION_ALREADY_REVOKED": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_PLAN__PLAN_CANCELLATION_ALREADY_PROCESSED": {
+                "title": "",
+                "message": ""
+            },
+            "SAAS_FRAMEWORK__PLUGIN_LIFECYCLE_NOT_ALLOWED": {
+                "message": ""
+            },
+            "SAAS_FRAMEWORK__PRIVATE_APP_STORING_FAILED": {
+                "message": ""
+            },
+            "SAAS_FRAMEWORK__PRIVATE_APP_MANIFEST_NOT_FOUND": {
+                "message": ""
+            },
+            "SAAS_FRAMEWORK__MANIFEST_NOT_FOUND_IN_ZIP": {
+                "message": ""
+            }
+        }
+    },
+    "sw-system-config": {
+        "helpTextReceiverEmailAddress": "",
+        "labelSenderEmailAddress": "",
+        "helpTextSenderEmailAddress": ""
+    }
+}

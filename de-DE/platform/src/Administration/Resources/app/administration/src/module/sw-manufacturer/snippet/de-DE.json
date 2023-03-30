@@ -1,0 +1,39 @@
+{
+  "sw-manufacturer": {
+    "general": {
+      "mainMenuItemList": "",
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": ""
+    },
+    "list": {
+      "textManufacturerOverview": "",
+      "textTotalManufacturer": "",
+      "buttonAddManufacturer": "",
+      "columnName": "",
+      "columnLink": ""
+    },
+    "detail": {
+      "textHeadline": "",
+      "textMediaSelection": "",
+      "buttonCancel": "",
+      "buttonSave": "",
+      "cardTitleManufacturerInfo": "",
+      "labelName": "",
+      "labelDescription": "",
+      "labelLink": "",
+      "placeholderName": "",
+      "placeholderDescription": "",
+      "placeholderLink": "",
+      "messageSaveSuccess": "",
+      "labelLogo": "",
+      "labelUseAsLogo": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "product_manufacturer": {
+        "label": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "sw-settings-rule": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": "",
+      "descriptionTextModule": ""
+    },
+    "filter": {
+      "conditionFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "groupFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "assignmentFilter": {
+        "label": "",
+        "placeholder": "",
+        "values": {
+          "cartPromotions": "",
+          "orderPromotions": "",
+          "personaPromotions": "",
+          "promotionSetGroups": "",
+          "promotionDiscounts": "",
+          "flowSequences": "",
+          "paymentMethods": "",
+          "productPrices": "",
+          "shippingMethodPriceCalculations": "",
+          "shippingMethodPrices": "",
+          "shippingMethods": ""
+        }
+      },
+      "tagFilter": {
+        "label": "",
+        "placeholder": ""
+      }
+    },
+    "list": {
+      "textHeadline": "",
+      "buttonAddRule": "",
+      "columnName": "",
+      "columnDescription": "",
+      "columnDateCreated": "",
+      "columnDateUpdated": "",
+      "columnPriority": "",
+      "columnStatus": "",
+      "columnTags": "",
+      "columnCartPromotions": "",
+      "columnOrderPromotions": "",
+      "columnPersonaPromotions": "",
+      "columnPromotionSetGroups": "",
+      "columnPromotionDiscounts": "",
+      "columnFlowSequences": "",
+      "columnPaymentMethods": "",
+      "columnProductPrices": "",
+      "columnShippingMethodPriceCalculations": "",
+      "columnShippingMethodPrices": "",
+      "columnShippingMethods": "",
+      "contextMenuDuplicate": "",
+      "titleSidebarItemRefresh": "",
+      "valid": "",
+      "invalid": "",
+      "messageEmpty": "",
+      "assignments": {
+        "cartPromotions": "",
+        "orderPromotions": "",
+        "personaPromotions": "",
+        "promotionSetGroups": "",
+        "promotionDiscounts": "",
+        "flowSequences": "",
+        "paymentMethods": "",
+        "productPrices": "",
+        "shippingMethodPriceCalculations": "",
+        "shippingMethodPrices": "",
+        "shippingMethods": ""
+      }
+    },
+    "detail": {
+      "textHeadline": "",
+      "buttonCancel": "",
+      "buttonSave": "",
+      "titleCard": "",
+      "labelName": "",
+      "labelDescription": "",
+      "labelPriority": "",
+      "labelType": "",
+      "placeholderName": "",
+      "placeholderDescription": "",
+      "placeholderPriority": "",
+      "placeholderTags": "",
+      "messageSaveSuccess": "",
+      "ruleCard": "",
+      "messageSaveError": "",
+      "tabGeneral": "",
+      "tabAssignments": "",
+      "buttonAddAssignment": "",
+      "associations": {
+        "shippingMethods": "",
+        "promotions": "",
+        "products": "",
+        "shippingMethodPrices": "",
+        "paymentMethods": "",
+        "promotionCustomerRules": "",
+        "promotionOrderRules": "",
+        "promotionCartRules": "",
+        "promotionDiscountRules": "",
+        "promotionGroupRules": "",
+        "shippingMethodAvailabilityRule": "",
+        "flows": "",
+        "taxProviders": ""
+      },
+      "typeHasNoAssociations": "",
+      "hasNoAssociations": "",
+      "associationsLoadingError": "",
+      "textModalDelete": "",
+      "textModalBulkDelete": "",
+      "titleModalDelete": "",
+      "types": {
+        "shipping": "",
+        "payment": "",
+        "price": "",
+        "flowBuilder": ""
+      },
+      "groups": {
+        "general": "",
+        "cart": "",
+        "items": "",
+        "customers": "",
+        "promotions": "",
+        "flow": "",
+        "misc": ""
+      },
+      "textUnsavedConditions": ""
+    },
+    "conditionFilter": {
+      "infoText": ""
+    },
+    "conditionModal": {
+      "modalTitle": "",
+      "messageSaveError": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "rule": {
+        "label": ""
+      }
+    }
+  }
+}

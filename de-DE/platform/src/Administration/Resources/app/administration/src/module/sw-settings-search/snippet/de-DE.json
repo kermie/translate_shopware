@@ -1,0 +1,119 @@
+{
+  "sw-settings-search": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "textHeadline": ""
+    },
+    "page": {
+      "generalTab": "",
+      "liveSearchTab": ""
+    },
+    "generalTab": {
+      "labelSearchBehaviour": "",
+      "textTitleSearchBehaviour": "",
+      "labelSearchAndCondition": "",
+      "textSearchAndConditionExplain": "",
+      "labelSearchOrCondition": "",
+      "textSearchOrConditionExplain": "",
+      "labelMinimalSearchTerm": "",
+      "labelExcludedSearchTerms": "",
+      "textEmptyStateExcludedSearchTerms": "",
+      "buttonAddExcludedSearch": "",
+      "textPlaceholderTermsFilter": "",
+      "buttonAddExcludedSearchTerms": "",
+      "labelExcludedSearchTermsNoResults": "",
+      "labelSearchableContent": "",
+      "textDescriptionSearchableContent": "",
+      "buttonResetDefault": "",
+      "linkExample": "",
+      "buttonAddContent": "",
+      "labelGeneralTab": "",
+      "labelCustomFieldsTab": "",
+      "textEmptyStateSearchableContent": "",
+      "titleExampleModal": "",
+      "textColumnSearchTerm": "",
+      "modal": {
+        "textExplain": "",
+        "textTitle": "",
+        "textSuperJeans": "",
+        "textDescription": "",
+        "textFancyJeans": "",
+        "textTag": "",
+        "textJeans": "",
+        "textTotal": "",
+        "textProductRankedFirstScore": "",
+        "textFancyPants": "",
+        "textProductRankedSecondScore": "",
+        "textSuperPants": "",
+        "textProductRankedThirdScore": ""
+      },
+      "labelSearchIndex": "",
+      "buttonRebuildSearchIndex": "",
+      "textWarningOpenTab": "",
+      "textRebuildSearchIndexDescription": "",
+      "textRebuildingSearchIndex": "",
+      "textLastedBuild": "",
+      "textSearchNotIndexedYet": "",
+      "list": {
+        "columnSearchable": "",
+        "columnRankingPoints": "",
+        "columnContent": "",
+        "columnSplitKeywords": "",
+        "textResetRanking": "",
+        "textRemove": ""
+      },
+      "configFields": {
+        "name": "",
+        "description": "",
+        "productNumber": "",
+        "manufacturerNumber": "",
+        "ean": "",
+        "customSearchKeywords": "",
+        "manufacturerName": "",
+        "manufacturerCustomFields": "",
+        "categoriesName": "",
+        "categoriesCustomFields": "",
+        "tagsName": "",
+        "metaTitle": "",
+        "metaDescription": "",
+        "propertiesName": "",
+        "variantValue": ""
+      }
+    },
+    "notification": {
+      "saveSuccess": "",
+      "excludedTermRequired": "",
+      "excludedTermAlreadyExists": "",
+      "updateExcludedTermSuccess": "",
+      "createExcludedTermSuccess": "",
+      "deleteExcludedTermSuccess": "",
+      "resetToDefaultExcludedTermSuccess": "",
+      "resetToDefaultExcludedTermError": "",
+      "saveError": "",
+      "index": {
+        "started": "",
+        "success": ""
+      },
+      "loadError": "",
+      "notSupportedLanguageError": ""
+    },
+    "liveSearchTab": {
+      "titleCard": "",
+      "textDescription": "",
+      "labelSalesChannelSelect": "",
+      "textPlaceholderSalesChannel": "",
+      "linkRebuildSearchIndex": "",
+      "labelName": "",
+      "labelScore": "",
+      "textNoResult": ""
+    },
+    "textLeaveConfirm": ""
+  },
+  "sw-privileges": {
+    "permissions": {
+      "product_search_config": {
+        "label": ""
+      }
+    }
+  }
+}

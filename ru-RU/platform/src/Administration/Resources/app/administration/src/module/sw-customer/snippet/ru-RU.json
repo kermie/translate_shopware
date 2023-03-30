@@ -1,0 +1,295 @@
+{
+  "sw-customer": {
+    "error": {
+      "COMPANY_IS_REQUIRED": "",
+      "passwordDoNotMatch": ""
+    },
+    "notification": {
+      "requiredFields": ""
+    },
+    "general": {
+      "mainMenuItemGeneral": "",
+      "mainMenuItemList": "",
+      "mainMenuItemAdd": "",
+      "descriptionTextModule": "",
+      "placeholderSearchBar": "",
+      "newCustomer": "",
+      "tooltipLanguageSwitch": ""
+    },
+    "customerGroupRegistration": {
+      "alert": "",
+      "accept": "",
+      "acceptMessage": "",
+      "decline": "",
+      "declineMessage": "",
+      "errorMessage": "",
+      "notification": {
+        "title": "",
+        "message": "",
+        "openCustomer": ""
+      }
+    },
+    "card": {
+      "placeholderTitle": "",
+      "placeholderFirstName": "",
+      "placeholderLastName": "",
+      "placeholderCompany": "",
+      "placeholderEmail": "",
+      "placeholderNewPassword": "",
+      "placeholderNewPasswordConfirm": "",
+      "labelSalutation": "",
+      "labelTitle": "",
+      "labelFirstName": "",
+      "labelLastName": "",
+      "labelCompany": "",
+      "labelEmail": "",
+      "labelTags": "",
+      "labelGuest": "",
+      "labelVatId": "",
+      "placeholderVatId": ""
+    },
+    "list": {
+      "textCustomers": "",
+      "textCustomersTotal": "",
+      "buttonAddCustomer": "",
+      "columnCustomerNumber": "",
+      "columnName": "",
+      "columnGroup": "",
+      "columnGroupRequested": "",
+      "columnNameGuestLabel": "",
+      "labelCreatedByAdmin": "",
+      "columnFirstName": "",
+      "columnLastName": "",
+      "columnStreet": "",
+      "columnZip": "",
+      "columnCity": "",
+      "columnEmail": "",
+      "columnLastLogin": "",
+      "columnActions": "",
+      "columnAffiliateCode": "",
+      "columnCampaignCode": "",
+      "columnBoundSalesChannel": "",
+      "columnActive": "",
+      "emptyBoundSalesChannel": "",
+      "contextMenuView": "",
+      "contextMenuDelete": "",
+      "contextMenuDuplicate": "",
+      "contextMenuEdit": "",
+      "messageEmpty": "",
+      "textDeleteConfirm": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "titleSidebarItemRefresh": "",
+      "titleSidebarItemFilter": "",
+      "titleSidebarItemFilterAffiliateCode": "",
+      "titleSidebarItemFilterCampaignCode": "",
+      "titleSidebarItemFilterRequestedGroup": ""
+    },
+    "baseForm": {
+      "labelSalutation": "",
+      "labelTitle": "",
+      "labelFirstName": "",
+      "labelLastName": "",
+      "labelEmail": "",
+      "labelPhoneNumber": "",
+      "labelCompany": "",
+      "labelCustomerGroup": "",
+      "labelSalesChannel": "",
+      "labelPaymentMethod": "",
+      "labelCustomerNumber": "",
+      "labelBirthday": "",
+      "labelPassword": "",
+      "placeholderPassword": "",
+      "helpTextPassword": "",
+      "placeholderSalutation": "",
+      "placeholderTitle": "",
+      "placeholderFirstName": "",
+      "placeholderLastName": "",
+      "placeholderEmail": "",
+      "placeholderCustomerNumber": "",
+      "placeholderCustomerGroup": "",
+      "placeholderSalesChannel": "",
+      "placeholderPaymentMethod": "",
+      "labelTags": "",
+      "placeholderTags": ""
+    },
+    "baseInfo": {
+      "contactEmail": "",
+      "labelCustomerNumber": "",
+      "labelCustomerGroup": "",
+      "labelBirthday": "",
+      "labelLastLogin": "",
+      "labelLanguage": "",
+      "labelOrders": "",
+      "labelTurnover": "",
+      "labelDefaultPayment": "",
+      "labelActive": "",
+      "labelAffiliateCode": "",
+      "labelCampaignCode": "",
+      "labelCompany": "",
+      "labelVatId": "",
+      "contentActive": "",
+      "emptyTextLogin": "",
+      "emptyTextBirthday": "",
+      "labelBoundSalesChannel": "",
+      "emptyBoundSalesChannel": "",
+      "helpTextBoundSalesChannel": ""
+    },
+    "detailBase": {
+      "labelAccountCard": "",
+      "labelAddressesCard": "",
+      "labelOrderCard": "",
+      "titleDefaultShippingAddress": "",
+      "titleDefaultBillingAddress": "",
+      "buttonAddAddress": "",
+      "buttonTitleEditAddress": "",
+      "buttonSave": "",
+      "buttonEdit": "",
+      "buttonChangePassword": "",
+      "labelAccountActiveField": ""
+    },
+    "detailAddresses": {
+      "buttonAddAddress": "",
+      "buttonAdd": "",
+      "buttonCancel": "",
+      "buttonClose": "",
+      "buttonApply": "",
+      "buttonDelete": "",
+      "buttonSelect": "",
+      "buttonSaveAndSelect": "",
+      "modalTitleAddress": "",
+      "modalTitleAddAddress": "",
+      "modalTitleEditAddress": "",
+      "textDeleteAddressConfirm": "",
+      "columnDefaultShippingAddress": "",
+      "columnDefaultBillingAddress": "",
+      "columnCompany": "",
+      "columnFirstName": "",
+      "columnLastName": "",
+      "columnStreet": "",
+      "columnZipCode": "",
+      "columnCity": "",
+      "columnActions": "",
+      "contextMenuEdit": "",
+      "contextMenuDelete": "",
+      "contextMenuDuplicate": "",
+      "contextMenuDefaultShippingAddress": "",
+      "contextMenuDefaultBillingAddress": ""
+    },
+    "detailOrder": {
+      "searchbarPlaceholder": "",
+      "columnNumber": "",
+      "columnAmount": "",
+      "columnOrderState": "",
+      "columnOrderDate": "",
+      "columnContextOpenOrder": "",
+      "emptyTitle": "",
+      "emptySearchTitle": "",
+      "emptySubline": "",
+      "buttonCreateOrder": ""
+    },
+    "addressForm": {
+      "labelCompany": "",
+      "labelDepartment": "",
+      "labelSalutation": "",
+      "labelTitle": "",
+      "labelFirstName": "",
+      "labelLastName": "",
+      "labelZipcode": "",
+      "labelStreet": "",
+      "labelCity": "",
+      "labelCountry": "",
+      "labelState": "",
+      "labelAdditionalAddressLine1": "",
+      "labelAdditionalAddressLine2": "",
+      "labelPhoneNumber": "",
+      "labelVatId": "",
+      "labelSameBillingAddress": "",
+      "placeholderCompany": "",
+      "placeholderDepartment": "",
+      "placeholderSalutation": "",
+      "placeholderTitle": "",
+      "placeholderFirstName": "",
+      "placeholderLastName": "",
+      "placeholderZipcode": "",
+      "placeholderStreet": "",
+      "placeholderCity": "",
+      "placeholderCountry": "",
+      "placeholderState": "",
+      "placeholderAdditionalAddressLine1": "",
+      "placeholderAdditionalAddressLine2": "",
+      "placeholderPhoneNumber": "",
+      "placeholderVatId": ""
+    },
+    "detail": {
+      "buttonSave": "",
+      "buttonCancel": "",
+      "buttonEdit": "",
+      "tabGeneral": "",
+      "tabAddresses": "",
+      "messageSaveError": "",
+      "messageSaveSuccess": "",
+      "notificationPasswordErrorMessage": "",
+      "labelCreatedByAdmin": ""
+    },
+    "filter": {
+      "salutation": {
+        "label": "",
+        "placeholder": ""
+      },
+      "status": {
+        "label": "",
+        "placeholder": ""
+      },
+      "defaultPaymentMethod": {
+        "label": "",
+        "placeholder": ""
+      },
+      "customerGroup": {
+        "label": "",
+        "placeholder": ""
+      },
+      "billingCountry": {
+        "label": "",
+        "placeholder": ""
+      },
+      "shippingCountry": {
+        "label": "",
+        "placeholder": ""
+      },
+      "tags": {
+        "label": "",
+        "placeholder": ""
+      },
+      "affiliateCode": {
+        "label": "",
+        "placeholder": ""
+      },
+      "campaignCode": {
+        "label": "",
+        "placeholder": ""
+      },
+      "customerGroupRequest": {
+        "label": "",
+        "placeholder": "",
+        "textHasCriteria": "",
+        "textNoCriteria": ""
+      },
+      "messageEmptyTitle": "",
+      "messageEmptySubline": ""
+    },
+    "customerType": {
+      "labelAccountType": "",
+      "placeholderAccountType": "",
+      "labelPrivate": "",
+      "labelBusiness": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "customer": {
+        "label": ""
+      }
+    }
+  }
+}

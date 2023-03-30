@@ -1,0 +1,141 @@
+{
+    "swag-paypal-payment": {
+        "general": {
+            "title": ""
+        },
+        "tabs": {
+            "overview": ""
+        },
+        "paymentDetails": {
+            "cardTitle": "",
+            "invoice": {
+                "heading": "",
+                "totalAmount": "",
+                "subTotal": "",
+                "shipping": "",
+                "discount": "",
+                "handling": "",
+                "insurance": "",
+                "shipping_discount": ""
+            },
+            "payment": {
+                "heading": "",
+                "intent": "",
+                "paymentId": "",
+                "cartId": "",
+                "state": "",
+                "createTime": "",
+                "updateTime": ""
+            },
+            "customer": {
+                "heading": "",
+                "payerId": ""
+            },
+            "error": {
+                "title": ""
+            }
+        },
+        "transactionHistory": {
+            "cardTitle": "",
+            "states": {
+                "authorization": "",
+                "sale": "",
+                "refund": "",
+                "capture": "",
+                "order": ""
+            },
+            "types": {
+                "type": "",
+                "amount": "",
+                "createTime": "",
+                "updateTime": "",
+                "state": "",
+                "trackingId": "",
+                "transactionFee": "",
+                "paymentMode": ""
+            }
+        },
+        "buttons": {
+            "label": {
+                "refund": "",
+                "capture": "",
+                "void": ""
+            }
+        },
+        "modal": {
+            "title": {
+                "refund": "",
+                "capture": "",
+                "void": ""
+            }
+        },
+        "refundAction": {
+            "successMessage": "",
+            "invoiceSelect": {
+                "label": ""
+            },
+            "refundAmount": {
+                "label": "",
+                "helpText": ""
+            },
+            "refundDescription": {
+                "label": "",
+                "placeholder": ""
+            },
+            "refundReason": {
+                "label": "",
+                "placeholder": ""
+            },
+            "refundNoteToPayer": {
+                "label": "",
+                "placeholder": ""
+            },
+            "refundInvoiceNumber": {
+                "label": "",
+                "placeholder": ""
+            },
+            "confirmButton": {
+                "text": ""
+            }
+        },
+        "captureAction": {
+            "successMessage": "",
+            "maxAmount": "",
+            "currentAmount": "",
+            "captureInvoiceNumber": {
+                "label": "",
+                "placeholder": ""
+            },
+            "captureNoteToPayer": {
+                "label": "",
+                "placeholder": ""
+            },
+            "isFinal": "",
+            "isFinalHint": "",
+            "button": {
+                "text": ""
+            }
+        },
+        "voidAction": {
+            "successMessage": "",
+            "confirm": {
+                "message": "",
+                "button": {
+                    "confirm": ""
+                }
+            }
+        },
+        "errorPage": {
+            "title": "",
+            "canceledPaymentContent": "",
+            "sandboxLiveContent": "",
+            "other": ""
+        }
+    },
+    "sw-order-detail": {
+        "payPalCarrierLabel": "",
+        "payPalCarrierPlaceholder": "",
+        "payPalCarrierHelpText": "",
+        "payPalCarrierDescription": ""
+    }
+}

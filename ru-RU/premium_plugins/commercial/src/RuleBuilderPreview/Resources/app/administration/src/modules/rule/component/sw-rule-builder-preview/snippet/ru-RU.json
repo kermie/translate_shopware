@@ -1,0 +1,14 @@
+{
+    "sw-rule-builder-preview": {
+        "preview": "",
+        "previewMode": "",
+        "previewDescription": "",
+        "order": "",
+        "orderPlaceholder": "",
+        "dateTime": "",
+        "dateTimeDescription": "",
+        "ruleResultTrue": "",
+        "ruleResultFalse": "",
+        "ruleResultInvalid": ""
+    }
+}

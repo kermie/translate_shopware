@@ -1,0 +1,104 @@
+{
+  "sw-settings-tag": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": ""
+    },
+    "list": {
+      "textHeadline": "",
+      "textDeleteConfirm": "",
+      "columnName": "",
+      "columnConnections": "",
+      "buttonAddTag": "",
+      "contextMenuEdit": "",
+      "contextMenuDuplicate": "",
+      "contextMenuDelete": "",
+      "messageDeleteSuccess": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "titleEmptyStateList": "",
+      "searchPlaceholder": "",
+      "filter": "",
+      "filterAssignemnt": "",
+      "placeholderFilterAssignemnt": "",
+      "filterEmpty": "",
+      "filterDuplicate": "",
+      "resetFilters": "",
+      "bulkMerge": "",
+      "bulkMergeTitle": "",
+      "bulkMergeMessage": "",
+      "bulkMergeMessageAnd": "",
+      "bulkMergeMessageFinal": "",
+      "bulkMergeName": "",
+      "bulkMerging": "",
+      "bulkMergeNotice": "",
+      "bulkMergeNoUndoNotice": "",
+      "bulkMergeTimeNotice": "",
+      "bulkMergeInto": "",
+      "placeholderTagName": "",
+      "assignments": {
+        "header": {
+          "products": "",
+          "media": "",
+          "categories": "",
+          "customers": "",
+          "orders": "",
+          "shippingMethods": "",
+          "newsletterRecipients": "",
+          "landingPages": "",
+          "rules": ""
+        },
+        "content": {
+          "products": "",
+          "media": "",
+          "categories": "",
+          "customers": "",
+          "orders": "",
+          "shippingMethods": "",
+          "newsletterRecipients": "",
+          "landingPages": "",
+          "rules": ""
+        },
+        "filter": {
+          "products": "",
+          "media": "",
+          "categories": "",
+          "customers": "",
+          "orders": "",
+          "shippingMethods": "",
+          "newsletterRecipients": "",
+          "landingPages": "",
+          "rules": ""
+        }
+      }
+    },
+    "detail": {
+      "editTitle": "",
+      "generalTab": "",
+      "assignmentsTab": "",
+      "buttonSave": "",
+      "assignments": {
+        "searchPlaceholder": "",
+        "assignments": "",
+        "selected": "",
+        "showSelected": "",
+        "products": "",
+        "media": "",
+        "categories": "",
+        "customers": "",
+        "orders": "",
+        "shippingMethods": "",
+        "newsletterRecipients": "",
+        "landingPages": "",
+        "rules": ""
+      }
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "tag": {
+        "label": ""
+      }
+    }
+  }
+}

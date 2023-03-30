@@ -1,0 +1,43 @@
+{
+  "sw-settings-logging": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": ""
+    },
+    "list": {
+      "title": "",
+      "columnDate": "",
+      "columnMessage": "",
+      "columnLevel": "",
+      "columnContent": "",
+      "actionShowInfo": "",
+      "levelDebug": "",
+      "levelInfo": "",
+      "levelNotice": "",
+      "levelWarning": "",
+      "levelError": "",
+      "levelCritical": "",
+      "levelAlert": "",
+      "levelEmergency": "",
+      "titleSidebarItemRefresh": ""
+    },
+    "entryInfo": {
+      "title": "",
+      "tabRaw": "",
+      "actionClose": ""
+    },
+    "mailInfo": {
+      "tabHTML": "",
+      "tabPlain": "",
+      "recipientsTitle": "",
+      "contentsTitle": ""
+    }
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "system": {
+        "logging": ""
+      }
+    }
+  }
+}

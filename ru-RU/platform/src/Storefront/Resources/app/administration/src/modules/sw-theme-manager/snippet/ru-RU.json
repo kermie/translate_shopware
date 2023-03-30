@@ -1,0 +1,128 @@
+{
+  "sw-theme-manager": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": "",
+      "descriptionTextModule": "",
+      "mainMenuHeader": "",
+      "captionMediaUpload": "",
+      "lockedToolTip": "",
+      "titleError": "",
+      "messageSaveError": "",
+      "defaultTab": ""
+    },
+    "sorting": {
+      "labelSort": "",
+      "labelSortByCreatedAsc": "",
+      "labelSortByCreatedDsc": "",
+      "labelSortByUpdatedAsc": "",
+      "labelSortByUpdatedDsc": ""
+    },
+    "themeListItem": {
+      "edit": "",
+      "delete": "",
+      "rename": "",
+      "duplicate": "",
+      "emptyText": "",
+      "addPreviewImage": "",
+      "removePreviewImage": "",
+      "notificationDeleteErrorTitle": "",
+      "notificationDeleteErrorMessage": ""
+    },
+    "modal": {
+      "textDeleteInfo": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "buttonClose": "",
+      "errorModalTitle": "",
+      "modalTitleDuplicate": "",
+      "textDuplicateInfo": "",
+      "labelDuplicateThemeName": "",
+      "placeholderDuplicateThemeName": "",
+      "buttonDuplicateTheme": "",
+      "modalTitleRename": "",
+      "textRenameInfo": "",
+      "labelRenameThemeName": "",
+      "placeholderRenameThemeName": "",
+      "buttonRenameTheme": "",
+      "modalTitleReset": "",
+      "modalTextResetInfo": "",
+      "modalTextResetAssigned": "",
+      "buttonSave": "",
+      "modalTitleSave": "",
+      "textSaveInfo": "",
+      "addToMediaLabel": "",
+      "salesChannelAlreadyAssignedModal": {
+        "descriptionSingle": "",
+        "descriptionMultiple": ""
+      },
+      "salesChannelRemovedModal": {
+        "descriptionSingle": "",
+        "descriptionMultiple": ""
+      }
+    },
+    "list": {
+      "titleSidebarItemRefresh": "",
+      "textThemeOverview": "",
+      "gridHeaderName": "",
+      "gridHeaderCreated": "",
+      "gridHeaderAssignment": ""
+    },
+    "actions": {
+      "edit": "",
+      "save": "",
+      "saveClean": "",
+      "saveCleanToolTip": "",
+      "rename": "",
+      "delete": "",
+      "duplicate": "",
+      "useImageAs": "",
+      "buttonReset": "",
+      "buttonCancel": "",
+      "buttonUseTheme": "",
+      "deleteDisabledToolTip": ""
+    },
+    "detail": {
+      "description": "",
+      "salesChannel": "",
+      "inheritanceInfo": "",
+      "showFullError": "",
+      "salesChannelHelpText": "",
+      "label": {
+        "media": "",
+        "colors": "",
+        "generalColors": "",
+        "moreColors": "",
+        "fonts": "",
+        "links": "",
+        "textcolor": "",
+        "surface": "",
+        "frame": "",
+        "text": "",
+        "headlines": "",
+        "socialMediaLinks": "",
+        "favicon": "",
+        "shopLogo": ""
+      },
+      "error": {
+        "themeCompile": {
+          "title": "",
+          "message": ""
+        }
+      }
+    },
+    "themeModal": {
+      "actionCancel": "",
+      "actionConfirm": "",
+      "modalTitle": "",
+      "headline": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "theme": {
+        "label": ""
+      }
+    }
+  }
+}

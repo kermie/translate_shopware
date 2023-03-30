@@ -1,0 +1,39 @@
+{
+    "b2b-salesrep": {
+        "general": {
+            "title": "",
+            "description": ""
+        },
+        "customer": {
+            "settings": {
+                "tab": "",
+                "title": "",
+                "titleDebtor": "",
+                "labelDebtor": "",
+                "isDebtor": "",
+                "noDebtor": "",
+                "titleSalesRepresentative": "",
+                "labelSalesRepresentative": "",
+                "isSalesRepresentative": "",
+                "noSalesRepresentative": "",
+                "titleSaveError": "",
+                "messageSaveError": "",
+                "tabSalesRepresentativeClientSelection": "",
+                "salesRepresentativeClients": {
+                    "owner": ""
+                },
+                "salesRepresentativeClientSelection": {
+                    "owner": "",
+                    "assigned": "",
+                    "email": "",
+                    "firstName": "",
+                    "lastName": "",
+                    "type": "",
+                    "searchbarPlaceholder": "",
+                    "customerNumber": "",
+                    "company": ""
+                }
+            }
+        }
+    }
+}

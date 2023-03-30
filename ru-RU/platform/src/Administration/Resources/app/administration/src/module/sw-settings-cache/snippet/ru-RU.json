@@ -1,0 +1,58 @@
+{
+  "sw-settings-cache": {
+    "general": {
+      "mainMenuItemGeneral": ""
+    },
+    "toolbar": {
+      "environment": "",
+      "environmentDev": "",
+      "environmentProd": "",
+      "httpCache": "",
+      "httpCacheOff": "",
+      "httpCacheOn": "",
+      "cacheAdapter": ""
+    },
+    "section": {
+      "clearCachesHeadline": "",
+      "clearCachesText": "",
+      "clearCachesButton": "",
+      "clearAndWarmUpHeadline": "",
+      "clearAndWarmUpText": "",
+      "clearAndWarmUpButton": "",
+      "indexesHeadline": "",
+      "indexesText": "",
+      "indexesButton": "",
+      "indexesSkipSelectPlaceholder": ""
+    },
+    "notifications": {
+      "clearCache": {
+        "started": "",
+        "success": "",
+        "error": ""
+      },
+      "clearCacheAndWarmup": {
+        "started": "",
+        "success": ""
+      },
+      "index": {
+        "started": "",
+        "success": ""
+      }
+    },
+    "modal": {
+      "title": "",
+      "message": "",
+      "actions": {
+        "cancel": "",
+        "clear": ""
+      }
+    }
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "system": {
+        "clear_cache": ""
+      }
+    }
+  }
+}

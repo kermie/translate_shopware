@@ -1,0 +1,39 @@
+{
+    "swag-paypal-disputes": {
+        "general": {
+            "mainMenuItemGeneral": "",
+            "descriptionTextModule": ""
+        },
+        "common": {
+            "dispute_id": "",
+            "update_time": "",
+            "response_due_date": {
+                "label": "",
+                "seller": "",
+                "buyer": ""
+            },
+            "status": "",
+            "dispute_life_cycle_stage": "",
+            "dispute_amount": ""
+        },
+        "list": {
+            "title": "",
+            "titleSidebarItemRefresh": "",
+            "titleSidebarItemFilter": "",
+            "errorTitle": "",
+            "emptyState": {
+                "title": "",
+                "subline": ""
+            }
+        },
+        "detail": {
+            "title": "",
+            "titleAddition": "",
+            "mainFieldsCardTitle": "",
+            "externalLinkText": "",
+            "orderModuleLinkText": "",
+            "rawDataCardTitle": "",
+            "copyButtonLabel": ""
+        }
+    }
+}

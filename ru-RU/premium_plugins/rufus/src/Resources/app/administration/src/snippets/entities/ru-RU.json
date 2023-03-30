@@ -1,0 +1,272 @@
+{
+    "entityCategories": {
+        "admin_user": {
+            "title": "",
+            "entities": {
+                "integration": "",
+                "user": "",
+                "user_access_key": "",
+                "user_recovery": ""
+            }
+        },
+        "app": {
+            "title": "",
+            "entities": {
+                "app_template": "",
+                "app": "",
+                "app_translation": "",
+                "app_action_button": "",
+                "app_action_button_translation": ""
+            }
+        },
+        "category": {
+            "title": "",
+            "entities": {
+                "category": "",
+                "category_translation": "",
+                "category_tag": ""
+            }
+        },
+        "cms": {
+            "title": "",
+            "entities": {
+                "cms_block": "",
+                "cms_page": "",
+                "cms_page_translation": "",
+                "cms_section": "",
+                "cms_slot": "",
+                "cms_slot_translation": ""
+            }
+        },
+        "customer": {
+            "title": "",
+            "entities": {
+                "customer": "",
+                "customer_address": "",
+                "customer_group": "",
+                "customer_group_translation": "",
+                "customer_group_registration_sales_channels": "",
+                "customer_recovery": "",
+                "customer_tag": ""
+            }
+        },
+        "custom_fields": {
+            "title": "",
+            "entities": {
+                "custom_field": "",
+                "custom_field_set": "",
+                "custom_field_set_relation": ""
+            }
+        },
+        "documents": {
+            "title": "",
+            "entities": {
+                "document": "",
+                "document_base_config": "",
+                "document_base_config_sales_channel": "",
+                "document_type": "",
+                "document_type_translation": ""
+            }
+        },
+        "import_export": {
+            "title": "",
+            "entities": {
+                "import_export_file": "",
+                "import_export_log": "",
+                "import_export_profile": "",
+                "import_export_profile_translation": ""
+            }
+        },
+        "mail_templates": {
+            "title": "",
+            "entities": {
+                "mail_header_footer": "",
+                "mail_header_footer_translation": "",
+                "mail_template": "",
+                "mail_template_translation": "",
+                "mail_template_media": "",
+                "mail_template_sales_channel": "",
+                "mail_template_type": "",
+                "mail_template_type_translation": ""
+            }
+        },
+        "media": {
+            "title": "",
+            "entities": {
+                "media": "",
+                "media_translation": "",
+                "media_default_folder": "",
+                "media_folder": "",
+                "media_folder_configuration": "",
+                "media_folder_configuration_media_thumbnail_size": "",
+                "media_tag": "",
+                "media_thumbnail": "",
+                "media_thumbnail_size": ""
+            }
+        },
+        "newsletter": {
+            "title": "",
+            "entities": {
+                "newsletter_recipient": "",
+                "newsletter_recipient_tag": ""
+            }
+        },
+        "order": {
+            "title": "",
+            "entities": {
+                "order": "",
+                "order_address": "",
+                "order_customer": "",
+                "order_delivery": "",
+                "order_delivery_position": "",
+                "order_line_item": "",
+                "order_tag": "",
+                "order_transaction": ""
+            }
+        },
+        "other": {
+            "title": "",
+            "entities": {
+                "acl_role": "",
+                "acl_user_role": "",
+                "dead_message": "",
+                "event_action": "",
+                "message_queue_stats": "",
+                "plugin": "",
+                "scheduled_task": ""
+            }
+        },
+        "payment": {
+            "title": "",
+            "entities": {
+                "payment_method": "",
+                "payment_method_translation": ""
+            }
+        },
+        "product": {
+            "title": "",
+            "entities": {
+                "product": "",
+                "product_category": "",
+                "product_category_tree": "",
+                "product_configurator_setting": "",
+                "product_cross_selling": "",
+                "product_cross_selling_translation": "",
+                "product_cross_selling_assigned_products": "",
+                "product_export": "",
+                "product_keyword_dictionary": "",
+                "product_manufacturer": "",
+                "product_manufacturer_translation": "",
+                "product_media": "",
+                "product_option": "",
+                "product_price": "",
+                "product_property": "",
+                "product_review": "",
+                "product_search_keyword": "",
+                "product_stream": "",
+                "product_tag": "",
+                "product_visibility": "",
+                "product_sorting": "",
+                "product_translation": "",
+                "product_feature_set": "",
+                "product_feature_set_translation": "",
+                "product_custom_field_set": ""
+            }
+        },
+        "promotion": {
+            "title": "",
+            "entities": {
+                "promotion": "",
+                "promotion_translation": "",
+                "promotion_cart_rule": "",
+                "promotion_discount": "",
+                "promotion_discount_prices": "",
+                "promotion_discount_rule": "",
+                "promotion_individual_code": "",
+                "promotion_order_rule": "",
+                "promotion_persona_customer": "",
+                "promotion_persona_rule": "",
+                "promotion_sales_channel": "",
+                "promotion_setgroup": "",
+                "promotion_setgroup_rule": ""
+            }
+        },
+        "rules": {
+            "title": "",
+            "entities": {
+                "rule": "",
+                "rule_condition": ""
+            }
+        },
+        "sales_channel": {
+            "title": "",
+            "entities": {
+                "sales_channel": "",
+                "sales_channel_analytics": "",
+                "sales_channel_country": "",
+                "sales_channel_currency": "",
+                "sales_channel_domain": "",
+                "sales_channel_language": "",
+                "sales_channel_payment_method": "",
+                "sales_channel_shipping_method": "",
+                "sales_channel_translation": "",
+                "sales_channel_type": "",
+                "sales_channel_type_translation": ""
+            }
+        },
+        "settings": {
+            "title": "",
+            "entities": {
+                "country": "",
+                "country_state": "",
+                "currency": "",
+                "delivery_time": "",
+                "language": "",
+                "locale": "",
+                "locale_translation": "",
+                "number_range": "",
+                "number_range_sales_channel": "",
+                "number_range_state": "",
+                "number_range_type": "",
+                "salutation": "",
+                "salutation_translation": "",
+                "seo_url": "",
+                "seo_url_template": "",
+                "state_machine": "",
+                "state_machine_history": "",
+                "state_machine_state": "",
+                "state_machine_state_translation": "",
+                "state_machine_transition": "",
+                "state_machine_translation": "",
+                "system_config": "",
+                "tax": "",
+                "tax_rule": "",
+                "tax_rule_type": "",
+                "unit": "",
+                "version": ""
+            }
+        },
+        "social_shopping": {
+            "title": "",
+            "entities": {
+                "swag_social_shopping_sales_channel": "",
+                "swag_social_shopping_product_error": ""
+            }
+        },
+        "tag": {
+            "title": "",
+            "entities": {
+                "tag": ""
+            }
+        },
+        "theme": {
+            "title": "",
+            "entities": {
+                "theme": "",
+                "theme_translation": "",
+                "theme_media": "",
+                "theme_sales_channel": ""
+            }
+        }
+    }
+}

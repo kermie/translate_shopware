@@ -1,0 +1,11 @@
+{
+  "sw-profile": {
+    "tabSearchPreferences": {
+      "modules": {
+        "order": {
+          "returnNumber": ""
+        }
+      }
+    }
+  }
+}

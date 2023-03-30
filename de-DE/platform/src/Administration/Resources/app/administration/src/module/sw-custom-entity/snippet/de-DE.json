@@ -1,0 +1,15 @@
+{
+    "sw-custom-entity": {
+        "general": {
+            "mainMenuItemGeneral": "",
+            "emptyState": "",
+            "emptyStateSubline": ""
+        },
+        "detail": {
+            "tabs": {
+                "layout": "",
+                "seo": ""
+            }
+        }
+    }
+}

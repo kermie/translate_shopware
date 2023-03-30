@@ -1,0 +1,17 @@
+{
+  "sw-inactivity-login": {
+    "general": {
+      "mainMenuItemIndex": "",
+      "description": ""
+    },
+    "modal": {
+      "title": "",
+      "actions": {
+        "backToLogin": ""
+      },
+      "errors": {
+        "password": ""
+      }
+    }
+  }
+}

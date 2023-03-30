@@ -1,0 +1,40 @@
+{
+  "global": {
+    "error-codes": {
+      "DUPLICATED_SALUTATION_KEY": ""
+    }
+  },
+  "sw-settings-salutation": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "buttonCancel": "",
+      "buttonCreate": "",
+      "buttonSave": "",
+      "placeholderSearchBar": ""
+    },
+    "list": {
+      "columnSalutationKey": "",
+      "columnDisplayName": "",
+      "columnLetterName": ""
+    },
+    "detail": {
+      "cardTitle": "",
+      "fieldDisplayNameLabel": "",
+      "fieldDisplayNamePlaceholder": "",
+      "fieldLetterNameLabel": "",
+      "fieldLetterNamePlaceholder": "",
+      "fieldSalutationKeyTooltip": "",
+      "fieldSalutationKeyLabel": "",
+      "fieldSalutationKeyPlaceholder": "",
+      "placeholderNewSalutation": "",
+      "notificationErrorMessage": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "salutation": {
+        "label": ""
+      }
+    }
+  }
+}

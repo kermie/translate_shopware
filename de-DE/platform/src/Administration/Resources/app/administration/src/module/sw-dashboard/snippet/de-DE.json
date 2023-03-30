@@ -1,0 +1,92 @@
+{
+  "sw-dashboard": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "descriptionTextModule": ""
+    },
+    "introduction": {
+      "headlineUnkownUser": "",
+      "daytimeHeadline": {
+        "5h": [
+          "",
+          ""
+        ],
+        "11h": [
+          "",
+          "",
+          ""
+        ],
+        "18h": [
+          "",
+          ""
+        ],
+        "23h": [
+          "",
+          ""
+        ]
+      },
+      "daytimeWelcomeText": {
+        "5h": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "11h": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "18h": [
+          "",
+          "",
+          ""
+        ],
+        "23h": [
+          "",
+          "",
+          ""
+        ]
+      }
+    },
+    "helpcard": {
+      "headline": "",
+      "helpcenter": "",
+      "helpcenterLink": "",
+      "takeOffTip": "",
+      "takeOffTipLink": "",
+      "getToKnowSales": "",
+      "getToKnowSalesLink": ""
+    },
+    "feedbackCard": {
+      "headline": "",
+      "text": "",
+      "feedback": "",
+      "feedbackLink": ""
+    },
+    "todayStats": {
+      "headline": "",
+      "orders": "",
+      "turnover": "",
+      "orderTime": ""
+    },
+    "monthStats": {
+      "headline": "",
+      "dateRanges": {
+        "30Days": "",
+        "14Days": "",
+        "7Days": "",
+        "24Hours": "",
+        "yesterday": ""
+      },
+      "orderNumber": "",
+      "turnover": "",
+      "numberOfOrders": "",
+      "totalTurnover": "",
+      "helperText": "",
+      "linkOrders": "",
+      "linkPaidOrders": ""
+    }
+  }
+}

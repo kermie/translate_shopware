@@ -1,0 +1,152 @@
+{
+  "sw-mail-template": {
+    "general": {
+      "mainMenuItemList": "",
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": "",
+      "notificationTestMailSalesChannelErrorMessage": "",
+      "notificationTestMailErrorMessage": "",
+      "notificationTestMailSuccessMessage": "",
+      "notificationSyntaxValidationErrorMessage": "",
+      "notificationGeneralSyntaxValidationErrorMessage": ""
+    },
+    "list": {
+      "textMailTemplateOverview": "",
+      "titleMailTemplateList": "",
+      "titleMailFooterList": "",
+      "buttonAddMailTemplate": "",
+      "buttonAdd": "",
+      "columnMailType": "",
+      "columnDescription": "",
+      "columnSalesChannels": "",
+      "contextMenuDelete": "",
+      "contextMenuEdit": "",
+      "contextMenuDuplicate": "",
+      "textDeleteConfirm": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "titleSidebarItemRefresh": "",
+      "errorMediaItemDuplicated": "",
+      "columnFilename": "",
+      "emptyStateTitle": "",
+      "emptyStateSubTitle": ""
+    },
+    "detail": {
+      "basic": {
+        "titleCard": "",
+        "labelMailType": "",
+        "labelDescription": "",
+        "labelSalesChannels": "",
+        "placeholderMailType": "",
+        "placeholderDescription": "",
+        "placeholderSalesChannels": ""
+      },
+      "options": {
+        "titleCard": "",
+        "labelSenderMail": "",
+        "labelSenderName": "",
+        "labelSubject": "",
+        "placeholderSenderMail": "",
+        "placeholderSenderName": "",
+        "placeholderSubject": ""
+      },
+      "mailText": {
+        "titleCard": "",
+        "labelContentPlain": "",
+        "labelContentHtml": "",
+        "placeholderPlain": "",
+        "placeholderHtml": ""
+      },
+      "media": {
+        "titleCard": "",
+        "buttonDelete": ""
+      },
+      "sidebar": {
+        "labelContextMenuAddToMailTemplate": "",
+        "placeholderTestMail": "",
+        "buttonTestMail": "",
+        "labelTestMail": "",
+        "titleTestMail": "",
+        "titleShowPreview": "",
+        "titleShowAvailableVariables": "",
+        "copyTooltip": ""
+      },
+      "previewModalTitle": "",
+      "buttonCancel": "",
+      "buttonSave": "",
+      "textHeadline": "",
+      "textHeadlineEdit": "",
+      "titleResult": "",
+      "messageSaveSuccess": "",
+      "messageSaveError": "",
+      "textErrorMessage": ""
+    }
+  },
+  "sw-mail-header-footer": {
+    "general": {
+      "mainMenuItemList": "",
+      "placeholderSearchBar": "",
+      "mainMenuItemGeneral": ""
+    },
+    "list": {
+      "textMailHeaderFooterOverview": "",
+      "buttonAddMailHeaderFooter": "",
+      "columnName": "",
+      "columnDescription": "",
+      "columnSalesChannels": "",
+      "contextMenuDelete": "",
+      "contextMenuEdit": "",
+      "contextMenuDuplicate": "",
+      "textDeleteConfirm": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "titleSidebarItemRefresh": "",
+      "messageDeleteError": "",
+      "emptyStateTitle": "",
+      "emptyStateSubTitle": ""
+    },
+    "detail": {
+      "basic": {
+        "titleCard": "",
+        "labelName": "",
+        "labelDescription": "",
+        "labelSalesChannels": "",
+        "placeholderName": "",
+        "placeholderDescription": "",
+        "placeholderSalesChannels": ""
+      },
+      "header": {
+        "titleCard": "",
+        "labelPlain": "",
+        "labelHtml": "",
+        "placeholderPlain": "",
+        "placeholderHtml": ""
+      },
+      "footer": {
+        "titleCard": "",
+        "labelPlain": "",
+        "labelHtml": "",
+        "placeholderPlain": "",
+        "placeholderHtml": ""
+      },
+      "buttonCancel": "",
+      "buttonSave": "",
+      "textHeadline": "",
+      "titleResult": "",
+      "messageSaveSuccess": "",
+      "messageSaveError": ""
+    },
+    "modal": {
+      "title": "",
+      "mainContent": "",
+      "affectedList": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "mail_templates": {
+        "label": ""
+      }
+    }
+  }
+}

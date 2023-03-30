@@ -1,0 +1,16 @@
+{
+  "sw-settings-store": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "textHeadline": "",
+      "description": "",
+      "buttonSave": "",
+      "messageSaveSuccess": ""
+    },
+    "detail": {
+      "titleCard": "",
+      "labelHost": "",
+      "placeholderHost": ""
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "sw-settings-mailer": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "textHeadline": "",
+      "buttonSave": "",
+      "helpText": ""
+    },
+    "mailer-configuration": {
+      "card-title": "",
+      "agent": "",
+      "local-agent": "",
+      "local-helptext": "",
+      "smtp-server": "",
+      "env-file": ""
+    },
+    "first-configuration": {
+      "headline": "",
+      "description": ""
+    },
+    "sendmail": {
+      "sync": "",
+      "async": ""
+    },
+    "card-smtp": {
+      "host": "",
+      "host-placeholder": "",
+      "port": "",
+      "port-placeholder": "",
+      "username": "",
+      "username-placeholder": "",
+      "password": "",
+      "password-placeholder": "",
+      "encryption": "",
+      "encryption-placeholder": "",
+      "sender-address": "",
+      "sender-address-placeholder": "",
+      "delivery-address": "",
+      "delivery-address-placeholder": "",
+      "delivery-address-helptext": "",
+      "disable-delivery": "",
+      "error": {
+        "notificationMessage": ""
+      }
+    },
+    "encryption": {
+      "no-encryption": "",
+      "ssl": "",
+      "tls": ""
+    },
+    "helpText": ""
+  }
+}
+

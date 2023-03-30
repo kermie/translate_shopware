@@ -1,0 +1,130 @@
+{
+    "sw-settings-shipping": {
+        "general": {
+            "mainMenuItemGeneral": "",
+            "placeholderSearchBar": "",
+            "descriptionTextModule": ""
+        },
+        "list": {
+            "textHeadline": "",
+            "buttonAddShippingMethod": "",
+            "buttonCancel": "",
+            "buttonDelete": "",
+            "columnName": "",
+            "columnDescription": "",
+            "columnActive": "",
+            "columnPosition": "",
+            "contextMenuEdit": "",
+            "contextMenuDelete": "",
+            "contextMenuDuplicate": "",
+            "messageEmpty": "",
+            "textDeleteConfirm": "",
+            "titleSidebarItemRefresh": "",
+            "messageSaveSuccess": "",
+            "messageSaveError": "",
+            "messageDeleteError": "",
+            "messageDeleteSuccess": "",
+            "columnTaxType": "",
+            "columnTaxRate": "",
+            "placeholderTaxType": ""
+        },
+        "detail": {
+            "textHeadline": "",
+            "titleCard": "",
+            "messageSaveSuccess": "",
+            "labelName": "",
+            "labelActive": "",
+            "labelPosition": "",
+            "labelDeliveryTime": "",
+            "placeholderDeliveryTime": "",
+            "placeholderName": "",
+            "placeholderPosition": "",
+            "placeholderDescription": "",
+            "labelDescription": "",
+            "buttonCancel": "",
+            "buttonSave": "",
+            "labelSetRules": "",
+            "labelBasicInfo": "",
+            "topRule": "",
+            "placeholderTopRule": "",
+            "labelLogoUpload": "",
+            "labelTrackingUrl": "",
+            "placeholderTrackingUrl": "",
+            "helpTextTrackingUrl": "",
+            "tax": {
+                "fieldName": "",
+                "labelTaxType": "",
+                "labelTaxRate": "",
+                "placeholderTaxType": "",
+                "placeholderTaxRate": "",
+                "helpText": ""
+            }
+        },
+        "constants": {
+            "weight": "",
+            "price": "",
+            "lineItemCount": ""
+        },
+        "priceMatrix": {
+            "titleCard": "",
+            "noRestriction": "",
+            "addNewRule": "",
+            "addNewShippingPrice": "",
+            "duplicateMatrixContextLabel": "",
+            "deleteMatrixContextLabel": "",
+            "contextMenuDuplicatePrice": "",
+            "contextMenuDeletePrice": "",
+            "selectProperty": "",
+            "useRules": "",
+            "emptyText": "",
+            "chooseCustomRule": "",
+            "calculationLineItemCount": "",
+            "calculationPrice": "",
+            "calculationWeight": "",
+            "calculationVolume": "",
+            "columnQuantityStart": "",
+            "columnQuantityEnd": "",
+            "columnWeightStart": "",
+            "columnWeightEnd": "",
+            "columnPriceStart": "",
+            "columnPriceEnd": "",
+            "columnVolumeStart": "",
+            "columnVolumeEnd": "",
+            "columnPrice": "",
+            "columnCalculationRule": "",
+            "buttonAddAdditionalPriceMatrix": "",
+            "any": "",
+            "buttonCancel": "",
+            "buttonDelete": "",
+            "textDeleteConfirm": "",
+            "deletionNotPossibleMessage": "",
+            "labelGrossNet": "",
+            "ruleAlreadyUsed": "",
+            "ruleAlreadyUsedInMatrix": "",
+            "textOr": "",
+            "chooseOrCreateRule": "",
+            "unrestrictedRuleAlreadyExistsMessage": "",
+            "newMatrixAlreadyExists": "",
+            "newMatrixAlertMessage": "",
+            "contextMenuModifyPrice": ""
+        },
+        "sidebar": {
+            "labelUseAsLogo": ""
+        },
+        "shippingPriceModal": {
+            "modalTitle": ""
+        },
+        "shippingCostOptions": {
+            "auto": "",
+            "highest": "",
+            "fixed": ""
+        }
+    },
+    "sw-privileges": {
+        "permissions": {
+            "shipping": {
+                "label": ""
+            }
+        }
+    }
+}

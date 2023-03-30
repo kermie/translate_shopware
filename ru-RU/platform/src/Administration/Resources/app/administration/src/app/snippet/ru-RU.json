@@ -1,0 +1,1560 @@
+{
+  "global": {
+    "error-codes": {
+      "FRAMEWORK__MISSING_PRIVILEGE_ERROR": "",
+      "FRAMEWORK__DELETE_RESTRICTED": "",
+      "c1051bb4-d103-4f74-8988-acbcafc7fdc3": "",
+      "INVALID_MEDIA_URL": "",
+      "CONTENT__MISSING_RULE_TYPE_EXCEPTION": "",
+      "CONTENT__INVALID_CATEGORY_TYPE_AS_ENTRY_POINT": "",
+      "SHOPWARE_INVALID_IP": "",
+      "INVALID_URL": "",
+      "INVALID_MAIL": "",
+      "FRAMEWORK__RATE_LIMIT_EXCEEDED": "",
+      "DUPLICATED_URL": "",
+      "CONTENT__MEDIA_EMPTY_FILE": "",
+      "CONTENT__INVALID_CUSTOM_ENTITY_FIELD_TYPE": ""
+    },
+    "default": {
+      "add": "",
+      "apply": "",
+      "cancel": "",
+      "delete": "",
+      "remove": "",
+      "edit": "",
+      "duplicate": "",
+      "copy": "",
+      "error": "",
+      "warning": "",
+      "save": "",
+      "success": "",
+      "info": "",
+      "yes": "",
+      "no": "",
+      "confirm": "",
+      "view": "",
+      "ascending": "",
+      "descending": "",
+      "xTimesIn": "",
+      "open": "",
+      "close": "",
+      "from": "",
+      "to": "",
+      "bulkEdit": "",
+      "discard": ""
+    },
+    "notification": {
+      "notificationSaveErrorMessage": "",
+      "notificationSaveErrorMessageRequiredFieldsInvalid": "",
+      "unspecifiedSaveErrorMessage": "",
+      "notificationSaveSuccessMessage": "",
+      "messageDeleteSuccess": "",
+      "messageDeleteFailed": "",
+      "noTitle": "",
+      "noMessage": "",
+      "notificationLoadingDataErrorMessage": ""
+    },
+    "notification-center": {
+      "title": "",
+      "emptyText": "",
+      "deleteModal": {
+        "title": "",
+        "textConfirm": ""
+      },
+      "worker-listener": {
+        "thumbnailGeneration": {
+          "title": "",
+          "message": "",
+          "messageSuccess": ""
+        },
+        "esIndexing": {
+          "message": "",
+          "messageSuccess": ""
+        },
+        "dalIndexing": {
+          "message": "",
+          "messageSuccess": ""
+        },
+        "warmupIndexing": {
+          "message": "",
+          "messageSuccess": ""
+        },
+        "productStream": {
+          "title": "",
+          "message": "",
+          "messageSuccess": ""
+        },
+        "category": {
+          "title": "",
+          "message": "",
+          "messageSuccess": ""
+        },
+        "media": {
+          "title": "",
+          "message": "",
+          "messageSuccess": ""
+        },
+        "salesChannel": {
+          "title": "",
+          "message": "",
+          "messageSuccess": ""
+        },
+        "rule": {
+          "title": "",
+          "message": "",
+          "messageSuccess": ""
+        },
+        "product": {
+          "title": "",
+          "message": "",
+          "messageSuccess": ""
+        },
+        "promotion": {
+          "title": "",
+          "message": "",
+          "messageSuccess": ""
+        },
+        "importExport": {
+          "title": "",
+          "message": "",
+          "messageSuccess": ""
+        },
+        "flow": {
+          "title": "",
+          "message": "",
+          "messageSuccess": ""
+        },
+        "newsletterRecipient": {
+          "title": "",
+          "message": "",
+          "messageSuccess": ""
+        }
+      },
+      "plugin-updates-listener": {
+        "updatesAvailableTitle": "",
+        "updatesAvailableMessage": ""
+      },
+      "shopware-updates-listener": {
+        "updatesAvailableTitle": "",
+        "updatesAvailableMessage": "",
+        "updateNow": ""
+      }
+    },
+    "sw-admin-menu": {
+      "linkLogout": "",
+      "linkMinimizeMenu": "",
+      "textShopwareAdmin": "",
+      "textProjectName": "",
+      "administrator": "",
+      "navigation": {
+        "mainMenuItemCatalogue": "",
+        "mainMenuItemContent": "",
+        "mainMenuItemMarketing": ""
+      }
+    },
+    "entity-components": {
+      "deleteMessage": "",
+      "deleteTitle": "",
+      "placeholderToManyAssociationCard": "",
+      "labelRemoveAssociation": "",
+      "productStreamPreview": {
+        "emptyMessageNoStream": "",
+        "emptyMessageNoProducts": "",
+        "emptyMessageNoSearchResults": ""
+      }
+    },
+    "sw-field": {
+      "notification": {
+        "notificationCopySuccessMessage": "",
+        "notificationCopyFailureMessage": ""
+      },
+      "titleShowPassword": "",
+      "titleHidePassword": "",
+      "tooltipRestoreInheritance": "",
+      "tooltipRemoveInheritance": ""
+    },
+    "sw-field-copyable": {
+      "tooltip": {
+        "wasCopied": "",
+        "canCopy": ""
+      }
+    },
+    "sw-file-input": {
+      "buttonChoose": "",
+      "notification": {
+        "invalidFileType": {
+          "message": ""
+        },
+        "invalidFileSize": {
+          "message": ""
+        }
+      },
+      "caption": ""
+    },
+    "sw-gtc-checkbox": {
+      "label": "",
+      "link": "",
+      "url": ""
+    },
+    "sw-price-field": {
+      "labelPriceGross": "",
+      "labelPriceNet": ""
+    },
+    "sw-list-price-field": {
+      "labelListPriceGross": "",
+      "helpTextListPriceGross": "",
+      "labelListPriceNet": "",
+      "labelRegulationPriceGross": "",
+      "helpTextRegulationPriceGross": "",
+      "labelRegulationPriceNet": ""
+    },
+    "sw-text-editor": {
+      "labelTextLength": ""
+    },
+    "sw-code-editor": {
+      "sanitizeInfo": "",
+      "sanitizedHint": ""
+    },
+    "sw-tag-field": {
+      "title": "",
+      "listItemAdd": "",
+      "placeholder": ""
+    },
+    "sw-snippet-field": {
+      "tooltip": ""
+    },
+    "sw-snippet-field-edit-modal": {
+      "title": "",
+      "labelName": ""
+    },
+    "sw-data-grid": {
+      "tooltipListSettings": "",
+      "labelSettingsCompactMode": "",
+      "labelSettingsPreviewImages": "",
+      "labelColumnHide": "",
+      "labelSelectionCount": "",
+      "labelDeSelectAll": "",
+      "maximumSelectionExceed": ""
+    },
+    "sw-pagination": {
+      "labelItemsPerPage": ""
+    },
+    "sw-modal": {
+      "labelClose": ""
+    },
+    "sw-text-preview": {
+      "showMoreButton": ""
+    },
+    "sw-time-ago": {
+      "justNow": "",
+      "minutesAgo": "",
+      "aboutNow": "",
+      "minutesFromNow": ""
+    },
+    "sw-media-field": {
+      "labelToggleSearchExisting": "",
+      "labelToggleUploadNew": "",
+      "labelUnlink": ""
+    },
+    "sw-media-folder-item": {
+      "labelContextMenuRename": "",
+      "labelContextMenuMove": "",
+      "labelContextMenuShowMedia": "",
+      "labelContextMenuShowSettings": "",
+      "labelContextMenuDissolve": "",
+      "notification": {
+        "errorBlankItemName": {
+          "message": ""
+        },
+        "renamingError": {
+          "message": ""
+        },
+        "errorInvalidItemName": {
+          "message": ""
+        }
+      }
+    },
+    "sw-media-media-item": {
+      "labelContextMenuCopyLink": "",
+      "labelContextMenuReplace": "",
+      "labelContextMenuRename": "",
+      "labelContextMenuDetail": "",
+      "labelContextMenuMove": "",
+      "notification": {
+        "errorBlankItemName": {
+          "message": ""
+        },
+        "renamingSuccess": {
+          "message": ""
+        },
+        "renamingError": {
+          "message": ""
+        }
+      },
+      "labelUploading": ""
+    },
+    "sw-media-modal-delete": {
+      "titleModal": {
+        "media": "",
+        "folder": "",
+        "mediaAndFolder": ""
+      },
+      "deleteMessage": {
+        "media": "",
+        "folder": "",
+        "mediaAndFolder": ""
+      },
+      "mediaQuickInfoMessage": "",
+      "mediaInUsagesMessage": "",
+      "notification": {
+        "errorSingle": {
+          "message": {
+            "media": "",
+            "folder": ""
+          }
+        },
+        "successOverall": {
+          "message": {
+            "media": "",
+            "folder": "",
+            "mediaAndFolder": ""
+          }
+        },
+        "errorOverall": {
+          "message": {
+            "media": "",
+            "folder": "",
+            "mediaAndFolder": ""
+          }
+        }
+      }
+    },
+    "sw-media-modal-folder-dissolve": {
+      "dissolveMessage": "",
+      "buttonDissolve": "",
+      "notification": {
+        "successSingle": {
+          "message": ""
+        },
+        "errorSingle": {
+          "message": ""
+        },
+        "successOverall": {
+          "message": ""
+        },
+        "errorOverall": {
+          "message": ""
+        }
+      }
+    },
+    "sw-duplicated-media": {
+      "titleModal": "",
+      "description": "",
+      "buttonReplace": "",
+      "buttonRename": "",
+      "buttonSkip": "",
+      "labelSaveSelection": "",
+      "labelOptionReplace": "",
+      "labelOptionRename": "",
+      "labelOptionSkip": "",
+      "labelOldFile": "",
+      "labelNewFile": ""
+    },
+    "sw-duplicated-media-v2": {
+      "titleModal": "",
+      "description": "",
+      "buttonReplace": "",
+      "buttonRename": "",
+      "buttonKeep": "",
+      "buttonSkip": "",
+      "labelSaveSelection": "",
+      "labelOptionReplace": "",
+      "labelOptionRename": "",
+      "labelOptionKeep": "",
+      "labelOptionSkip": "",
+      "labelOldFile": "",
+      "labelNewFile": ""
+    },
+    "sw-media-modal-move": {
+      "titleModal": "",
+      "buttonMove": "",
+      "notification": {
+        "successSingle": {
+          "message": ""
+        },
+        "errorSingle": {
+          "message": ""
+        },
+        "successOverall": {
+          "message": ""
+        },
+        "errorOverall": {
+          "message": ""
+        }
+      }
+    },
+    "sw-media-modal-replace": {
+      "titleModal": "",
+      "buttonUpload": "",
+      "buttonReplace": "",
+      "warningFileExtension": ""
+    },
+    "sw-media-preview": {
+      "fallbackVideoTagSupport": "",
+      "fallbackAudioTagSupport": "",
+      "textNoMedia": ""
+    },
+    "sw-media-preview-v2": {
+      "fallbackVideoTagSupport": "",
+      "fallbackAudioTagSupport": "",
+      "textNoMedia": ""
+    },
+    "sw-media-upload": {
+      "buttonFileUpload": "",
+      "buttonUrlUpload": "",
+      "buttonSwitchToFileUpload": "",
+      "buttonSwitchToUrlUpload": "",
+      "buttonOpenMedia": "",
+      "notification": {
+        "success": {
+          "message": ""
+        },
+        "assigned": {
+          "message": ""
+        },
+        "failure": {
+          "message": ""
+        },
+        "illegalFilename": {
+          "message": ""
+        },
+        "illegalFileUrl": {
+          "title": "",
+          "message": ""
+        }
+      },
+      "caption": ""
+    },
+    "sw-media-upload-v2": {
+      "buttonFileUpload": "",
+      "buttonFilesUpload": "",
+      "buttonUrlUpload": "",
+      "buttonSwitchToFileUpload": "",
+      "buttonSwitchToUrlUpload": "",
+      "buttonOpenMedia": "",
+      "notification": {
+        "success": {
+          "title": "",
+          "message": ""
+        },
+        "failure": {
+          "message": ""
+        },
+        "illegalFilename": {
+          "title": "",
+          "message": ""
+        },
+        "invalidFileType": {
+          "message": ""
+        },
+        "invalidFileSize": {
+          "message": ""
+        },
+        "invalidUrl": {
+          "message": ""
+        }
+      },
+      "caption": ""
+    },
+    "sw-media-url-form": {
+      "title": "",
+      "upload": "",
+      "example": "",
+      "labelFileExtension": "",
+      "missingFileExtension": ""
+    },
+    "sw-media-modal-folder-settings": {
+      "labelSettings": "",
+      "labelSystem": "",
+      "labelThumbnails": "",
+      "labelFolderName": "",
+      "labelInheritSettings": "",
+      "labelGenerateThumbnails": "",
+      "labelThumbnailQuality": "",
+      "labelThumbnailSize": "",
+      "labelEditList": "",
+      "labelStopEdit": "",
+      "labelKeepProportions": "",
+      "notification": {
+        "success": {
+          "message": ""
+        },
+        "error": {
+          "message": ""
+        }
+      },
+      "labelDefaultFolder": "",
+      "placeholderDefaultFolder": ""
+    },
+    "sw-media-add-thumbnail-form": {
+      "labelMaximumSize": ""
+    },
+    "sw-sidebar-media-item": {
+      "title": "",
+      "placeholderSearch": "",
+      "labelLoadMore": ""
+    },
+    "sw-media-list-selection-item": {
+      "buttonRemove": ""
+    },
+    "sw-media-list-selection-item-v2": {
+      "buttonRemove": ""
+    },
+    "sw-select": {
+      "messageNoResults": ""
+    },
+    "sw-select-result-list": {
+      "messageNoResults": ""
+    },
+    "sw-single-select": {
+      "messageNoResults": "",
+      "valuePlaceholder": "",
+      "labelEntity": "",
+      "labelEntityAdd": "",
+      "labelEntityAddedSuccess": ""
+    },
+    "sw-meteor-single-select": {
+      "messageNoResults": "",
+      "valuePlaceholder": ""
+    },
+    "sw-multi-select": {
+      "messageNoResults": ""
+    },
+    "sw-multi-tag-select": {
+      "enterValidData": "",
+      "addData": ""
+    },
+    "sw-multi-tag-ip-select": {
+      "enterValidIp": "",
+      "addIpAddress": "",
+      "knownIps": {
+        "you": ""
+      }
+    },
+    "sw-entity-advanced-selection-modal": {
+      "link": "",
+      "title": "",
+      "searchPlaceholder": "",
+      "filter": "",
+      "resetFilters": "",
+      "applySelection": "",
+      "entity": {
+        "product": "",
+        "rule": ""
+      }
+    },
+    "sw-entity-multi-select": {
+      "messageNoResults": ""
+    },
+    "sw-entity-many-to-many-select": {
+      "messageNoResults": ""
+    },
+    "sw-search-bar": {
+      "messageNoResults": "",
+      "messageNoTypeResults": "",
+      "placeholderSearchField": "",
+      "placeholderTypeSearchField": "",
+      "placeholderShortcutInfo": "",
+      "placeholderSearchShortcutInfo": "",
+      "placeholderESSearchShortcutInfo": "",
+      "moduleFiltersHeadline": "",
+      "placeholderFilterShortcutInfo": "",
+      "searchTypeAll": "",
+      "moduleFilter": "",
+      "messageNoResultsV2": "",
+      "messageNoResultsDetailV2": "",
+      "addNew": ""
+    },
+    "sw-search-bar-item": {
+      "typeLabelCustomer": "",
+      "typeLabelProduct": "",
+      "typeLabelOrder": "",
+      "typeLabelMedia": "",
+      "typeLabelCategory": "",
+      "typeLabelCms": "",
+      "typeLabelModule": "",
+      "typeLabelAction": "",
+      "addNewEntity": "",
+      "shortcuts": {
+        "product": "",
+        "category": "",
+        "customers": "",
+        "property": "",
+        "manufacturer": "",
+        "settings-rule": "",
+        "sales-channel": "",
+        "cms": "",
+        "dashboard": "",
+        "product-stream": "",
+        "order": "",
+        "media": "",
+        "promotion-v2": "",
+        "settings": "",
+        "newsletter-recipient": "",
+        "settings-snippet": "",
+        "settings-payment": "",
+        "settings-shipping": ""
+      }
+    },
+    "sw-search-more-results": {
+      "labelShowResultsInModule": "",
+      "labelShowResultsInModuleV2": ""
+    },
+    "sw-tagged-field": {
+      "text-default-placeholder": ""
+    },
+    "sw-condition": {
+      "operator": {
+        "placeholder": "",
+        "lowerThanEquals": "",
+        "equals": "",
+        "greaterThanEquals": "",
+        "lowerThan": "",
+        "greaterThan": "",
+        "notEquals": "",
+        "isOneOf": "",
+        "isNoneOf": "",
+        "gross": "",
+        "net": "",
+        "empty": ""
+      },
+      "placeholderErrorMessage": "",
+      "dataErrorMessage": "",
+      "condition": {
+        "dateRangeRule": {
+          "label": "",
+          "useTime": ""
+        },
+        "placeholder": "",
+        "orderCountRule": "",
+        "salesChannelRule": "",
+        "currencyRule": "",
+        "languageRule": "",
+        "customerIsActiveRule": "",
+        "billingCountryRule": "",
+        "billingCityRule": "",
+        "billingStreetRule": "",
+        "billingStateRule": "",
+        "billingZipCodeRule": "",
+        "customerGroupRule": "",
+        "customerTagRule": "",
+        "customerNumberRule": "",
+        "differentAddressesRule": "",
+        "emailRule": {
+          "label": "",
+          "placeholder": ""
+        },
+        "isNewCustomerRule": "",
+        "lastNameRule": "",
+        "isCompanyRule": "",
+        "cartTaxDisplay": {
+          "label": "",
+          "gross": "",
+          "net": ""
+        },
+        "isGuestRule": "",
+        "isNewsletterRecipient": "",
+        "daysSinceLastOrderRule": "",
+        "shippingCountryRule": "",
+        "shippingCityRule": "",
+        "shippingStreetRule": "",
+        "shippingStateRule": "",
+        "shippingZipCodeRule": "",
+        "customerLoggedInRule": "",
+        "customerAgeRule": "",
+        "customerDaysSinceLastLogin": "",
+        "customerDaysSinceFirstLogin": "",
+        "customerAffiliateCodeRule": "",
+        "customerCampaignCodeRule": "",
+        "cartAmountRule": "",
+        "cartPositionPrice": "",
+        "goodsCountRule": "",
+        "goodsPriceRule": "",
+        "cartTotalPurchasePrice": "",
+        "lineItemOfTypeRule": {
+          "label": "",
+          "product": "",
+          "discount_surcharge": ""
+        },
+        "lineItemRule": "",
+        "lineItemsInCartCountRule": "",
+        "promotionsInCartCountRule": "",
+        "lineItemUnitPriceRule": "",
+        "lineItemTotalPriceRule": "",
+        "lineItemWithQuantityRule": "",
+        "orderTagRule": "",
+        "orderTrackingCodeRule": "",
+        "orderDeliveryStatusRule": "",
+        "orderCreatedByAdminRule": "",
+        "orderTransactionStatusRule": "",
+        "orderStatusRule": "",
+        "yes": "",
+        "no": "",
+        "withTime": "",
+        "withoutTime": "",
+        "and": "",
+        "or": "",
+        "field": {
+          "valuePlaceholder": ""
+        },
+        "placeholder-warning": "",
+        "not-found": {
+          "label": "",
+          "error-message": ""
+        },
+        "lineItemCondition": {
+          "any": "",
+          "all": ""
+        },
+        "AddAndCondition": "",
+        "AddOrCondition": "",
+        "AddSubCondition": "",
+        "deleteConditions": "",
+        "deleteAllConditions": "",
+        "createBefore": "",
+        "createAfter": "",
+        "hasDeliveryFreeItemRule": "",
+        "timeRangeRule": "",
+        "weightOfCartRule": "",
+        "volumeOfCartRule": "",
+        "cartShippingCost": "",
+        "dayOfWeekRule": "",
+        "lineItemTagRule": "",
+        "alwaysValidRule": "",
+        "lineItemPropertyRule": "",
+        "lineItemNoveltyRule": "",
+        "lineItemCustomFieldRule": "",
+        "lineItemIsNewRule": "",
+        "lineItemOfManufacturerRule": "",
+        "lineItemPurchasePriceRule": "",
+        "lineItemCreationDateRule": "",
+        "lineItemReleaseDateRule": "",
+        "lineItemClearanceSale": "",
+        "lineItemPromotedRule": "",
+        "lineItemInCategoryRule": "",
+        "categoryWithProductStreamTooltip": "",
+        "lineItemInProductStreamRule": "",
+        "lineItemTaxationRule": "",
+        "lineItemDimensionWidthRule": "",
+        "lineItemDimensionHeightRule": "",
+        "lineItemDimensionLengthRule": "",
+        "lineItemDimensionWeightRule": "",
+        "lineItemDimensionVolumeRule": "",
+        "lineItemListPriceRule": "",
+        "lineItemListPriceRatioRule": "",
+        "lineItemStockRule": "",
+        "lineItemActualStockRule": "",
+        "lineItemProductStates": "",
+        "paymentMethodRule": "",
+        "shippingMethodRule": "",
+        "lineItemGoodsTotalRule": "",
+        "orderTotalAmountRule": "",
+        "promotionValueRule": "",
+        "promotionCodeOfType": "",
+        "promotionCodeOfTypeRule": {
+          "global": "",
+          "fixed": "",
+          "individual": ""
+        },
+        "promotionLineItemRule": "",
+        "lineItemCustomField": {
+          "field": {
+            "fieldSetSelect": {
+              "placeholder": ""
+            },
+            "customFieldSelect": {
+              "placeholder": ""
+            }
+          }
+        },
+        "customerCustomFieldRule": "",
+        "zipCodeWildcardPlaceholder": "",
+        "customerBirthdayRule": "",
+        "customerCreatedByAdminRule": "",
+        "customerSalutationRule": "",
+        "customerDefaultPaymentMethodRule": "",
+        "lineItemPropertyValueRule": "",
+        "lineItemVariantValueRule": ""
+      }
+    },
+    "sw-condition-generic": {
+      "customerEmail": {
+        "email": {
+          "placeholder": ""
+        }
+      },
+      "cartLineItemDimensionWidth": {
+        "amount": {
+          "placeholder": ""
+        }
+      },
+      "cartLineItemDimensionHeight": {
+        "amount": {
+          "placeholder": ""
+        }
+      },
+      "cartLineItemDimensionLength": {
+        "amount": {
+          "placeholder": ""
+        }
+      },
+      "cartTaxDisplay": {
+        "taxDisplay": {
+          "options": {
+            "gross": "",
+            "net": ""
+          }
+        }
+      },
+      "dayOfWeek": {
+        "dayOfWeek": {
+          "options": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": ""
+          }
+        }
+      },
+      "cartLineItemOfType": {
+        "lineItemType": {
+          "options": {
+            "product": "",
+            "promotion": ""
+          }
+        }
+      },
+      "promotionCodeOfType": {
+        "promotionCodeOfType": {
+          "options": {
+            "global": "",
+            "fixed": "",
+            "individual": ""
+          }
+        }
+      },
+      "cartLineItemProductStates": {
+        "productState": {
+          "options": {
+            "is-physical": "",
+            "is-download": ""
+          }
+        }
+      },
+      "cartTotalPurchasePrice": {
+        "type": {
+          "options": {
+            "gross": "",
+            "net": ""
+          },
+          "placeholder": ""
+        }
+      },
+      "units": {
+        "dimension": "",
+        "weight": "",
+        "volume": "",
+        "age": "",
+        "kg": "",
+        "g": "",
+        "mg": "",
+        "oz": "",
+        "lb": "",
+        "m": "",
+        "cm": "",
+        "mm": "",
+        "km": "",
+        "in": "",
+        "ft": "",
+        "mi": "",
+        "hr": "",
+        "yr": "",
+        "mth": "",
+        "wk": "",
+        "d": "",
+        "min": "",
+        "m3": "",
+        "cm3": "",
+        "mm3": "",
+        "in3": "",
+        "ft3": "",
+        "short": {
+          "min": "",
+          "d": "",
+          "wk": "",
+          "mth": "",
+          "yr": "",
+          "hr": "",
+          "lb": "",
+          "oz": "",
+          "mg": "",
+          "g": "",
+          "kg": "",
+          "m": "",
+          "cm": "",
+          "mm": "",
+          "km": "",
+          "in": "",
+          "mi": "",
+          "ft": "",
+          "m3": "",
+          "cm3": "",
+          "mm3": "",
+          "in3": "",
+          "ft3": ""
+        }
+      },
+      "orderCreatedByAdmin": {
+        "shouldOrderBeCreatedByAdmin": {
+          "placeholder": ""
+        }
+      },
+      "orderTransactionStatus": {
+        "stateIds": {
+          "placeholder": ""
+        },
+        "operator": {
+          "placeholder": ""
+        }
+      },
+      "orderStatus": {
+        "stateIds": {
+          "placeholder": ""
+        },
+        "operator": {
+          "placeholder": ""
+        }
+      }
+    },
+    "sw-product-image": {
+      "context": {
+        "buttonAsCover": "",
+        "buttonRemove": "",
+        "buttonPreviewImage": ""
+      }
+    },
+    "sw-simple-search-field": {
+      "defaultPlaceholder": ""
+    },
+    "sw-tabs-item": {
+      "tooltipTabHasErrors": "",
+      "tooltipTabHasWarnings": ""
+    },
+    "entities": {
+      "all": "",
+      "custom_field": "",
+      "cart": "",
+      "category": "",
+      "cms_page": "",
+      "document": "",
+      "property": "",
+      "country": "",
+      "currency": "",
+      "customer": "",
+      "customer_address": "",
+      "customer_group": "",
+      "extension": "",
+      "integration": "",
+      "language": "",
+      "mail_header_footer": "",
+      "mail_template": "",
+      "media": "",
+      "media_default_folder": "",
+      "media_folder": "",
+      "media_thumbnail": "",
+      "media_thumbnail_size": "",
+      "newsletter_recipient": "",
+      "number_range": "",
+      "order": "",
+      "order_address": "",
+      "order_delivery": "",
+      "order_line_item": "",
+      "order_state": "",
+      "order_transaction": "",
+      "order_transaction_state": "",
+      "payment_method": "",
+      "plugin_manager": "",
+      "privacy": "",
+      "product": "",
+      "product_manufacturer": "",
+      "product_media": "",
+      "product_price": "",
+      "product_stream": "",
+      "product_variation": "",
+      "product_review": "",
+      "promotion": "",
+      "promotion_order_rule": "",
+      "promotion_cart_rule": "",
+      "promotion_persona_rule": "",
+      "rule": "",
+      "rule_condition": "",
+      "sales_channel": "",
+      "sales_channel_type": "",
+      "salutation": "",
+      "seo_url": "",
+      "shipping_method": "",
+      "snippet": "",
+      "tag": "",
+      "tax": "",
+      "tax_rule": "",
+      "theme": "",
+      "unit": "",
+      "user": "",
+      "landing_page": "",
+      "delivery_time": "",
+      "import_export_profile": "",
+      "feature_set": "",
+      "property_group": "",
+      "document_base_config": "",
+      "product_feature_set": "",
+      "custom-field-set": "",
+      "store_settings": "",
+      "flow": "",
+      "module": "",
+      "frequently_used": "",
+      "recently_searched": ""
+    },
+    "day-of-week": {
+      "monday": "",
+      "tuesday": "",
+      "wednesday": "",
+      "thursday": "",
+      "friday": "",
+      "saturday": "",
+      "sunday": ""
+    },
+    "businessEvents": {
+      "checkout_customer_before_login": "",
+      "checkout_customer_changed-payment-method": "",
+      "checkout_customer_deleted": "",
+      "checkout_customer_double_opt_in_guest_order": "",
+      "checkout_customer_double_opt_in_registration": "",
+      "checkout_customer_guest_register": "",
+      "checkout_customer_login": "",
+      "checkout_customer_logout": "",
+      "checkout_customer_register": "",
+      "checkout_order_placed": "",
+      "checkout_order_payment_method_changed": "",
+      "contact_form_send": "",
+      "review_form_send": "",
+      "customer_group_registration_accepted": "",
+      "customer_group_registration_declined": "",
+      "customer_recovery_request": "",
+      "mail_after_create_message": "",
+      "mail_before_send": "",
+      "mail_sent": "",
+      "newsletter_confirm": "",
+      "newsletter_register": "",
+      "newsletter_unsubscribe": "",
+      "newsletter_update": "",
+      "product_export_log": "",
+      "state_enter_order_state_cancelled": "",
+      "state_enter_order_state_completed": "",
+      "state_enter_order_state_in_progress": "",
+      "state_enter_order_state_open": "",
+      "state_enter_order_delivery_state_cancelled": "",
+      "state_enter_order_delivery_state_open": "",
+      "state_enter_order_delivery_state_returned": "",
+      "state_enter_order_delivery_state_returned_partially": "",
+      "state_enter_order_delivery_state_shipped": "",
+      "state_enter_order_delivery_state_shipped_partially": "",
+      "state_enter_order_transaction_state_authorized": "",
+      "state_enter_order_transaction_state_cancelled": "",
+      "state_enter_order_transaction_state_chargeback": "",
+      "state_enter_order_transaction_state_failed": "",
+      "state_enter_order_transaction_state_in_progress": "",
+      "state_enter_order_transaction_state_open": "",
+      "state_enter_order_transaction_state_paid": "",
+      "state_enter_order_transaction_state_paid_partially": "",
+      "state_enter_order_transaction_state_refunded": "",
+      "state_enter_order_transaction_state_refunded_partially": "",
+      "state_enter_order_transaction_state_reminded": "",
+      "state_enter_order_transaction_state_unconfirmed": "",
+      "state_leave_order_state_cancelled": "",
+      "state_leave_order_state_completed": "",
+      "state_leave_order_state_in_progress": "",
+      "state_leave_order_state_open": "",
+      "state_leave_order_delivery_state_cancelled": "",
+      "state_leave_order_delivery_state_open": "",
+      "state_leave_order_delivery_state_returned": "",
+      "state_leave_order_delivery_state_returned_partially": "",
+      "state_leave_order_delivery_state_shipped": "",
+      "state_leave_order_delivery_state_shipped_partially": "",
+      "state_leave_order_transaction_state_authorized": "",
+      "state_leave_order_transaction_state_cancelled": "",
+      "state_leave_order_transaction_state_chargeback": "",
+      "state_leave_order_transaction_state_failed": "",
+      "state_leave_order_transaction_state_in_progress": "",
+      "state_leave_order_transaction_state_open": "",
+      "state_leave_order_transaction_state_paid": "",
+      "state_leave_order_transaction_state_paid_partially": "",
+      "state_leave_order_transaction_state_refunded": "",
+      "state_leave_order_transaction_state_refunded_partially": "",
+      "state_leave_order_transaction_state_reminded": "",
+      "state_leave_order_transaction_state_unconfirmed": "",
+      "user_recovery_request": ""
+    },
+    "tax-rates": {
+      "Standard rate": "",
+      "Reduced rate": "",
+      "Reduced rate 2": ""
+    },
+    "sw-bulk-edit-modal": {
+      "bulkEdit": "",
+      "startBulkEdit": "",
+      "bulkEditModalTitle": ""
+    },
+    "sw-search-preferences-modal": {
+      "title": "",
+      "description": "",
+      "columnActive": "",
+      "columnModuleName": ""
+    },
+    "sw-help-center": {
+      "title": "",
+      "documentation": {
+        "headline": "",
+        "linkText": "",
+        "linkUrl": ""
+      },
+      "support": {
+        "headline": "",
+        "paragraph": "",
+        "linkText": "",
+        "linkUrl": ""
+      }
+    }
+  },
+  "sw-text-editor-toolbar": {
+    "link": {
+      "openInNewTab": "",
+      "displayAsButton": "",
+      "buttonVariant": "",
+      "buttonVariantPrimary": "",
+      "buttonVariantSecondary": "",
+      "buttonVariantPrimarySmall": "",
+      "buttonVariantSecondarySmall": "",
+      "linkTo": "",
+      "placeholder": "",
+      "labelUrl": "",
+      "labelType": "",
+      "labelLink": "",
+      "labelProduct": "",
+      "labelCategory": "",
+      "labelEmail": "",
+      "labelPhoneNumber": "",
+      "placeholderPhoneNumber": "",
+      "placeholderEmail": "",
+      "placeholderProduct": "",
+      "placeholderCategory": ""
+    },
+    "table": {
+      "addHeading": "",
+      "cols": "",
+      "rows": "",
+      "editInfo": ""
+    },
+    "title": {
+      "format": "",
+      "paragraph": "",
+      "h1": "",
+      "h2": "",
+      "h3": "",
+      "h4": "",
+      "h5": "",
+      "h6": "",
+      "blockquote": "",
+      "text-color": "",
+      "bold": "",
+      "italic": "",
+      "underline": "",
+      "strikethrough": "",
+      "superscript": "",
+      "subscript": "",
+      "textAlign": "",
+      "alignLeft": "",
+      "alignCenter": "",
+      "alignRight": "",
+      "justify": "",
+      "insert-unordered-list": "",
+      "insert-ordered-list": "",
+      "link": "",
+      "data-mapping": "",
+      "undo": "",
+      "redo": "",
+      "insert-table": "",
+      "code-switch": ""
+    }
+  },
+  "sw-tree": {
+    "general": {
+      "placeholderSearch": "",
+      "treeHeadSelected": "",
+      "treeHeadline": "",
+      "buttonCreate": "",
+      "actions": {
+        "createSub": "",
+        "createBefore": "",
+        "createAfter": "",
+        "actionsDisabledInLanguage": ""
+      }
+    },
+    "modal": {
+      "textDeleteConfirm": "",
+      "textDeleteMultipleConfirm": "",
+      "textDeleteChildrenConfirm": ""
+    }
+  },
+  "sw-category-tree-field": {
+    "emptySearchResults": ""
+  },
+  "sw-error": {
+    "general": {
+      "messagePlaceholder": "",
+      "textLink": ""
+    }
+  },
+  "sw-property-search": {
+    "placeholderSearch": "",
+    "selected": "",
+    "noPropertiesFound": "",
+    "noPropertiesFoundDescription": ""
+  },
+  "sw-property-assignment": {
+    "columnGroup": "",
+    "columnOptions": "",
+    "messageEmptyTitle": "",
+    "messageEmptySubline": ""
+  },
+  "sw-language-info": {
+    "infoTextChildLanguage": "",
+    "infoTextRootLanguage": "",
+    "infoTextNewEntity": ""
+  },
+  "sw-language-switch": {
+    "messageModalUnsavedChanges": "",
+    "titleModalUnsavedChanges": "",
+    "titleModalButtonRevertUnsavedChanges": ""
+  },
+  "sw-inheritance-warning": {
+    "infoTextInheritedField": ""
+  },
+  "sw-license-violation": {
+    "title": "",
+    "reload": "",
+    "alertText": "",
+    "deletePlugin": "",
+    "messageDeleteConfirm": "",
+    "checkboxMessage": "",
+    "closeModal": "",
+    "ignorePlugin": "",
+    "successfullyDeleted": "",
+    "table": {
+      "plugin": "",
+      "warning": ""
+    }
+  },
+  "sw-sales-channel-switch": {
+    "messageModalUnsavedChanges": "",
+    "placeholderSelect": "",
+    "titleModalUnsavedChanges": "",
+    "titleModalButtonRevertUnsavedChanges": "",
+    "labelDefaultOption": ""
+  },
+  "sw-config-form-renderer": {
+    "placeholder": "",
+    "option": "",
+    "configLoadErrorMessage": ""
+  },
+  "locale": {
+    "de-DE": "",
+    "en-GB": "",
+    "bg-BG": "",
+    "bs-BA": "",
+    "cs-CZ": "",
+    "da-DK": "",
+    "el-GR": "",
+    "en-US": "",
+    "es-ES": "",
+    "fi-FI": "",
+    "fr-FR": "",
+    "hi-IN": "",
+    "hr-HR": "",
+    "hu-HU": "",
+    "id-ID": "",
+    "it-IT": "",
+    "ko-KR": "",
+    "lv-LV": "",
+    "nl-NL": "",
+    "nn-NO": "",
+    "pl-PL": "",
+    "pt-PT": "",
+    "ro-RO": "",
+    "ru-RU": "",
+    "sk-SK": "",
+    "sl-SI": "",
+    "sr-RS": "",
+    "sv-SE": "",
+    "tr-TR": "",
+    "uk-UA": "",
+    "vi-VN": ""
+  },
+  "sw-image-slider": {
+    "imageAlt": ""
+  },
+  "sw-confirm-modal": {
+    "defaultText": ""
+  },
+  "sw-rule-modal": {
+    "modalTitleNew": "",
+    "modalTitleModify": "",
+    "labelDescription": "",
+    "placeholderDescription": "",
+    "labelName": "",
+    "placeholderName": "",
+    "labelPriority": "",
+    "placeholderPriority": "",
+    "messageSaveSuccess": "",
+    "messageSaveError": "",
+    "ruleCard": ""
+  },
+  "sw-select-rule-create": {
+    "addNewRule": ""
+  },
+  "sw-shortcut-overview": {
+    "title": "",
+    "iconTooltip": "",
+    "modalTitle": "",
+    "sectionAddingItems": "",
+    "sectionNavigation": "",
+    "sectionSpecialShortcuts": "",
+    "function": "",
+    "keyboardShortcut": "",
+    "functionAddProduct": "",
+    "keyboardShortcutAddProduct": "",
+    "functionAddCategory": "",
+    "keyboardShortcutAddCategory": "",
+    "functionAddShoppingExperienceLayout": "",
+    "keyboardShortcutAddShoppingExperienceLayout": "",
+    "functionAddCustomer": "",
+    "keyboardShortcutAddCustomer": "",
+    "functionAddProperties": "",
+    "keyboardShortcutAddProperties": "",
+    "functionAddManufacturer": "",
+    "keyboardShortcutAddManufacturer": "",
+    "functionAddRule": "",
+    "keyboardShortcutAddRule": "",
+    "functionAddSaleschannel": "",
+    "keyboardShortcutAddSaleschannel": "",
+    "functionGoToDashboard": "",
+    "keyboardShortcutGoToDashboard": "",
+    "functionGoToProducts": "",
+    "keyboardShortcutGoToProducts": "",
+    "functionGoToCategories": "",
+    "keyboardShortcutGoToCategories": "",
+    "functionGoToDynamicProductGroups": "",
+    "keyboardShortcutGoToDynamicProductGroups": "",
+    "functionGoToProperties": "",
+    "keyboardShortcutGoToProperties": "",
+    "functionGoToManufacturers": "",
+    "keyboardShortcutGoToManufacturers": "",
+    "functionGoToOrders": "",
+    "keyboardShortcutGoToOrders": "",
+    "functionGoToCustomers": "",
+    "keyboardShortcutGoToCustomers": "",
+    "functionGoToShoppingExperience": "",
+    "keyboardShortcutGoToShoppingExperience": "",
+    "functionGoToMedia": "",
+    "keyboardShortcutGoToMedia": "",
+    "functionGoToPromotion": "",
+    "keyboardShortcutGoToPromotion": "",
+    "functionGoToNewsletterRecipients": "",
+    "keyboardShortcutGoToNewsletterRecipients": "",
+    "functionGoToSettingsListing": "",
+    "keyboardShortcutGoToSettingsListing": "",
+    "functionGoToSnippets": "",
+    "keyboardShortcutGoToSnippets": "",
+    "functionGoToPayment": "",
+    "keyboardShortcutGoToPayment": "",
+    "functionGoToShipping": "",
+    "keyboardShortcutGoToShipping": "",
+    "functionGoToRuleBuilder": "",
+    "keyboardShortcutGoToRuleBuilder": "",
+    "functionGoToPlugins": "",
+    "keyboardShortcutGoToPlugins": "",
+    "functionSpecialShortcutFocusSearch": "",
+    "keyboardShortcutSpecialShortcutFocusSearch": "",
+    "functionSpecialShortcutShortcutListing": "",
+    "keyboardShortcutSpecialShortcutShortcutListing": "",
+    "functionSpecialShortcutSaveDetailViewWindows": "",
+    "keyboardShortcutSpecialShortcutSaveDetailViewWindows": "",
+    "functionSpecialShortcutSaveDetailViewMac": "",
+    "keyboardShortcutSpecialShortcutSaveDetailViewMac": "",
+    "functionSpecialShortcutSaveDetailViewLinux": "",
+    "keyboardShortcutSpecialShortcutSaveDetailViewLinux": "",
+    "functionSpecialShortcutCancelDetailView": "",
+    "keyboardShortcutSpecialShortcutCancelDetailView": "",
+    "functionSpecialShortcutClearCacheWindows": "",
+    "keyboardShortcutSpecialShortcutClearCacheWindows": "",
+    "functionSpecialShortcutClearCacheMac": "",
+    "keyboardShortcutSpecialShortcutClearCacheMac": "",
+    "functionSpecialShortcutClearCacheLinux": "",
+    "keyboardShortcutSpecialShortcutClearCacheLinux": ""
+  },
+  "sw-discard-changes-modal": {
+    "title": "",
+    "message": "",
+    "actions": {
+      "discard": "",
+      "keepEditing": ""
+    }
+  },
+  "sw-maintain-currencies-modal": {
+    "title": "",
+    "columnPrice": "",
+    "columnListPriceHeader": "",
+    "columnReferencePriceHeader": ""
+  },
+  "sw-privileges": {
+    "tooltip": {
+      "warning": ""
+    },
+    "error": {
+      "description": ""
+    }
+  },
+  "sw-custom-field-set-renderer": {
+    "labelCustomFieldSetSelectSwitch": "",
+    "placeholderCustomFieldSetSelect": "",
+    "labelCustomFieldSetSelect": "",
+    "messagePluginSets": ""
+  },
+  "sw-rating-stars": {
+    "ratingTooltipText": ""
+  },
+  "sw-app": {
+    "component": {
+      "sw-app-actions": {
+        "messageErrorFetchButtons": "",
+        "closeWindow": "",
+        "iframeModalConfirmMessage": "",
+        "iframeModalConfirmMessageDescription": "",
+        "dontAskMeAgain": ""
+      },
+      "sw-app-app-url-changed-modal": {
+        "move-shop-permanently": {
+          "name": "",
+          "description": ""
+        },
+        "reinstall-apps": {
+          "name": "",
+          "description": ""
+        },
+        "uninstall-apps": {
+          "name": "",
+          "description": ""
+        },
+        "title": "",
+        "oldLabel": "",
+        "newLabel": "",
+        "explanationHeader": "",
+        "explanation": "",
+        "confirmation": "",
+        "cancellation": "",
+        "success": "",
+        "error": ""
+      },
+      "sw-app-wrong-app-url-modal": {
+        "title": "",
+        "explanationHeader": "",
+        "explanation": "",
+        "textGetSupport": "",
+        "textDetails": "",
+        "labelLearnMoreButton": "",
+        "linkToDocsArticle": ""
+      }
+    }
+  },
+  "sw-wizard": {
+    "backButton": "",
+    "closeButton": "",
+    "finishButton": "",
+    "nextButton": ""
+  },
+  "sw-meteor": {
+    "navigation": {
+      "backButton": ""
+    }
+  },
+  "sw-base-filter": {
+    "resetButton": ""
+  },
+  "sw-boolean-filter": {
+    "placeholder": "",
+    "active": "",
+    "inactive": ""
+  },
+  "sw-existence-filter": {
+    "placeholder": "",
+    "noCriteria": "",
+    "hasCriteria": ""
+  },
+  "sw-filter-panel": {
+    "titleSidebarItemFilter": ""
+  },
+  "sw-sidebar-filter-panel": {
+    "resetButton": ""
+  },
+  "sw-empty-state": {
+    "messageNoResultTitle": "",
+    "messageNoResultSublineSimple": "",
+    "messageNoResultSubline": "",
+    "messageNoResultSublineBefore": "",
+    "messageNoResultSublineLink": "",
+    "messageNoResultSublineAfter": ""
+  },
+  "sw-restricted-rules": {
+    "restrictedAssignment": {
+      "general": "",
+      "productPrices": "",
+      "shippingMethodPrices": "",
+      "shippingMethodPriceCalculations": "",
+      "shippingMethods": "",
+      "paymentMethods": "",
+      "flowSequences": "",
+      "personaPromotions": "",
+      "orderPromotions": "",
+      "cartPromotions": "",
+      "promotionDiscounts": "",
+      "promotionSetGroups": "",
+      "notEqualsViolationTooltip": "",
+      "equalsAnyViolationTooltip": ""
+    },
+    "restrictedConditions": {
+      "restrictedConditionTooltip": "",
+      "relation": {
+        "flowTrigger": "",
+        "promotion": "",
+        "productPrices": "",
+        "shippingMethods": "",
+        "shippingMethodPrices": "",
+        "paymentMethods": ""
+      }
+    },
+    "and": "",
+    "or": ""
+  }
+}
