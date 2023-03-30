@@ -1,57 +1,57 @@
 {
   "sw-settings-cache": {
     "general": {
-      "mainMenuItemGeneral": ""
+      "mainMenuItemGeneral": "Caches & Indizes"
     },
     "toolbar": {
-      "environment": "",
+      "environment": "Umgebung",
       "environmentDev": "",
       "environmentProd": "",
-      "httpCache": "",
-      "httpCacheOff": "",
-      "httpCacheOn": "",
-      "cacheAdapter": ""
+      "httpCache": "HTTP-Cache",
+      "httpCacheOff": "Aus",
+      "httpCacheOn": "An",
+      "cacheAdapter": "Cache-Adapter"
     },
     "section": {
-      "clearCachesHeadline": "",
-      "clearCachesText": "",
-      "clearCachesButton": "",
-      "clearAndWarmUpHeadline": "",
-      "clearAndWarmUpText": "",
-      "clearAndWarmUpButton": "",
-      "indexesHeadline": "",
-      "indexesText": "",
-      "indexesButton": "",
-      "indexesSkipSelectPlaceholder": ""
+      "clearCachesHeadline": "Caches leeren",
+      "clearCachesText": "Der Cache wird sofort synchron geleert für alle verwendeten Adapter.",
+      "clearCachesButton": "Caches leeren",
+      "clearAndWarmUpHeadline": "Caches leeren und aufwärmen",
+      "clearAndWarmUpText": "Nachdem der Cache geleert wurde, werden asynchron neue Cache-Einträge generiert.",
+      "clearAndWarmUpButton": "Caches leeren und aufwärmen",
+      "indexesHeadline": "Indizes",
+      "indexesText": "Es werden alle Indizes asynchron aktualisiert. Der Fortschritt kann in den Mitteilungen eingesehen werden. Dies betrifft unter anderem die Produkt- und Kategorieindizes oder auch die SEO-URLs.",
+      "indexesButton": "Indizes aktualisieren",
+      "indexesSkipSelectPlaceholder": "Indexer und/oder Updater überspringen"
     },
     "notifications": {
       "clearCache": {
-        "started": "",
-        "success": "",
-        "error": ""
+        "started": "Cache wird geleert.",
+        "success": "Cache wurde geleert.",
+        "error": "Cache konnte nicht geleert werden."
       },
       "clearCacheAndWarmup": {
-        "started": "",
-        "success": ""
+        "started": "Alle Caches wurden geleert. Neuer Cache wird aufgewärmt. Tipp: Du kannst den Fortschritt über die Mitteilungen verfolgen.",
+        "success": "Aufwärmen abgeschlossen."
       },
       "index": {
-        "started": "",
-        "success": ""
+        "started": "Indizes werden aufgebaut.",
+        "success": "Alle Indizes aufgebaut."
       }
     },
     "modal": {
-      "title": "",
-      "message": "",
+      "title": "Caches leeren",
+      "message": "Bist Du sicher, dass Du alle Caches leeren möchtest?",
       "actions": {
-        "cancel": "",
-        "clear": ""
+        "cancel": "Abbrechen",
+        "clear": "Leeren"
       }
     }
   },
   "sw-privileges": {
     "additional_permissions": {
       "system": {
-        "clear_cache": ""
+        "clear_cache": "Cache leeren"
       }
     }
   }
