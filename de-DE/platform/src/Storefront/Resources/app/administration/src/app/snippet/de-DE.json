@@ -1,0 +1,17 @@
+{
+  "sales-channel-theme": {
+    "title": "",
+    "changeTheme": "",
+    "changeThemeEmpty": "",
+    "createTheme": "",
+    "editContent": "",
+    "defaultTitle": "",
+    "defaultAuthor": "",
+    "modal": {
+      "modalTitleChange": "",
+      "textChangeTheme": "",
+      "buttonChange": "",
+      "buttonCancel": ""
+    }
+  }
+}
