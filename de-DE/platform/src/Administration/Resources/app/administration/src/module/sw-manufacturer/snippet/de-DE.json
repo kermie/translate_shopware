@@ -1,38 +1,38 @@
 {
   "sw-manufacturer": {
     "general": {
-      "mainMenuItemList": "",
-      "mainMenuItemGeneral": "",
-      "placeholderSearchBar": ""
+      "mainMenuItemList": "Hersteller",
+      "mainMenuItemGeneral": "Hersteller",
+      "placeholderSearchBar": "Durchsuche alle Hersteller ..."
     },
     "list": {
-      "textManufacturerOverview": "",
-      "textTotalManufacturer": "",
-      "buttonAddManufacturer": "",
-      "columnName": "",
-      "columnLink": ""
+      "textManufacturerOverview": "Hersteller",
+      "textTotalManufacturer": "Keine Hersteller | Ein Hersteller | {count} Hersteller",
+      "buttonAddManufacturer": "Hersteller hinzufügen",
+      "columnName": "Hersteller",
+      "columnLink": "Geschäfts-Webseite"
     },
     "detail": {
-      "textHeadline": "",
-      "textMediaSelection": "",
-      "buttonCancel": "",
-      "buttonSave": "",
-      "cardTitleManufacturerInfo": "",
+      "textHeadline": "Neuer Hersteller",
+      "textMediaSelection": "Medienauswahl",
+      "buttonCancel": "Abbrechen",
+      "buttonSave": "Speichern",
+      "cardTitleManufacturerInfo": "Herstellerinformationen",
       "labelName": "",
-      "labelDescription": "",
-      "labelLink": "",
-      "placeholderName": "",
-      "placeholderDescription": "",
-      "placeholderLink": "",
-      "messageSaveSuccess": "",
+      "labelDescription": "Beschreibung",
+      "labelLink": "Geschäfts-Webseite",
+      "placeholderName": "Gib einen Herstellernamen ein ...",
+      "placeholderDescription": "Beschreibung eingeben ...",
+      "placeholderLink": "Gib die Herstellerwebseite ein ...",
+      "messageSaveSuccess": "Der Hersteller \"{name}\" wurde erfolgreich gespeichert.",
       "labelLogo": "",
-      "labelUseAsLogo": ""
+      "labelUseAsLogo": "Als Logo nutzen"
     }
   },
   "sw-privileges": {
     "permissions": {
       "product_manufacturer": {
-        "label": ""
+        "label": "Hersteller"
       }
     }
   }
