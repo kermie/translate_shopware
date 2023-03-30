@@ -1,42 +1,42 @@
 {
   "sw-settings-logging": {
     "general": {
-      "mainMenuItemGeneral": "",
-      "placeholderSearchBar": ""
+      "mainMenuItemGeneral": "Ereignis-Logs",
+      "placeholderSearchBar": "Logs durchsuchen ..."
     },
     "list": {
       "title": "",
-      "columnDate": "",
-      "columnMessage": "",
-      "columnLevel": "",
-      "columnContent": "",
-      "actionShowInfo": "",
+      "columnDate": "Datum",
+      "columnMessage": "Nachricht",
+      "columnLevel": "Priorität",
+      "columnContent": "Inhalt",
+      "actionShowInfo": "Details anzeigen ...",
       "levelDebug": "",
       "levelInfo": "",
-      "levelNotice": "",
-      "levelWarning": "",
-      "levelError": "",
-      "levelCritical": "",
-      "levelAlert": "",
-      "levelEmergency": "",
-      "titleSidebarItemRefresh": ""
+      "levelNotice": "Hinweis",
+      "levelWarning": "Warnung",
+      "levelError": "Fehler",
+      "levelCritical": "Kritisch",
+      "levelAlert": "Alarm",
+      "levelEmergency": "Notfall",
+      "titleSidebarItemRefresh": "Aktualisieren"
     },
     "entryInfo": {
-      "title": "",
-      "tabRaw": "",
-      "actionClose": ""
+      "title": "Log-Informationen",
+      "tabRaw": "Quelltext",
+      "actionClose": "Schließen"
     },
     "mailInfo": {
       "tabHTML": "",
-      "tabPlain": "",
-      "recipientsTitle": "",
-      "contentsTitle": ""
+      "tabPlain": "Klartext",
+      "recipientsTitle": "Empfänger",
+      "contentsTitle": "Inhalt"
     }
   },
   "sw-privileges": {
     "additional_permissions": {
       "system": {
-        "logging": ""
+        "logging": "Ereignis-Logs"
       }
     }
   }
