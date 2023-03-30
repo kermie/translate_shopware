@@ -1,0 +1,207 @@
+{
+    "swag-cms-extensions": {
+        "error-codes": {
+            "SWAG_SCROLL_NAVIGATION_EMPTY_FIELD_WHEN_ACTIVE_ERROR": "",
+            "SWAG_SCROLL_NAVIGATION_FIELD_TOO_LONG_ERROR": "",
+            "SWAG_SCROLL_NAVIGATION_DUPLICATE_VALUE_ERROR": ""
+        },
+        "sw-cms": {
+            "detail": {
+                "errors": {
+                    "customFormConfigurationInvalid": ""
+                },
+                "quickview": {
+                    "showQuickviewLabel": "",
+                    "showQuickviewHelpText": "",
+                    "sidebarHeaderBlockBehaviorSettings": ""
+                },
+                "blockRule": {
+                    "sidebarHeaderBlockBehaviorSettings": "",
+                    "invertedSwitchLabel": "",
+                    "alwaysVisiblePlaceholder": "",
+                    "ruleTitle": "",
+                    "ruleHelpText": ""
+                },
+                "scrollNavigation": {
+                    "title": "",
+                    "anchorSwitch": "",
+                    "anchorTitle": "",
+                    "anchorTitleHelpText": "",
+                    "duplicateDisplayNameMessage": "",
+                    "invalidDisplayNameLengthMessage": "",
+                    "pageSettings": {
+                        "title": "",
+                        "description": "",
+                        "advancedSettingsLabel": "",
+                        "activeLabel": "",
+                        "activeHelpText": "",
+                        "durationLabel": "",
+                        "durationSuffix": "",
+                        "easingLabel": "",
+                        "easingDegreeLabel": "",
+                        "easingDegreeHelpText": "",
+                        "bouncyLabel": "",
+                        "easing": {
+                            "linear": "",
+                            "in": "",
+                            "out": "",
+                            "inOut": ""
+                        }
+                    }
+                }
+            },
+            "sidebar": {
+                "emptyAnchorName": "",
+                "rulesOnAllBlocks": "",
+                "navElement": {
+                    "blockRuleTooltip": ""
+                }
+            },
+            "section": {
+                "actions": {
+                    "copySuffix": "",
+                    "viewports": {
+                        "tooltipPrefix": "",
+                        "emptyAnchorName": ""
+                    },
+                    "pageForm": {
+                        "labelPrefix": "",
+                        "emptyAnchorName": ""
+                    }
+                }
+            },
+            "components": {
+                "sw-cms-slot": {
+                    "formModalTitle": "",
+                    "formModalPrimary": ""
+                },
+                "form-editor": {
+                    "title": "",
+                    "addGroupButton": "",
+                    "emptyState": {
+                        "text": "",
+                        "buttonText": ""
+                    },
+                    "group": {
+                        "groupNamePrefix": "",
+                        "actions": {
+                            "moveUp": "",
+                            "moveDown": "",
+                            "duplicate": "",
+                            "moveToGroup": ""
+                        },
+                        "field": {
+                            "addFieldButton": "",
+                            "fieldPrefix": ""
+                        }
+                    },
+                    "settings-group": {
+                        "titleFieldLabel": "",
+                        "internalNameHelpText": "",
+                        "explanation": ""
+                    },
+                    "settings-field": {
+                        "titleFieldLabel": "",
+                        "typeFieldLabel": "",
+                        "widthFieldLabel": "",
+                        "requiredFieldLabel": "",
+                        "placeholderFieldLabel": "",
+                        "errorMessageFieldLabel": "",
+                        "minFieldLabel": "",
+                        "maxFieldLabel": "",
+                        "stepFieldLabel": "",
+                        "modeFieldLabel": "",
+                        "modeOptionEntity": "",
+                        "modeOptionCustom": "",
+                        "entityFieldLabel": "",
+                        "optionsFieldLabel": "",
+                        "rowsFieldLabel": "",
+                        "rowsLabel": "",
+                        "scalableFieldLabel": "",
+                        "defaultValueFieldLabel": "",
+                        "defaultValues": {
+                            "checked": "",
+                            "notChecked": ""
+                        },
+                        "internalNameHelpText": "",
+                        "types": {
+                            "text": "",
+                            "email": "",
+                            "number": "",
+                            "checkbox": "",
+                            "select": "",
+                            "textarea": ""
+                        }
+                    },
+                    "moveToGroupModal": {
+                        "title": "",
+                        "groupSelectLabel": "",
+                        "primaryButtonText": ""
+                    }
+                }
+            },
+            "elements": {
+                "custom-form": {
+                    "label": "",
+                    "config": {
+                        "templateSelectLabel": "",
+                        "templateSelectPlaceholder": "",
+                        "editFormTemplateLink": ""
+                    },
+                    "templateListing": {
+                        "templateNameLabel": "",
+                        "emptyState": "",
+                        "renameContextAction": ""
+                    },
+                    "editor": {
+                        "title": "",
+                        "tabs": {
+                            "options": {
+                                "tabTitle": "",
+                                "confirmationTextLabel": "",
+                                "internalNameLabel": "",
+                                "headlineLabel": "",
+                                "mailTemplateLabel": ""
+                            },
+                            "fields": {
+                                "tabTitle": "",
+                                "templateLabel": "",
+                                "templateText": ""
+                            }
+                        },
+                        "footer": {
+                            "createTemplateButton": ""
+                        }
+                    },
+                    "createTemplateModal": {
+                        "titles": {
+                            "default": "",
+                            "overwrite": ""
+                        },
+                        "templateNameLabel": "",
+                        "placeholder": "",
+                        "overwriteButtonLabel": "",
+                        "overwriteLinkText": "",
+                        "overwriteWarningText": "",
+                        "successMessage": "",
+                        "overwriteMessage": "",
+                        "overwriteSelectLabel": "",
+                        "overwriteConfirmationText": ""
+                    }
+                }
+            }
+        },
+        "sw-settings-rule": {
+            "detail": {
+                "associations": {
+                    "blockVisibility": ""
+                }
+            }
+        }
+    },
+    "sw-restricted-rules": {
+        "restrictedAssignment": {
+            "swagCmsExtensionsBlockRules": ""
+        }
+    }
+}
