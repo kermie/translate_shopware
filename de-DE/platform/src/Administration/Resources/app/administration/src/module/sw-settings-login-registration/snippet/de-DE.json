@@ -1,11 +1,11 @@
 {
   "sw-settings-login-registration": {
     "general": {
-      "mainMenuItemGeneral": "",
-      "description": "",
-      "textHeadline": "",
-      "buttonSave": "",
-      "messageSaveSuccess": ""
+      "mainMenuItemGeneral": "Anmeldung & Registrierung",
+      "description": "Hier können Einstellungen an den Stammdaten vorgenommen werden.",
+      "textHeadline": "Anmeldung & Registrierung",
+      "buttonSave": "Speichern",
+      "messageSaveSuccess": "Die Konfiguration wurde erfolgreich gespeichert."
     }
   }
 }
