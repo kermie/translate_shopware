@@ -1,0 +1,153 @@
+{
+    "sw-first-run-wizard": {
+        "general": {
+            "mainMenuItemGeneral": "",
+            "buttonNext": "",
+            "buttonSkip": "",
+            "buttonNextPayPalInfo": "",
+            "buttonBack": "",
+            "buttonInstall": "",
+            "buttonActivate": "",
+            "buttonFinish": "",
+            "buttonConfigureLater": "",
+            "pluginInstalled": ""
+        },
+        "welcome": {
+            "modalTitle": "",
+            "headlineWelcome": "",
+            "messageWelcome": "",
+            "headlineChangeLanguage": "",
+            "switchLanguageModalTitle": "",
+            "confirmLanguageSwitch": "",
+            "cancelLanguageSwitch": "",
+            "switchLanguageMessage": "",
+            "pluginsInstalled": "",
+            "pluginsInstalledMessage": "",
+            "pluginNotFoundMessage": "",
+            "pluginInstallationFailedMessage": "",
+            "pluginActivationFailedMessage": "",
+            "tryAgainLater": "",
+            "noConnectionMessage": ""
+        },
+        "dataImport": {
+            "modalTitle": "",
+            "headlineDemoData": "",
+            "messageDemoData": "",
+            "buttonInstallDemoData": "",
+            "headlineMigration": "",
+            "messageMigration": "",
+            "buttonInstallMigration": "",
+            "loadingMessage": ""
+        },
+        "mailerSelection": {
+            "headline": "",
+            "modalTitle": "",
+            "description": "",
+            "chooseSubline": "",
+            "localOption": "",
+            "localOptionHelptext": "",
+            "localOptionSubline": "",
+            "smtpOption": "",
+            "configurationNote": "",
+            "buttonConfigure": ""
+        },
+        "mailerSmtp": {
+            "headline": ""
+        },
+        "mailerLocal": {
+            "headline": ""
+        },
+        "paypalInfo": {
+            "modalTitle": "",
+            "headline": "",
+            "paymethod": {
+                "paypal": "",
+                "debit": "",
+                "creditcard": "",
+                "invoice": ""
+            },
+            "disclaimerLineOne": "",
+            "disclaimerLineTwo": ""
+        },
+        "paypalInstall": {
+            "loadingMessage": ""
+        },
+        "recommendedPlugins": {
+            "headline": "",
+            "modalTitle": "",
+            "message": "",
+            "availableInRegion": "",
+            "category": "",
+            "topRecommendations": "",
+            "otherRecommendations": ""
+        },
+        "shopwareAccount": {
+            "headline": "",
+            "passwordLabel": "",
+            "passwordPlaceholder": "",
+            "emailAddressLabel": "",
+            "emailAddressPlaceholder": "",
+            "modalTitle": "",
+            "message": "",
+            "registerAccountText": "",
+            "registerAccountHere": "",
+            "registerAccountUrl": "",
+            "forgotPasswordText": "",
+            "forgotPasswordUrl": ""
+        },
+        "error": {
+            "messageLoginDataInvalid": ""
+        },
+        "shopwareDomain": {
+            "headline": "",
+            "message": "",
+            "labelCreateDomain": "",
+            "testEnvironment": ""
+        },
+        "store": {
+            "modalTitle": "",
+            "loadStatusCollect": "",
+            "takeMinutes": "",
+            "alreadyActivated": "",
+            "enablingStore": "",
+            "activationErrorTitle": "",
+            "activationErrorDescription": "",
+            "headingOne": "",
+            "headingTwo": "",
+            "description": ""
+        },
+        "defaults": {
+            "modalTitle": ""
+        },
+        "finish": {
+            "headlineAllDone": "",
+            "message": "",
+            "messageNotLicensed": "",
+            "headlineUsefulLinks": "",
+            "loadingMessage": "",
+            "documentationLabel": "",
+            "documentationUrl": "",
+            "forumLabel": "",
+            "forumUrl": "",
+            "roadmapLabel": "",
+            "roadmapUrl": "",
+            "modalTitle": ""
+        },
+        "stepItemTitle": {
+            "dataImport": "",
+            "mailer": "",
+            "setupPaypal": "",
+            "plugins": "",
+            "shopware": "",
+            "store": "",
+            "defaults": ""
+        }
+    },
+    "sw-privileges": {
+        "additional_permissions": {
+            "system": {
+                "frw": ""
+            }
+        }
+    }
+}
