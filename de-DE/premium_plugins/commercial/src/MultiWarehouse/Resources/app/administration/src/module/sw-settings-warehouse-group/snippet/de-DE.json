@@ -2,78 +2,78 @@
   "sw-privileges": {
     "permissions": {
       "warehouse-group": {
-        "label": ""
+        "label": "Lagerhausgruppen"
       }
     }
   },
   "sw-settings-warehouse-group": {
     "general": {
-      "title": "",
-      "subtitle": "",
-      "notificationGeneric": "",
-      "titleDelete": ""
+      "title": "Lagerhausgruppen",
+      "subtitle": "Erstelle Gruppen, um Deine Lager auf individuelle Weise zu organisieren.",
+      "notificationGeneric": "Ein Fehler ist aufgetreten.",
+      "titleDelete": "Lagerhausgruppe löschen"
     },
     "list": {
-      "whitespaceTitle": "",
-      "whitespaceSubTitle": "",
-      "actionCreateShort": "",
-      "actionCreate": "",
-      "actionDetail": "",
-      "actionDelete": "",
-      "textDeleteConfirm-1": "",
-      "textDeleteConfirm-2": "",
-      "textDeleteConfirm-3": "",
-      "buttonCancel": "",
-      "buttonDelete": "",
+      "whitespaceTitle": "Noch keine Lagerhausgruppen.",
+      "whitespaceSubTitle": "Erstelle Gruppen, um Deine Lager auf individuelle Weise zu organisieren.",
+      "actionCreateShort": "Lagerhausgruppe erstellen",
+      "actionCreate": "Neue Lagerhausgruppe erstellen",
+      "actionDetail": "Bearbeiten",
+      "actionDelete": "Löschen",
+      "textDeleteConfirm-1": "Durch das Löschen einer Lagerhausgruppe wird ihre Zuordnung zu Produkten aufgehoben. Diese Produkte sind möglicherweise nicht mehr verfügbar.",
+      "textDeleteConfirm-2": "Bist Du sicher, dass Du die Lagerhausgruppe ",
+      "textDeleteConfirm-3": "zusammengeführt werden sollen?",
+      "buttonCancel": "Abbrechen",
+      "buttonDelete": "Löschen",
       "columnName": "",
-      "columnRule": "",
-      "columnPriority": ""
+      "columnRule": "Regel",
+      "columnPriority": "Priorität"
     },
     "detail": {
-      "title": "",
-      "titleCardMain": "",
-      "titleCardDelete": "",
-      "buttonCancel": "",
-      "buttonSave": "",
-      "buttonDelete": "",
-      "buttonDeleteModal": "",
-      "labelName": "",
-      "placeholderName": "",
-      "labelPriority": "",
+      "title": "Lagerhausgruppe",
+      "titleCardMain": "Lagerhausgruppen-Informationen",
+      "titleCardDelete": "Lagerhausgruppe löschen",
+      "buttonCancel": "Abbrechen",
+      "buttonSave": "Speichern",
+      "buttonDelete": "Lagerhausgruppe löschen",
+      "buttonDeleteModal": "Löschen",
+      "labelName": "Lagerhausguppen-Name",
+      "placeholderName": "Gib einen Gruppen-Namen ein ...",
+      "labelPriority": "Priorität",
       "placeholderPriority": "",
-      "helpTextPriority": "",
-      "labelDescription": "",
-      "placeholderDescription": "",
-      "labelRule": "",
-      "placeholderRule": "",
-      "textDeleteWarehouseWarning": "",
-      "titleModalDelete": "",
-      "textDeleteConfirm-1": "",
-      "textDeleteConfirm-2": "",
-      "textDeleteConfirm-3": "",
-      "ruleInfoTitle": "",
-      "ruleInfoText": ""
+      "helpTextPriority": "Lagerhausgruppen mit einer höheren Priorität werden bevorzugt, wenn mehr als eine Regel gilt.",
+      "labelDescription": "Interne Beschreibung",
+      "placeholderDescription": "Gib eine interne Beschreibung ein...",
+      "labelRule": "Regel",
+      "placeholderRule": "Wähle eine Regel aus ...",
+      "textDeleteWarehouseWarning": "Die Löschung dieser Lagerhausgruppe kann nicht wieder rückgängig gemacht werden.",
+      "titleModalDelete": "Lagerhausgruppe löschen",
+      "textDeleteConfirm-1": "Durch das Löschen einer Lagerhausgruppe wird ihre Zuordnung zu Produkten aufgehoben. Diese Produkte sind möglicherweise nicht mehr verfügbar.",
+      "textDeleteConfirm-2": "Bist Du sicher, dass Du die Lagerhausgruppe ",
+      "textDeleteConfirm-3": "zusammengeführt werden sollen?",
+      "ruleInfoTitle": "Verfügbarkeit verwalten",
+      "ruleInfoText": "Verwenden Sie Regeln, um die Verfügbarkeit dieser Lagerhausgruppe individuell zu verwalten. Wenn keine Regel ausgewählt ist, wird Ihre Lagerhausgruppe ignoriert."
     },
     "create": {
-      "title": ""
+      "title": "Neue Lagerhausgruppe"
     },
     "warehouseAssignment": {
       "columnWarehouseName": "",
-      "columnWarehousePriority": "",
-      "titleCard": "",
-      "buttonAddWarehouses": "",
-      "actionDeleteWarehouse": "",
-      "buttonCancel": "",
-      "buttonDelete": "",
-      "titleWhitespace": "",
-      "textDeleteConfirm-1": "",
-      "textDeleteConfirm-2": "",
-      "textDeleteConfirm-3": "",
-      "whitespaceButtonAdd": "",
-      "titleWarehouseSelect": "",
-      "whitespaceTitleWarehouseSelection": "",
-      "buttonConfirmSelection": "",
-      "helpTextWarehousePriority": ""
+      "columnWarehousePriority": "Priorität",
+      "titleCard": "Lagerhäuser zuweisen",
+      "buttonAddWarehouses": "Lagerhaus hinzufügen",
+      "actionDeleteWarehouse": "Löschen",
+      "buttonCancel": "Abbrechen",
+      "buttonDelete": "Löschen",
+      "titleWhitespace": "Noch keine zugewiesenen Lagerhäuser",
+      "textDeleteConfirm-1": "Durch das Aufheben dieser Zuweisung, sind die konfigurierten Bestände nicht mehr in dieser Gruppe verfügbar.",
+      "textDeleteConfirm-2": "Bist Du sicher, dass Du die Zuweisung von Lagerhaus ",
+      "textDeleteConfirm-3": "zusammengeführt werden sollen?",
+      "whitespaceButtonAdd": "Lagerhaus hinzufügen",
+      "titleWarehouseSelect": "Lagerhaus hinzufügen",
+      "whitespaceTitleWarehouseSelection": "Keine nicht zugewiesenen Lagerhäuser gefunden",
+      "buttonConfirmSelection": "{count} Lagerhäuser hinzufügen",
+      "helpTextWarehousePriority": "Lagerhäuser mit höherer Priorität werden bevorzugt, wenn mehr als ein Lager in der Situation ist, eine bestimmte Produktanfrage zu erfüllen."
     }
   }
 }
