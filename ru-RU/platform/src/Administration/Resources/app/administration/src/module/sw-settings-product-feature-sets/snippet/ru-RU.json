@@ -1,0 +1,77 @@
+{
+  "sw-settings-product-feature-sets": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": "",
+      "searchType": ""
+    },
+    "list": {
+      "textHeadline": "",
+      "textDeleteConfirm": "",
+      "columnValues": "",
+      "columnTemplate": "",
+      "columnDescription": "",
+      "buttonAddEssentialCharacteristics": "",
+      "contextMenuEdit": "",
+      "contextMenuDelete": "",
+      "messageDeleteSuccess": "",
+      "buttonCancel": "",
+      "buttonDelete": ""
+    },
+    "detail": {
+      "textHeadline": "",
+      "titleCard": "",
+      "titleCardValues": "",
+      "messageSaveSuccess": "",
+      "messageSaveError": "",
+      "labelName": "",
+      "labelDescription": "",
+      "labelValues": "",
+      "placeholderName": "",
+      "placeholderDescription": "",
+      "buttonSave": "",
+      "notificationErrorMessage": "",
+      "labelCreateNew": ""
+    },
+    "valuesCard": {
+      "createStateDescription": "",
+      "labelCreateNew": "",
+      "cardTitle": "",
+      "labelValue": "",
+      "labelType": "",
+      "labelPosition": "",
+      "emptyStateDescription": ""
+    },
+    "modal": {
+      "buttonAdd": "",
+      "textPropertyLabel": "",
+      "textCustomFieldLabel": "",
+      "textProductInfoLabel": "",
+      "textReferencePriceLabel": "",
+      "labelTitlePageOne": "",
+      "labelTitleModal": "",
+      "labelName": "",
+      "buttonNext": "",
+      "buttonCancel": "",
+      "label": {
+        "property": "",
+        "width": "",
+        "height": "",
+        "length": "",
+        "weight": "",
+        "releaseDate": "",
+        "description": "",
+        "manufacturerNumber": "",
+        "ean": "",
+        "referencePrice": ""
+      }
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "product_feature_sets": {
+        "label": ""
+      }
+    }
+  }
+}
