@@ -1,0 +1,250 @@
+{
+    "swag-paypal-pos": {
+        "general": {
+            "moduleTitle": "",
+            "salesChannelDetailDescription": {
+                "title": "",
+                "manufacturer": ""
+            }
+        },
+        "header": "",
+        "tabTitle": {
+            "overview": "",
+            "syncedProducts": "",
+            "settings": "",
+            "runs": "",
+            "help": ""
+        },
+        "detail": {
+            "disclaimer": {
+                "headline": "",
+                "subheadline": "",
+                "linkTarget": "",
+                "linkText": ""
+            },
+            "overview": {
+                "titleSync": "",
+                "buttonSync": "",
+                "buttonSyncProducts": "",
+                "buttonSyncImages": "",
+                "buttonSyncInventory": "",
+                "buttonSyncAbort": "",
+                "syncErrorTitle": "",
+                "status": {
+                    "disabled": "",
+                    "message": {
+                        "syncing": "",
+                        "noRunYet": "",
+                        "success": "",
+                        "warning": "",
+                        "error": "",
+                        "aborted": ""
+                    },
+                    "task": {
+                        "complete": "",
+                        "product": "",
+                        "image": "",
+                        "inventory": ""
+                    },
+                    "lastSynced": "",
+                    "lastSyncedComplete": "",
+                    "syncingDetail": ""
+                },
+                "continueSetup": {
+                    "cardTitle": "",
+                    "content": {
+                        "headline": "",
+                        "firstLine": "",
+                        "secondLine": ""
+                    }
+                }
+            },
+            "syncedProducts": {
+                "title": "",
+                "notSyncedYet": "",
+                "columns": {
+                    "name": "",
+                    "state": "",
+                    "date": ""
+                },
+                "emptyState": {
+                    "title": "",
+                    "message": ""
+                },
+                "actions": {
+                    "productDetails": ""
+                }
+            },
+            "settings": {
+                "titleGeneralSettings": "",
+                "domain": "",
+                "domainHelpText": "",
+                "productStream": "",
+                "titleCredentials": "",
+                "titleSync": "",
+                "titlePrices": "",
+                "syncPrices": "",
+                "replace": "",
+                "activeHelpText": "",
+                "saveAlert": "",
+                "optionsTitle": "",
+                "reset": {
+                    "buttonTitle": "",
+                    "descriptionText": "",
+                    "modalConfirmText": "",
+                    "modalTextInfo": "",
+                    "modalTitle": "",
+                    "modalButtonConfirm": ""
+                }
+            },
+            "logs": {
+                "columnLastSync": "",
+                "noEntry": "",
+                "states": {
+                    "success": "",
+                    "failed": "",
+                    "aborted": ""
+                }
+            },
+            "runs": {
+                "title": "",
+                "toolbarText": "",
+                "completeTask": "",
+                "productTask": "",
+                "inventoryTask": "",
+                "imageTask": "",
+                "cloneVisibilityTask": "",
+                "states": {
+                    "withWarnings": "",
+                    "successful": "",
+                    "aborted": "",
+                    "failed": ""
+                },
+                "actions": {
+                    "showDetails": ""
+                },
+                "emptyState": {
+                    "title": "",
+                    "message": ""
+                },
+                "columns": {
+                    "task": "",
+                    "state": "",
+                    "date": ""
+                }
+            },
+            "cleanLog": ""
+        },
+        "wizard": {
+            "salesChannelPrototypeName": "",
+            "stepItemTitle": {
+                "connection": "",
+                "connectionSuccess": "",
+                "customization": "",
+                "productSelection": "",
+                "syncLibrary": "",
+                "syncPrices": "",
+                "finish": ""
+            },
+            "connection": {
+                "modalTitle": "",
+                "headerConnect": "",
+                "headerNewCustomer": "",
+                "buttonCreateAccount": "",
+                "buttonCreateAccountLink": ""
+            },
+            "connectionSuccess": {
+                "modalTitle": "",
+                "headline": "",
+                "info": "",
+                "disconnectButton": "",
+                "disclaimer": "",
+                "fakeFirstName": "",
+                "fakeLastName": "",
+                "fakeMail": ""
+            },
+            "connectionDisconnect": {
+                "modalTitle": "",
+                "headline": "",
+                "info": "",
+                "disconnectButton": "",
+                "disconnectErrorMessage": ""
+            },
+            "customization": {
+                "salesChannelLabel": "",
+                "modalTitle": "",
+                "labelDomain": "",
+                "subtitle": "",
+                "placeholderDomain": ""
+            },
+            "productSelection": {
+                "modalTitle": "",
+                "labelSelect": "",
+                "labelToggle": "",
+                "info": ""
+            },
+            "syncLibrary": {
+                "modalTitle": "",
+                "header": "",
+                "shopwareProducts": "",
+                "posProducts": "",
+                "description": "",
+                "optionReplacePermanentlyLabel": "",
+                "optionReplacePermanentlyDescription": "",
+                "optionReplaceOneTimeLabel": "",
+                "optionReplaceOneTimeDescription": "",
+                "optionReplaceNotLabel": "",
+                "optionReplaceNotDescription": "",
+                "disclaimer": ""
+            },
+            "syncPrices": {
+                "modalTitle": "",
+                "header": "",
+                "description": "",
+                "disclaimer": "",
+                "optionTrueLabel": "",
+                "optionTrueDescription": "",
+                "optionFalseLabel": "",
+                "optionFalseDescription": ""
+            },
+            "finish": {
+                "modalTitle": "",
+                "header": "",
+                "firstParagraph": "",
+                "secondParagraph": ""
+            }
+        },
+        "authentication": {
+            "messageTestError": "",
+            "messageDuplicateError": "",
+            "labelApiKey": "",
+            "placeholderApiKey": "",
+            "apiKeyDescription": "",
+            "buttonGenerateKey": ""
+        },
+        "account": {
+            "loadingName": "",
+            "loadingEmail": "",
+            "errorName": "",
+            "errorEmail": "",
+            "connectedStatus": "",
+            "noConnectionStatus": "",
+            "manageAccount": "",
+            "editConnection": "",
+            "lastUpdated": ""
+        },
+        "gettingStarted": {
+            "cardTitle": "",
+            "readerHeadline": "",
+            "readerText": "",
+            "readerLinkTarget": "",
+            "readerLinkText": "",
+            "readerImageAlt": "",
+            "appHeadline": "",
+            "appText": "",
+            "appImageAlt": ""
+        },
+        "messageCloneError": "",
+        "messageWebhookRegisterError": ""
+    }
+}
