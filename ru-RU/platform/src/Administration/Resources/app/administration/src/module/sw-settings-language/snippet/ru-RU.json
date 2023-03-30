@@ -1,0 +1,51 @@
+{
+  "sw-settings-language": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": ""
+    },
+    "list": {
+      "textHeadline": "",
+      "textDeleteConfirm": "",
+      "columnName": "",
+      "columnLocaleName": "",
+      "columnIsoCode": "",
+      "columnInherit": "",
+      "columnDefault": "",
+      "buttonAddLanguage": "",
+      "contextMenuEdit": "",
+      "messageDeleteSuccess": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "titleSidebarFilter": "",
+      "titleSidebarQuickFilter": "",
+      "textFilterRootLanguages": "",
+      "textFilterInheritedLanguages": ""
+    },
+    "detail": {
+      "textHeadline": "",
+      "titleCard": "",
+      "messageSaveSuccess": "",
+      "labelName": "",
+      "labelLocale": "",
+      "labelParent": "",
+      "labelIsoCode": "",
+      "placeholderName": "",
+      "placeholderPleaseSelect": "",
+      "buttonCancel": "",
+      "buttonSave": "",
+      "tooltipLanguageNotChoosable": "",
+      "tooltipInheritanceNotPossible": "",
+      "textAlertChangeParent": "",
+      "textIsoCodeIsInUse": "",
+      "textLanguageHasParent": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "language": {
+        "label": ""
+      }
+    }
+  }
+}
