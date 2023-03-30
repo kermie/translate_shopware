@@ -1,0 +1,63 @@
+{
+  "sw-settings-customer-group": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "buttonCancel": "",
+      "buttonCreate": "",
+      "buttonSave": "",
+      "placeholderSearchBar": ""
+    },
+    "list": {
+      "columnName": "",
+      "columnDisplayGross": ""
+    },
+    "detail": {
+      "cardTitle": "",
+      "fieldNameLabel": "",
+      "fieldDisplayGrossLabel": "",
+      "fieldDisplayGrossValues": "",
+      "placeholderName": "",
+      "placeholderNewCustomerGroup": "",
+      "notificationErrorMessage": "",
+      "registrationForm": ""
+    },
+    "registration": {
+      "formTitle": "",
+      "placeholderTitle": "",
+      "placeholderIntroduction": "",
+      "placeholderSeoMetaDescription": "",
+      "title": "",
+      "introduction": "",
+      "onlyCompaniesCanRegister": "",
+      "seoMetaDescription": "",
+      "linkUrlsTitle": "",
+      "linkUrlDescription": "",
+      "linkUrlButton": "",
+      "technicalUrl": "",
+      "technicalUrlHelpText": "",
+      "availabilitySalesChannel": ""
+    },
+    "modal": {
+      "seoUrl": {
+        "title": "",
+        "salesChannel": "",
+        "urlSuffix": "",
+        "exampleUrl": "",
+        "cancel": "",
+        "generate": ""
+      }
+    },
+    "notification": {
+      "errorMessageCannotDeleteCustomerGroup": "",
+      "errorUnableToCreateSeoUrls": "",
+      "successfulGeneratedSeoUrls": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "customer_groups": {
+        "label": ""
+      }
+    }
+  }
+}
