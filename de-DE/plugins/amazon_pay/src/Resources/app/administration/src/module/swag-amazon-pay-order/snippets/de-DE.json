@@ -2,78 +2,78 @@
     "swag-amazon-pay-order": {
         "general": {
             "title": "",
-            "description": "",
-            "generalCardTitle": "",
+            "description": "Verwalte die Zahlung via Amazon Pay",
+            "generalCardTitle": "Allgemein",
             "errors": {
-                "incompletePaymentProcess": ""
+                "incompletePaymentProcess": "Die angeforderten Zahlungsdetails konnten nicht gefunden werden. Dieses Problem kann durch einen unvollständigen Bestell- oder Zahlungsvorgang verursacht werden."
             }
         },
         "checkout-info": {
-            "billingAddressHeadline": "",
-            "shippingAddressHeadline": "",
-            "referenceIdHealine": "",
+            "billingAddressHeadline": "Rechnungsadresse",
+            "shippingAddressHeadline": "Lieferadresse",
+            "referenceIdHealine": "Amazon-Referenznummer",
             "statusHeadline": ""
         },
         "action-toolbar": {
-            "refund": "",
-            "charge": "",
-            "cancel": ""
+            "refund": "Rückerstattung",
+            "charge": "Einzug",
+            "cancel": "Abbrechen"
         },
         "amount-info": {
-            "chargeTooltip": "",
-            "refundTooltip": "",
-            "refundPending": ""
+            "chargeTooltip": "{amount} wurden bereits vom Gesamtbetrag eingezogen.",
+            "refundTooltip": "{amount} wurden vom Gesamtbetrag zurückerstattet.",
+            "refundPending": "Rückerstattung wird durchgeführt ..."
         },
         "charge-modal": {
-            "title": "",
-            "infoText": "",
-            "maximumAmount": "",
-            "amountFieldLabel": "",
-            "buttonConfirm": "",
+            "title": "Zahlung einziehen",
+            "infoText": "Wenn der Betrag noch nicht eingezogen wurde, kannst Du ihn ganz oder teilweise einziehen.",
+            "maximumAmount": "Gib den Betrag ein, der eingezogen werden soll. Der maximal mögliche Betrag entspricht {amount}.",
+            "amountFieldLabel": "Betrag",
+            "buttonConfirm": "Bestätigen",
             "notification": {
-                "success": "",
+                "success": "Der Betrag von {amount} wurde erfolgreich eingezogen.",
                 "error": ""
             }
         },
         "refund-modal": {
-            "title": "",
-            "infoText": "",
-            "maximumAmount": "",
-            "amountFieldLabel": "",
-            "reasonFieldLabel": "",
-            "reasonPlaceholder": "",
-            "buttonConfirm": "",
+            "title": "Zahlung rückerstatten",
+            "infoText": "Für den Fall, dass etwas mit der Bestellung schieflief, kannst Du dem Kunden den Betrag rückerstatten. Der Betrag kann entweder vollständig oder teilweise rückerstattet werden. Außerdem ist es möglich, dem Käufer 15% mehr (maximal jedoch 75 USD/GBP/EUR oder 8.400 YEN) als den eingezogenen Betrag zukommen zu lassen.",
+            "maximumAmount": "Gib den Betrag an, den Du zurückerstatten möchtest. Der maximal mögliche Betrag ist {refundAmountLimit}.",
+            "amountFieldLabel": "Betrag",
+            "reasonFieldLabel": "Grund dieser Rückerstattung",
+            "reasonPlaceholder": "Keinen Grund angeben",
+            "buttonConfirm": "Bestätigen",
             "notification": {
-                "success": "",
-                "required": "",
-                "missingReason": ""
+                "success": "Der Betrag {amount} wurde erfolgreich rückerstattet.",
+                "required": "Erforderlich",
+                "missingReason": "Du musst einen Grund für die Rückerstattung angeben!"
             }
         },
         "cancel-modal": {
-            "title": "",
-            "infoText": "",
-            "infoTextReason": "",
-            "reasonFieldLabel": "",
-            "reasonPlaceholder": "",
-            "buttonConfirm": "",
+            "title": "Zahlungsvorgang abbrechen",
+            "infoText": "Für den Fall, dass mit der Bestellung etwas schieflief, kannst Du den Zahlungsvorgang abbrechen. Die Bestellung bleibt als solche bestehen.",
+            "infoTextReason": "Gib eine kurze Begründung für den Abbruch an, um den Kunden diesbezüglich zu informieren.",
+            "reasonFieldLabel": "Grund für Zahlungsabbruch",
+            "reasonPlaceholder": "Begründung eintragen",
+            "buttonConfirm": "Bestätigen",
             "notification": {
-                "success": ""
+                "success": "Die Zahlung wurde erfolgreich abgebrochen."
             }
         },
         "payment-history": {
-            "cardTitle": "",
+            "cardTitle": "Zahlungsverlauf",
             "columns": {
-                "objectId": "",
-                "subject": "",
-                "processed": "",
-                "date": ""
+                "objectId": "Object-Id",
+                "subject": "Betreff",
+                "processed": "Verarbeitet",
+                "date": "Datum"
             }
         },
         "notification": {
-            "invalidTransaction": "",
-            "invalidChargePermission": "",
-            "partialCharge": "",
-            "isPartialCharged": ""
+            "invalidTransaction": "Der Zahlungsvorgang mit Amazon Pay wurde unerwartet abgebrochen. Es wurde kein Zahlungseingang mitgeteilt. Bitte überprüfe vor dem Versand dieser Bestellung mögliche andere Zahlungseingänge von anderen Zahlungsdienstleistern.",
+            "invalidChargePermission": "Beim Abrufen der Transaktionsdaten zu dieser Amazon Pay Transaktion ist ein Fehler aufgetreten.",
+            "partialCharge": "Der Einzug mehrerer Teilbeträge wird derzeit vom Plugin noch nicht vollständig unterstützt. Wenn Du noch weitere Teilbeträge einziehen möchtest, dann verwende dazu bitte die Seller Central. Setze den Zahlungsstatus der Bestellung im Anschluss manuell auf den gewünschten Wert (bspw. \"Bezahlt\").",
+            "isPartialCharged": "Warnung: für diese Bestellung wurde ein Teilbetrag eingezogen."
         }
     }
 }
