@@ -1,0 +1,104 @@
+{
+  "global": {
+    "error-codes": {
+      "DUPLICATED_SNIPPET_KEY": ""
+    }
+  },
+  "sw-settings-snippet": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "description": "",
+      "copyName": "",
+      "errorBackRoutingTitle": "",
+      "errorBackRoutingMessage": "",
+      "placeholderSearchBarSets": "",
+      "placeholderSearchBarSnippets": "",
+      "placeholderValue": "",
+      "searchBarTitleSets": "",
+      "searchBarTitleSnippets": ""
+    },
+    "detail": {
+      "buttonCancel": "",
+      "buttonSave": "",
+      "cardGeneralTitle": "",
+      "cardSnippetSetsTitle": "",
+      "labelContent": "",
+      "labelName": "",
+      "labelNamePlaceholder": "",
+      "labelNamespace": "",
+      "labelNamespacePlaceholder": "",
+      "messageSaveError": "",
+      "messageSaveSuccess": "",
+      "textHeadline": ""
+    },
+    "list": {
+      "identifier": "",
+      "buttonAdd": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "buttonEmpty": "",
+      "columnKey": "",
+      "columnValue": "",
+      "contextMenuDelete": "",
+      "contextMenuEdit": "",
+      "columnHeaderGridColumnTitleSet": "",
+      "columnHeaderResetTo": "",
+      "emptyStateHeadLine": "",
+      "messageDeleteSuccess": "",
+      "messageSaveError": "",
+      "messageSaveSuccess": "",
+      "textDeleteConfirm": "",
+      "textResetConfirm": "",
+      "textSnippetList": "",
+      "resetErrorMessage": "",
+      "resetSuccessMessage": "",
+      "titleSidebarCustomItems": "",
+      "titleSidebarItemRefresh": "",
+      "titleSidebarItemFilter": ""
+    },
+    "setList": {
+      "title": "",
+      "description": "",
+      "cardTitle": "",
+      "buttonAddSet": "",
+      "buttonCancel": "",
+      "buttonClone": "",
+      "buttonDelete": "",
+      "buttonEditSet": "",
+      "buttonExport": "",
+      "buttonImport": "",
+      "cloneErrorMessage": "",
+      "cloneSuccessMessage": "",
+      "columnBaseFile": "",
+      "columnChangedAt": "",
+      "columnName": "",
+      "contextMenuClone": "",
+      "contextMenuDelete": "",
+      "contextMenuEdit": "",
+      "deleteNoteErrorMessage": "",
+      "deleteNoteSuccessMessage": "",
+      "inlineEditErrorMessage": "",
+      "inlineEditSuccessMessage": "",
+      "modalTitleClone": "",
+      "notEditableNoteErrorMessage": "",
+      "placeholderName": "",
+      "splitButtonDuplicateContent": "",
+      "textCloneConfirm": "",
+      "textDeleteConfirm": ""
+    },
+    "filter": {
+      "showOnlyEmpty": "",
+      "showOnlyCustom": "",
+      "showOnlyAdded": "",
+      "author": "",
+      "more": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "snippet": {
+        "label": ""
+      }
+    }
+  }
+}
