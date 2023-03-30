@@ -1,0 +1,579 @@
+{
+  "sw-order": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "mainMenuItemList": "",
+      "descriptionTextModule": "",
+      "placeholderSearchBar": ""
+    },
+    "list": {
+      "columnCustomerName": "",
+      "columnBillingAddress": "",
+      "columnAmount": "",
+      "columnState": "",
+      "columnTransactionState": "",
+      "columnDeliveryState": "",
+      "columnOrderNumber": "",
+      "columnSalesChannel": "",
+      "columnAffiliateCode": "",
+      "columnCampaignCode": "",
+      "orderDate": "",
+      "buttonAddOrder": "",
+      "textOrders": "",
+      "textOrdersTotal": "",
+      "contextMenuView": "",
+      "contextMenuDelete": "",
+      "contextMenuConfirmPayment": "",
+      "messageEmpty": "",
+      "titleSidebarItemRefresh": "",
+      "titleSidebarItemFilter": "",
+      "titleSidebarItemFilterAffiliateCode": "",
+      "titleSidebarItemFilterCampaignCode": "",
+      "buttonDelete": "",
+      "buttonCancel": "",
+      "textDeleteConfirm": "",
+      "labelManualOrder": ""
+    },
+    "detail": {
+      "buttonCancel": "",
+      "tabOrderDetails": "",
+      "tabDeliveries": "",
+      "textHeadline": "",
+      "textHeadlineNew": "",
+      "tabGeneral": "",
+      "tabDetails": "",
+      "tabDocuments": "",
+      "messageRecalculationError": "",
+      "messageSaveError": "",
+      "messageShippingNotAvailable": "",
+      "labelManualOrder": "",
+      "textUnsavedOrderWarning": ""
+    },
+    "create": {
+      "textNewOrder": "",
+      "buttonSaveOrder": "",
+      "buttonCancelOrder": "",
+      "messageSaveError": "",
+      "messageSwitchCustomerError": "",
+      "messageFetchCustomerAddressesError": "",
+      "remindPaymentModal": {
+        "title": "",
+        "text": "",
+        "primaryAction": ""
+      }
+    },
+    "createBase": {
+      "labelEmail": "",
+      "labelPhoneNumber": "",
+      "placeholderEmail": "",
+      "placeholderPhoneNumber": "",
+      "labelBillingAddress": "",
+      "labelShippingAddress": "",
+      "placeholderBillingAddress": "",
+      "placeholderShippingAddress": "",
+      "labelSalesChannel": "",
+      "labelPaymentMethod": "",
+      "labelShippingMethod": "",
+      "labelOrderLanguage": "",
+      "labelCurrency": "",
+      "placeholderSalesChannel": "",
+      "placeholderPaymentMethod": "",
+      "placeholderShippingMethod": "",
+      "placeholderOrderLanguage": "",
+      "placeholderCurrency": "",
+      "helpTextPaymentMethod": "",
+      "labelToggleAutomaticPromotions": "",
+      "labelPromotions": "",
+      "generalTab": {
+        "labelLineItemsCard": "",
+        "labelGeneralInfoCard": ""
+      },
+      "detailsTab": {
+        "labelTransactionCard": "",
+        "labelDeliveryCard": "",
+        "labelOrderCard": ""
+      },
+      "labelDetailsCard": "",
+      "detailsHeader": {
+        "textCustomer": "",
+        "placeholder": "",
+        "buttonAddNewCustomer": ""
+      },
+      "detailsBody": {
+        "labelEmail": "",
+        "labelPhoneNumber": "",
+        "placeholderEmail": "",
+        "placeholderPhoneNumber": "",
+        "labelBillingAddress": "",
+        "labelShippingAddress": "",
+        "placeholder": "",
+        "textIdentical": "",
+        "buttonAddNewAddress": "",
+        "placeholderAddress": ""
+      },
+      "detailsFooter": {
+        "labelSalesChannel": "",
+        "labelPaymentMethod": "",
+        "labelShippingMethod": "",
+        "labelOrderLanguage": "",
+        "labelCurrency": "",
+        "placeholderSalesChannel": "",
+        "placeholderPaymentMethod": "",
+        "placeholderShippingMethod": "",
+        "placeholderOrderLanguage": "",
+        "placeholderCurrency": "",
+        "helpTextPaymentMethod": ""
+      },
+      "cardTitleLineItems": "",
+      "placeholderSearchBarItem": "",
+      "columnProductName": "",
+      "columnQuantity": "",
+      "columnPriceNet": "",
+      "columnPriceGross": "",
+      "columnPriceTaxFree": "",
+      "columnTotalPriceNet": "",
+      "columnPrice": "",
+      "columnTotalPrice": "",
+      "columnTotalPriceGross": "",
+      "columnTax": "",
+      "textCreditTax": "",
+      "taxDetail": "",
+      "contextMenuShowProduct": "",
+      "messageEmptyItem": "",
+      "buttonAddItems": "",
+      "buttonAddProduct": "",
+      "buttonAddBlankProduct": "",
+      "buttonAddCredit": "",
+      "summaryLabelAmount": "",
+      "summaryLabelAmountGrandTotal": "",
+      "summaryLabelAmountWithoutTaxes": "",
+      "summaryLabelAmountTotal": "",
+      "summaryLabelAmountTotalRounded": "",
+      "labelShippingCosts": "",
+      "summaryLabelShippingCosts": "",
+      "discountLabelShippingCosts": "",
+      "summaryLabelTaxes": "",
+      "tax": "",
+      "shippingCostsTax": "",
+      "labelAddPromotion": "",
+      "placeholderAddPromotion": "",
+      "textInvalidPromotionCode": "",
+      "textPromotionDescription": {
+        "cart": {
+          "percentage": "",
+          "absolute": "",
+          "absoluteUpto": "",
+          "fixed_unit": ""
+        },
+        "delivery": {
+          "percentage": "",
+          "absolute": "",
+          "fixed_unit": "",
+          "fixed": ""
+        },
+        "set": {
+          "percentage": "",
+          "absolute": "",
+          "fixed_unit": "",
+          "fixed": ""
+        },
+        "setgroup": {
+          "percentage": "",
+          "absolute": "",
+          "fixed_unit": "",
+          "fixed": ""
+        }
+      }
+    },
+    "detailBase": {
+      "cardTitleDetails": "",
+      "cardTitleLineItems": "",
+      "cardTitleGeneralInfo": "",
+      "columnProductName": "",
+      "columnQuantity": "",
+      "columnPriceNet": "",
+      "columnPriceGross": "",
+      "columnPriceTaxFree": "",
+      "columnTotalPriceNet": "",
+      "columnPrice": "",
+      "columnTotalPrice": "",
+      "columnTotalPriceGross": "",
+      "columnTax": "",
+      "columnProductNumber": "",
+      "contextMenuShowProduct": "",
+      "contextMenuDelete": "",
+      "summaryLabelAmount": "",
+      "summaryLabelAmountGrandTotal": "",
+      "summaryLabelAmountWithoutTaxes": "",
+      "summaryLabelAmountTotal": "",
+      "summaryLabelAmountTotalRounded": "",
+      "summaryLabelShippingCosts": "",
+      "discountLabelShippingCosts": "",
+      "summaryLabelTaxes": "",
+      "labelOrderStatus": "",
+      "labelPaymentStatus": "",
+      "labelSalesChannel": "",
+      "labelOrderDate": "",
+      "headlineBillingAddress": "",
+      "headlineDeliveryAddress": "",
+      "buttonPrint": "",
+      "buttonCancel": "",
+      "buttonArchive": "",
+      "buttonDelete": "",
+      "buttonAddProduct": "",
+      "buttonAddBlankProduct": "",
+      "buttonAddCredit": "",
+      "buttonEditAddress": "",
+      "tooltipNestedLineItemsButton": "",
+      "labelNoPhoneNumber": "",
+      "labelNoEmail": "",
+      "labelCustomerPhoneNumber": "",
+      "labelLanguage": "",
+      "labelPaymentMethod": "",
+      "labelShippingMethod": "",
+      "labelPartnerCode": "",
+      "labelCustomerEmail": "",
+      "labelNoDeliveriesYet": "",
+      "labelNoDeliveryTrackingCodeYet": "",
+      "labelLastChange": "",
+      "labelNoChangesYet": "",
+      "labelTrackingCodes": "",
+      "labelAffiliateCode": "",
+      "labelCampaignCode": "",
+      "labelCustomerComment": "",
+      "buttonAddDeliveryAddress": "",
+      "labelSameDeliveryAndBillingAddress": "",
+      "buttonContinueOnVersionedOrder": "",
+      "tax": "",
+      "shippingCostsTax": "",
+      "placeholderTagSelect": "",
+      "placeholderTrackingCodeSelect": "",
+      "addTrackingCode": "",
+      "enterValidTrackingCode": "",
+      "textCreditTax": "",
+      "taxDetail": "",
+      "textPromotionRemoved": "",
+      "textUnsavedChanges": "",
+      "textMissingProductLineItems": "",
+      "textMissingProductLineItemsDescription": "",
+      "textConvertedProductLineItems": "",
+      "textConvertedProductLineItemsDescription": "",
+      "textDeleteLineItemConfirm": ""
+    },
+    "nestedLineItemsModal": {
+      "titlePrefix": "",
+      "headerLabel": "",
+      "headerUnitPrice": "",
+      "headerQuantity": "",
+      "headerTotalPrice": "",
+      "headerTax": ""
+    },
+    "detailDeliveries": {
+      "cardTitleItems": "",
+      "labelShippingMethod": "",
+      "labelDeliveryDate": "",
+      "labelShippingCosts": "",
+      "labelDeliveryState": "",
+      "buttonMerge": "",
+      "buttonDelete": ""
+    },
+    "detailCustomerComment": {
+      "title": ""
+    },
+    "addressSelection": {
+      "modalTitleEditAddress": "",
+      "modalTitleSelectAddress": "",
+      "modalTitleAddBillingAddress": "",
+      "modalTitleEditBillingAddress": "",
+      "modalTitleAddShippingAddress": "",
+      "modalTitleEditShippingAddress": "",
+      "headlineTabEditAddress": "",
+      "headlineTabSelectAddress": "",
+      "headlineTabCreateAddress": "",
+      "currentlySelected": "",
+      "searchAddressToolbarPlaceholder": "",
+      "emptySearchResults": ""
+    },
+    "leavePageModal": {
+      "headline": "",
+      "description": "",
+      "confirmButton": "",
+      "cancelButton": ""
+    },
+    "stateCard": {
+      "cardTitle": "",
+      "headlineOrderState": "",
+      "headlineTransactionState": "",
+      "headlineDeliveryState": "",
+      "draftPlaceholder": "",
+      "labelHistory": "",
+      "labelShowHistoryModal": "",
+      "labelLastEditedBy": "",
+      "labelSystemUser": "",
+      "labelSelectStatePlaceholder": "",
+      "labelSelectStateButton": "",
+      "labelSendMailSwitch": "",
+      "labelErrorStateChange": "",
+      "labelErrorNoAction": "",
+      "labelNoTransactionState": "",
+      "labelNoDeliveryState": ""
+    },
+    "assignMailTemplateCard": {
+      "cardTitle": "",
+      "headline": "",
+      "placeholderAssignMailTemplate": "",
+      "alertHeadline": "",
+      "alertMessage": "",
+      "buttonCreateMailTemplate": "",
+      "buttonAssignMailTemplate": "",
+      "buttonNotAssignMailTemplate": "",
+      "gridColumnType": "",
+      "gridColumnDescription": ""
+    },
+    "documentCard": {
+      "searchBarPlaceholder": "",
+      "cardTitle": "",
+      "modalTitle": "",
+      "labelDate": "",
+      "labelNumber": "",
+      "labelType": "",
+      "labelSent": "",
+      "labelAttach": "",
+      "labelAmount": "",
+      "labelOpenDocument": "",
+      "labelDownloadPdf": "",
+      "labelPrintDocument": "",
+      "labelSendDocument": "",
+      "labelMarkAsSent": "",
+      "labelMarkAsUnsent": "",
+      "labelCreateNew": "",
+      "messageEmptyTitle": "",
+      "messageNoDocumentFound": "",
+      "messageEmptySubline": "",
+      "error": {
+        "DOCUMENT__NUMBER_ALREADY_EXISTS": ""
+      },
+      "info": {
+        "DOCUMENT__NUMBER_WAS_CHANGED": ""
+      }
+    },
+    "generalTab": {
+      "info": {
+        "summary": {
+          "and": "",
+          "on": "",
+          "by": "",
+          "lastChanged": "",
+          "with": ""
+        }
+      },
+      "tagSelect": {
+        "placeholder": ""
+      }
+    },
+    "detailsTab": {
+      "labelTransactionCard": "",
+      "labelDeliveryCard": "",
+      "labelOrderCard": "",
+      "promotionsField": {
+        "labelPromotions": "",
+        "placeholderPromotions": "",
+        "automaticPromotion": "",
+        "labelToggleAutomaticPromotions": ""
+      }
+    },
+    "documentTab": {
+      "tooltipSaveBeforeCreateDocument": ""
+    },
+    "documentModal": {
+      "modalTitle": "",
+      "labelDocumentDate": "",
+      "labelDeliveryDate": "",
+      "labelDocumentNumber": "",
+      "labelDocumentStornoNumber": "",
+      "labelInvoiceNumber": "",
+      "selectInvoiceNumber": "",
+      "labelDeliveryNoteNumber": "",
+      "labelDocumentComment": "",
+      "labelCreateDownloadPdf": "",
+      "labelCreateSend": "",
+      "labelCreate": "",
+      "labelCancel": "",
+      "labelPreview": "",
+      "labelHighlightedItemsHeader": "",
+      "labelHighlightedItemsEntry": "",
+      "labelNoItems": "",
+      "fileInputLabel": ""
+    },
+    "documentSendModal": {
+      "labelNumber": "",
+      "labelType": "",
+      "labelDate": "",
+      "labelMailTemplate": "",
+      "labelRecipient": "",
+      "labelContent": "",
+      "labelSubject": "",
+      "labelClose": "",
+      "errorMessage": ""
+    },
+    "stateModal": {
+      "modalTitle": ""
+    },
+    "stateHistoryModal": {
+      "modalTitle": "",
+      "labelSystemUser": "",
+      "column": {
+        "createdAt": "",
+        "entity": "",
+        "user": "",
+        "transaction": "",
+        "delivery": "",
+        "order": ""
+      }
+    },
+    "newCustomerModal": {
+      "labelDetails": "",
+      "labelGuest": ""
+    },
+    "invalidPromotionModal": {
+      "modalTitle": "",
+      "modalDescription": "",
+      "buttonConfirm": ""
+    },
+    "promotionModal": {
+      "labelTitle": "",
+      "message": "",
+      "messageNoItems": "",
+      "buttonDisable": ""
+    },
+    "initialModal": {
+      "titleNewOrder": "",
+      "tabCustomer": "",
+      "tabProducts": "",
+      "tabCustomItem": "",
+      "tabOptions": "",
+      "tabCredit": "",
+      "buttonPreviewOrder": "",
+      "customerGrid": {
+        "buttonAddNewCustomer": "",
+        "placeholderSearchCustomer": "",
+        "textEmptySearch": "",
+        "contextOpenButton": "",
+        "columnCustomerName": "",
+        "columnCustomerNumber": "",
+        "columnSalesChannel": "",
+        "columnEmailAddress": ""
+      },
+      "options": {
+        "textHeadlineOrder": "",
+        "textHeadlinePayment": "",
+        "textHeadlineShipment": "",
+        "placeholderAddPromotion": "",
+        "labelSameAsBillingAddress": "",
+        "textSameAsBillingAddress": "",
+        "labelShippingCosts": ""
+      }
+    },
+    "filters": {
+      "documentFilter": {
+        "label": "",
+        "placeholder": "",
+        "textHasCriteria": "",
+        "textNoCriteria": ""
+      },
+      "orderDateFilter": {
+        "label": "",
+        "options": {
+          "lastYear": "",
+          "lastQuarter": "",
+          "lastMonth": "",
+          "lastWeek": "",
+          "lastDay": "",
+          "custom": ""
+        }
+      },
+      "orderValueFilter": {
+        "label": ""
+      },
+      "statusFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "paymentStatusFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "deliveryStatusFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "paymentMethodFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "shippingMethodFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "salesChannelFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "billingCountryFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "shippingCountryFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "customerGroupFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "tagFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "productFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "affiliateCodeFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "campaignCodeFilter": {
+        "label": "",
+        "placeholder": ""
+      },
+      "messageEmptyTitle": "",
+      "messageEmptySubline": ""
+    },
+    "components": {
+      "selectDocumentTypeModal": {
+        "title": "",
+        "primaryAction": "",
+        "helpText": {
+          "storno": "",
+          "credit_note": ""
+        }
+      }
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "order": {
+        "label": ""
+      },
+      "order_refund": {
+        "label": ""
+      }
+    },
+    "additional_permissions": {
+      "orders": {
+        "create_discounts": ""
+      }
+    }
+  }
+}
