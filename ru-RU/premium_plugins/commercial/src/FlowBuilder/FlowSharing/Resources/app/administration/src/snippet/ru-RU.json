@@ -1,0 +1,58 @@
+{
+    "sw-flow-sharing": {
+        "uploadButton": "",
+        "downloadButton": "",
+        "downloadModal": {
+            "title": "",
+            "description": "",
+            "dataIncluded": "",
+            "references": "",
+            "isNotIncludedReferences": "",
+            "downloadButton": "",
+            "ruleLabel": "",
+            "mailTemplateLabel": ""
+        },
+        "uploadModal": {
+            "title": "",
+            "description": "",
+            "uploadLabel": "",
+            "uploadFileLabel": "",
+            "rules": "",
+            "tags": "",
+            "emails": "",
+            "dataWillBeCreated": "",
+            "references": "",
+            "referencesNeedToAssign": "",
+            "ruleLabel": "",
+            "mailTemplateLabel": "",
+            "warningAlert": {
+                "description": "",
+                "shopwareVersionLabel": "",
+                "extensionsLabel": "",
+                "ruleConflictLabel": "",
+                "ruleConflictDescription": ""
+            },
+            "affectedRules": "",
+            "keepLocalRulesLabel": "",
+            "keepLocalRulesDescription": "",
+            "overrideLocalRulesLabel": "",
+            "overrideLocalRulesDescription": ""
+        },
+        "importError": {
+            "invalidActionHeading": "",
+            "invalidActionText": "",
+            "invalidRuleHeading": "",
+            "invalidRuleText": "",
+            "missingRuleText": "",
+            "textAssignCustomerGroup": "",
+            "textCustomerGroup": "",
+            "textMissingObject": "",
+            "description": "",
+            "confirmButton": ""
+        },
+        "notification": {
+            "messageDownloadSuccess": "",
+            "messageDownloadError": ""
+        }
+    }
+}
