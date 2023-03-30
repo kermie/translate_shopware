@@ -1,0 +1,61 @@
+{
+  "sw-login": {
+    "general": {
+      "mainMenuItemIndex": "",
+      "description": ""
+    },
+    "index": {
+      "headlineMain": "",
+      "subheadlineMain": "",
+      "headlineForm": "",
+      "labelUsername": "",
+      "labelPassword": "",
+      "placeholderUsername": "",
+      "placeholderPassword": "",
+      "buttonLogin": "",
+      "messageUnsupportedGrantType": "",
+      "messageInvalidRequest": "",
+      "messageInvalidClient": "",
+      "messageInvalidScope": "",
+      "messageInvalidCredentials": "",
+      "messageServerError": "",
+      "messageInvalidRefreshToken": "",
+      "messageAccessDenied": "",
+      "messageGeneralRequestError": "",
+      "messageAuthThrottled": "",
+      "forgottenPasswordLink": ""
+    },
+    "recovery": {
+      "info": {
+        "headline": "",
+        "info": "",
+        "warning": ""
+      },
+      "recovery": {
+        "headline": "",
+        "newPasswordField": {
+          "label": ""
+        },
+        "passwordConfirmField": {
+          "label": ""
+        },
+        "submit": {
+          "label": ""
+        },
+        "errorMessage": ""
+      },
+      "headline": "",
+      "text": "",
+      "email": {
+        "label": "",
+        "placeholder": ""
+      },
+      "submit": ""
+    }
+  },
+  "global": {
+    "sw-admin-menu": {
+      "textShopwareAdmin": ""
+    }
+  }
+}
