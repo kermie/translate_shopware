@@ -1,0 +1,20 @@
+{
+    "swag-paypal-frw-credentials": {
+        "buttonGetCredentials": "",
+        "textIntroPayPal": "",
+        "labelClientId": "",
+        "labelClientSecret": "",
+        "labelMerchantPayerId": "",
+        "labelClientIdSandbox": "",
+        "labelClientSecretSandbox": "",
+        "labelMerchantPayerIdSandbox": "",
+        "labelSandbox": "",
+        "tooltipSandbox": "",
+        "labelSetDefault": "",
+        "tooltipSetDefault": "",
+        "messageFetchedError": "",
+        "textFetchedSuccessful": "",
+        "messageNoCredentials": "",
+        "messageTestSuccess": ""
+    }
+}
