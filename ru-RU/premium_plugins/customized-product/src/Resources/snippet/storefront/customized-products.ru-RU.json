@@ -1,0 +1,117 @@
+{
+    "customizedProducts": {
+        "editor": {
+            "bold": "",
+            "italic": "",
+            "underline": "",
+            "strikeThrough": "",
+            "textFormatting": ""
+        },
+        "configurationShare": {
+            "title": "",
+            "button": "",
+            "oneTimeLabel": "",
+            "unavailable": ""
+        },
+        "configurationEdit": {
+            "notFullyRestorable": "",
+            "notRestorable": "",
+            "label": ""
+        },
+        "priceDisplay": {
+            "unitPrice": "",
+            "productPrice": "",
+            "subTotal": "",
+            "oneTimePrice": "",
+            "summary": "",
+            "totalPrice": ""
+        },
+        "stepByStep": {
+            "navigation": {
+                "btnPrev": "",
+                "btnNext": "",
+                "btnConfigureProduct": "",
+                "btnChangeConfiguration": "",
+                "btnFinish": "",
+                "required": ""
+            }
+        },
+        "addToCart": {
+            "success": "",
+            "error": {
+                "invalidExtensionType": "",
+                "maxFileSizeExceeded": "",
+                "maxFileCountExceeded": "",
+                "priceCalculation": "",
+                "notAvailable": "",
+                "default": "",
+                "templateAssigned": ""
+            }
+        },
+        "exclusionViolations": {
+            "excludeItem": "",
+            "headline": ""
+        },
+        "checkoutItem": {
+            "valueLabel": ""
+        },
+        "optionTypes": {
+            "selectNoValueText": "",
+            "textareaClearButton": "",
+            "upload": {
+                "dropzoneHeadlineText": "",
+                "dropzoneRestrictionsText": "",
+                "dropzoneBrowseButton": "",
+                "errors": {
+                    "fileCount": "",
+                    "fileType": "",
+                    "fileSize": "",
+                    "generic": ""
+                }
+            },
+            "textarea": {
+                "errors": {
+                    "required": "",
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "textfield": {
+                "errors": {
+                    "required": "",
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "numberfield": {
+                "errors": {
+                    "required": "",
+                    "min": "",
+                    "max": ""
+                }
+            }
+        },
+        "priceLabelNotice": "",
+        "optionRequired": "",
+        "cart": {
+            "configurationTitle": ""
+        },
+        "lineItem": {
+            "showConfiguration": ""
+        },
+        "priceTagFilter": {
+            "oneTimeSurchargeSuffix": "",
+            "perItemSuffix": ""
+        },
+        "showPreview": {
+            "expandLabel": "",
+            "shrinkLabel": ""
+        },
+        "confirmInput": {
+            "label": ""
+        },
+        "paypal": {
+            "hint": ""
+        }
+    }
+}
