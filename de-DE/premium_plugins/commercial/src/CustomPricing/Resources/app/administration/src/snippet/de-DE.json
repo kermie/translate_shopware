@@ -2,7 +2,7 @@
   "sw-privileges": {
     "permissions": {
       "custom_price": {
-        "label": ""
+        "label": "Kundenindividuelle Preise"
       }
     }
   }
