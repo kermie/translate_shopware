@@ -1,0 +1,353 @@
+{
+  "sw-flow": {
+    "labelDescription": {
+      "labelEntity": "",
+      "labelTag": ""
+    },
+    "general": {
+      "mainMenuItemGeneral": "",
+      "descriptionTextModule": "",
+      "placeholderSearchBar": "",
+      "tabMyFlows": "",
+      "tabFlowTemplates": ""
+    },
+    "list": {
+      "textHeadline": "",
+      "buttonAddFlow": "",
+      "labelColumnActive": "",
+      "labelColumnName": "",
+      "labelColumnTrigger": "",
+      "labelColumnDescription": "",
+      "warningDeleteText": "",
+      "confirmText": "",
+      "emptyStateTitle": "",
+      "emptyStateSubTitle": ""
+    },
+    "template": {
+      "create": ""
+    },
+    "detail": {
+      "textHeadline": "",
+      "labelGeneralCard": "",
+      "labelLogCard": "",
+      "labelGeneralInformationName": "",
+      "placeholderGeneralInformationName": "",
+      "labelGeneralInformationDescription": "",
+      "placeholderGeneralInformationDescription": "",
+      "labelGeneralInformationPriority": "",
+      "labelGeneralInformationActive": "",
+      "trigger": {
+        "name": "",
+        "placeholder": "",
+        "title": "",
+        "helpText": "",
+        "textNoEvent": "",
+        "textHint": ""
+      },
+      "sequence": {
+        "selectorTitle": "",
+        "selectorHelpTextTrueCondition": "",
+        "selectorHelpTextFalseCondition": "",
+        "selectorHelpText": "",
+        "selectorTitleAddSequence": "",
+        "selectorHelpTextAddSequence": "",
+        "selectorIfCondition": "",
+        "selectorThenAction": "",
+        "conditionTitle": "",
+        "conditionDescription": "",
+        "conditionExplainsTitle": "",
+        "conditionExplainsDescription": "",
+        "actionTitle": "",
+        "actionDescription": "",
+        "contextButton": {
+          "deleteCondition": "",
+          "deleteActionContainer": ""
+        },
+        "labelTrue": "",
+        "labelFalse": "",
+        "noActions": "",
+        "noRule": ""
+      },
+      "warningText": ""
+    },
+    "page": {
+      "tabGeneral": "",
+      "tabFlow": ""
+    },
+    "flowNotification": {
+      "messageDeleteSuccess": "",
+      "messageDeleteError": "",
+      "messageSaveError": "",
+      "messageWarningSave": "",
+      "messageError": "",
+      "messageRequiredEventName": "",
+      "messageRequiredEmptyFields": "",
+      "messageDuplicateSuccess": "",
+      "messageDuplicateError": "",
+      "messageCreateSuccess": "",
+      "messageUpdateTemplateSuccess": "",
+      "messageCreateError": ""
+    },
+    "actions": {
+      "addTag": "",
+      "generateDocument": "",
+      "removeTag": "",
+      "mailSend": "",
+      "grantDownloadAccess": "",
+      "setOrderState": "",
+      "stopFlow": "",
+      "changeCustomerGroup": "",
+      "changeCustomerStatus": "",
+      "changeCustomFieldContent": "",
+      "addAffiliateAndCampaignCode": "",
+      "textStopFlowDescription": "",
+      "labelDescription": "",
+      "contextButton": {
+        "editAction": "",
+        "deleteAction": "",
+        "moveUpAction": "",
+        "moveDownAction": ""
+      },
+      "addAction": "",
+      "labelTo": "",
+      "labelTag": "",
+      "labelTemplate": "",
+      "labelCustomFieldSet": "",
+      "labelCustomField": "",
+      "labelCustomFieldOption": "",
+      "placeholderSelectAction": "",
+      "labelAffiliateCode": "",
+      "labelCampaignCode": "",
+      "tooltipActionDisabled": "",
+      "group": {
+        "tag": "",
+        "customer": "",
+        "general": "",
+        "order": ""
+      },
+      "unknownLabel": "",
+      "warningText": ""
+    },
+    "rule": {
+      "addRule": "",
+      "createNewRule": "",
+      "contextButton": {
+        "editRule": "",
+        "changeRule": "",
+        "deleteRule": ""
+      },
+      "placeholderSelectRule": ""
+    },
+    "modals": {
+      "buttonAddAction": "",
+      "buttonSaveAction": "",
+      "rule": {
+        "labelAddNewRule": "",
+        "labelEditRule": "",
+        "tabRule": "",
+        "tabDetail": "",
+        "buttonAddRule": "",
+        "labelName": "",
+        "placeholderName": "",
+        "labelPriority": "",
+        "placeholderPriority": "",
+        "labelDescription": "",
+        "placeholderDescription": "",
+        "labelType": "",
+        "placeholderType": "",
+        "placeholderDelayType": ""
+      },
+      "tag": {
+        "labelAddTag": "",
+        "labelRemoveTag": "",
+        "labelToField": "",
+        "placeholderToField": "",
+        "labelTagsField": "",
+        "placeholderTagsField": ""
+      },
+      "status": {
+        "titleSetStatus": "",
+        "labelOrderStatus": "",
+        "labelPaymentStatus": "",
+        "labelDeliveryStatus": "",
+        "placeholderOrderStatus": "",
+        "placeholderPaymentStatus": "",
+        "placeholderDeliveryStatus": "",
+        "messageNoStatusError": "",
+        "forceTransition": "",
+        "forceTransitionHelpText": ""
+      },
+      "document": {
+        "titleCreateDocument": "",
+        "labelDocumentType": "",
+        "placeholderDocumentType": ""
+      },
+      "downloadAccess": {
+        "titleSetDownloadAccess": "",
+        "labelValueField": "",
+        "placeholderValueField": "",
+        "options": {
+          "grant": "",
+          "revoke": ""
+        }
+      },
+      "customerGroup": {
+        "titleChangeCustomerGroup": "",
+        "labelCustomerGroup": "",
+        "placeholderCustomerGroup": ""
+      },
+      "customerStatus": {
+        "titleChangeCustomerStatus": "",
+        "labelCustomerStatus": "",
+        "placeholderCustomerStatus": "",
+        "active": "",
+        "inactive": ""
+      },
+      "mail": {
+        "columnRecipientName": "",
+        "columnRecipientMail": "",
+        "placeholderRecipientEmailAddress": "",
+        "placeholderRecipientName": "",
+        "fieldMailTemplateDetailLink": "",
+        "titleSendMail": "",
+        "labelEmailTemplate": "",
+        "placeholderEmailTemplate": "",
+        "titleNewEmailTemplate": "",
+        "tabGeneral": "",
+        "tabMailText": "",
+        "labelMailType": "",
+        "placeholderMailType": "",
+        "labelSubject": "",
+        "labelSenderName": "",
+        "placeholderSubject": "",
+        "placeholderSenderName": "",
+        "labelDescription": "",
+        "placeholderDescription": "",
+        "labelContentPlain": "",
+        "labelContentHtml": "",
+        "placeholderPlain": "",
+        "placeholderHtml": "",
+        "buttonAddMailTemplate": "",
+        "labelDefault": "",
+        "labelCustomer": "",
+        "labelAdmin": "",
+        "labelCustom": "",
+        "labelContactFormMail": "",
+        "labelRecipient": "",
+        "placeholderRecipient": "",
+        "useDifferentReplyToLabel": "",
+        "labelReplyTo": "",
+        "placeholderReplyTo": "",
+        "tooltipDifferentReplyTo": "",
+        "labelLatestDocuments": "",
+        "placeholderLatestDocuments": "",
+        "documentDescription": ""
+      },
+      "setEntityCustomField": {
+        "labelToField": "",
+        "placeholderToField": "",
+        "title": "",
+        "customFieldSet": "",
+        "customFieldSetPlaceHolder": "",
+        "customField": "",
+        "customFieldPlaceHolder": "",
+        "requiredMessageError": "",
+        "customFieldOption": "",
+        "prefixFieldName": "",
+        "options": {
+          "overwrite": "",
+          "notOverwrite": "",
+          "clear": ""
+        }
+      },
+      "affiliateAndCampaignCode": {
+        "labelEntity": "",
+        "placeholderEntity": "",
+        "title": "",
+        "labelAffiliateCode": "",
+        "placeholderAffiliateCode": "",
+        "labelCampaignCode": "",
+        "placeholderCampaignCode": "",
+        "overwrite": ""
+      },
+      "confirmation": {
+        "textConfirmChangeTrigger": ""
+      }
+    },
+    "leavePageModal": {
+      "headline": "",
+      "description": "",
+      "confirmButton": ""
+    },
+    "triggers": {
+      "checkout": "",
+      "customer": "",
+      "before": "",
+      "order": "",
+      "paymentMethod": "",
+      "contactForm": "",
+      "reviewForm": "",
+      "group": "",
+      "recovery": "",
+      "registration": "",
+      "mail": "",
+      "after": "",
+      "create": "",
+      "newsletter": "",
+      "productExport": "",
+      "stateEnter": "",
+      "state": "",
+      "orderDelivery": "",
+      "orderTransaction": "",
+      "orderTransactionCapture": "",
+      "orderTransactionCaptureRefund": "",
+      "stateLeave": "",
+      "user": "",
+      "login": "",
+      "logout": "",
+      "register": "",
+      "changedPaymentMethod": "",
+      "deleted": "",
+      "doubleOptInGuestOrder": "",
+      "doubleOptInRegistration": "",
+      "guestRegister": "",
+      "placed": "",
+      "send": "",
+      "accepted": "",
+      "declined": "",
+      "request": "",
+      "message": "",
+      "sent": "",
+      "confirm": "",
+      "unsubscribe": "",
+      "log": "",
+      "cancelled": "",
+      "completed": "",
+      "inProgress": "",
+      "open": "",
+      "returned": "",
+      "returnedPartially": "",
+      "shipped": "",
+      "shippedPartially": "",
+      "authorized": "",
+      "chargeback": "",
+      "failed": "",
+      "paid": "",
+      "paidPartially": "",
+      "refunded": "",
+      "refundedPartially": "",
+      "reminded": "",
+      "unconfirmed": "",
+      "pending": "",
+      "changed": "",
+      "update": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "flow": {
+        "label": ""
+      }
+    }
+  }
+}
