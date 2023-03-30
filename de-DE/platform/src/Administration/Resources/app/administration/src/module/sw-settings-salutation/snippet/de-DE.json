@@ -1,39 +1,39 @@
 {
   "global": {
     "error-codes": {
-      "DUPLICATED_SALUTATION_KEY": ""
+      "DUPLICATED_SALUTATION_KEY": "Dieser technische Name wird bereits verwendet. Bitte wähle einen anderen aus."
     }
   },
   "sw-settings-salutation": {
     "general": {
-      "mainMenuItemGeneral": "",
-      "buttonCancel": "",
-      "buttonCreate": "",
-      "buttonSave": "",
-      "placeholderSearchBar": ""
+      "mainMenuItemGeneral": "Anreden",
+      "buttonCancel": "Abbrechen",
+      "buttonCreate": "Anrede anlegen",
+      "buttonSave": "Speichern",
+      "placeholderSearchBar": "Durchsuche Anreden ..."
     },
     "list": {
-      "columnSalutationKey": "",
-      "columnDisplayName": "",
-      "columnLetterName": ""
+      "columnSalutationKey": "Name",
+      "columnDisplayName": "Anrede",
+      "columnLetterName": "Briefanrede"
     },
     "detail": {
-      "cardTitle": "",
-      "fieldDisplayNameLabel": "",
-      "fieldDisplayNamePlaceholder": "",
-      "fieldLetterNameLabel": "",
-      "fieldLetterNamePlaceholder": "",
-      "fieldSalutationKeyTooltip": "",
-      "fieldSalutationKeyLabel": "",
-      "fieldSalutationKeyPlaceholder": "",
-      "placeholderNewSalutation": "",
-      "notificationErrorMessage": ""
+      "cardTitle": "Anrede",
+      "fieldDisplayNameLabel": "Anrede",
+      "fieldDisplayNamePlaceholder": "Bitte gib eine Anrede an ...",
+      "fieldLetterNameLabel": "Briefanrede",
+      "fieldLetterNamePlaceholder": "Bitte gib eine Briefanrede an ...",
+      "fieldSalutationKeyTooltip": "Ein eindeutiger, technischer Name, der zur Einbindung der Anreden in z.B. E-Mail-Templates benötigt wird.",
+      "fieldSalutationKeyLabel": "Name",
+      "fieldSalutationKeyPlaceholder": "Bitte gib einen technischen Namen an ...",
+      "placeholderNewSalutation": "Neue Anrede anlegen ...",
+      "notificationErrorMessage": "Fehler beim Speichern der Anrede."
     }
   },
   "sw-privileges": {
     "permissions": {
       "salutation": {
-        "label": ""
+        "label": "Anreden"
       }
     }
   }
