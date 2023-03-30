@@ -1,20 +1,20 @@
 {
     "swag-amazon-pay-payment-settings-extension": {
-        "helpText": ""
+        "helpText": "Amazon Pay unterstützt keine Zahlungsabwicklung nach dem Bestellprozess"
     },
     "swag-amazon-pay-overview-card": {
         "title": "",
-        "switchLabel": "",
-        "settingsLink": "",
-        "paymentMethodHeadline": "",
+        "switchLabel": "Aktiv",
+        "settingsLink": "Einstellungen",
+        "paymentMethodHeadline": "Zahlungsarten",
         "status": {
-            "connected": "",
-            "credentialsNeeded": ""
+            "connected": "Verbunden",
+            "credentialsNeeded": "Zugangsdaten benötigt"
         },
         "instructions": {
-            "text": "",
-            "link": ""
+            "text": "Trage Deine Zugangsdaten in den Einstellungen der Amazon Pay-Erweiterung ein, um diese Zahlungsmethode aktivieren zu können.",
+            "link": "Zu den Einstellungen"
         },
-        "merchantIdLabel": ""
+        "merchantIdLabel": "Händler-ID"
     }
 }
