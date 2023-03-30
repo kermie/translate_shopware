@@ -1,0 +1,60 @@
+{
+    "paypal": {
+        "general": {
+            "paymentCancel": "",
+            "paymentError": ""
+        },
+        "payUponInvoice": {
+            "instructions": {
+                "transferRequestDate": "",
+                "transferRequest": "",
+                "table": {
+                    "bank": "",
+                    "iban": "",
+                    "bic": "",
+                    "holder": "",
+                    "amount": "",
+                    "reference": ""
+                },
+                "legalMessageRatepay": "",
+                "legalMessage": ""
+            },
+            "document": {
+                "paymentShippingInfo": {
+                    "payPalPuiPaymentMethod": ""
+                },
+                "paymentNoteRatepay": "",
+                "paymentNote": ""
+            },
+            "checkout": {
+                "confirmDisclaimer": "",
+                "finish": {
+                    "title": "",
+                    "subtitle": ""
+                }
+            },
+            "error": {
+                "unverifiedInfo": "",
+                "declined": ""
+            }
+        },
+        "acdc": {
+            "cardNumber": "",
+            "expiration": "",
+            "cvv": "",
+            "cardholderName": "",
+            "zip": ""
+        },
+        "smartPaymentButtons": {
+            "confirmPageHint": "",
+            "description": ""
+        },
+        "plus": {
+            "paymentNameOverwrite": "",
+            "paymentDescriptionExtension": ""
+        },
+        "cookie": {
+            "name": ""
+        }
+    }
+}
