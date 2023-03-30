@@ -1,0 +1,402 @@
+{
+  "sw-bulk-edit": {
+    "general": {
+      "mainMenuTitle": "",
+      "descriptionTextModule": "",
+      "defaultChangeLabel": ""
+    },
+    "changeTypes": {
+      "overwrite": "",
+      "clear": "",
+      "add": "",
+      "remove": ""
+    },
+    "product": {
+      "textTitle": "",
+      "messageEmptyTitle": "",
+      "messageEmptySubline": "",
+      "alertInheritance": {
+        "message": ""
+      },
+      "alertRestrictedFields": {
+        "title": "",
+        "message": "",
+        "stock": "",
+        "isCloseout": "",
+        "restockTime": "",
+        "maxPurchase": "",
+        "purchaseSteps": "",
+        "minPurchase": "",
+        "shippingFree": ""
+      },
+      "generalInformation": {
+        "cardTitle": "",
+        "description": {
+          "changeLabel": ""
+        },
+        "manufacturer": {
+          "changeLabel": "",
+          "placeholderManufacturer": ""
+        },
+        "active": {
+          "changeLabel": "",
+          "switchLabel": ""
+        },
+        "productPromotion": {
+          "changeLabel": "",
+          "switchLabel": ""
+        }
+      },
+      "prices": {
+        "cardTitle": "",
+        "taxRate": {
+          "changeLabel": "",
+          "placeholderTax": ""
+        },
+        "isPriceInherited": {
+          "changeLabel": ""
+        },
+        "price": {
+          "label": "",
+          "changeLabel": "",
+          "placeholderPrice": ""
+        },
+        "purchasePrices": {
+          "label": "",
+          "changeLabel": "",
+          "placeholderPurchasePrices": ""
+        },
+        "listPrice": {
+          "label": "",
+          "changeLabel": "",
+          "placeholderListPrice": ""
+        },
+        "regulationPrice": {
+          "label": "",
+          "changeLabel": "",
+          "placeholderRegulationPrice": ""
+        }
+      },
+      "advancedPrices": {
+        "cardTitle": "",
+        "changeLabel": "",
+        "selectRule": "",
+        "newAdvancedPrices": ""
+      },
+      "property": {
+        "cardTitle": "",
+        "changeLabel": ""
+      },
+      "deliverability": {
+        "cardTitle": "",
+        "stock": {
+          "changeLabel": "",
+          "placeholderStock": ""
+        },
+        "isCloseout": {
+          "changeLabel": "",
+          "switchLabel": ""
+        },
+        "deliveryTime": {
+          "changeLabel": "",
+          "placeholderDeliveryTime": ""
+        },
+        "restockTime": {
+          "changeLabel": "",
+          "placeholderRestockTime": ""
+        },
+        "freeShipping": {
+          "changeLabel": "",
+          "switchLabel": ""
+        },
+        "minOrderQuantity": {
+          "changeLabel": "",
+          "placeholderMinOrderQuantity": ""
+        },
+        "purchaseSteps": {
+          "changeLabel": "",
+          "placeholderPurchaseSteps": ""
+        },
+        "maxOrderQuantity": {
+          "changeLabel": "",
+          "placeholderMaxOrderQuantity": ""
+        }
+      },
+      "assignment": {
+        "cardTitle": "",
+        "categories": {
+          "changeLabel": "",
+          "placeholder": ""
+        },
+        "tags": {
+          "changeLabel": "",
+          "placeholder": ""
+        },
+        "visibilities": {
+          "changeLabel": "",
+          "placeholder": ""
+        },
+        "searchKeywords": {
+          "changeLabel": "",
+          "placeholder": ""
+        }
+      },
+      "media": {
+        "cardTitle": "",
+        "changeLabel": ""
+      },
+      "labelling": {
+        "cardTitle": "",
+        "releaseDate": {
+          "changeLabel": "",
+          "placeholderReleaseDate": ""
+        }
+      },
+      "seo": {
+        "cardTitle": "",
+        "metaTitle": {
+          "changeLabel": "",
+          "placeholderMetaTitle": ""
+        },
+        "metaDescription": {
+          "changeLabel": "",
+          "placeholderMetaDescription": ""
+        },
+        "seoKeywords": {
+          "changeLabel": "",
+          "placeholderSeoKeywords": ""
+        }
+      },
+      "measuresAndPackaging": {
+        "cardTitle": "",
+        "widthTitle": {
+          "changeLabel": "",
+          "placeholder": ""
+        },
+        "heightTitle": {
+          "changeLabel": "",
+          "placeholder": ""
+        },
+        "lengthTitle": {
+          "changeLabel": "",
+          "placeholder": ""
+        },
+        "weightTitle": {
+          "changeLabel": "",
+          "placeholder": ""
+        },
+        "sellingUnitTitle": {
+          "changeLabel": "",
+          "placeholder": ""
+        },
+        "scaleUnitTitle": {
+          "changeLabel": "",
+          "placeholder": ""
+        },
+        "packUnitTitle": {
+          "changeLabel": "",
+          "placeholder": ""
+        },
+        "packUnitPluralTitle": {
+          "changeLabel": "",
+          "placeholder": ""
+        },
+        "basicUnitTitle": {
+          "changeLabel": "",
+          "placeholder": ""
+        }
+      },
+      "featureSets": {
+        "cardTitle": "",
+        "changeLabel": "",
+        "placeholder": ""
+      },
+      "customFields": {
+        "cardTitle": "",
+        "changeLabel": ""
+      }
+    },
+    "variant": {
+      "textTitle": ""
+    },
+    "modal": {
+      "confirm": {
+        "title": "",
+        "description": "",
+        "switchLabel": "",
+        "switchHelpText": "",
+        "alertTitle": "",
+        "triggeredFlows": {
+          "orderDeliveries": {
+            "key": "",
+            "label": ""
+          },
+          "orderTransactions": {
+            "key": "",
+            "label": ""
+          },
+          "orders": {
+            "key": "",
+            "label": ""
+          },
+          "requestedCustomerGroupId": {
+            "key": "",
+            "label": ""
+          }
+        },
+        "buttons": {
+          "applyChanges": ""
+        }
+      },
+      "process": {
+        "title": "",
+        "description": "",
+        "helpText": "",
+        "buttons": {
+          "cancel": ""
+        }
+      },
+      "success": {
+        "title": "",
+        "description": "",
+        "instruction": "",
+        "buttonDownload": "",
+        "messageNoDocumentsFound": ""
+      },
+      "error": {
+        "title": "",
+        "description": "",
+        "buttons": {
+          "openLog": ""
+        }
+      },
+      "warningText": "",
+      "messageBeforeTabLeave": ""
+    },
+    "order": {
+      "textTitle": "",
+      "messageEmptyTitle": "",
+      "messageEmptySubline": "",
+      "alertRestrictedFields": {
+        "title": "",
+        "message": "",
+        "orderDeliveries": ""
+      },
+      "status": {
+        "cardTitle": "",
+        "payment": {
+          "label": "",
+          "placeholder": ""
+        },
+        "shipping": {
+          "label": "",
+          "placeholder": ""
+        },
+        "order": {
+          "label": "",
+          "placeholder": ""
+        },
+        "statusMails": {
+          "label": "",
+          "helpText": ""
+        },
+        "documents": {
+          "label": "",
+          "helpText": "",
+          "options": {
+            "newest": "",
+            "all": ""
+          },
+          "documentType": {
+            "invoices": "",
+            "deliveryNotes": "",
+            "creditNotes": "",
+            "cancellationInvoices": ""
+          },
+          "skipSentDocuments": ""
+        }
+      },
+      "documents": {
+        "cardTitle": "",
+        "warning": "",
+        "generateInvoice": {
+          "label": "",
+          "helpText": "",
+          "labelDatePicker": "",
+          "labelTextarea": "",
+          "placeholderTextarea": ""
+        },
+        "generateCancellationInvoice": {
+          "label": "",
+          "helpText": "",
+          "changeSubLabel": ""
+        },
+        "generateDeliveryNote": {
+          "label": "",
+          "helpText": "",
+          "labelDeliveryDatePicker": ""
+        },
+        "generateCreditNote": {
+          "label": "",
+          "helpText": "",
+          "changeSubLabel": ""
+        },
+        "downloadDocuments": {
+          "label": "",
+          "helpText": ""
+        }
+      },
+      "customFields": {
+        "cardTitle": "",
+        "changeLabel": ""
+      },
+      "tags": {
+        "cardTitle": "",
+        "changeLabel": "",
+        "placeholder": ""
+      }
+    },
+    "customer": {
+      "textTitle": "",
+      "messageEmptyTitle": "",
+      "messageEmptySubline": "",
+      "account": {
+        "cardTitle": "",
+        "customerGroup": {
+          "label": "",
+          "placeholder": ""
+        },
+        "defaultPaymentMethod": {
+          "label": "",
+          "placeholder": ""
+        },
+        "status": {
+          "label": ""
+        },
+        "language": {
+          "label": "",
+          "placeholder": ""
+        },
+        "customerGroupRequest": {
+          "label": "",
+          "helpText": "",
+          "placeholder": "",
+          "options": {
+            "accept": "",
+            "decline": ""
+          }
+        }
+      },
+      "customFields": {
+        "cardTitle": "",
+        "changeLabel": ""
+      },
+      "tags": {
+        "cardTitle": "",
+        "changeLabel": "",
+        "placeholder": ""
+      }
+    },
+    "applyChanges": ""
+  }
+}
