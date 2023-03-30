@@ -1,0 +1,66 @@
+{
+  "sw-settings-number-range": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": "",
+      "infoGlobalType": "",
+      "infoGlobalTypeTitle": "",
+      "infoGlobal": "",
+      "infoGlobalTitle": "",
+      "infoSalesChannelBound": ""
+    },
+    "list": {
+      "textHeadline": "",
+      "textDeleteConfirm": "",
+      "columnName": "",
+      "columnUsedIn": "",
+      "columnAssignment": "",
+      "buttonAddNumberRange": "",
+      "contextMenuEdit": "",
+      "contextMenuDelete": "",
+      "messageDeleteSuccess": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "global": ""
+    },
+    "detail": {
+      "textHeadline": "",
+      "configCard": "",
+      "assignmentCard": "",
+      "messageSaveSuccess": "",
+      "messageSaveError": "",
+      "labelName": "",
+      "labelDescription": "",
+      "labelPrefix": "",
+      "labelSuffix": "",
+      "labelPattern": "",
+      "labelStart": "",
+      "labelCurrentNumber": "",
+      "labelPreview": "",
+      "labelAdvanced": "",
+      "labelType": "",
+      "labelSalesChannel": "",
+      "placeholderName": "",
+      "placeholderDescription": "",
+      "placeholderPrefix": "",
+      "placeholderSuffix": "",
+      "placeholderPattern": "",
+      "placeholderStart": "",
+      "placeholderPleaseSelect": "",
+      "placeholderSimpleModeImpossible": "",
+      "buttonCancel": "",
+      "buttonSave": "",
+      "helpTextAdvancedField": "",
+      "errorSalesChannelNeededMessage": "",
+      "errorPatternNeededMessage": "",
+      "infoStartDecrementMessage": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "number_ranges": {
+        "label": ""
+      }
+    }
+  }
+}
