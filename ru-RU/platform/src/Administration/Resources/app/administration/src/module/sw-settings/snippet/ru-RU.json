@@ -1,0 +1,26 @@
+{
+  "sw-settings": {
+    "general": {
+      "mainMenuItemGeneral": ""
+    },
+    "index": {
+      "title": "",
+      "tabShop": "",
+      "tabSystem": "",
+      "tabPlugins": ""
+    },
+    "system-config": {
+      "labelSalesChannelSelect": "",
+      "inherited": "",
+      "compileNotice": "",
+      "scssHelpText": ""
+    }
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "system": {
+        "system_config": ""
+      }
+    }
+  }
+}
