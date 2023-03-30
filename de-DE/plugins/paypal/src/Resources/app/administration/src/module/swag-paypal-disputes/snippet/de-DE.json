@@ -1,39 +1,39 @@
 {
     "swag-paypal-disputes": {
         "general": {
-            "mainMenuItemGeneral": "",
-            "descriptionTextModule": ""
+            "mainMenuItemGeneral": "PayPal Konflikte",
+            "descriptionTextModule": "Verwaltung von PayPal Konflikten"
         },
         "common": {
             "dispute_id": "",
-            "update_time": "",
+            "update_time": "Update-Zeitpunkt",
             "response_due_date": {
-                "label": "",
-                "seller": "",
-                "buyer": ""
+                "label": "Antwortfälligkeit",
+                "seller": "Verkäufer",
+                "buyer": "Käufer"
             },
             "status": "",
-            "dispute_life_cycle_stage": "",
-            "dispute_amount": ""
+            "dispute_life_cycle_stage": "Stadium",
+            "dispute_amount": "Betrag"
         },
         "list": {
-            "title": "",
-            "titleSidebarItemRefresh": "",
+            "title": "Konflikte",
+            "titleSidebarItemRefresh": "Aktualisieren",
             "titleSidebarItemFilter": "",
-            "errorTitle": "",
+            "errorTitle": "Fehler beim Abrufen der Konflikte von PayPal",
             "emptyState": {
-                "title": "",
-                "subline": ""
+                "title": "Es wurden keine Konflikte gefunden",
+                "subline": "Ändere den Filter, um alle Konflikte anzuzeigen."
             }
         },
         "detail": {
-            "title": "",
-            "titleAddition": "",
-            "mainFieldsCardTitle": "",
-            "externalLinkText": "",
-            "orderModuleLinkText": "",
-            "rawDataCardTitle": "",
-            "copyButtonLabel": ""
+            "title": "PayPal Konflikt:",
+            "titleAddition": "(Technische Details)",
+            "mainFieldsCardTitle": "Informationen",
+            "externalLinkText": "Konflikt im PayPal Lösungs-Center öffnen",
+            "orderModuleLinkText": "Bestellung öffnen",
+            "rawDataCardTitle": "Rohdaten",
+            "copyButtonLabel": "Kopiere Rohdaten"
         }
     }
 }
