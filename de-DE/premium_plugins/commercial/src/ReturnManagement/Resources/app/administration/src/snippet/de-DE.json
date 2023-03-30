@@ -1,126 +1,126 @@
 {
     "swag-return-management": {
-        "tabReturns": "",
+        "tabReturns": "Retouren",
         "detail": {
-            "buttonReturnItems": "",
-            "buttonSetStatus": "",
-            "contextMenuSetStatus": "",
-            "messageErrorSetStatusModal": "",
-            "messageErrorCreateReturnModal": "",
-            "tooltipChangeItemStatusManually": ""
+            "buttonReturnItems": "Artikel zurückgeben",
+            "buttonSetStatus": "Status setzen",
+            "contextMenuSetStatus": "Status setzen",
+            "messageErrorSetStatusModal": "Der Status kann nur für Produkte oder Custom Products gesetzt werden",
+            "messageErrorCreateReturnModal": "Nur Physisches Produkte und Custom Products, die nicht Teil der Retoure sind oder deren Status nicht „Abgebrochen“, „Retour“ oder „Teilretour“ lautet, können hinzugefügt werden.",
+            "tooltipChangeItemStatusManually": "Dieser Artikel existiert nicht in der aktuellen Retoure entfernt oder wurde aus der Retoure entfernt, bitte aktualisieren Sie seinen Status (Offen oder Versendet)."
         },
         "notification": {
-            "labelErrorStateChange": "",
-            "labelErrorUpdateRefund": "",
-            "labelErrorNoAction": "",
-            "requiredFields": "",
-            "messageErrorLineItemQuantity": ""
+            "labelErrorStateChange": "Beim Setzen des Status ist ein Fehler aufgetreten: ",
+            "labelErrorUpdateRefund": "Beim Aktualisieren des Erstattungsbetrags ist ein Fehler aufgetreten",
+            "labelErrorNoAction": "Kein neuer Zustand gewählt.",
+            "requiredFields": "Bitte fülle alle Pflichtfelder aus.",
+            "messageErrorLineItemQuantity": "Die Menge der Bestellung muss mindestens der Menge der Retoure entsprechen: {returnQuantity}"
         },
         "returnFilter": {
-            "label": "",
-            "placeholder": ""
+            "label": "Retouren Status",
+            "placeholder": "Retourenstatus auswählen..."
         },
         "returnModal": {
-            "title": "",
-            "subtitle": "",
+            "title": "Artikel zurückgeben",
+            "subtitle": "Retoure #{returnNumber} ({state}) durch {user} angelegt am {time}",
             "columnName": "",
-            "columnOrderQuantity": "",
-            "columnReturnQuantity": "",
-            "columnComment": "",
-            "placeholderComment": "",
-            "buttonCreateReturn": "",
-            "buttonAddItemToReturn": "",
-            "messagePreventAddItem": "",
-            "messageErrorNoItemHasQuantity": "",
-            "titleEmptyState": ""
+            "columnOrderQuantity": "Anzahl an Bestellungen",
+            "columnReturnQuantity": "Retourenmenge",
+            "columnComment": "Kommentar",
+            "placeholderComment": "Kommentar eingeben ...",
+            "buttonCreateReturn": "Retoure anlegen",
+            "buttonAddItemToReturn": "Zur Retoure hinzufügen",
+            "messagePreventAddItem": "Dieser Artikel ist bereits Teil der Retoure oder im Status „Abgebrochen“, „Retour“ oder „Teilretour“.",
+            "messageErrorNoItemHasQuantity": "Es muss mindestens ein Artikel ausgewählt werden, um eine Retoure zu erstellen",
+            "titleEmptyState": "Gewählte Positionen können nicht hinzugefügt werden"
         },
         "returnCard": {
-            "labelTitle": "",
-            "labelReturnCreated": "",
-            "summaryLabelAmount": "",
-            "summaryLabelAmountWithoutTaxes": "",
-            "summaryLabelAmountTotal": "",
-            "summaryLabelTaxes": "",
-            "summaryLabelShippingCosts": "",
-            "excludedTax": "",
+            "labelTitle": "Retoure #{returnNumber}",
+            "labelReturnCreated": "Retoure durch {user} angelegt am {time}",
+            "summaryLabelAmount": "Summe",
+            "summaryLabelAmountWithoutTaxes": "Gesamterstattung ohne MwSt.",
+            "summaryLabelAmountTotal": "Gesamterstattung inkl. MwSt.",
+            "summaryLabelTaxes": "zzgl. {taxRate}% MwSt.",
+            "summaryLabelShippingCosts": "Versandkosten",
+            "excludedTax": "ohne MwSt:",
             "generalTab": {
-                "labelGeneralInformation": "",
-                "labelComment": "",
-                "placeholderComment": "",
-                "headlineOrderState": "",
-                "numberOfProducts": "",
-                "items": ""
+                "labelGeneralInformation": "Allgemeine Informationen",
+                "labelComment": "Kommentar",
+                "placeholderComment": "Kommentar eingeben...",
+                "headlineOrderState": "Retouren Status",
+                "numberOfProducts": "Anzahl der Produkte",
+                "items": "(keine Artikel) | ({total} Artikel) | ({total} Artikel)"
             },
             "positionsTab": {
-                "labelPositions": ""
+                "labelPositions": "Produkte"
             },
             "statusTab": {
-                "labelStatusHistory": "",
-                "columnDate": "",
-                "columnUser": "",
+                "labelStatusHistory": "Statusverlauf",
+                "columnDate": "Datum",
+                "columnUser": "Geändert von",
                 "columnStatus": "",
                 "labelSystemUser": ""
             }
         },
         "returnItemGrid": {
-            "placeholderSearchBarItem": "",
-            "columnQuantity": "",
-            "columnProductName": "",
+            "placeholderSearchBarItem": "Durchsuche Positionen...",
+            "columnQuantity": "Anzahl",
+            "columnProductName": "Produktname",
             "columnStatus": "",
-            "columnRefund": "",
-            "columnPriceNet": "",
-            "columnPriceGross": "",
-            "columnPriceTaxFree": "",
-            "columnTax": "",
-            "columnSubTotal": "",
-            "contextMenuReturn": "",
-            "contextMenuSetStatus": "",
-            "contextMenuShowProduct": "",
-            "contextMenuOpenReturnDetails": "",
-            "contextMenuDelete": "",
-            "buttonSetStatus": "",
-            "textNoItemFound": "",
-            "buttonUpdateRefund": "",
-            "tooltipSuggestedPrice": "",
+            "columnRefund": "Rückerstattung",
+            "columnPriceNet": "Preis (Netto)",
+            "columnPriceGross": "Preis (Brutto)",
+            "columnPriceTaxFree": "Preis (steuerfrei)",
+            "columnTax": "Steuersatz",
+            "columnSubTotal": "Gesamt",
+            "contextMenuReturn": "Artikel zurückgeben",
+            "contextMenuSetStatus": "Status setzen",
+            "contextMenuShowProduct": "Produkt anzeigen",
+            "contextMenuOpenReturnDetails": "Details anzeigen",
+            "contextMenuDelete": "Aus Retoure entfernen",
+            "buttonSetStatus": "Status setzen",
+            "textNoItemFound": "Noch keine Positionen vorhanden",
+            "buttonUpdateRefund": "Erstattung aktualisieren",
+            "tooltipSuggestedPrice": "Die Erstattung dieses Produktes kann durch Rabatte beeinflusst sein.<br>Vorschlagswert: {price}",
             "discountWarning": {
-                "textOrderHasDiscount": "",
-                "textCheckRefundAmount": "",
-                "textCreditDescription": ""
+                "textOrderHasDiscount": "Diese Bestellung enthält Rabatte und/oder Gutschriften:",
+                "textCheckRefundAmount": "Bitte überprüfen und aktualisieren Sie die Erstattungen",
+                "textCreditDescription": "Gutschrift über {value}"
             }
         },
         "setStatusModal": {
-            "title": "",
-            "positions": "",
+            "title": "Status setzen - Keine Position ausgewählt | Status setzen - {content} | Status setzen - {content} Positionen",
+            "positions": "{quantity} Positionen",
             "labelStatus": ""
         },
         "openReturnDetails": {
-            "fieldComment": "",
-            "fieldTotalAmount": ""
+            "fieldComment": "Kommentar",
+            "fieldTotalAmount": "Summe"
         },
         "changeStateModal": {
-            "title": "",
-            "description": "",
-            "buttonUpdateStatus": ""
+            "title": "Status aktualisieren",
+            "description": "Soll der Status der Retoure auf {state} geändert werden?",
+            "buttonUpdateStatus": "Aktualisierung"
         },
         "deleteReturnModal": {
-            "confirmation": "",
-            "warning": ""
+            "confirmation": "Soll die Retoure (#{returnNumber}) wirklich gelöscht werden?",
+            "warning": "Der Status der einzelnen Bestellpositionen wird nicht geändert.<br>Dies muss manuell erfolgen."
         },
         "deleteLineItemModal": {
-            "description": ""
+            "description": "Diese Position ist auch Teil einer Retoure. Soll diese wirklich aus der Bestellung und der Retoure gelöscht werden? | Diese Positionen sind auch Teile einer Retoure. Sollen diese wirklich aus der Bestellung und der Retoure gelöscht werden?"
         },
         "deleteReturnItemModal": {
-            "description": ""
+            "description": "Möchten Sie diesen Artikel wirklich aus der Retoure entfernen? | Möchten Sie diese Artikel wirklich aus der Retoure entfernen?"
         },
         "documentConfig": {
-            "helpTextPartialCancellation": "",
-            "includeCancelled": ""
+            "helpTextPartialCancellation": "Ohne eine Rechnung kann keine Teilstornierung erstellt werden.",
+            "includeCancelled": "Stornierte Artikel einbeziehen"
         }
     },
     "sw-privileges": {
         "permissions": {
             "order_return": {
-                "label": ""
+                "label": "Retouren"
             }
         }
     }
