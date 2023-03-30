@@ -1,402 +1,402 @@
 {
   "sw-bulk-edit": {
     "general": {
-      "mainMenuTitle": "",
-      "descriptionTextModule": "",
-      "defaultChangeLabel": ""
+      "mainMenuTitle": "Mehrfachänderung",
+      "descriptionTextModule": "Modul zur Mehrfachänderung von Daten",
+      "defaultChangeLabel": "Ändern:"
     },
     "changeTypes": {
-      "overwrite": "",
-      "clear": "",
-      "add": "",
-      "remove": ""
+      "overwrite": "Überschreiben",
+      "clear": "Leeren",
+      "add": "Hinzufügen",
+      "remove": "Entfernen"
     },
     "product": {
-      "textTitle": "",
-      "messageEmptyTitle": "",
-      "messageEmptySubline": "",
+      "textTitle": "Mehrfachänderung: {productTotal} Produkt | Mehrfachänderung: {productTotal} Produkte",
+      "messageEmptyTitle": "Keine Produkte für die Mehrfachänderung ausgewählt",
+      "messageEmptySubline": "Gehe zurück und wähle Produkte aus.",
       "alertInheritance": {
-        "message": ""
+        "message": "Diese Varianten besitzen vererbte Felder. Der Inhalt der vererbten Felder wird vom jeweiligen Hauptprodukt übernommen. Sie können Vererbungen aktivieren und deaktivieren, indem Sie auf das Kettensymbol anklicken."
       },
       "alertRestrictedFields": {
-        "title": "",
-        "message": "",
-        "stock": "",
-        "isCloseout": "",
-        "restockTime": "",
-        "maxPurchase": "",
-        "purchaseSteps": "",
-        "minPurchase": "",
-        "shippingFree": ""
+        "title": "Eingeschränkte Mehrfachänderung",
+        "message": "Mehrfachänderungen können nur für Felder vorgenommen werden, die für alle ausgewählten Produkte verfügbar sind.<br><br>Nicht für alle ausgewählten Produkte verfügbar:",
+        "stock": "Lagerbestand",
+        "isCloseout": "Im Abverkauf",
+        "restockTime": "Dauer der Wiederauffüllung",
+        "maxPurchase": "Maximale Bestellmenge",
+        "purchaseSteps": "Staffelung",
+        "minPurchase": "Minimale Bestellmenge",
+        "shippingFree": "Versandkostenfrei"
       },
       "generalInformation": {
-        "cardTitle": "",
+        "cardTitle": "Allgemeine Informationen",
         "description": {
-          "changeLabel": ""
+          "changeLabel": "Ändern: Beschreibung"
         },
         "manufacturer": {
-          "changeLabel": "",
-          "placeholderManufacturer": ""
+          "changeLabel": "Ändern: Hersteller",
+          "placeholderManufacturer": "Hersteller auswählen ..."
         },
         "active": {
-          "changeLabel": "",
-          "switchLabel": ""
+          "changeLabel": "Ändern: Aktiv",
+          "switchLabel": "Aktiv"
         },
         "productPromotion": {
-          "changeLabel": "",
-          "switchLabel": ""
+          "changeLabel": "Ändern: Produkt hervorheben",
+          "switchLabel": "Produkt hervorheben"
         }
       },
       "prices": {
-        "cardTitle": "",
+        "cardTitle": "Preise",
         "taxRate": {
-          "changeLabel": "",
-          "placeholderTax": ""
+          "changeLabel": "Ändern: Steuersatz",
+          "placeholderTax": "Wähle einen Steuersatz aus ..."
         },
         "isPriceInherited": {
-          "changeLabel": ""
+          "changeLabel": "Ändern: Preisvererbung"
         },
         "price": {
-          "label": "",
-          "changeLabel": "",
-          "placeholderPrice": ""
+          "label": "Preis",
+          "changeLabel": "Ändern: Preis",
+          "placeholderPrice": "Preis eingeben ..."
         },
         "purchasePrices": {
-          "label": "",
-          "changeLabel": "",
-          "placeholderPurchasePrices": ""
+          "label": "Einkaufspreis",
+          "changeLabel": "Ändern: Einkaufspreis",
+          "placeholderPurchasePrices": "Einkaufspreis eingeben ..."
         },
         "listPrice": {
-          "label": "",
-          "changeLabel": "",
-          "placeholderListPrice": ""
+          "label": "Streichpreis",
+          "changeLabel": "Ändern: Streichpreis",
+          "placeholderListPrice": "Streichpreis eingeben ..."
         },
         "regulationPrice": {
-          "label": "",
-          "changeLabel": "",
-          "placeholderRegulationPrice": ""
+          "label": "Günstigster Preis (letzte 30 Tage)",
+          "changeLabel": "Ändern: Günstigster Preis (letzten 30 Tage)",
+          "placeholderRegulationPrice": "Günstigsten Preis eingeben ..."
         }
       },
       "advancedPrices": {
-        "cardTitle": "",
-        "changeLabel": "",
+        "cardTitle": "Erweiterte Preisansicht",
+        "changeLabel": "Ändern: Erweiterte Preise",
         "selectRule": "",
         "newAdvancedPrices": ""
       },
       "property": {
-        "cardTitle": "",
-        "changeLabel": ""
+        "cardTitle": "Eigenschaften",
+        "changeLabel": "Ändern: Eigenschaften"
       },
       "deliverability": {
-        "cardTitle": "",
+        "cardTitle": "Lieferbarkeit",
         "stock": {
-          "changeLabel": "",
-          "placeholderStock": ""
+          "changeLabel": "Ändern: Lagerbestand",
+          "placeholderStock": "Lagerbestand eingeben ... "
         },
         "isCloseout": {
-          "changeLabel": "",
-          "switchLabel": ""
+          "changeLabel": "Ändern: Abverkauf",
+          "switchLabel": "Abverkauf"
         },
         "deliveryTime": {
-          "changeLabel": "",
-          "placeholderDeliveryTime": ""
+          "changeLabel": "Ändern: Lieferzeit",
+          "placeholderDeliveryTime": "Lieferzeit auswählen ..."
         },
         "restockTime": {
-          "changeLabel": "",
-          "placeholderRestockTime": ""
+          "changeLabel": "Ändern: Wiederauffüllzeit",
+          "placeholderRestockTime": "Wiederauffüllintervall ..."
         },
         "freeShipping": {
-          "changeLabel": "",
-          "switchLabel": ""
+          "changeLabel": "Ändern: Versandkostenfrei",
+          "switchLabel": "Versandkostenfrei"
         },
         "minOrderQuantity": {
-          "changeLabel": "",
-          "placeholderMinOrderQuantity": ""
+          "changeLabel": "Ändern: Mindestabnahme",
+          "placeholderMinOrderQuantity": "Mindestabnahme eingeben ..."
         },
         "purchaseSteps": {
-          "changeLabel": "",
-          "placeholderPurchaseSteps": ""
+          "changeLabel": "Ändern: Staffelung",
+          "placeholderPurchaseSteps": "Staffelung eingeben  ..."
         },
         "maxOrderQuantity": {
-          "changeLabel": "",
-          "placeholderMaxOrderQuantity": ""
+          "changeLabel": "Ändern: Maximalabnahme",
+          "placeholderMaxOrderQuantity": "Maximalabnahme eingeben ..."
         }
       },
       "assignment": {
-        "cardTitle": "",
+        "cardTitle": "Zuweisung",
         "categories": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Kategorie",
+          "placeholder": "Kategorien auswählen ..."
         },
         "tags": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Tags",
+          "placeholder": "Tags eingeben ..."
         },
         "visibilities": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Verkaufskanal",
+          "placeholder": "Wähle Verkaufskanal ..."
         },
         "searchKeywords": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Suchbegriffe",
+          "placeholder": "Suchbegriffe eingeben ..."
         }
       },
       "media": {
-        "cardTitle": "",
-        "changeLabel": ""
+        "cardTitle": "Medien",
+        "changeLabel": "Ändern: Medien"
       },
       "labelling": {
-        "cardTitle": "",
+        "cardTitle": "Auszeichnung",
         "releaseDate": {
-          "changeLabel": "",
-          "placeholderReleaseDate": ""
+          "changeLabel": "Ändern: Erscheinungsdatum",
+          "placeholderReleaseDate": "Gib ein Einstelldatum ein ..."
         }
       },
       "seo": {
         "cardTitle": "",
         "metaTitle": {
-          "changeLabel": "",
-          "placeholderMetaTitle": ""
+          "changeLabel": "Ändern: Meta-Titel",
+          "placeholderMetaTitle": "Gib einen Meta-Titel ein ..."
         },
         "metaDescription": {
-          "changeLabel": "",
-          "placeholderMetaDescription": ""
+          "changeLabel": "Ändern: Meta-Beschreibung",
+          "placeholderMetaDescription": "Gib eine Meta-Beschreibung ein ..."
         },
         "seoKeywords": {
-          "changeLabel": "",
-          "placeholderSeoKeywords": ""
+          "changeLabel": "Ändern: Schlüsselwörter",
+          "placeholderSeoKeywords": "Suchbegriffe eingeben ..."
         }
       },
       "measuresAndPackaging": {
-        "cardTitle": "",
+        "cardTitle": "Maße & Verpackung",
         "widthTitle": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Breite",
+          "placeholder": "z.B. 500 ..."
         },
         "heightTitle": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Höhe",
+          "placeholder": "z.B. 200 ..."
         },
         "lengthTitle": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Länge",
+          "placeholder": "z.B.100 ..."
         },
         "weightTitle": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Gewicht",
+          "placeholder": "z.B. 0,4 ..."
         },
         "sellingUnitTitle": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Verkaufseinheit",
+          "placeholder": "Verkaufseinheit eingeben ..."
         },
         "scaleUnitTitle": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Maßeinheit",
+          "placeholder": "Maßeinheit eingeben ..."
         },
         "packUnitTitle": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Verpackungseinheit",
+          "placeholder": "Verpackungseinheit eingeben ..."
         },
         "packUnitPluralTitle": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Verpackungseinheit-Mehrzahl",
+          "placeholder": "Verpackungseinheit-Mehrzahl eingeben ..."
         },
         "basicUnitTitle": {
-          "changeLabel": "",
-          "placeholder": ""
+          "changeLabel": "Ändern: Grundeinheit",
+          "placeholder": "Grundeinheit eingeben ..."
         }
       },
       "featureSets": {
-        "cardTitle": "",
-        "changeLabel": "",
-        "placeholder": ""
+        "cardTitle": "Wesentliche Merkmale",
+        "changeLabel": "Ändern: Template",
+        "placeholder": "Wähle eine Vorlage aus ..."
       },
       "customFields": {
-        "cardTitle": "",
-        "changeLabel": ""
+        "cardTitle": "Zusatzfelder",
+        "changeLabel": "Ändern: {name}"
       }
     },
     "variant": {
-      "textTitle": ""
+      "textTitle": "Mehrfachänderung: {variantTotal} Variante | Mehrfachänderung: {variantTotal} Varianten"
     },
     "modal": {
       "confirm": {
-        "title": "",
-        "description": "",
-        "switchLabel": "",
-        "switchHelpText": "",
-        "alertTitle": "",
+        "title": "Mehrfachänderung - Anwenden?",
+        "description": "Änderungen auf {itemCount} ausgewähltes Element anwenden? Diese Änderungen können nicht rückgängig gemacht werden. | Änderungen auf {itemCount} ausgewählte Elemente anwenden? Diese Änderungen können nicht rückgängig gemacht werden.",
+        "switchLabel": "Flows auslösen",
+        "switchHelpText": "Wenn diese Option aktiv ist, werden alle im Flow Builder angelegten Trigger für alle Änderungen dieser Mehrfachänderung ausgeführt. Dies kann unter Umständen dazu führen, dass Flows doppelt ausgeführt werden.",
+        "alertTitle": "Diese Trigger/Flows könnten ausgelöst werden:",
         "triggeredFlows": {
           "orderDeliveries": {
             "key": "",
-            "label": ""
+            "label": "Lieferstatusänderung"
           },
           "orderTransactions": {
             "key": "",
-            "label": ""
+            "label": "Zahlungsstatusänderung"
           },
           "orders": {
             "key": "",
-            "label": ""
+            "label": "Bestellstatusänderung"
           },
           "requestedCustomerGroupId": {
             "key": "",
-            "label": ""
+            "label": "Kundengruppen-Registrierungsanfrage"
           }
         },
         "buttons": {
-          "applyChanges": ""
+          "applyChanges": "Änderungen anwenden"
         }
       },
       "process": {
-        "title": "",
-        "description": "",
-        "helpText": "",
+        "title": "Mehrfachänderung - Prozess gestartet",
+        "description": "Abhängig von der Anzahl der vergenommenen Änderungen, kann dieser Vorgang einige Zeit in Anspruch nehmen.",
+        "helpText": "Bitte beachte, dass Du während des Mehrfachänderungsvorgangs keine manuellen Änderungen an den ausgewählten Elementen vornimmst, da dies unvorhergesehene Effekte haben kann.",
         "buttons": {
-          "cancel": ""
+          "cancel": "Abbrechen"
         }
       },
       "success": {
-        "title": "",
-        "description": "",
-        "instruction": "",
+        "title": "Mehrfachänderung - Erfolg",
+        "description": "Mehrfachänderung abgeschlossen.",
+        "instruction": "Mehrfachänderung erfolgreich abgeschlossen.",
         "buttonDownload": "",
-        "messageNoDocumentsFound": ""
+        "messageNoDocumentsFound": "Keine Dokumente vorhanden"
       },
       "error": {
-        "title": "",
-        "description": "",
+        "title": "Mehrfachänderung - Fehler",
+        "description": "Mehrfachänderung mit Fehlern abgeschlossen.",
         "buttons": {
-          "openLog": ""
+          "openLog": "Log-Datei öffnen"
         }
       },
-      "warningText": "",
-      "messageBeforeTabLeave": ""
+      "warningText": "Bitte warte, bis die Mehrfachänderung abgeschlossen ist. Dies kann einen Moment dauern. Solltest du den Browser-Tab vorzeitig schließen oder den Prozess abbrechen, werden eventuell nicht alle Änderungen übernommen. Du kannst Mehrfachänderungen jederzeit erneut durchführen.",
+      "messageBeforeTabLeave": "Mehrfachänderungen werden gerade durchgeführt. Wenn du den Tab schließt, werden eventuell nicht alle Änderungen übernommen."
     },
     "order": {
-      "textTitle": "",
-      "messageEmptyTitle": "",
-      "messageEmptySubline": "",
+      "textTitle": "Mehrfachänderung: {orderTotal} Bestellung | Mehrfachänderung: {orderTotal} Bestellungen",
+      "messageEmptyTitle": "Keine Bestellungen ausgewählt",
+      "messageEmptySubline": "Gehe zurück und wähle Bestellungen aus.",
       "alertRestrictedFields": {
-        "title": "",
-        "message": "",
-        "orderDeliveries": ""
+        "title": "Eingeschränkte Mehrfachänderung",
+        "message": "Mehrfachänderungen können nur für Felder vorgenommen werden, die für alle ausgewählten Bestellungen verfügbar sind.<br><br>Nicht für alle ausgewählten Bestellungen verfügbar:",
+        "orderDeliveries": "Lieferstatus"
       },
       "status": {
         "cardTitle": "",
         "payment": {
-          "label": "",
-          "placeholder": ""
+          "label": "Ändern: Zahlungsstatus",
+          "placeholder": "Zahlungsstatus wählen ..."
         },
         "shipping": {
-          "label": "",
-          "placeholder": ""
+          "label": "Ändern: Lieferstatus",
+          "placeholder": "Lieferstatus auswählen ..."
         },
         "order": {
-          "label": "",
-          "placeholder": ""
+          "label": "Ändern: Bestellstatus",
+          "placeholder": "Bestellstatus wählen ..."
         },
         "statusMails": {
-          "label": "",
-          "helpText": ""
+          "label": "Versende: Status-E-Mails",
+          "helpText": "Diese Option ist verfügbar, sobald mindestens ein Statuswechsel erfolgt ist."
         },
         "documents": {
-          "label": "",
-          "helpText": "",
+          "label": "Verschicken: Dokumente",
+          "helpText": "Vorhandene Belege können als Anhang mit den Status E-Mails versandt werden. Es wird immer der aktuellste Beleg verwendet. Sollten Belege über diese Mehrfachänderung generiert werden, werden diese verwendet.",
           "options": {
-            "newest": "",
-            "all": ""
+            "newest": "Neueste",
+            "all": "Alle"
           },
           "documentType": {
-            "invoices": "",
-            "deliveryNotes": "",
-            "creditNotes": "",
-            "cancellationInvoices": ""
+            "invoices": "Rechnungen",
+            "deliveryNotes": "Versandbestätigungen",
+            "creditNotes": "Gutschriften",
+            "cancellationInvoices": "Storno-Rechnung"
           },
-          "skipSentDocuments": ""
+          "skipSentDocuments": "Bereits verschickte Dokumente überspringen"
         }
       },
       "documents": {
-        "cardTitle": "",
-        "warning": "",
+        "cardTitle": "Dokumente",
+        "warning": "Die Mehrfachänderung verwendet jetzt eine verbesserte Dokumentenerstellung. Eine oder mehrere Erweiterungen auf Deinem System könnten jedoch abweichende Ergebnisse mit der neuen Dokumentenerstellung erzeugen.\nÜberprüfe daher bitte, ob Deine Dokumente mit und ohne Verwendung der Mehrfachänderung Unterschiede aufweisen.",
         "generateInvoice": {
-          "label": "",
-          "helpText": "",
-          "labelDatePicker": "",
-          "labelTextarea": "",
+          "label": "Erstellen: Rechnung",
+          "helpText": "Diese Aktion erhöht den Wert des zugehörigen Nummernkreises.",
+          "labelDatePicker": "Datum",
+          "labelTextarea": "Kommentar",
           "placeholderTextarea": ""
         },
         "generateCancellationInvoice": {
-          "label": "",
-          "helpText": "",
-          "changeSubLabel": ""
+          "label": "Erstellen: Stornorechnung",
+          "helpText": "Diese Aktion erhöht den Wert des zugehörigen Nummernkreises.",
+          "changeSubLabel": "Die aktuell letzte Referenzrechnungsnummer wird verwendet."
         },
         "generateDeliveryNote": {
-          "label": "",
-          "helpText": "",
-          "labelDeliveryDatePicker": ""
+          "label": "Erstellen: Lieferschein",
+          "helpText": "Diese Aktion erhöht den Wert des zugehörigen Nummernkreises.",
+          "labelDeliveryDatePicker": "Lieferdatum"
         },
         "generateCreditNote": {
-          "label": "",
-          "helpText": "",
-          "changeSubLabel": ""
+          "label": "Erstellen: Gutschrift",
+          "helpText": "Gutschriften verwenden im Allgemeinen die letzte zugehörige Rechnungsnummer als Referenz.",
+          "changeSubLabel": "Dieses Dokument wird nur erstellt, wenn sich eine Gutschriftposition in der Bestellung befindet."
         },
         "downloadDocuments": {
-          "label": "",
-          "helpText": ""
+          "label": "Herunterladen: Dokumente",
+          "helpText": "Mit dieser Option werden die aktuellsten, zur Verfügung stehenden Belege zum Download angeboten. Mehrere Belege werden in derselben Datei zusammengeführt. Der Download steht nach Abschluss der Mehrfachänderung zur Verfügung"
         }
       },
       "customFields": {
-        "cardTitle": "",
-        "changeLabel": ""
+        "cardTitle": "Zusatzfelder",
+        "changeLabel": "Ändern: {name}"
       },
       "tags": {
         "cardTitle": "",
-        "changeLabel": "",
-        "placeholder": ""
+        "changeLabel": "Ändern: Tags",
+        "placeholder": "Tags eingeben ..."
       }
     },
     "customer": {
-      "textTitle": "",
-      "messageEmptyTitle": "",
-      "messageEmptySubline": "",
+      "textTitle": "Mehrfachbearbeitung: {customerTotal} Kunde | Mehrfachbearbeitung: {customerTotal} Kunden",
+      "messageEmptyTitle": "Keine Kunden ausgewählt",
+      "messageEmptySubline": "Gehe zurück und wähle Kunden aus.",
       "account": {
-        "cardTitle": "",
+        "cardTitle": "Konto",
         "customerGroup": {
-          "label": "",
-          "placeholder": ""
+          "label": "Ändern: Kundengruppe",
+          "placeholder": "Kundengruppe auswählen ..."
         },
         "defaultPaymentMethod": {
-          "label": "",
-          "placeholder": ""
+          "label": "Ändern: Standard-Zahlungsart",
+          "placeholder": "Standardzahlungsart auswählen ..."
         },
         "status": {
-          "label": ""
+          "label": "Ändern: Kontostatus"
         },
         "language": {
-          "label": "",
-          "placeholder": ""
+          "label": "Ändern: Sprache",
+          "placeholder": "Sprache auswählen ..."
         },
         "customerGroupRequest": {
-          "label": "",
-          "helpText": "",
-          "placeholder": "",
+          "label": "Antworten auf: Kundengruppenanfrage",
+          "helpText": "Bitte beachte, dass E-Mails nur an die ausgewählten Kunden gesendet werden. Kunden, die keine Anfrage gestellt haben, werden übersprungen.",
+          "placeholder": "Antwortmöglichkeit auswählen ...",
           "options": {
-            "accept": "",
-            "decline": ""
+            "accept": "Akzeptieren",
+            "decline": "Ablehnen"
           }
         }
       },
       "customFields": {
-        "cardTitle": "",
-        "changeLabel": ""
+        "cardTitle": "Zusatzfelder",
+        "changeLabel": "Ändern: {name}"
       },
       "tags": {
         "cardTitle": "",
-        "changeLabel": "",
-        "placeholder": ""
+        "changeLabel": "Ändern: Tags",
+        "placeholder": "Tags hinzufügen ..."
       }
     },
-    "applyChanges": ""
+    "applyChanges": "Änderungen anwenden"
   }
 }
