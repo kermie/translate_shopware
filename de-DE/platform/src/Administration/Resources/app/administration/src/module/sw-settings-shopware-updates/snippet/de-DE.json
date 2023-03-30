@@ -1,0 +1,88 @@
+{
+  "sw-settings-shopware-updates": {
+    "general": {
+      "menuTitle": "",
+      "title": "",
+      "emptyTitle": "",
+      "emptyState": "",
+      "checkForUpdates": "",
+      "currentVersion": ""
+    },
+    "cards": {
+      "info": "",
+      "requirements": "",
+      "extensions": "",
+      "updating": ""
+    },
+    "notifications": {
+      "updateStarted": "",
+      "updateStopped": "",
+      "downloadFailed": "",
+      "unpackFailed": "",
+      "deactivationFailed": "",
+      "alreadyUpToDate": ""
+    },
+    "infos": {
+      "backupCheckboxLabel": "",
+      "startUpdate": "",
+      "requirementsNotMet": "",
+      "progress": {
+        "download": "",
+        "deactivate": "",
+        "unpack": ""
+      }
+    },
+    "requirements": {
+      "columns": {
+        "message": "",
+        "status": ""
+      },
+      "message": {
+        "phpVersion": "",
+        "mysqlVersion": "",
+        "writeableCheckValid": "",
+        "writeableCheckFailed": "",
+        "validShopwareLicense": "",
+        "invalidShopwareLicense": ""
+      },
+      "ready": "",
+      "notReady": ""
+    },
+    "plugins": {
+      "columns": {
+        "name": "",
+        "available": ""
+      },
+      "actions": {
+        "openMyExtensions": "",
+        "deactivateAll": "",
+        "deactivateIncompatible": "",
+        "deactivateNone": "",
+        "recommended": ""
+      },
+      "pluginNotInStore": "",
+      "pluginWillBeDeactivatedHint": ""
+    },
+    "updateModal": {
+      "actions": {
+        "cancel": "",
+        "install": "",
+        "goToUpdate": ""
+      },
+      "messageIncompatible": "",
+      "messageNotInStore": "",
+      "messageOkay": "",
+      "messageUpdateCheck": "",
+      "backupLabel": ""
+    }
+  },
+  "sw-privileges": {
+    "additional_permissions": {
+      "system": {
+        "core_update": "",
+        "plugin_maintain": "",
+        "plugin_upload": ""
+      }
+    }
+  }
+}
