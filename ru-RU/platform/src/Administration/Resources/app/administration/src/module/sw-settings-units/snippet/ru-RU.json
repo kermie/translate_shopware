@@ -1,0 +1,36 @@
+{
+  "sw-settings-units": {
+    "detail": {
+      "fieldLabels": {
+        "name": "",
+        "shortCode": ""
+      }
+    },
+    "general": {
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": "",
+      "createNewUnit": "",
+      "disableAddNewUnitMessage": ""
+    },
+    "grid": {
+      "columnName": "",
+      "columnShortCode": "",
+      "contextMenuDelete": ""
+    },
+    "empty-state": {
+      "title": "",
+      "subline": ""
+    },
+    "notification": {
+      "successMessage": "",
+      "errorMessage": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "scale_unit": {
+        "label": ""
+      }
+    }
+  }
+}
