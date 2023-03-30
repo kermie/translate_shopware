@@ -1,0 +1,299 @@
+{
+    "sw-promotion-v2": {
+        "general": {
+            "mainMenuItemGeneral": "",
+            "mainMenuItemList": "",
+            "description": ""
+        },
+        "list": {
+            "textTitle": "",
+            "buttonAddPromotion": "",
+            "columnActive": "",
+            "columnName": "",
+            "columnValidFrom": "",
+            "columnValidUntil": "",
+            "titleEmpty": "",
+            "descriptionEmpty": "",
+            "placeholderSearchBar": "",
+            "textDeleteConfirm": "",
+            "titleSidebarItemRefresh": ""
+        },
+        "detail": {
+            "header": {
+                "titleCreate": "",
+                "titleEdit": ""
+            },
+            "tabs": {
+                "tabGeneral": "",
+                "tabConditions": "",
+                "tabDiscounts": ""
+            },
+            "codeChangeModal": {
+                "title": "",
+                "text": ""
+            },
+            "base": {
+                "general": {
+                    "cardTitle": "",
+                    "nameLabel": "",
+                    "namePlaceholder": "",
+                    "priorityLabel": "",
+                    "validFromLabel": "",
+                    "validFromPlaceholder": "",
+                    "validUntilLabel": "",
+                    "validUntilPlaceholder": "",
+                    "maxUsesGlobalLabel": "",
+                    "maxUsesGlobalPlaceholder": "",
+                    "maxUsesPerCustomerLabel": "",
+                    "maxUsesPerCustomerPlaceholder": "",
+                    "activeLabel": ""
+                },
+                "codes": {
+                    "cardTitle": "",
+                    "codeTypeLabel": "",
+                    "none": {
+                        "description": ""
+                    },
+                    "fixed": {
+                        "description": "",
+                        "codeLabel": "",
+                        "codePlaceholder": "",
+                        "generateButton": ""
+                    },
+                    "individual": {
+                        "description": "",
+                        "emptyStateTitle": "",
+                        "generateButton": "",
+                        "searchPlaceholder": "",
+                        "addButton": "",
+                        "columnCode": "",
+                        "columnRedeemed": "",
+                        "columnCustomer": "",
+                        "textDeleteConfirm": "",
+                        "openCustomer": "",
+                        "routingError": "",
+                        "addCodesModal": {
+                            "title": "",
+                            "description": "",
+                            "addCodesButton": "",
+                            "codeAmountLabel": ""
+                        },
+                        "generateModal": {
+                            "title": "",
+                            "buttonGenerate": "",
+                            "warning": "",
+                            "description": "",
+                            "labelPrefix": "",
+                            "placeholderPrefix": "",
+                            "labelCodeLength": "",
+                            "labelSuffix": "",
+                            "placeholderSuffix": "",
+                            "labelCustomPattern": "",
+                            "placeholderCustomPattern": "",
+                            "helpTextCustomPattern": "",
+                            "labelUseCustomPattern": "",
+                            "labelPreview": "",
+                            "labelCodeAmount": "",
+                            "notComplexEnoughException": "",
+                            "alreadyInUseException": "",
+                            "unknownErrorCode": ""
+                        }
+                    }
+                }
+            },
+            "conditions": {
+                "preConditions": {
+                    "cardTitlePreConditions": "",
+                    "cardTitleRuleConditions": "",
+                    "labelPreventCombination": "",
+                    "helpTextPreventCombination": "",
+                    "labelPromotionExclusions": "",
+                    "placeholderPromotionExclusions": "",
+                    "labelPromotionSalesChannel": "",
+                    "placeholderPromotionSalesChannel": "",
+                    "labelCustomerSelect": "",
+                    "placeholderCustomerSelect": "",
+                    "labelCartConditionSelect": "",
+                    "placeholderCartConditionSelect": "",
+                    "labelOrderConditionSelect": "",
+                    "placeholderOrderConditionSelect": ""
+                },
+                "setgroups": {
+                    "switchGroupsEnabled": "",
+                    "buttonAddGroup": "",
+                    "titleName": "",
+                    "labelMode": "",
+                    "labelValue": "",
+                    "labelSorting": "",
+                    "labelRules": "",
+                    "placeholder": "",
+                    "packager": {
+                        "COUNT": "",
+                        "PRICE_UNIT_GROSS": "",
+                        "PRICE_UNIT_NET": ""
+                    },
+                    "sorter": {
+                        "PRICE_ASC": "",
+                        "PRICE_DESC": ""
+                    }
+                },
+                "filter": {
+                    "sorter": {
+                        "PRICE_ASC": "",
+                        "PRICE_DESC": ""
+                    },
+                    "applier": {
+                        "ALL": "",
+                        "SELECT": ""
+                    },
+                    "counter": {
+                        "ALL": "",
+                        "SELECT": ""
+                    },
+                    "picker": {
+                        "VERTICAL": "",
+                        "HORIZONTAL": ""
+                    }
+                }
+            },
+            "discounts": {
+                "emptyStateTitle": "",
+                "addDiscountButton": "",
+                "wizard": {
+                    "basic": {
+                        "prefixTitle": "",
+                        "titleDiscountType": "",
+                        "titleProductRules": "",
+                        "description": ""
+                    },
+                    "shipping-discount": {
+                        "prefixTitle": "",
+                        "titleDiscountType": "",
+                        "titleTriggerSelection": "",
+                        "description": ""
+                    },
+                    "buy-x-get-y": {
+                        "prefixTitle": "",
+                        "titleDiscountType": "",
+                        "titleTriggerSelection": ""
+                    }
+                },
+                "settings": {
+                    "discountType": {
+                        "labelDiscountType": "",
+                        "labelValue": "",
+                        "labelMaxDiscountValue": "",
+                        "labelApplyDiscountTo": "",
+                        "labelApplyTo": "",
+                        "discountTypeSelection": {
+                            "displayFixedPrice": "",
+                            "displayFixedDiscount": "",
+                            "displayPercentage": "",
+                            "displayFree": ""
+                        },
+                        "applyDiscountTo": {
+                            "displayTotalPrice": "",
+                            "displayProductPrice": ""
+                        }
+                    },
+                    "ruleSelection": {
+                        "description": "",
+                        "labelSelection": "",
+                        "placeholderSelection": ""
+                    },
+                    "trigger": {
+                        "labelUseTrigger": "",
+                        "triggerType": {
+                            "displaySingleTrigger": "",
+                            "displayMultiTrigger": ""
+                        },
+                        "labelNumberOfTriggers": ""
+                    }
+                },
+                "pricesModal": {
+                    "advancedPricesHeader": "",
+                    "closeModal": "",
+                    "labelCurrency": "",
+                    "labelPrice": "",
+                    "linkAdvancedPrices": ""
+                }
+            },
+            "discount-selection": {
+                "modalTitle": "",
+                "description": "",
+                "basic": {
+                    "name": "",
+                    "description": ""
+                },
+                "buy-x-get-y": {
+                    "name": "",
+                    "description": ""
+                },
+                "shipping-discount": {
+                    "name": "",
+                    "description": ""
+                }
+            },
+            "shipping-discount-trigger": {
+                "modalTitle": "",
+                "description": "",
+                "labelUseTrigger": ""
+            }
+        },
+        "ruleSelect": {
+            "labelAddNewRule": ""
+        }
+    },
+    "sw-promotion": {
+        "detail": {
+            "main": {
+                "discounts": {
+                    "card": "",
+                    "labelValue": "",
+                    "labelMaxValue": "",
+                    "helpTextMaxValueAdvancedPrices": "",
+                    "placeholderValue": "",
+                    "labelScope": "",
+                    "flagProductScopeLabel": "",
+                    "labelRules": "",
+                    "placeholder": "",
+                    "labelType": "",
+                    "valueScopeCart": "",
+                    "valueTypeAbsolute": "",
+                    "valueScopeDelivery": "",
+                    "valueScopeSet": "",
+                    "valueScopeSetGroup": "",
+                    "valueTypePercentage": "",
+                    "valueTypeFixed": "",
+                    "valueTypeFixedUnit": "",
+                    "buttonAddDiscount": "",
+                    "buttonDeleteDiscount": "",
+                    "delete": {
+                        "confirmTitle": "",
+                        "confirmText": "",
+                        "buttonCancel": "",
+                        "buttonDelete": ""
+                    },
+                    "labelSorting": "",
+                    "labelPicking": "",
+                    "labelApplyCount": "",
+                    "labelMaxCount": "",
+                    "linkAdvancedPrices": "",
+                    "pricesModal": {
+                        "advancedPricesHeader": "",
+                        "closeModal": "",
+                        "labelCurrency": "",
+                        "labelPrice": ""
+                    }
+                }
+            }
+        }
+    },
+    "sw-privileges": {
+        "permissions": {
+            "promotion": {
+                "label": ""
+            }
+        }
+    }
+}
