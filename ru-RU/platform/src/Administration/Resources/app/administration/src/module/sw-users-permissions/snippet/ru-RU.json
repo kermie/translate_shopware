@@ -1,0 +1,235 @@
+{
+  "sw-users-permissions": {
+    "general": {
+      "label": ""
+    },
+    "permissions": {},
+    "roles": {
+      "general": {
+        "labelCreateNewRole": "",
+        "cardLabel": ""
+      },
+      "role-grid": {
+        "labelName": "",
+        "labelDescription": "",
+        "messageEmptyTitle": "",
+        "messageEmptySubline": "",
+        "contextMenuEdit": "",
+        "contextMenuDelete": "",
+        "titleModalDelete": "",
+        "textModalDelete": "",
+        "labelButtonCancel": "",
+        "labelButtonDelete": "",
+        "notification": {
+          "deleteSuccess": {
+            "message": ""
+          },
+          "deleteError": {
+            "message": ""
+          }
+        }
+      },
+      "detail": {
+        "role": "",
+        "basicInformation": "",
+        "labelName": "",
+        "labelDescription": "",
+        "permissions": ""
+      },
+      "grid": {
+        "title": "",
+        "disabledCheckboxMessage": ""
+      },
+      "additional-permissions": {
+        "title": ""
+      },
+      "detailed-additional-permissions": {
+        "title": ""
+      },
+      "view": {
+        "detailed": {
+          "alertText": ""
+        }
+      },
+      "tabs": {
+        "general": "",
+        "detailed": ""
+      }
+    },
+    "users": {
+      "general": {
+        "mainMenuItemGeneral": "",
+        "placeholderSearchBar": "",
+        "labelUserList": "",
+        "labelCreateNewUser": "",
+        "cardLabel": ""
+      },
+      "user-grid": {
+        "labelUsername": "",
+        "labelFirstName": "",
+        "labelLastName": "",
+        "labelRoles": "",
+        "labelEmail": "",
+        "contextMenuEdit": "",
+        "contextMenuDelete": "",
+        "contextMenuDuplicate": "",
+        "titleModalDelete": "",
+        "textModalDelete": "",
+        "labelButtonCancel": "",
+        "labelButtonDelete": "",
+        "notification": {
+          "deleteSuccess": {
+            "message": ""
+          },
+          "deleteError": {
+            "message": ""
+          },
+          "deleteUserLoggedInError": {
+            "message": ""
+          }
+        }
+      },
+      "user-detail": {
+        "labelCard": "",
+        "labelIntegrationsCard": "",
+        "labelFirstName": "",
+        "labelLastName": "",
+        "labelEmail": "",
+        "errorEmailUsed": "",
+        "errorUsernameUsed": "",
+        "labelUsername": "",
+        "labelPassword": "",
+        "labelProfilePicture": "",
+        "labelLanguage": "",
+        "labelLanguagePlaceholder": "",
+        "labelChangePassword": "",
+        "labelAdministrator": "",
+        "labelTimezone": "",
+        "labelJobTitle": "",
+        "labelRoles": "",
+        "labelNewPassword": "",
+        "labelNewUser": "",
+        "placeholderNewPassword": "",
+        "placeholderNewPasswordConfirm": "",
+        "labelButtonCancel": "",
+        "labelButtonChangePassword": "",
+        "labelButtonSave": "",
+        "writeAccess": "",
+        "readAccess": "",
+        "contextMenuEdit": "",
+        "contextMenuDelete": "",
+        "textChangePassword": "",
+        "addAccessKey": "",
+        "noAccessKeysTitle": "",
+        "noAccessKeysSubline": "",
+        "labelAccessKey": "",
+        "labelPermissions": "",
+        "disabledRoleSelectWarning": "",
+        "passwordConfirmation": {
+          "titleConfirmPasswordModal": "",
+          "labelConfirmPassword": "",
+          "placeholderConfirmPassword": "",
+          "labelButtonCancel": "",
+          "labelButtonConfirm": "",
+          "notificationPasswordErrorTitle": "",
+          "notificationPasswordErrorMessage": ""
+        },
+        "modal": {
+          "detailModalTitle": "",
+          "detailModalTitleEdit": "",
+          "confirmDelete": "",
+          "buttonApply": "",
+          "buttonApplyEdit": "",
+          "buttonCancel": "",
+          "buttonDelete": "",
+          "buttonCreateNewApiKeys": "",
+          "hintCreateNewApiKeys": "",
+          "labelFieldLabel": "",
+          "idFieldLabel": "",
+          "secretFieldLabel": "",
+          "secretHelpText": "",
+          "messageSaveSuccess": "",
+          "messageSaveError": "",
+          "messageCreateNewError": ""
+        },
+        "notification": {
+          "saveError": {
+            "message": ""
+          },
+          "saveSuccess": {
+            "message": ""
+          },
+          "invalidEmailErrorMessage": "",
+          "duplicateEmailErrorMessage": ""
+        }
+      }
+    }
+  },
+  "sw-privileges": {
+    "roles": {
+      "all": "",
+      "viewer": "",
+      "editor": "",
+      "creator": "",
+      "deleter": ""
+    },
+    "permissionType": {
+      "read": "",
+      "update": "",
+      "create": "",
+      "delete": ""
+    },
+    "permissions": {
+      "parents": {
+        "catalogues": "",
+        "content": "",
+        "customers": "",
+        "marketing": "",
+        "other": "",
+        "orders": "",
+        "settings": ""
+      },
+      "users_and_permissions": {
+        "label": ""
+      },
+      "routes": {
+        "label": ""
+      }
+    },
+    "additional_permissions": {
+      "system": {
+        "label": ""
+      },
+      "user": {
+        "label": ""
+      },
+      "marketing": {
+        "label": ""
+      },
+      "orders": {
+        "label": ""
+      },
+      "routes": {
+        "label": "",
+        "api_action_access-key_integration": "",
+        "api_acl_privileges_get": "",
+        "api_acl_privileges_route_get": "",
+        "api_action_cache_info": "",
+        "api_action_cache_index": "",
+        "api_action_cache_delete_and_warmup": "",
+        "api_action_cache_delete": "",
+        "api_action_cache_cleanup": "",
+        "api_action_container-cache_delete": "",
+        "api_info_me": "",
+        "api_info_ping": "",
+        "system:clear:cache": "",
+        "api_proxy_switch-customer": ""
+      },
+      "app": {
+        "label": "",
+        "all": "",
+        "disabledCheckboxMessage": ""
+      }
+    }
+  }
+}
