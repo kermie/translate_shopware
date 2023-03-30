@@ -1,0 +1,171 @@
+{
+    "swag-social-shopping": {
+        "networks": {
+            "base": {
+                "titleGeneralSettings": "",
+                "titleOptions": "",
+                "storefront": "",
+                "storefrontDomain": "",
+                "storefrontDomainCurrency": "",
+                "productStream": "",
+                "noDynamicProductGroupFound": "",
+                "createDynamicProductGroup": "",
+                "tabErrors": "",
+                "tabIntegration": "",
+                "intervalHelpText": "",
+                "template": {
+                    "tabTemplate": "",
+                    "inputHeaderLabel": "",
+                    "inputBodyLabel": "",
+                    "inputFooterLabel": "",
+                    "buttonTestLabel": "",
+                    "buttonPreviewLabel": "",
+                    "buttonResetLabel": ""
+                },
+                "statistics": {
+                    "tabStatistics": "",
+                    "orderCardHeadline": "",
+                    "customerCardHeadline": "",
+                    "turnoverCardHeadline": "",
+                    "numbers": "",
+                    "totalTurnover": "",
+                    "dateRanges": {
+                        "30Days": "",
+                        "14Days": "",
+                        "7Days": "",
+                        "24Hours": "",
+                        "yesterday": ""
+                    }
+                }
+            },
+            "facebook": {
+                "titleFacebookSettings": "",
+                "name": "",
+                "description": "",
+                "googleProductDefaultCategory": "",
+                "helpTextGoogleProductDefaultCategory": "",
+                "includeVariants": "",
+                "interval": "",
+                "generateByCronjob": "",
+                "googleProductCategoryLinkLabel": "",
+                "manufacturer": "",
+                "descriptionLong": ""
+            },
+            "instagram": {
+                "titleInstagramSettings": "",
+                "name": "",
+                "description": "",
+                "googleProductDefaultCategory": "",
+                "helpTextGoogleProductDefaultCategory": "",
+                "includeVariants": "",
+                "interval": "",
+                "generateByCronjob": "",
+                "googleProductCategoryLinkLabel": "",
+                "manufacturer": "",
+                "descriptionLong": ""
+            },
+            "google-shopping": {
+                "name": "",
+                "description": "",
+                "titleGoogleShoppingSettings": "",
+                "titleGoogleShoppingGuide": "",
+                "googleProductDefaultCategory": "",
+                "googleProductCategoryLinkLabel": "",
+                "helpTextGoogleProductDefaultCategory": "",
+                "includeVariants": "",
+                "interval": "",
+                "generateByCronjob": "",
+                "manufacturer": "",
+                "descriptionLong": ""
+            },
+            "pinterest": {
+                "titlePinterestSettings": "",
+                "titlePinterestGuide": "",
+                "validationButtonTitle": "",
+                "name": "",
+                "description": "",
+                "manufacturer": "",
+                "descriptionLong": ""
+            }
+        },
+        "validation": {
+            "titleValidation": "",
+            "buttonStartValidation": "",
+            "columns": {
+                "product": "",
+                "errors": ""
+            },
+            "noErrorsFound": "",
+            "notValidatedYet": "",
+            "validationShowedErrors": "",
+            "validationRunning": "",
+            "product-image": {
+                "no-image": ""
+            },
+            "google-product-category-missing": ""
+        },
+        "integration": {
+            "stepByStepTitle": "",
+            "facebook": {
+                "cardTitle": "",
+                "introduction": {
+                    "title": "",
+                    "description": ""
+                },
+                "stepByStep": "",
+                "dataFeedLabel": ""
+            },
+            "google-shopping": {
+                "cardTitle": "",
+                "introduction": {
+                    "title": "",
+                    "description": ""
+                },
+                "stepByStep": "",
+                "dataFeedLabel": ""
+            },
+            "instagram": {
+                "cardTitle": "",
+                "introduction": {
+                    "title": "",
+                    "description": ""
+                },
+                "stepByStep": "",
+                "dataFeedLabel": ""
+            },
+            "pinterest": {
+                "cardTitle": "",
+                "introduction": {
+                    "title": "",
+                    "description": ""
+                },
+                "stepByStep": "",
+                "dataFeedLabel": ""
+            }
+        },
+        "extension": {
+            "sw-customer": {
+                "filter": {
+                    "referralCode": {
+                        "label": "",
+                        "placeholder": ""
+                    }
+                },
+                "list": {
+                    "columnReferral": ""
+                }
+            },
+            "sw-order": {
+                "filter": {
+                    "referralCode": {
+                        "label": "",
+                        "placeholder": ""
+                    }
+                },
+                "list": {
+                    "columnReferral": ""
+                }
+            }
+        }
+    }
+}
