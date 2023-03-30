@@ -1,0 +1,76 @@
+{
+    "sw-flow-call-webhook": {
+        "tabLog": "",
+        "labelWebhookLog": "",
+        "action": {
+            "titleCallWebhook": "",
+            "descriptionWebhook": ""
+        },
+        "modal": {
+            "titleCallUrl": "",
+            "tabGeneral": "",
+            "tabHeader": "",
+            "tabBody": "",
+            "tabBasicAuth": "",
+            "columnName": "",
+            "placeholderName": "",
+            "columnData": "",
+            "placeholderData": "",
+            "placeholderCustomData": "",
+            "buttonAddAction": "",
+            "buttonSaveAction": "",
+            "contextButton": {
+                "useOwnParam": "",
+                "choosePredefinedParam": "",
+                "deleteParameter": ""
+            },
+            "general": {
+                "labelMethod": "",
+                "labelBaseUrl": "",
+                "placeholderBaseUrl": "",
+                "labelUrlPreview": "",
+                "labelDescription": "",
+                "placeholderDescription": "",
+                "titleParameters": ""
+            },
+            "body": {
+                "labelBodyType": "",
+                "labelCode": ""
+            },
+            "basicAuth": {
+                "labelActive": "",
+                "labelUsername": "",
+                "labelPassword": "",
+                "placeholderUsername": "",
+                "placeholderPassword": ""
+            }
+        },
+        "log": {
+            "list": {
+                "columnDate": "",
+                "columnName": "",
+                "columnStatus": "",
+                "actionShowInfo": "",
+                "labelSuccess": "",
+                "labelFailed": "",
+                "emptyStateTitle": "",
+                "labelFrom": "",
+                "labelTo": "",
+                "labelStatus": "",
+                "placeholderStatus": "",
+                "fetchErrorMessage": ""
+            },
+            "modal": {
+                "title": "",
+                "tabRequest": "",
+                "tabResponse": "",
+                "actionClose": "",
+                "labelContent": "",
+                "labelMethod": "",
+                "labelUrl": "",
+                "labelHttpStatus": "",
+                "labelDuration": ""
+            }
+        }
+    }
+}
