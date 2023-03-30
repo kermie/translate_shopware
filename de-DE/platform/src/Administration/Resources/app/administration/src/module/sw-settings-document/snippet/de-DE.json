@@ -1,0 +1,82 @@
+{
+  "sw-settings-document": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "description": "",
+      "placeholderSearchBar": ""
+    },
+    "list": {
+      "textHeadline": "",
+      "textDeleteConfirm": "",
+      "columnName": "",
+      "columnType": "",
+      "columnUsedIn": "",
+      "columnAssignment": "",
+      "buttonAddDocument": "",
+      "contextMenuEdit": "",
+      "messageDeleteSuccess": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "global": ""
+    },
+    "detail": {
+      "textHeadline": "",
+      "configCard": "",
+      "companyCard": "",
+      "assignmentCard": "",
+      "messageSaveSuccess": "",
+      "labelName": "",
+      "labelFileNamePrefix": "",
+      "labelFileNameSuffix": "",
+      "labelDisplayPrices": "",
+      "labelDisplayHeader": "",
+      "labelDisplayLineItems": "",
+      "labelDisplayLineItemPosition": "",
+      "labelDisplayPageCount": "",
+      "labelPageOrientation": "",
+      "labelPageSize": "",
+      "labelItemsPerPage": "",
+      "labelDisplayCompanyAddress": "",
+      "labelCompanyAddress": "",
+      "labelCompanyName": "",
+      "labelCompanyEmail": "",
+      "labelCompanyPhone": "",
+      "labelCompanyUrl": "",
+      "labelTaxNumber": "",
+      "labelTaxOffice": "",
+      "labelVatId": "",
+      "labelBankName": "",
+      "labelBankIban": "",
+      "labelBankBic": "",
+      "labelType": "",
+      "labelSalesChannel": "",
+      "labelDisplayFooter": "",
+      "labelPlaceOfJurisdiction": "",
+      "labelPlaceOfFulfillment": "",
+      "labelExecutiveDirector": "",
+      "labelDisplayAdditionalNoteDelivery": "",
+      "labelDeliveryCountries": "",
+      "labelDisplayCustomerVatId": "",
+      "placeholderDisplayDeliveryCountries": "",
+      "labelOptionMedia": "",
+      "placeholderName": "",
+      "buttonCancel": "",
+      "buttonSave": "",
+      "disabledSalesChannel": "",
+      "disabledSalesChannelSelect": "",
+      "disabledTypeSelect": "",
+      "labelDisplayDocumentInCustomerAccount": "",
+      "labelDisplayDivergentDeliveryAddress": "",
+      "helpTextDisplayDocumentInCustomerAccount": "",
+      "helpTextDisplayDeliveryCountries": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "document": {
+        "label": ""
+      }
+    }
+  }
+}
+
