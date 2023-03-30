@@ -1,0 +1,22 @@
+{
+  "sw-product-generated-description": {
+    "modalTitle": "Beschreibungsassistent",
+    "textDisclaimer": "Dieser KI-basierte Dienst ist darauf ausgelegt, keine falschen, anstößigen oder schädlichen Inhalte zu produzieren. Dennoch kann es dabei zu Fehlern kommen, und Du solltest alle generierten Texte auf Rechtskonformität, Gültigkeit und Vollständigkeit prüfen. Verwende die KI-generierten Beschreibungen im Zweifel nur als Inspirationsquelle für Deine eigene Arbeit.",
+    "keywords": {
+      "label": "Schlüsselinformationen",
+      "placeholder": "Schlüsselwörter, Fakten, Messungen eingeben ...",
+      "helpText": "Gib Informationen ein, die speziell Dein Produkt beschreiben. Dazu gehören genaue Maße, Fakten und erforderliche Schlüsselwörter, die Teil der generierten Beschreibung sein sollten. Ohne Schlüsselinformationen bestimmt lediglich der Produktname das KI-generierte Ergebnis."
+    },
+    "buttonGenerate": "Generieren",
+    "labelGeneratedText": "Generierte Beschreibung",
+    "buttonCopy": "Kopieren",
+    "labelCopyrightNotice": "Copyright notice",
+    "labelLearnMore": "Lerne mehr über",
+    "notifications": {
+      "messageSuccess": "Beschreibung erfolgreich generiert.",
+      "messageCopied": "Beschreibungstext wurde in die Zwischenablage kopiert.",
+      "messageCopyFailed": "Beschreibungstext wurde nicht übernommen.",
+      "messageError": "Der Dienst ist im Moment nicht verfügbar. Bitte versuchen Sie es später noch einmal."
+    }
+  }
+}

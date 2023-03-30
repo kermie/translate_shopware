@@ -1,0 +1,19 @@
+{
+  "b2b": {
+    "b2bofferexample": {
+      "_acl_offer": "Angebote",
+      "ManageOffers": "Angebote verwalten",
+      "CreateOffer": "Angebot erstellen",
+      "OfferDetail": "Angebotsdetail",
+      "OfferName": "Name",
+      "OfferDescription": "Beschreibung",
+      "Action": "Aktion/en",
+      "Name": "Name",
+      "Description": "Beschreibung",
+      "NameAsc": "Name Ascending",
+      "NameDesc": "Name Descending",
+      "DescriptionAsc": "Description Ascending",
+      "DescriptionDesc": "Description Descending"
+    }
+  }
+}

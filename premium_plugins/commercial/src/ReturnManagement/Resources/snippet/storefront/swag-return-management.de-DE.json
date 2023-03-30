@@ -1,0 +1,10 @@
+{
+    "swag-return-management": {
+        "account": {
+            "orderItemColumnStatus": "Status"
+        },
+        "checkout": {
+            "cartHeaderStatus": "Status"
+        }
+    }
+}
