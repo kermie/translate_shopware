@@ -2,168 +2,168 @@
     "swag-social-shopping": {
         "networks": {
             "base": {
-                "titleGeneralSettings": "",
-                "titleOptions": "",
+                "titleGeneralSettings": "Allgemeine Einstellungen",
+                "titleOptions": "Optionen",
                 "storefront": "",
-                "storefrontDomain": "",
-                "storefrontDomainCurrency": "",
-                "productStream": "",
-                "noDynamicProductGroupFound": "",
-                "createDynamicProductGroup": "",
-                "tabErrors": "",
+                "storefrontDomain": "Storefront-Domain",
+                "storefrontDomainCurrency": "Währung",
+                "productStream": "Dynamische Produktgruppe",
+                "noDynamicProductGroupFound": "Du benötigst eine dynamische Produktgruppe um Social Shopping zu nutzen. Bitte lege eine dynamische Produktgruppe an.",
+                "createDynamicProductGroup": "Dynamische Produktgruppe erstellen",
+                "tabErrors": "Unveröffentlichte Produkte",
                 "tabIntegration": "",
-                "intervalHelpText": "",
+                "intervalHelpText": "Das Intervall ist begrenzt durch das Intervall des Scheduled Task \"ProductExportGenerateTask\". Standardmäßig ist dieser auf eine tägliche Ausführung eingestellt.",
                 "template": {
                     "tabTemplate": "",
-                    "inputHeaderLabel": "",
-                    "inputBodyLabel": "",
-                    "inputFooterLabel": "",
-                    "buttonTestLabel": "",
-                    "buttonPreviewLabel": "",
-                    "buttonResetLabel": ""
+                    "inputHeaderLabel": "Kopfzeile",
+                    "inputBodyLabel": "Produktzeile",
+                    "inputFooterLabel": "Fußzeile",
+                    "buttonTestLabel": "Template testen",
+                    "buttonPreviewLabel": "Vorschau generieren",
+                    "buttonResetLabel": "Template zurücksetzen"
                 },
                 "statistics": {
-                    "tabStatistics": "",
-                    "orderCardHeadline": "",
-                    "customerCardHeadline": "",
-                    "turnoverCardHeadline": "",
-                    "numbers": "",
-                    "totalTurnover": "",
+                    "tabStatistics": "Statistiken",
+                    "orderCardHeadline": "Bestellungen",
+                    "customerCardHeadline": "Kunden",
+                    "turnoverCardHeadline": "Umsatz",
+                    "numbers": "Anzahl",
+                    "totalTurnover": "Summe",
                     "dateRanges": {
-                        "30Days": "",
-                        "14Days": "",
-                        "7Days": "",
-                        "24Hours": "",
-                        "yesterday": ""
+                        "30Days": "Letzte 30 Tage",
+                        "14Days": "Letzte 14 Tage",
+                        "7Days": "Letzte 7 Tage",
+                        "24Hours": "Letzte 24 Stunden",
+                        "yesterday": "Seit gestern"
                     }
                 }
             },
             "facebook": {
-                "titleFacebookSettings": "",
+                "titleFacebookSettings": "Weitere Einstellungen",
                 "name": "",
-                "description": "",
-                "googleProductDefaultCategory": "",
-                "helpTextGoogleProductDefaultCategory": "",
-                "includeVariants": "",
-                "interval": "",
-                "generateByCronjob": "",
-                "googleProductCategoryLinkLabel": "",
+                "description": "Verkaufe Deine Produkte auf einer Facebook-Seite",
+                "googleProductDefaultCategory": "Standard-Google-Produktkategorie-ID",
+                "helpTextGoogleProductDefaultCategory": "Facebook nutzt zur Kategorisierung der Produkte die Google-Produktkategorie-ID. Bitte gebe hier die Google-Produktkategorie ein die verwendet werden soll wenn an der Kategorie des Produkts keine Google-Produktkategorie gepflegt wurde.",
+                "includeVariants": "Varianten als eigene Produkte importieren",
+                "interval": "Rundungsintervall",
+                "generateByCronjob": "Per Scheduler generieren",
+                "googleProductCategoryLinkLabel": "Hilfeseite für Google-Produktkategorien",
                 "manufacturer": "",
-                "descriptionLong": ""
+                "descriptionLong": "Erstelle einen Verkaufskanal um Deine Produkte auf Facebook zu verkaufen."
             },
             "instagram": {
-                "titleInstagramSettings": "",
+                "titleInstagramSettings": "Weitere Einstellungen",
                 "name": "",
-                "description": "",
-                "googleProductDefaultCategory": "",
-                "helpTextGoogleProductDefaultCategory": "",
-                "includeVariants": "",
-                "interval": "",
-                "generateByCronjob": "",
-                "googleProductCategoryLinkLabel": "",
+                "description": "Verkaufe Deine Produkte auf einem Instagram-Kanal",
+                "googleProductDefaultCategory": "Standard-Google-Produktkategorie-ID",
+                "helpTextGoogleProductDefaultCategory": "Instagram nutzt zur Kategorisierung der Produkte die Google-Produktkategorie-ID. Bitte gebe hier die Google-Produktkategorie ein die verwendet werden soll wenn an der Kategorie des Produkts keine Google-Produktkategorie gepflegt wurde.",
+                "includeVariants": "Varianten als eigene Produkte importieren",
+                "interval": "Rundungsintervall",
+                "generateByCronjob": "Per Scheduler generieren",
+                "googleProductCategoryLinkLabel": "Hilfeseite für Google-Produktkategorien",
                 "manufacturer": "",
-                "descriptionLong": ""
+                "descriptionLong": "Erstelle einen Verkaufskanal um Deine Produkte über Instagram zu verkaufen."
             },
             "google-shopping": {
                 "name": "",
-                "description": "",
-                "titleGoogleShoppingSettings": "",
-                "titleGoogleShoppingGuide": "",
-                "googleProductDefaultCategory": "",
-                "googleProductCategoryLinkLabel": "",
-                "helpTextGoogleProductDefaultCategory": "",
-                "includeVariants": "",
-                "interval": "",
-                "generateByCronjob": "",
+                "description": "Verkaufe Deine Produkte via Google Shopping",
+                "titleGoogleShoppingSettings": "Weitere Einstellungen",
+                "titleGoogleShoppingGuide": "Integrationsanleitung",
+                "googleProductDefaultCategory": "Standard-Google-Produktkategorie-ID",
+                "googleProductCategoryLinkLabel": "Hilfeseite für Google-Produktkategorien",
+                "helpTextGoogleProductDefaultCategory": "Google nutzt zur Kategorisierung der Produkte die Google-Produktkategorie-ID. Bitte gebe hier die Google-Produktkategorie ein die verwendet werden soll wenn an der Kategorie des Produkts keine Google-Produktkategorie gepflegt wurde.",
+                "includeVariants": "Varianten als eigene Produkte importieren",
+                "interval": "Rundungsintervall",
+                "generateByCronjob": "Per Scheduler generieren",
                 "manufacturer": "",
-                "descriptionLong": ""
+                "descriptionLong": "Erstelle einen Verkaufskanal um Deine Produkte über Google Shopping zu verkaufen."
             },
             "pinterest": {
-                "titlePinterestSettings": "",
-                "titlePinterestGuide": "",
-                "validationButtonTitle": "",
+                "titlePinterestSettings": "Weitere Einstellungen",
+                "titlePinterestGuide": "Integrationsanleitung",
+                "validationButtonTitle": "Jetzt auf Pinterest validieren",
                 "name": "",
-                "description": "",
+                "description": "Verkaufe Deine Produkte via Pinterest",
                 "manufacturer": "",
-                "descriptionLong": ""
+                "descriptionLong": "Erstelle einen Verkaufskanal um Deine Produkte über Pinterest zu verkaufen."
             }
         },
         "validation": {
-            "titleValidation": "",
-            "buttonStartValidation": "",
+            "titleValidation": "Unveröffentlichte Produkte",
+            "buttonStartValidation": "Produkte validieren",
             "columns": {
-                "product": "",
-                "errors": ""
+                "product": "Produkt",
+                "errors": "Fehler"
             },
-            "noErrorsFound": "",
-            "notValidatedYet": "",
-            "validationShowedErrors": "",
-            "validationRunning": "",
+            "noErrorsFound": "Alle Produkte wurden ohne Fehler validiert. Letzte Validierung: {validationDate}",
+            "notValidatedYet": "Die Produkte sind noch nicht validiert worden. Bitte starte die Validierung um die Produkte zu überprüfen.",
+            "validationShowedErrors": "Die letzte Validierung ergab Fehler. Bitte prüfe und behebe die unten stehenden Fehler und starte anschließend die Validierung erneut. Letzte Validierung: {validationDate}",
+            "validationRunning": "Die Validierung läuft gerade. Das Fehler-Log wird automatisch neu geladen. Bitte warte bis die Validierung abgeschlossen ist.",
             "product-image": {
-                "no-image": ""
+                "no-image": "Dieses Produkt benötigt ein Bild"
             },
-            "google-product-category-missing": ""
+            "google-product-category-missing": "Dieses Produkt ist einer Kategorie ohne Google-Produktkategorie zugeordnet"
         },
         "integration": {
-            "stepByStepTitle": "",
+            "stepByStepTitle": "Step By Step",
             "facebook": {
-                "cardTitle": "",
+                "cardTitle": "Facebook-Verbindung",
                 "introduction": {
-                    "title": "",
-                    "description": ""
+                    "title": "How to: Einrichtung und Verbindung",
+                    "description": "Dieser Verkaufskanal erzeugt einen XML-Feed, den Du bei Facebook nutzen kannst um Produkte automatisiert in den Katalog zu synchronisieren. Dazu musst Du die Feed-URL bei Facebook hinterlegen und definieren, wie oft Facebook den Feed abrufen soll. Weitere Informationen findest Du in dem Step-By-Step-Guide unten."
                 },
-                "stepByStep": "",
-                "dataFeedLabel": ""
+                "stepByStep": "<li>Erstelle einen Account auf <a href=\"https://facebook.com\">facebook.com</a></li><li>Erstelle einen Account auf <a href=\"https://business.facebook.com\">business.facebook.com</a></li><li>Lege einen neuen Katalog an</li><li>Konfiguration des Katalogs: Wähle Produktinformationen für den Datenfeed</li><li>Wechsele zu \"Datenquellen\"</li><li>Füge Produkte hinzu</li><li>Wähle einen Datenfeed</li><li>Konfiguration des Datenfeeds: Kopiere die Datenfeed-URL (unten) und füge diese ein</li>",
+                "dataFeedLabel": "Datenfeed"
             },
             "google-shopping": {
-                "cardTitle": "",
+                "cardTitle": "Google-Verbindung",
                 "introduction": {
-                    "title": "",
-                    "description": ""
+                    "title": "How to: Einrichtung und Verbindung",
+                    "description": "Dieser Verkaufskanal erzeugt einen XML-Feed, den Du bei Google nutzen kannst um Produkte automatisiert in den Katalog zu synchronisieren. Dazu musst Du die Feed-URL bei Google hinterlegen und definieren, wie oft Google den Feed abrufen soll. Weitere Informationen findest Du in dem Step-By-Step-Guide unten."
                 },
-                "stepByStep": "",
-                "dataFeedLabel": ""
+                "stepByStep": "<li>Rufe das <a href=\"https://merchants.google.com\">Google Merchant Center</a> auf</li><li>Erstelle einen neuen Hauptfeed unter Produkte > Feeds</li><li>Wähle ein Land und eine Sprache</li><li>Benenne den Feed und wähle \"Geplanter Abruf\" aus</li><li>Benenne die Feed-Datei und füge die Export-URL unter \"Datei-URL\" ein</li><li>Danach kannst Du den Feed öffnen und abrufen</li>",
+                "dataFeedLabel": "Datenfeed"
             },
             "instagram": {
-                "cardTitle": "",
+                "cardTitle": "Instagram-Verbindung",
                 "introduction": {
-                    "title": "",
-                    "description": ""
+                    "title": "How to: Einrichtung und Verbindung",
+                    "description": "Dieser Verkaufskanal erzeugt einen XML-Feed, den Du bei Instagram nutzen kannst um Produkte automatisiert in den Katalog zu synchronisieren. Dazu musst Du die Feed-URL bei Instagram hinterlegen und definieren, wie oft Instagram den Feed abrufen soll. Weitere Informationen findest Du in dem Step-By-Step-Guide unten."
                 },
-                "stepByStep": "",
-                "dataFeedLabel": ""
+                "stepByStep": "<li>Erstelle einen Account auf <a href=\"https://facebook.com\">facebook.com</a></li><li>Erstelle einen Account auf <a href=\"https://business.facebook.com\">business.facebook.com</a></li><li>Lege einen neuen Katalog an</li><li>Konfiguration des Katalogs: Wähle Produktinformationen für den Datenfeed</li><li>Wechsele zu \"Datenquellen\"</li><li>Füge Produkte hinzu</li><li>Wählen Sie einen Datenfeed</li><li>Konfiguration des Datenfeeds: Kopiere die Datenfeed-URL (unten) und füge diese ein</li><li>Wenn nötig, erstelle einen <a href=\"https://instagram.com\">Instagram</a> Account</li><li>Öffne die Instagram-Einstellungen und klicke \"Zu professionellem Konto wechseln\" und wähle daraufhin Business</li><li>Folge den Anweisungen, um Ihren Facebook-Verkaufskanal mit Instagram zu verbinden</li>",
+                "dataFeedLabel": "Datenfeed"
             },
             "pinterest": {
-                "cardTitle": "",
+                "cardTitle": "Pinterest-Verbindung",
                 "introduction": {
-                    "title": "",
-                    "description": ""
+                    "title": "How to: Einrichtung und Verbindung",
+                    "description": "Dieser Verkaufskanal erzeugt Meta-Daten, die es Dir ermöglichen Deine Produkte als Pin bei Pinterest anzeigen zu lassen. Weitere Informationen findest Du in dem Step-By-Step-Guide unten."
                 },
-                "stepByStep": "",
-                "dataFeedLabel": ""
+                "stepByStep": "<li>Klicke auf \"Jetzt auf Pinterest validieren\"</li><li>Logge Dich mit Deinem Account ein oder erstelle diesen</li><li>Füge einen Link zu einem Produkt ein und klicke daraufhin auf \"Validieren\"</li>",
+                "dataFeedLabel": "Datenfeed"
             }
         },
         "extension": {
             "sw-customer": {
                 "filter": {
                     "referralCode": {
-                        "label": "",
-                        "placeholder": ""
+                        "label": "Einstieg",
+                        "placeholder": "Einstieg wählen"
                     }
                 },
                 "list": {
-                    "columnReferral": ""
+                    "columnReferral": "Einstieg"
                 }
             },
             "sw-order": {
                 "filter": {
                     "referralCode": {
-                        "label": "",
-                        "placeholder": ""
+                        "label": "Einstieg",
+                        "placeholder": "Einstieg wählen"
                     }
                 },
                 "list": {
-                    "columnReferral": ""
+                    "columnReferral": "Einstieg"
                 }
             }
         }
