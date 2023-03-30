@@ -1,0 +1,218 @@
+{
+  "sw-privileges": {
+    "permissions": {
+      "swag_customized_products_template": {
+        "label": ""
+      }
+    }
+  },
+  "swag-customized-products": {
+    "extension": {
+      "textOrderItemPrefix": "",
+      "buttonViewConfiguration": ""
+    },
+    "general": {
+      "mainMenuItemGeneral": "",
+      "descriptionTextModule": "",
+      "selectRule": "",
+      "duplicate": "",
+      "duplicateNameSuffix": ""
+    },
+    "list": {
+      "templateTitle": "",
+      "buttonAddTemplate": "",
+      "columnDisplayName": "",
+      "columnInternalName": "",
+      "columnOptionsCount": "",
+      "columnProductsCount": "",
+      "columnDescription": "",
+      "messageEmpty": "",
+      "titleSidebarItemRefresh": ""
+    },
+    "detail": {
+      "messageSaveError": "",
+      "labelContextMenuAddToTemplate": "",
+      "buttonSaveDuplicate": "",
+      "tabGeneral": {
+        "title": "",
+        "cardGeneral": "",
+        "labelInternalName": "",
+        "labelActive": "",
+        "labelColor": "",
+        "labelDisplayName": "",
+        "labelDescription": "",
+        "labelImage": "",
+        "labelStepByStep": "",
+        "labelConfirmInput": "",
+        "labelOptionsAutoCollapse": "",
+        "textAssignmentInfo": "",
+        "placeholderInternalName": "",
+        "placeholderDisplayName": "",
+        "placeholderDescription": "",
+        "helpTextStepByStep": "",
+        "helpTextConfirmInput": "",
+        "helpTextOptionsAutoCollapse": "",
+        "cardOption": {
+          "title": "",
+          "labelName": "",
+          "labelType": "",
+          "labelPosition": "",
+          "labelOptionValuesCount": "",
+          "buttonAdd": "",
+          "placeholderSearch": "",
+          "placeholderType": "",
+          "titleModalDelete": "",
+          "textModalDelete": "",
+          "emptyTitle": "",
+          "errorSave": "",
+          "optionAddNotAvailableTooltip": ""
+        },
+        "createOption": {
+          "title": "",
+          "nameLabel": "",
+          "namePlaceholder": "",
+          "typeLabel": "",
+          "typeHelpText": ""
+        },
+        "cardExclusion": {
+          "title": "",
+          "titleModalDelete": "",
+          "textModalDelete": "",
+          "placeholderSearch": "",
+          "buttonAdd": "",
+          "emptyTitle": "",
+          "labelName": "",
+          "modal": {
+            "title": "",
+            "nameLabel": ""
+          }
+        }
+      },
+      "tabAssignment": {
+        "title": "",
+        "cardGeneral": "",
+        "productSelectPlaceholder": ""
+      }
+    },
+    "create": {
+      "title": ""
+    },
+    "optionDetailModal": {
+      "saveError": "",
+      "noFormFound": "",
+      "noChildren": "",
+      "optionType": {
+        "textfield": {
+          "minLengthLabel": "",
+          "maxLengthLabel": ""
+        },
+        "select": {
+          "isDropDownLabel": "",
+          "isMultiSelectLabel": "",
+          "isMultiSelectTooltip": {
+            "enabled": "",
+            "disabled": ""
+          }
+        },
+        "numberfield": {
+          "minimumValueLabel": "",
+          "maximumValueLabel": "",
+          "stepLabel": "",
+          "placeholder": ""
+        },
+        "imageupload": {
+          "maxCountLabel": "",
+          "maxFileSizeLabel": "",
+          "excludedExtensionsLabel": "",
+          "fileExtensionsLabel": "",
+          "tooltip": ""
+        },
+        "datetime": {
+          "minDate": "",
+          "maxDate": ""
+        },
+        "typeLabel": "",
+        "defaultLabel": "",
+        "defaultPlaceholder": "",
+        "defaultPlaceholderSelect": "",
+        "placeholderLabel": "",
+        "placeholderPlaceholder": "",
+        "requiredLabel": "",
+        "nameLabel": "",
+        "valueLabel": "",
+        "descriptionLabel": "",
+        "itemNumberLabel": "",
+        "placeholderItemNumber": "",
+        "itemNumberHelpText": "",
+        "placeholderDescription": "",
+        "surcharges": {
+          "textWarningBasePrice": "",
+          "taxLabel": "",
+          "taxPlaceholder": "",
+          "advancedLabel": "",
+          "relativeLabel": "",
+          "oncePerOrderLabel": "",
+          "advancedSurchargesTooltip": "",
+          "relativeSurchargesTooltip": "",
+          "selectTaxRateTooltip": ""
+        },
+        "advancedSurcharges": {
+          "columnTitles": {
+            "rule": ""
+          }
+        },
+        "requiredTooltip": {
+          "enabled": "",
+          "disabled": ""
+        }
+      }
+    },
+    "optionTypes": {
+      "checkbox": "",
+      "colorpicker": "",
+      "colorselect": "",
+      "datetime": "",
+      "fileupload": "",
+      "htmleditor": "",
+      "imageselect": "",
+      "imageupload": "",
+      "numberfield": "",
+      "select": "",
+      "textarea": "",
+      "textfield": "",
+      "timestamp": ""
+    }
+  },
+  "swag-customized-products-assignment-card": {
+    "emptyTitle": "",
+    "labelProductNumber": "",
+    "labelName": "",
+    "labelManufacturer": "",
+    "titleModalDelete": "",
+    "textModalDelete": ""
+  },
+  "swag-customized-products-configuration-modal": {
+    "title": "",
+    "oneTimeSurchargeSuffix": "",
+    "perItemSuffix": "",
+    "emptyConfigurationHint": "",
+    "warningImagePreview": ""
+  },
+  "swag-customized-products-option-tree-item": {
+    "general": {
+      "placeholderElementName": ""
+    },
+    "actions": {
+      "buttonCreateSubElement": ""
+    }
+  },
+  "swag-customized-products-condition-tree": {
+    "label": "",
+    "helpText": "",
+    "node": {
+      "strongAnd": "",
+      "optionSelectPlaceholder": "",
+      "operatorSelectPlaceholder": ""
+    }
+  }
+}
