@@ -1,0 +1,29 @@
+{
+  "sw-settings-basic-information": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "description": "",
+      "textHeadline": "",
+      "buttonSave": "",
+      "messageSaveSuccess": ""
+    },
+    "captcha": {
+      "label": {
+        "honeypot": "",
+        "basicCaptcha": "",
+        "googleReCaptchaV2": "",
+        "googleReCaptchaV2SiteKey": "",
+        "googleReCaptchaV2SecretKey": "",
+        "googleReCaptchaV2Invisible": "",
+        "googleReCaptchaV3": "",
+        "googleReCaptchaV3SiteKey": "",
+        "googleReCaptchaV3SecretKey": "",
+        "googleReCaptchaV3ThresholdScore": "",
+        "googleReCaptchaV2CheckboxDescription": "",
+        "googleReCaptchaV2InvisibleDescription": "",
+        "googleReCaptchaV3Description": "",
+        "googleReCaptchaV3DescriptionThresholdScore": ""
+      }
+    }
+  }
+}
