@@ -1,58 +1,58 @@
 {
     "sw-flow-sharing": {
-        "uploadButton": "",
+        "uploadButton": "Flow hochladen",
         "downloadButton": "",
         "downloadModal": {
-            "title": "",
-            "description": "",
-            "dataIncluded": "",
-            "references": "",
-            "isNotIncludedReferences": "",
-            "downloadButton": "",
-            "ruleLabel": "",
-            "mailTemplateLabel": ""
+            "title": "Flow herunterladen",
+            "description": "Diese Flow-Datei enthält alle Sequenzen sowie die Konfigurationen, die in Bedingungen und Aktionen verwendet werden. Beim Hochladen in ein Fremdsystem werden fehlende Daten angelegt.<br><br>Verweise auf Kategorien, Produkte und Eigenschaften können in der Flow-Datei weggelassen werden. Beim Hochladen in ein Fremdsystem müssen diese fehlende Referenzen neu zugeordnet werden.",
+            "dataIncluded": "In dieser Datei enthaltene Daten",
+            "references": "In dieser Datei enthaltene Referenzen",
+            "isNotIncludedReferences": "Keine Referenzen enthalten",
+            "downloadButton": "Flow herunterladen",
+            "ruleLabel": "Regel: {ruleName}",
+            "mailTemplateLabel": "E-Mail-Vorlagen: {mail}"
         },
         "uploadModal": {
-            "title": "",
-            "description": "",
-            "uploadLabel": "",
-            "uploadFileLabel": "",
-            "rules": "",
-            "tags": "",
-            "emails": "",
-            "dataWillBeCreated": "",
-            "references": "",
-            "referencesNeedToAssign": "",
-            "ruleLabel": "",
-            "mailTemplateLabel": "",
+            "title": "Flow hochladen",
+            "description": "Dieser Flow enthält neue Regeln und E-Mail-Templates. Wähle die Regeln und E-Mail-Vorlagen aus, die in Deinem System erstellt werden sollen:",
+            "uploadLabel": "Wähle eine json-Datei aus, um ein Flow-Template hochzuladen.",
+            "uploadFileLabel": "Dateien hochladen",
+            "rules": "{rules} Regel | {rules} Regeln",
+            "tags": "{tags} Tag | {tags} Tags",
+            "emails": "{emails} E-Mail-Template | {emails} E-Mail-Templates",
+            "dataWillBeCreated": "wird erstellt, wenn Du diesen Flow hochlädst. | werden erstellt, wenn Du diesen Flow hochlädst.",
+            "references": "{references} Datenverweis | {references} Datenverweise",
+            "referencesNeedToAssign": "muss neu zugewiesen werden, wenn Du diesen Flow hochlädst. | müssen neu zugewiesen werden, wenn Du diesen Flow hochlädst.",
+            "ruleLabel": "Regel: {ruleName}",
+            "mailTemplateLabel": "E-Mail-Vorlagen: {mail}",
             "warningAlert": {
-                "description": "",
-                "shopwareVersionLabel": "",
-                "extensionsLabel": "",
-                "ruleConflictLabel": "",
-                "ruleConflictDescription": ""
+                "description": "Dein System ist aktuell nicht kompatibel mit dem hochgeladenen Flow.",
+                "shopwareVersionLabel": "Erforderliche Shopware-Version:",
+                "extensionsLabel": "Erforderliche Verlängerung:",
+                "ruleConflictLabel": "Regelkonflikte",
+                "ruleConflictDescription": "Die Flow-Datei “{flowFile}” enthält Regeln, die bereits in Deinem System vorhanden sind. Diese Regeln verwenden Bedingungen, die sich von den Bedingungen in Deinen lokalen Regeln unterscheiden. Welche Regeln möchtest Du verwenden?"
             },
-            "affectedRules": "",
-            "keepLocalRulesLabel": "",
-            "keepLocalRulesDescription": "",
-            "overrideLocalRulesLabel": "",
-            "overrideLocalRulesDescription": ""
+            "affectedRules": "Betroffene Regeln",
+            "keepLocalRulesLabel": "Lokale Regeln beibehalten",
+            "keepLocalRulesDescription": "Deine lokalen Regeln werden beibehalten, aber der hochgeladene Flow wird möglicherweise nicht wie vorgesehen funktionieren. Bitte überprüfe die betroffenen Regeln innerhalb des Flows.",
+            "overrideLocalRulesLabel": "Lokale Regeln überschreiben",
+            "overrideLocalRulesDescription": "Deine lokalen Regeln werden mit Regeln aus der Flow-Datei “{flowFile}” überschrieben. Bitte überprüfe die Zuweisungen aller betroffenen Regeln und ihre Bedingungen auf mögliche Änderungen."
         },
         "importError": {
-            "invalidActionHeading": "",
-            "invalidActionText": "",
-            "invalidRuleHeading": "",
-            "invalidRuleText": "",
-            "missingRuleText": "",
-            "textAssignCustomerGroup": "",
-            "textCustomerGroup": "",
-            "textMissingObject": "",
-            "description": "",
-            "confirmButton": ""
+            "invalidActionHeading": "Ungültige Aktion",
+            "invalidActionText": "Diese Aktion verweist auf Daten, die in Deinem System nicht gefunden werden konnten.",
+            "invalidRuleHeading": "Ungültige Regel",
+            "invalidRuleText": "Diese Regel verweist auf Daten, die in Deinem System nicht gefunden wurden.",
+            "missingRuleText": "Diese Regel konnte in Deinem System nicht gefunden werden.",
+            "textAssignCustomerGroup": "Bitte Kundengruppe neu zuweisen:",
+            "textCustomerGroup": "Kundengruppe:",
+            "textMissingObject": "Die folgenden Daten konnten in Deinem System nicht gefunden werden:",
+            "description": "Es existieren ungespeicherte Änderungen. Soll die Seite trotzdem verlassen werden?",
+            "confirmButton": "Seite verlassen"
         },
         "notification": {
-            "messageDownloadSuccess": "",
-            "messageDownloadError": ""
+            "messageDownloadSuccess": "Flow heruntergeladen.",
+            "messageDownloadError": "Flow konnte nicht heruntergeladen werden."
         }
     }
 }
