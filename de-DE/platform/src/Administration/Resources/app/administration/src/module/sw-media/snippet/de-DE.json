@@ -1,0 +1,109 @@
+{
+  "sw-media": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "descriptionTextModule": "",
+      "placeholderSearchBar": "",
+      "notification": {
+        "urlCopied": {
+          "message": ""
+        }
+      }
+    },
+    "sidebar": {
+      "labelHeadlineMultiple": "",
+      "labelNoMediaSelected": "",
+      "actions": {
+        "copyLink": "",
+        "delete": "",
+        "dissolve": "",
+        "download": "",
+        "move": "",
+        "replace": "",
+        "settings": ""
+      },
+      "sections": {
+        "actions": "",
+        "preview": "",
+        "metadata": "",
+        "usage": "",
+        "selectedFiles": ""
+      },
+      "infoMissingFile": {
+        "titleMissingFile": "",
+        "descriptionMissingFile": ""
+      },
+      "metadata": {
+        "name": "",
+        "fileType": "",
+        "altText": "",
+        "title": "",
+        "mimeType": "",
+        "fileSize": "",
+        "createdAt": "",
+        "width": "",
+        "height": "",
+        "totalSize": ""
+      },
+      "usage": {
+        "tooltipFoundInProducts": "",
+        "tooltipFoundInCategories": "",
+        "tooltipFoundInManufacturers": "",
+        "tooltipFoundInMailTemplate": "",
+        "tooltipFoundInDocument": "",
+        "tooltipFoundInUser": "",
+        "tooltipFoundInPayment": "",
+        "tooltipFoundShipping": "",
+        "tooltipFoundLayout": "",
+        "titleMediaNotUsed": "",
+        "labelMediaNotUsed": ""
+      }
+    },
+    "index": {
+      "buttonCreateFolder": "",
+      "rootFolderName": ""
+    },
+    "mediaLibrary": {
+      "labelButtonLoadMore": "",
+      "titleEmptyState": "",
+      "descriptionEmptyState": ""
+    },
+    "sorting": {
+      "labelSort": "",
+      "labelSortByNameAsc": "",
+      "labelSortByNameDsc": "",
+      "labelSortBySizeAsc": "",
+      "labelSortBySizeDsc": "",
+      "labelSortByCreatedAsc": "",
+      "labelSortByCreatedDsc": ""
+    },
+    "presentation": {
+      "labelPresentation": "",
+      "labelPresentationSmall": "",
+      "labelPresentationMedium": "",
+      "labelPresentationLarge": "",
+      "labelPresentationList": ""
+    },
+    "sw-media-modal": {
+      "titleModal": "",
+      "labelTabItemLibrary": "",
+      "labelTabItemUpload": "",
+      "labelButtonCancel": "",
+      "labelButtonSaveSelection": ""
+    },
+    "sw-media-modal-v2": {
+      "titleModal": "",
+      "labelTabItemLibrary": "",
+      "labelTabItemUpload": "",
+      "labelButtonCancel": "",
+      "labelButtonSaveSelection": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "media": {
+        "label": ""
+      }
+    }
+  }
+}
