@@ -1,16 +1,16 @@
 {
   "sw-inactivity-login": {
     "general": {
-      "mainMenuItemIndex": "",
-      "description": ""
+      "mainMenuItemIndex": "Sitzung abgelaufen",
+      "description": "Inaktivitäts-Anmeldung"
     },
     "modal": {
-      "title": "",
+      "title": "Um sicherzugehen, haben wir dich abgemeldet",
       "actions": {
-        "backToLogin": ""
+        "backToLogin": "Zurück zur Anmeldung"
       },
       "errors": {
-        "password": ""
+        "password": "Falsches Passwort"
       }
     }
   }
