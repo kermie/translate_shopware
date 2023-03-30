@@ -2,58 +2,58 @@
   "sw-privileges": {
     "permissions": {
       "warehouse": {
-        "label": ""
+        "label": "Lagerhäuser"
       }
     }
   },
   "sw-settings-warehouse": {
     "general": {
-      "title": "",
-      "subtitle": "",
-      "notificationGeneric": ""
+      "title": "Lagerhäuser",
+      "subtitle": "Lege Lagerhäuser an, um Deine verfügbaren Bestände zu verwalten.",
+      "notificationGeneric": "Ein Fehler ist aufgetreten."
     },
     "list": {
       "columnName": "",
-      "columnWarehouseGroups": "",
-      "actionDetail": "",
-      "actionDelete": "",
-      "actionCreate": "",
-      "actionCreateShort": "",
-      "textDeleteConfirm-1": "",
-      "textDeleteConfirm-2": "",
-      "textDeleteConfirm-3": "",
-      "buttonCancel": "",
-      "buttonDelete": "",
-      "whitespaceTitle": "",
-      "whitespaceSubTitle": "",
+      "columnWarehouseGroups": "Lagerhausgruppen",
+      "actionDetail": "Bearbeiten",
+      "actionDelete": "Löschen",
+      "actionCreate": "Neues Lagerhaus erstellen",
+      "actionCreateShort": "Lagerhaus erstellen",
+      "textDeleteConfirm-1": "Beim Löschen eines Lagers werden alle zugehörigen Bestände entfernt.",
+      "textDeleteConfirm-2": "Bist Du sicher, dass Du das Lager ",
+      "textDeleteConfirm-3": "zusammengeführt werden sollen?",
+      "buttonCancel": "Abbrechen",
+      "buttonDelete": "Löschen",
+      "whitespaceTitle": "Noch keine Lagerhäuser.",
+      "whitespaceSubTitle": "Lege Lagerhäuser an, um Deine verfügbaren Bestände zu verwalten.",
       "warehouseMessages": {
-        "noRuleAssignedMessageTitle": "",
-        "noRuleAssignedMessage": ""
+        "noRuleAssignedMessageTitle": "Lagerhausgruppen sind nicht funktionsfähig",
+        "noRuleAssignedMessage": "Die Konfiguration einiger Lagerhausgruppen wird ignoriert, weil keine Regel zugewiesen ist. Ohne eine Regel hat Deine Lagerhausgruppe keine Verantwortung und ist nicht funktionsfähig.<br>Weise eine Regel zu oder erstelle eine neue Regel über den Rule Builder, um Deinen Gruppen Verantwortung zu übertragen.<br>Betroffene Lagerhausgruppen: {warehouseGroups}"
       }
     },
     "detail": {
-      "title": "",
-      "titleCardMain": "",
-      "titleCardDelete": "",
-      "textDeleteWarehouseWarning": "",
-      "buttonSave": "",
-      "buttonDelete": "",
-      "buttonCancel": "",
-      "buttonDeleteModal": "",
-      "titleModalDelete": "",
-      "textDeleteConfirm-1": "",
-      "textDeleteConfirm-2": "",
-      "textDeleteConfirm-3": "",
-      "labelName": "",
-      "placeholderName": "",
-      "labelDescription": "",
-      "placeholderDescription": "",
-      "labelGroups": "",
-      "placeholderGroups": "",
-      "helpTextGroups": ""
+      "title": "Lagerhaus",
+      "titleCardMain": "Lagerhaus-Informationen",
+      "titleCardDelete": "Lagerhaus löschen",
+      "textDeleteWarehouseWarning": "Die Löschung dieses Lagerhauses kann nicht wieder rückgängig gemacht werden.",
+      "buttonSave": "Speichern",
+      "buttonDelete": "Lagerhaus löschen",
+      "buttonCancel": "Abbrechen",
+      "buttonDeleteModal": "Löschen",
+      "titleModalDelete": "Lagerhaus löschen",
+      "textDeleteConfirm-1": "Beim Löschen eines Lagers werden alle zugehörigen Bestände entfernt.",
+      "textDeleteConfirm-2": "Bist Du sicher, dass Du das Lager ",
+      "textDeleteConfirm-3": "zusammengeführt werden sollen?",
+      "labelName": "Lagerhaus Name",
+      "placeholderName": "Gib einen Namen ein...",
+      "labelDescription": "Interne Beschreibung",
+      "placeholderDescription": "Gib eine interne Beschreibung ein...",
+      "labelGroups": "Lagerhausgruppen",
+      "placeholderGroups": "Wähle Lagerhausgruppen aus...",
+      "helpTextGroups": "Verwende Gruppen, um Deine Lager zu organisieren, und weise Regeln zu, um die Lagerzuständigkeiten für Deine verschiedenen Geschäftsfälle zu verwalten."
     },
     "create": {
-      "title": ""
+      "title": "Neues Lagerhaus"
     }
   }
 }
