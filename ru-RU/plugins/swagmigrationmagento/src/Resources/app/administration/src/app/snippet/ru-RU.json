@@ -1,0 +1,65 @@
+{
+    "swag-migration": {
+        "index": {
+            "premappingCard": {
+                "group": {
+                    "customer_group": "",
+                    "language": "",
+                    "shipping_method": "",
+                    "tax": "",
+                    "country": "",
+                    "currency": ""
+                }
+            },
+            "selectDataCard": {
+                "entities": {
+                    "product_custom_field": "",
+                    "product_child_property_relation": "",
+                    "product_multi_select_property": "",
+                    "product_multi_select_text_property": "",
+                    "product_child_multi_select_property": "",
+                    "product_child_multi_select_text_property": "",
+                    "property_group": ""
+                }
+            }
+        },
+        "wizard": {
+            "pages": {
+                "connectionCreate": {
+                    "gateways": {
+                        "magentoLocal": ""
+                    }
+                },
+                "credentials": {
+                    "error": {
+                        "SWAG_MIGRATION_MAGENTO__NO_MAGENTO2_DATABASE": ""
+                    },
+                    "magento": {
+                        "local": {
+                            "contentInformation": "",
+                            "dbHostLabel": "",
+                            "dbHostPlaceholder": "",
+                            "dbPortLabel": "",
+                            "dbNameLabel": "",
+                            "dbNamePlaceholder": "",
+                            "dbUserLabel": "",
+                            "dbUserPlaceholder": "",
+                            "dbPasswordLabel": "",
+                            "dbPasswordPlaceholder": "",
+                            "installationRoot": "",
+                            "installationRootPlaceholder": "",
+                            "installationRootHelp": "",
+                            "shopUrl": "",
+                            "shopUrlActiveLabel": "",
+                            "shopUrlActiveHelp": "",
+                            "shopUrlPlaceholder": "",
+                            "shopUrlHelp": "",
+                            "tablePrefix": "",
+                            "tablePrefixPlaceholder": ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
