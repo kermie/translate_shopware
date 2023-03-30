@@ -1,0 +1,48 @@
+{
+    "SwagAmazonPay": {
+        "errors": {
+            "generic": "",
+            "insecure": "",
+            "invalidShippingMethod": "",
+            "finalize": "",
+            "loginWithAmazon": "",
+            "signupTokenInvalid": "",
+            "signupEmailNotUnique": "",
+            "accountAlreadyLinked": ""
+        },
+        "cookie": {
+            "value": {
+                "name": ""
+            }
+        },
+        "confirm": {
+            "payment": {
+                "changeAmazonPaymentMethod": ""
+            }
+        },
+        "register": {
+            "headline": "",
+            "text": ""
+        },
+        "account": {
+            "profile": {
+                "unlink": {
+                    "headline": "",
+                    "subText": "",
+                    "button": "",
+                    "modal": {
+                        "text": ""
+                    }
+                },
+                "link": {
+                    "headline": "",
+                    "subText": "",
+                    "success": ""
+                }
+            }
+        },
+        "purePaymentRedirect": {
+            "text": ""
+        }
+    }
+}
