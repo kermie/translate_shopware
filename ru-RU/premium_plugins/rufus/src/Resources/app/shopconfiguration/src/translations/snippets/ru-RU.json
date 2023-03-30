@@ -1,0 +1,23 @@
+{
+    "shop-configuration": {
+        "headline": {
+            "setup": ""
+        },
+        "main-view": {
+            "heading": ""
+        },
+        "form": {
+            "paragraph-information": "",
+            "label-language": "",
+            "label-currency": "",
+            "paragraph-change-notification": "",
+            "label-button-save": "",
+            "info-save-finished": ""
+        },
+        "finished": {
+            "heading": "",
+            "phrase": "",
+            "label-button-open": ""
+        }
+    }
+}
