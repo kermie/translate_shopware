@@ -1,0 +1,128 @@
+{
+  "sw-settings-country": {
+    "page": {
+      "generalTab": "",
+      "stateTab": "",
+      "addressHandlingTab": ""
+    },
+    "general": {
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": "",
+      "actions": {
+        "newSnippet": "",
+        "createBefore": "",
+        "createAfter": "",
+        "moveTop": "",
+        "moveBottom": ""
+      }
+    },
+    "list": {
+      "textHeadline": "",
+      "textDeleteConfirm": "",
+      "columnName": "",
+      "columnPosition": "",
+      "columnIso": "",
+      "columnIso3": "",
+      "columnActive": "",
+      "buttonAddCountry": "",
+      "contextMenuEdit": "",
+      "contextMenuDelete": "",
+      "messageDeleteSuccess": "",
+      "buttonCancel": "",
+      "buttonDelete": ""
+    },
+    "detail": {
+      "textHeadline": "",
+      "titleCard": "",
+      "messageSaveSuccess": "",
+      "messageSaveError": "",
+      "labelName": "",
+      "labelPosition": "",
+      "labelIso": "",
+      "labelIso3": "",
+      "labelActive": "",
+      "labelShippingAvailable": "",
+      "labelTaxFree": "",
+      "labelCompanyTaxFree": "",
+      "helpTextCompanyTaxFree": "",
+      "labelCheckVatIdFormat": "",
+      "helpTextCheckVatIdFormat": "",
+      "labelForceStateInRegistration": "",
+      "placeholderName": "",
+      "placeholderPosition": "",
+      "placeholderStateSearch": "",
+      "placeholderIso": "",
+      "placeholderIso3": "",
+      "buttonCancel": "",
+      "buttonSave": "",
+      "buttonAddCountryState": "",
+      "editAction": "",
+      "columnStateNameLabel": "",
+      "columnStateShortCodeLabel": "",
+      "taxFreeFrom": "",
+      "baseCurrency": "",
+      "taxFreeFromHelpText": "",
+      "labelVatIdRequired": "",
+      "helpTextLabelVatIdRequired": "",
+      "titleOptions": "",
+      "currencyDependentValues": "",
+      "labelPostalCodeRequired": "",
+      "labelCheckPostalCodePattern": "",
+      "labelCheckAdvancedPostalCodePattern": "",
+      "placeholderAdvancedPostalCodePattern": "",
+      "helpTextAdvancedPostalCodePattern": "",
+      "labelCheckDefaultAddressFormat": "",
+      "labelAddressFormatPlain": "",
+      "titleFormatting": "",
+      "helpTextCheckPostalCodePattern": "",
+      "previewTitle": "",
+      "labelCustomer": "",
+      "placeholderSelectCustomer": "",
+      "buttonResetMarkup": "",
+      "newSnippetModalTitle": "",
+      "buttonInsertSnippet": "",
+      "placeholderSearchSnippet": ""
+    }
+  },
+  "sw-country-state-detail": {
+    "titleNew": "",
+    "titleEdit": "",
+    "buttonSave": "",
+    "buttonCancel": "",
+    "labelName": "",
+    "labelPosition": "",
+    "labelShortCode": "",
+    "tooltipPosition": "",
+    "createNewStateError": "",
+    "emptyTitle": "",
+    "emptySubline": ""
+  },
+  "sw-privileges": {
+    "permissions": {
+      "country": {
+        "label": ""
+      }
+    }
+  },
+  "sw-custom-snippet": {
+    "address": {
+      "countryState": "",
+      "salutation": "",
+      "country": "",
+      "zipcode": "",
+      "lastName": "",
+      "firstName": "",
+      "street": "",
+      "city": "",
+      "company": "",
+      "phoneNumber": "",
+      "department": "",
+      "title": ""
+    },
+    "symbol": {
+      "tilde": "",
+      "dash": "",
+      "comma": ""
+    }
+  }
+}
