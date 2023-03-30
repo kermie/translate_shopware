@@ -1,0 +1,57 @@
+{
+  "sw-review": {
+    "general": {
+      "mainMenuItemList": "",
+      "mainMenuItemGeneral": "",
+      "placeholderSearchBar": "",
+      "descriptionTextModule": ""
+    },
+    "list": {
+      "textReviewOverview": "",
+      "columnProduct": "",
+      "columnPoints": "",
+      "columnUser": "",
+      "columnStatus": "",
+      "columnCreatedAt": "",
+      "columnComment": "",
+      "columnTitle": "",
+      "placeholderSearchBar": "",
+      "messageEmpty": "",
+      "messageEmptySubline": "",
+      "titleSidebarItemRefresh": ""
+    },
+    "detail": {
+      "textHeadline": "",
+      "cardTitleReviewInfo": "",
+      "cardTitleReviewProperties": "",
+      "labelTitle": "",
+      "labelPoints": "",
+      "labelUser": "",
+      "labelSalesChannel": "",
+      "labelCreatedAt": "",
+      "labelProduct": "",
+      "labelEmail": "",
+      "labelLanguage": "",
+      "labelPositive": "",
+      "labelNegative": "",
+      "labelStatus": "",
+      "labelContent": "",
+      "labelComment": "",
+      "labelCustomer": "",
+      "titleCardComment": "",
+      "placeholderComment": "",
+      "review1PointRatingText": "",
+      "review2PointRatingText": "",
+      "review3PointRatingText": "",
+      "review4PointRatingText": "",
+      "review5PointRatingText": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "review": {
+        "label": ""
+      }
+    }
+  }
+}
