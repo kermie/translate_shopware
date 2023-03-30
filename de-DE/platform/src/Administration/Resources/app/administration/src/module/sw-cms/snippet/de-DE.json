@@ -1,387 +1,387 @@
 {
   "sw-cms": {
     "general": {
-      "placeholderSearchBar": "",
-      "mainMenuItemGeneral": "",
-      "moduleTitle": "",
+      "placeholderSearchBar": "Layouts durchsuchen ...",
+      "mainMenuItemGeneral": "Erlebniswelten",
+      "moduleTitle": "Erlebniswelten",
       "greeting": "",
-      "createNewLayout": "",
-      "deleteDisabledToolTip": "",
-      "deleteDisabledProductToolTip": "",
-      "disabledAddingBlocksToolTip": "",
-      "buttonDelete": ""
+      "createNewLayout": "Neues Layout anlegen",
+      "deleteDisabledToolTip": "Das Layout ist noch mindestens einer Kategorie zugewiesen.",
+      "deleteDisabledProductToolTip": "Das Layout ist noch mindestens einem Produkt zugewiesen.",
+      "disabledAddingBlocksToolTip": "Blöcke können nur in der System-Standardsprache hinzugefügt werden.",
+      "buttonDelete": "Löschen"
     },
     "sorting": {
-      "labelSort": "",
-      "labelSortByNameAsc": "",
-      "labelSortByNameDesc": "",
-      "labelSortByCreatedAsc": "",
-      "labelSortByCreatedDsc": "",
-      "labelSortByUpdatedAsc": "",
-      "labelSortByUpdatedDsc": "",
-      "labelSortByAllPages": ""
+      "labelSort": "Sortiere nach:",
+      "labelSortByNameAsc": "Name, aufsteigend",
+      "labelSortByNameDesc": "Name, absteigend",
+      "labelSortByCreatedAsc": "Erstelldatum, aufsteigend",
+      "labelSortByCreatedDsc": "Erstelldatum, absteigend",
+      "labelSortByUpdatedAsc": "Bearbeitungsdatum, aufsteigend",
+      "labelSortByUpdatedDsc": "Bearbeitungsdatum, absteigend",
+      "labelSortByAllPages": "Alle Typen"
     },
     "list": {
       "gridHeaderName": "",
-      "gridHeaderType": "",
-      "gridHeaderAssignment": "",
-      "gridHeaderAssignments": "",
-      "gridHeaderCreated": "",
-      "gridHeaderUpdated": ""
+      "gridHeaderType": "Typ",
+      "gridHeaderAssignment": "Zugewiesene Kategorien",
+      "gridHeaderAssignments": "Zuweisungen",
+      "gridHeaderCreated": "Erstellt",
+      "gridHeaderUpdated": "Bearbeitungsdatum"
     },
     "section": {
-      "fallBackSectionName": "",
-      "positionLeft": "",
-      "positionRight": "",
-      "fullWidth": "",
+      "fallBackSectionName": "Bereich",
+      "positionLeft": "Inhalt, links",
+      "positionRight": "Inhalt, rechts",
+      "fullWidth": "Volle Breite",
       "sidebar": "",
-      "layoutSection": "",
-      "isSidebar": "",
-      "isDefault": "",
-      "sectionEmptyState": ""
+      "layoutSection": "Layout-Sektion",
+      "isSidebar": "Layout-Sektion - Sidebar",
+      "isDefault": "Layout-Sektion - Standard",
+      "sectionEmptyState": "Diese Sektion ist leer. Füge Blöcke und Elemente hinzu."
     },
     "sidebar": {
       "contentMenu": {
-        "moveUp": "",
-        "moveDown": "",
-        "generalSettings": "",
-        "settings": "",
+        "moveUp": "Nach oben",
+        "moveDown": "Nach unten",
+        "generalSettings": "Allgemein",
+        "settings": "Einstellungen",
         "layoutSettings": "",
-        "visibilitySettings": "",
-        "visibilityMobile": "",
+        "visibilitySettings": "Sichtbarkeit",
+        "visibilityMobile": "Mobil",
         "visibilityTablet": "",
         "visibilityDesktop": "",
-        "visibilityBlockTextButton": "",
-        "visibilitySectionTextButton": "",
-        "visibilityLabelCheckboxGroup": ""
+        "visibilityBlockTextButton": "Block einklappen | Block ausklappen",
+        "visibilitySectionTextButton": "Sektion einklappen | Sektion ausklappen",
+        "visibilityLabelCheckboxGroup": "Anzeigegeräte"
       },
       "layoutAssignment": {
-        "headline": "",
-        "infoText": "",
-        "actionAssignLayout": ""
+        "headline": "Verwalte wo dieses Layout zu sehen ist",
+        "infoText": "Du kannst Layouts für unterschiedliche Kategorien in Deinem Shop verwenden. Hier kannst Du einsehen, in welchen Kategorien dieses Layout bereits eingesetzt wird, oder es anderen Kategorien zuweisen.",
+        "actionAssignLayout": "Layout-Zuweisung fehlgeschlagen"
       },
       "layoutSetAsDefault": {
-        "headline": "",
-        "actionSetAsDefaultLayout": ""
+        "headline": "Standardlayouts",
+        "actionSetAsDefaultLayout": "Als Standardlayout verwenden"
       }
     },
     "create": {
       "notification": {
-        "assignToEntityError": ""
+        "assignToEntityError": "Layout-Zuweisung fehlgeschlagen"
       }
     },
     "createWizard": {
-      "choosePageTypeTitle": "",
-      "choosePageTypeHelpText": "",
-      "chooseSectionTitle": "",
-      "chooseSectionHelpText": "",
-      "chooseNameTitle": "",
-      "createLayout": "",
-      "abortCreation": "",
-      "stepBack": ""
+      "choosePageTypeTitle": "Was für eine Seite möchtest Du gestalten?",
+      "choosePageTypeHelpText": "Die verschiedenen Layout-Typen helfen Dir, Dein Layout in der Administration schneller wiederzufinden. Du kannst den Layout-Typ jederzeit in den Layout-Einstellungen ändern, falls Du Dich umentscheidest.",
+      "chooseSectionTitle": "Mit welcher Sektion möchtest Du starten?",
+      "chooseSectionHelpText": "Sektionen teilen Deine Arbeitsbühne in Bereiche, in denen Du kreativ sein kannst. Du kannst Sektionen miteinander kombinieren und jederzeit wieder entfernen oder verschieben.",
+      "chooseNameTitle": "Wie soll Dein Layout heißen?",
+      "createLayout": "Layout erstellen",
+      "abortCreation": "Abbrechen",
+      "stepBack": "Zurück"
     },
     "detail": {
       "alert": {
-        "titleTranslations": "",
-        "contentTranslations": ""
+        "titleTranslations": "Übersetzungen zurzeit nicht verfügbar!",
+        "contentTranslations": "Ein Layout kann aktuell nur in der Systemstandardsprache bearbeitet werden."
       },
       "helpText": {
-        "cssClassField": ""
+        "cssClassField": "Du kannst eine oder mehrere, mit Leerzeichen getrennte, CSS-Klassen hinzufügen"
       },
       "label": {
-        "buttonSave": "",
-        "pageName": "",
-        "pageNamePlaceholder": "",
-        "pageEntity": "",
-        "pageEntityPlaceholder": "",
-        "pageCssClass": "",
-        "pageTypeSelection": "",
+        "buttonSave": "Speichern",
+        "pageName": "Layout-Name",
+        "pageNamePlaceholder": "Layout-Namen eingeben ...",
+        "pageEntity": "Individuelle Entität",
+        "pageEntityPlaceholder": "Individuelle Entität auswählen ...",
+        "pageCssClass": "CSS-Klassen",
+        "pageTypeSelection": "Layout-Typ",
         "pageType": {
-          "landingpage": "",
-          "page": "",
-          "productList": "",
-          "productDetail": "",
-          "customEntityDetail": "",
-          "customEntityList": ""
+          "landingpage": "Landingpage",
+          "page": "Shopseite",
+          "productList": "Kategorieseite",
+          "productDetail": "Produktseite",
+          "customEntityDetail": "Content-Detailseite",
+          "customEntityList": "Content-Liste"
         },
-        "demoEntity": "",
-        "blockCategorySelection": "",
-        "blockCategoryFavorite": "",
+        "demoEntity": "Vorschau-Datensatz",
+        "blockCategorySelection": "Block-Kategorie",
+        "blockCategoryFavorite": "Favoriten",
         "blockCategoryText": "",
-        "blockCategoryTextImage": "",
+        "blockCategoryTextImage": "Text & Bild",
         "blockCategorySidebar": "",
-        "blockCategoryImage": "",
+        "blockCategoryImage": "Bilder",
         "blockCategoryCommerce": "",
         "blockCategoryVideo": "",
-        "blockCategoryForm": "",
-        "buttonElementSettingsConfirm": "",
-        "buttonElementChangeAbort": "",
-        "blockNameField": "",
-        "blockNameFieldPlaceholder": "",
-        "blockSizingField": "",
-        "blockSizingOptionBoxed": "",
-        "blockSizingOptionFull": "",
-        "backgroundColorField": "",
-        "backgroundColorLabel": "",
-        "backgroundMediaField": "",
-        "backgroundMediaLabel": "",
-        "backgroundMediaMode": "",
-        "backgroundMediaModeContain": "",
-        "backgroundMediaModeCover": "",
+        "blockCategoryForm": "Formular",
+        "buttonElementSettingsConfirm": "Fertig",
+        "buttonElementChangeAbort": "Abbrechen",
+        "blockNameField": "Block-Name",
+        "blockNameFieldPlaceholder": "Namen eingeben ...",
+        "blockSizingField": "Größenmodus",
+        "blockSizingOptionBoxed": "Zentrierter Inhalt",
+        "blockSizingOptionFull": "Volle Breite",
+        "backgroundColorField": "Farbe",
+        "backgroundColorLabel": "Hintergrundfarbe",
+        "backgroundMediaField": "Bild",
+        "backgroundMediaLabel": "Hintergrundbild",
+        "backgroundMediaMode": "Bildmodus",
+        "backgroundMediaModeContain": "Beinhalten",
+        "backgroundMediaModeCover": "Füllen",
         "backgroundMediaModeAuto": "",
-        "sizingField": "",
-        "cssClassField": "",
-        "sectionNameField": "",
-        "blockTopMarginField": "",
-        "blockRightMarginField": "",
-        "blockBottomMarginField": "",
-        "blockLeftMarginField": "",
-        "sizingOptionBoxed": "",
-        "sizingOptionFull": "",
-        "buttonMappingAction": "",
-        "buttonMappingRemoveAction": "",
-        "mappingPreview": "",
-        "mappingEmptyPreview": "",
-        "addBlocks": "",
+        "sizingField": "Größenmodus",
+        "cssClassField": "CSS-Klassen",
+        "sectionNameField": "Sektionsname",
+        "blockTopMarginField": "Oberer Abstand",
+        "blockRightMarginField": "Rechter Abstand",
+        "blockBottomMarginField": "Unterer Abstand",
+        "blockLeftMarginField": "Linker Abstand",
+        "sizingOptionBoxed": "Zentrierter Inhalt",
+        "sizingOptionFull": "Volle Breite",
+        "buttonMappingAction": "Datenzuordnung",
+        "buttonMappingRemoveAction": "Datenzuordnung entfernen",
+        "mappingPreview": "Datenzuordnung:",
+        "mappingEmptyPreview": "Für diese Datenzuordnung liegen leider keine Vorschaudaten vor.",
+        "addBlocks": "Füge Blöcke per Drag & Drop hinzu",
         "labelNavigation": "",
-        "lockedNotification": "",
-        "headlineEmptyState": "",
-        "claimEmptyState": "",
-        "defaultLayout": "",
-        "blockFavoriteEmptyState": "",
-        "visibilityParagraph": ""
+        "lockedNotification": "Dieses Layout ist gesperrt und kann nicht angepasst werden. Solltest Du dieses Standard-Template, an Deine eigenen Bedürfnisse anpassen möchtest, kannst du es einfach duplizieren und dann das Duplikat anpassen.",
+        "headlineEmptyState": "Raum für Kreativität",
+        "claimEmptyState": "Stelle neue Layouts mithilfe von Sektionen zusammen. Wähle eine Sektion und füge einfach per Drag-&-Drop-Blöcke zu jeder Sektion hinzu und befülle die Blöcke dann mit Deinem individuellen Inhalt.",
+        "defaultLayout": "Standardlayout",
+        "blockFavoriteEmptyState": "Klicke auf das Herz in einem Block, um ihn als Favorit zu markieren und finde ihn hier wieder.",
+        "visibilityParagraph": "Auf ausgewählten Geräten unsichtbar"
       },
       "notification": {
-        "pageInvalid": "",
-        "errorCollectionText": "",
-        "warningCollectionText": "",
-        "messageMissingFields": "",
-        "messageMissingBlockFields": "",
-        "messageMissingProductListing": "",
-        "messageMissingSections": "",
-        "messageRedundantElements": "",
-        "messageMissingBlocks": "",
-        "messageMissingElements": ""
+        "pageInvalid": "Einige Fehler sind aufgetreten. Bitte überprüfe die Liste im Editor.",
+        "errorCollectionText": "Aufgrund folgender Fehler konnte nicht gespeichert werden:",
+        "warningCollectionText": "In diesem Layout fehlen folgende, empfohlene Elemente:",
+        "messageMissingFields": "Einige erforderliche Felder wurden nicht ausgefüllt.",
+        "messageMissingBlockFields": "Einige Blöcke wurden nicht ausreichend konfiguriert.",
+        "messageMissingProductListing": "Diese Kategorieseite enthält keinen Produktlisting-Block.",
+        "messageMissingSections": "Dieses Layout enthält keine Sektionen.",
+        "messageRedundantElements": "Es exitieren Blöcke, die nur einmal vorhanden sein dürfen. ({names})",
+        "messageMissingBlocks": "Du kannst keine leere Seite speichern. Bitte füge zuerst einen Block hinzu.",
+        "messageMissingElements": "Konfiguration erforderlich. Bitte konfiguriere alle Elemente Deines Layouts."
       },
       "placeholder": {
-        "demoEntity": ""
+        "demoEntity": "Wähle einen Datensatz zur Vorschau ..."
       },
       "sidebar": {
-        "titlePageSettings": "",
-        "headerPageSettings": "",
-        "titleBlockOverview": "",
-        "titleBlockSettings": "",
+        "titlePageSettings": "Einstellungen",
+        "headerPageSettings": "Basis-Informationen",
+        "titleBlockOverview": "Blöcke",
+        "titleBlockSettings": "Block-Einstellungen",
         "headerBlockSettings": "",
         "titleNavigator": "",
-        "titleSectionSettings": "",
-        "titleLayoutAssignment": "",
-        "confirmTextNavigator": "",
-        "confirmReminderNavigator": "",
-        "mobile": "",
-        "mobileOptionHidden": "",
-        "mobileOptionWrap": ""
+        "titleSectionSettings": "Sektion-Einstellungen",
+        "titleLayoutAssignment": "Layout-Zuweisung",
+        "confirmTextNavigator": "Beim Betreten des Block-Navigators wird die aktuelle Seite gespeichert werden. Möchtest Du wirklich fortfahren?",
+        "confirmReminderNavigator": "Mich nicht erneut fragen",
+        "mobile": "Mobiles Sidebar-Verhalten",
+        "mobileOptionHidden": "Nicht angezeigt",
+        "mobileOptionWrap": "Umbrechen"
       },
       "title": {
-        "elementSettingsModal": "",
-        "elementChangeModal": "",
-        "blockFavoriteEmptyState": ""
+        "elementSettingsModal": "Element-Einstellungen",
+        "elementChangeModal": "Element austauschen",
+        "blockFavoriteEmptyState": "Noch keine Favoriten"
       },
       "tooltip": {
-        "blockNameField": "",
-        "sectionNameField": "",
-        "cannotSelectProductPageLayout": ""
+        "blockNameField": "Benenne jeden Block individuell und eindeutig, um einen guten Überblick über Deine Arbeit zu behalten.",
+        "sectionNameField": "Benenne jede Sektion individuell und eindeutig, um einen guten Überblick über Deine Arbeit zu erhalten.",
+        "cannotSelectProductPageLayout": "Du kannst den Layout-Typ einer Produktseite nicht ändern."
       }
     },
     "elements": {
       "general": {
         "config": {
           "caption": {
-            "mediaUpload": ""
+            "mediaUpload": "Lade ein Bild hoch"
           },
           "label": {
-            "verticalAlign": "",
-            "alignment": "",
-            "verticalAlignTop": "",
-            "verticalAlignCenter": "",
-            "verticalAlignBottom": "",
-            "displayMode": "",
+            "verticalAlign": "Vertikale Ausrichtung",
+            "alignment": "Ausrichtung",
+            "verticalAlignTop": "Oben",
+            "verticalAlignCenter": "Mitte",
+            "verticalAlignBottom": "Unten",
+            "displayMode": "Anzeigemodus",
             "displayModeStandard": "",
-            "displayModeCover": "",
-            "displayModeStretch": "",
-            "displayModeContain": "",
-            "autoSlide": "",
-            "autoplayTimeout": "",
-            "speed": ""
+            "displayModeCover": "Füllen",
+            "displayModeStretch": "Strecken",
+            "displayModeContain": "Beinhalten",
+            "autoSlide": "Automatischer Wechsel",
+            "autoplayTimeout": "Verzögerung",
+            "speed": "Animationsverzögerung"
           },
           "helpText": {
-            "autoSlide": "",
-            "autoplayTimeout": "",
-            "speed": ""
+            "autoSlide": "Der Bilderwechsel erfolgt automatisch nach den hier gemachten Vorgaben.",
+            "autoplayTimeout": "Die Anzeigezeit eines einzelnen Bildes in Millisekunden.",
+            "speed": "Die Dauer der Wechselanimation in  Millisekunden."
           },
           "tab": {
-            "content": "",
-            "settings": "",
-            "options": ""
+            "content": "Inhalte",
+            "settings": "Einstellungen",
+            "options": "Optionen"
           },
           "infoText": {
-            "listingElement": ""
+            "listingElement": "Die Produktdaten für dieses Element werden automatisiert über die Kategoriezuweisung befüllt. Der Inhalt zeigt nur eine ungefähre Vorschau."
           }
         },
         "switch": {
           "groups": {
-            "all": "",
-            "favorites": ""
+            "all": "Alle Elemente",
+            "favorites": "Favorisierte Elemente"
           }
         }
       },
       "image": {
-        "label": "",
+        "label": "Bild",
         "config": {
           "label": {
-            "minHeight": "",
-            "minHeightHelpText": "",
-            "linkNewTab": ""
+            "minHeight": "Minimale Höhe",
+            "minHeightHelpText": "Gib die Mindesthöhe in der gewünschten Einheit an. Zum Beispiel: 200px",
+            "linkNewTab": "Link in neuem Tab öffnen"
           },
           "placeholder": {
-            "enterMinHeight": "",
-            "enterUrl": ""
+            "enterMinHeight": "Minimale Höhe eingeben ...",
+            "enterUrl": "URL eingeben ..."
           }
         }
       },
       "imageGallery": {
-        "label": "",
+        "label": "Galerie",
         "config": {
           "label": {
-            "navigationPreview": "",
-            "navigationPreviewPositionLeft": "",
-            "navigationPreviewPositionUnderneath": "",
+            "navigationPreview": "Vorschau Navigation",
+            "navigationPreviewPositionLeft": "Links",
+            "navigationPreviewPositionUnderneath": "Darunter",
             "zoom": "",
-            "fullscreen": "",
-            "keepAspectRatioOnZoom": "",
-            "magnifierOverGallery": "",
-            "magnifierOverGalleryHelpText": ""
+            "fullscreen": "Vollbild-Galerie",
+            "keepAspectRatioOnZoom": "Seitenverhältnis beim Zoomen beibehalten",
+            "magnifierOverGallery": "Lupe über Galerie anzeigen",
+            "magnifierOverGalleryHelpText": "Zeige die Lupe über der Galerie, anstatt daneben an."
           }
         }
       },
       "imageSlider": {
-        "label": "",
+        "label": "Bild-Slider",
         "config": {
           "label": {
-            "navigationArrows": "",
-            "navigationPositionNone": "",
-            "navigationPositionInside": "",
-            "navigationPositionOutside": "",
-            "navigationDots": ""
+            "navigationArrows": "Pfeile-Navigation",
+            "navigationPositionNone": "Keiner",
+            "navigationPositionInside": "Innen",
+            "navigationPositionOutside": "Außen",
+            "navigationDots": "Punkte-Navigation"
           }
         }
       },
       "productBox": {
-        "label": "",
+        "label": "Produkt-Box",
         "component": {
           "label": {
-            "actionBuy": "",
+            "actionBuy": "In den Warenkorb",
             "badgeTopseller": "",
-            "badgeNew": "",
-            "priceUnitContent": ""
+            "badgeNew": "Neu",
+            "priceUnitContent": "Inhalt:"
           }
         },
         "config": {
           "label": {
-            "selection": "",
-            "layoutType": "",
+            "selection": "Produkt",
+            "layoutType": "Layout-Typ",
             "layoutTypeStandard": "",
-            "layoutTypeImage": "",
-            "layoutTypeMinimal": ""
+            "layoutTypeImage": "Großes Bild",
+            "layoutTypeMinimal": "Minimaler Inhalt"
           },
           "placeholder": {
-            "selection": ""
+            "selection": "Produkt auswählen ..."
           }
         }
       },
       "productListing": {
-        "label": "",
+        "label": "Produkt-Listing",
         "config": {
           "tab": {
-            "sorting": "",
+            "sorting": "Sortierung",
             "filter": ""
           },
           "sorting": {
-            "labelShowSorting": "",
-            "labelUseCustomSortings": "",
-            "labelDefaultSorting": "",
-            "labelProductSortings": "",
-            "placeHolderProductSortings": "",
-            "helpTextUseCustomSortings": "",
-            "helpTextDefaultSorting": "",
+            "labelShowSorting": "Produkt-Sortierung anzeigen",
+            "labelUseCustomSortings": "Eigene Sortierungen verwenden",
+            "labelDefaultSorting": "Standard-Sortierung",
+            "labelProductSortings": "Produkt-Sortierungen",
+            "placeHolderProductSortings": "Produkt-Sortierungen hinzufügen oder entfernen",
+            "helpTextUseCustomSortings": "Sortier-Optionen kannst Du für dieses Produkt-Listing definieren. Aktiviere diese Option um die Sortier-Option für dieses Listing individuell anzupassen.",
+            "helpTextDefaultSorting": "Die Standard Sortierung für das Listing, wenn keine andere Sortierung angegeben ist.",
             "gridHeaderName": "",
-            "gridHeaderFields": "",
-            "gridHeaderPriority": "",
+            "gridHeaderFields": "Kriterien",
+            "gridHeaderPriority": "Priorität",
             "deleteModal": {
-              "heading": "",
-              "body": ""
+              "heading": "\"{productSortingName}\" entfernen.",
+              "body": "Willst du wirklich die Sortier-Option \"{productSortingName}\" entfernen?"
             },
-            "defaultSortingInUse": "",
-            "defaultSortingCantBeDisabled": ""
+            "defaultSortingInUse": "Diese Produkt-Sortierung ist bereits als Standardsortierung ausgewählt.",
+            "defaultSortingCantBeDisabled": "Diese Product-Sortierung ist die Standardsortierung. Sie muss aktiviert bleiben, um keine Probleme mit Deinen Produkt-Listings zu verursachen."
           },
           "filter": {
-            "infoText": "",
-            "labelFilterByManufacturer": "",
-            "labelFilterByRating": "",
-            "labelFilterByPrice": "",
-            "labelFilterForFreeShipping": "",
-            "labelUseFilterByProperties": "",
-            "helpTextUseFilterByProperties": "",
-            "descriptionTextUseFilterByProperties": "",
+            "infoText": "Stelle sicher, dass ein Filter Block zu Deinem Layout hinzugefügt ist, um diese Einstellung in Aktion zu sehen.",
+            "labelFilterByManufacturer": "Nach Hersteller filtern",
+            "labelFilterByRating": "Nach Bewertung filtern",
+            "labelFilterByPrice": "Nach Preis filtern",
+            "labelFilterForFreeShipping": "Nach kostenlosem Versand filtern",
+            "labelUseFilterByProperties": "Filterbare Produkteigenschaften konfigurieren",
+            "helpTextUseFilterByProperties": "Wenn deaktiviert, werden in diesem Layout Filter für alle vorhandenen Eigenschaften angezeigt.",
+            "descriptionTextUseFilterByProperties": "Eigenschaften, die auf nicht filterbar eingestellt sind, werden hier nicht angezeigt. Du kannst dies im <a href=\"#/sw/property/index\" target=\"_blank\">Eigenschaftsmodul</a> ändern.",
             "gridHeaderStatus": "",
             "gridHeaderName": "",
-            "gridEmptyStateLabel": "",
-            "gridEmptyStateHint": ""
+            "gridEmptyStateLabel": "Keine Eigenschaften gefunden.",
+            "gridEmptyStateHint": "Versuche es mit einem anderen Suchbegriff"
           }
         }
       },
       "productSlider": {
-        "label": "",
+        "label": "Produkt-Slider",
         "config": {
           "label": {
-            "title": "",
-            "selection": "",
+            "title": "Slider-Titel",
+            "selection": "Produkte",
             "navigation": "",
-            "rotate": "",
-            "border": "",
-            "minWidth": "",
-            "productAssignmentType": "",
-            "productStreamSorting": "",
-            "productStreamLimit": "",
-            "productStreamChoice": ""
+            "rotate": "Automatischer Wechsel",
+            "border": "Rahmen",
+            "minWidth": "Minimale Weite",
+            "productAssignmentType": "Produkt-Zuweisung",
+            "productStreamSorting": "Sortierung",
+            "productStreamLimit": "Maximale Produktanzahl",
+            "productStreamChoice": "Dynamische Produktgruppe"
           },
           "placeholder": {
-            "title": "",
-            "selection": "",
-            "minWidth": "",
-            "productStreamChoice": "",
-            "productStreamSorting": ""
+            "title": "Slider-Titel",
+            "selection": "Produkte auswählen",
+            "minWidth": "Minimale Weite",
+            "productStreamChoice": "Wähle eine dynamische Produktgruppe...",
+            "productStreamSorting": "Wähle eine Sortierung..."
           },
           "productAssignmentTypeOptions": {
-            "manual": "",
-            "productStream": ""
+            "manual": "Manuelle Zuweisung",
+            "productStream": "Dynamische Produktgruppe"
           },
           "productStreamSortingOptions": {
-            "nameAsc": "",
-            "nameDesc": "",
-            "priceAsc": "",
-            "priceDesc": "",
-            "creationDateAsc": "",
-            "creationDateDesc": "",
-            "random": ""
+            "nameAsc": "Name aufsteigend",
+            "nameDesc": "Name absteigend",
+            "priceAsc": "Price aufsteigend",
+            "priceDesc": "Price absteigend",
+            "creationDateAsc": "Erstellungsdatum aufsteigend",
+            "creationDateDesc": "Erstellungsdatum absteigend",
+            "random": "Zufällig"
           },
-          "textProductStreamPreviewLink": "",
-          "textProductStreamPerformanceHint": ""
+          "textProductStreamPreviewLink": "Vorschau dynamische Produktgruppe",
+          "textProductStreamPerformanceHint": "Bitte beachten: Dynamische Produktgruppen können einen spürbaren Einfluss auf die Performance haben, abhängig von der Komplexität der Produktgruppen-Filter und der Anzahl der Slider-Elemente auf der Seite."
         }
       },
       "sidebarCategoryNavigation": {
-        "label": "",
+        "label": "Kategorie-Navigation",
         "infoText": {
-          "navigationElement": ""
+          "navigationElement": "Die Produktdaten für dieses Element werden automatisch über die Kategoriezuweisungen befüllt. Der Inhalt zeigt nur eine ungefähre Vorschau."
         },
         "component": {
           "label": {
@@ -395,9 +395,9 @@
         }
       },
       "sidebarFilter": {
-        "label": "",
+        "label": "Produkt-Filter",
         "infoText": {
-          "filterElement": ""
+          "filterElement": "Die angezeigten Filter können über das Listingelement konfiguriert werden."
         }
       },
       "text": {
@@ -409,65 +409,65 @@
         }
       },
       "vimeoVideo": {
-        "label": "",
+        "label": "Vimeo-Video",
         "config": {
           "label": {
-            "videoId": "",
-            "autoPlay": "",
-            "loop": "",
-            "showControls": "",
-            "controlsColor": "",
-            "byLine": "",
-            "showPortrait": "",
-            "showTitle": "",
-            "advancedPrivacy": "",
-            "start": "",
-            "end": "",
-            "needsConfirmation": "",
-            "previewImage": ""
+            "videoId": "Video-Link",
+            "autoPlay": "Automatisch abspielen",
+            "loop": "Video wiederholen",
+            "showControls": "Video-Steuerung anzeigen",
+            "controlsColor": "Farbe der Video-Steuerung ändern",
+            "byLine": "Namen des Video-Erstellers anzeigen",
+            "showPortrait": "Profilbild des Video-Erstellers anzeigen",
+            "showTitle": "Titel des Videos anzeigen",
+            "advancedPrivacy": "Erweiterter Datenschutzmodus",
+            "start": "Video starten ab",
+            "end": "Video abspielen bis",
+            "needsConfirmation": "Video erst nach Bestätigung durch den User laden",
+            "previewImage": "Vorschau-Bild"
           },
           "placeholder": {
-            "videoId": ""
+            "videoId": "Video-Link eingeben ..."
           },
           "helpText": {
-            "autoPlay": "",
-            "advancedPrivacy": ""
+            "autoPlay": "Achtung, einige Browser verhindern das automatische Abspielen von Videos.",
+            "advancedPrivacy": "Wenn Du den erweiterten Datenschutzmodus aktivierst, werden von der Video-Plattform keine Informationen über die Besucher Deiner Website gespeichert, bis sie sich das Video ansehen."
           }
         }
       },
       "youtubeVideo": {
-        "label": ""
+        "label": "YouTube-Video"
       },
       "form": {
-        "label": "",
+        "label": "Formular",
         "config": {
           "label": {
-            "receiverEmail": "",
-            "title": "",
-            "type": "",
-            "typeContact": "",
+            "receiverEmail": "Empfänger-Adressen",
+            "title": "Titel",
+            "type": "Formulartyp",
+            "typeContact": "Kontakt",
             "typeNewsletter": "",
-            "confirmationText": ""
+            "confirmationText": "Bestätigungstext"
           },
           "placeholder": {
-            "type": ""
+            "type": "Wähle einen Formulartypen ..."
           }
         },
         "element": {
           "label": {
-            "action": "",
-            "email": "",
-            "firstName": "",
-            "lastName": "",
-            "message": "",
-            "newsletterSubmit": "",
-            "phone": "",
-            "privacy": "",
-            "salutation": "",
-            "salutationUndisclosed": "",
-            "send": "",
-            "subject": "",
-            "subscribeToNewsletter": ""
+            "action": "Aktion",
+            "email": "E-Mail-Adresse*",
+            "firstName": "Vorname*",
+            "lastName": "Nachname*",
+            "message": "Ihre Nachricht*",
+            "newsletterSubmit": "Weiter",
+            "phone": "Telefonnummer",
+            "privacy": "Datenschutz",
+            "salutation": "Anrede*",
+            "salutationUndisclosed": "Keine Angabe",
+            "send": "Abschicken",
+            "subject": "Betreff*",
+            "subscribeToNewsletter": "Newsletter abonnieren"
           },
           "placeholder": {
             "firstName": "",
@@ -478,152 +478,152 @@
             "message": ""
           },
           "helpText": {
-            "privacy": "",
-            "requiredFields": ""
+            "privacy": "Ich habe die Datenschutzinformationen gelesen.",
+            "requiredFields": "Felder, die mit * markiert sind, werden benötigt"
           }
         },
         "preview": {
           "label": {
-            "form": "",
-            "send": ""
+            "form": "Formular",
+            "send": "Abschicken"
           }
         }
       },
       "buyBox": {
-        "label": "",
+        "label": "Buybox",
         "infoText": {
-          "tooltipSettingDisabled": ""
+          "tooltipSettingDisabled": "Die Produktdaten dieses Elements werden automatisch aus dem mit dem Layout verbundenen Produkt geladen. Der angezeigte Inhalt ist nur eine Beispielvorschau."
         },
         "config": {
           "label": {
-            "selection": ""
+            "selection": "Produkt"
           },
           "placeholder": {
-            "selection": ""
+            "selection": "Wähle ein Produkt ..."
           }
         },
         "component": {
           "label": {
-            "actionBuy": "",
-            "taxInfo": "",
-            "deliveryShippingFree": "",
-            "deliveryTime": "",
+            "actionBuy": "In den Warenkorb",
+            "taxInfo": "Preise inkl. MwSt. zzgl. Versandkosten",
+            "deliveryShippingFree": "Versandkostenfrei",
+            "deliveryTime": "Sofort verfügbar, Lieferzeit {name}",
             "variants": "",
-            "productNumber": ""
+            "productNumber": "Produktnummer:"
           }
         }
       },
       "productDescriptionReviews": {
-        "label": "",
+        "label": "Produktbeschreibung und -bewertungen",
         "infoText": {
-          "descriptionAndReviewsElement": ""
+          "descriptionAndReviewsElement": "Die Produktdaten dieses Elements werden automatisch aus dem mit dem Layout verbundenen Produkt geladen. Der angezeigte Inhalt ist nur eine Beispielvorschau."
         },
         "component": {
           "label": {
-            "descriptionAndReviews": ""
+            "descriptionAndReviews": "Produktbeschreibung und -bewertungen"
           }
         },
         "preview": {
           "label": {
-            "descriptionAndReviews": "",
-            "description": "",
-            "reviews": ""
+            "descriptionAndReviews": "Produktbeschreibung und -bewertungen",
+            "description": "Beschreibung",
+            "reviews": "Bewertungen"
           }
         }
       },
       "crossSelling": {
-        "label": "",
+        "label": "Cross-Selling",
         "preview": {
           "label": {
-            "crossSellingTitle": ""
+            "crossSellingTitle": "Cross-Selling-Titel"
           }
         },
         "config": {
           "label": {
-            "selection": "",
-            "minWidth": ""
+            "selection": "Produkt",
+            "minWidth": "Minimale Weite"
           },
           "placeholder": {
-            "selection": "",
-            "minWidth": ""
+            "selection": "Produkt auswählen ...",
+            "minWidth": "Mindestbreite eingeben ..."
           },
           "infoText": {
-            "productDetailElement": ""
+            "productDetailElement": "Die Produktdaten dieses Elements werden automatisch aus dem mit dem Layout verbundenen Produkt geladen. Der angezeigte Inhalt ist nur eine Beispielvorschau."
           }
         }
       },
       "productName": {
-        "label": ""
+        "label": "Produktname"
       }
     },
     "blocks": {
       "commerce": {
         "productHeading": {
-          "label": ""
+          "label": "Produktname & Hersteller-Logo"
         },
         "productListing": {
-          "label": ""
+          "label": "Produkt-Listing"
         },
         "productSlider": {
-          "label": ""
+          "label": "Produkt-Slider"
         },
         "productThreeColumn": {
-          "label": ""
+          "label": "Drei Spalten, Produkt-Boxen"
         },
         "productDescriptionReviews": {
-          "label": "",
+          "label": "Produktbeschreibung und -bewertungen",
           "preview": {
             "label": {
-              "description": "",
-              "reviews": ""
+              "description": "Beschreibung",
+              "reviews": "Bewertungen"
             }
           }
         },
         "galleryBuyBox": {
-          "label": ""
+          "label": "Galerie und Buybox"
         },
         "crossSelling": {
-          "label": ""
+          "label": "Cross-Selling"
         }
       },
       "image": {
         "image": {
-          "label": ""
+          "label": "Bild, zentriert"
         },
         "imageBubbleRow": {
-          "label": ""
+          "label": "Drei Spalten, abgerundet"
         },
         "imageCover": {
-          "label": ""
+          "label": "Bild, gestreckt"
         },
         "imageFourColumn": {
-          "label": ""
+          "label": "Vier Spalten, zentriert"
         },
         "imageGallery": {
-          "label": ""
+          "label": "Galerie"
         },
         "imageHighlightRow": {
-          "label": ""
+          "label": "Drei Spalten, Hintergrund"
         },
         "imageSimpleGrid": {
-          "label": ""
+          "label": "Bild-Raster"
         },
         "imageSlider": {
-          "label": ""
+          "label": "Bild-Slider"
         },
         "imageThreeColumn": {
-          "label": ""
+          "label": "Drei Spalten, zentriert"
         },
         "imageThreeCover": {
-          "label": ""
+          "label": "Drei Spalten, gestreckt"
         },
         "imageTwoColumn": {
-          "label": ""
+          "label": "Zwei Spalten, zentriert"
         }
       },
       "sidebar": {
         "categoryNavigation": {
-          "label": "",
+          "label": "Kategorie-Navigation",
           "preview": {
             "label": {
               "navigation": ""
@@ -631,7 +631,7 @@
           }
         },
         "sidebarFilter": {
-          "label": ""
+          "label": "Produkt-Filter"
         }
       },
       "text": {
@@ -639,148 +639,148 @@
           "label": ""
         },
         "textHero": {
-          "label": ""
+          "label": "Text-Banner"
         },
         "textTeaser": {
-          "label": ""
+          "label": "Teaser-Text"
         },
         "textTeaserSection": {
-          "label": ""
+          "label": "Zwei Spalten, Teaser-Text"
         },
         "textThreeColumn": {
-          "label": ""
+          "label": "Drei Spalten, Text"
         },
         "textTwoColumn": {
-          "label": ""
+          "label": "Zwei Spalten, Text"
         }
       },
       "textImage": {
         "centerText": {
-          "label": ""
+          "label": "Drei Spalten, Bild & Text"
         },
         "imageText": {
-          "label": ""
+          "label": "Zwei Spalten, zentriertes Bild & Text"
         },
         "imageTextBubble": {
-          "label": ""
+          "label": "Drei Spalten, abgerundete Bilder mit Unterschrift"
         },
         "imageTextCover": {
-          "label": ""
+          "label": "Zwei Spalten, gestrecktes Bild & Text"
         },
         "imageTextGallery": {
-          "label": ""
+          "label": "Drei Spalten, Bild/Text-Karten"
         },
         "imageTextRow": {
-          "label": ""
+          "label": "Drei Spalten, Bilder mit Unterschrift"
         },
         "textOnImage": {
-          "label": ""
+          "label": "Banner"
         }
       },
       "video": {
         "vimeoVideo": {
-          "label": ""
+          "label": "Vimeo-Video"
         },
         "youtubeVideo": {
-          "label": ""
+          "label": "YouTube-Video"
         }
       },
       "form": {
         "form": {
-          "label": ""
+          "label": "Formular"
         }
       },
-      "blockDisableState": ""
+      "blockDisableState": "Dieser Block ist auf keinem Gerät sichtbar. Sie können den Block bearbeiten, aber die Änderungen werden in Ihrem Shop nicht sichtbar sein. Bearbeiten Sie dieses Layout im Modul Einkaufserlebnisse, um die Sichtbarkeit des Blocks zu ändern."
     },
     "components": {
       "setDefaultLayoutModal": {
-        "title": "",
-        "infoText": ""
+        "title": "Standardlayout zuweisen",
+        "infoText": "Bitte beachte, dass alle Kategorien, die derzeit einem Standardlayout zugewiesen sind, diesem Layout zugewiesen werden und dass neu erstellte Kategorien diesem Layout automatisch zugewiesen werden. Möchtest Du dieses Layout wirklich als Standard verwenden?"
       },
       "cmsLayoutModal": {
-        "actionCancel": "",
-        "actionConfirm": "",
-        "modalTitle": "",
-        "headline": ""
+        "actionCancel": "Abbrechen",
+        "actionConfirm": "Speichern",
+        "modalTitle": "Layout auswählen",
+        "headline": "Landingpage / Produktlisting"
       },
       "cmsLayoutAssignmentModal": {
-        "infoText": "",
-        "infoTextShopPages": "",
-        "infoTextProductDetailPages": "",
-        "labelCategories": "",
-        "placeholderCategories": "",
-        "placeholderLandingPages": "",
-        "labelSalesChannel": "",
-        "placeholderSalesChannel": "",
-        "resetOptionSalesChannel": "",
-        "helpTextSalesChannel": "",
-        "labelShopPages": "",
-        "confirmChanges": "",
-        "confirmChangesConfirm": "",
-        "confirmChangesRestorePrev": "",
-        "confirmChangesTextCategories": "",
-        "confirmChangesTextCategoriesAssignedLayouts": "",
-        "confirmChangesTextLandingPages": "",
-        "confirmChangesTextLandingPagesAssignedLayouts": "",
-        "confirmChangesTextProducts": "",
-        "confirmChangesTextProductsAssignedLayouts": "",
-        "confirmChangesTextShopPages": "",
-        "confirmChangesText": "",
-        "confirmChangesTitle": "",
-        "shopPagesLoadError": "",
-        "shopPagesSaveError": "",
-        "tabCategories": "",
-        "tabShopPages": "",
-        "tabLandingPages": "",
+        "infoText": "Das Layout ist erst in Deinem Shop zu sehen, wenn Du es einer aktiven Kategorie zugewiesen hast.",
+        "infoTextShopPages": "Du kannst dieses Layout sowohl für Kategorien verwenden als auch für Shopseiten wie AGB, Impressum, Fehlerseiten etc.",
+        "infoTextProductDetailPages": "Das Layout ist erst in Deinem Shop zu sehen, wenn du es einem aktiven Produkt zuweist.",
+        "labelCategories": "Kategorien",
+        "placeholderCategories": "Wähle Kategorien aus...",
+        "placeholderLandingPages": "Wähle Landingpages aus...",
+        "labelSalesChannel": "Verkaufskanal",
+        "placeholderSalesChannel": "Wähle einen Verkaufskanal...",
+        "resetOptionSalesChannel": "Alle Verkaufskanäle",
+        "helpTextSalesChannel": "Layouts, die spezifischen Verkaufskanälen zugewiesen sind, überschreiben Layout-Zuweisungen in \"Alle Verkaufskanäle\".",
+        "labelShopPages": "Shopseiten",
+        "confirmChanges": "Anwenden",
+        "confirmChangesConfirm": "Anwenden",
+        "confirmChangesRestorePrev": "Verwerfen",
+        "confirmChangesTextCategories": "Du hast Layout-Zuweisungen von Kategorie entfernt. Wenn Du diese Änderungen bestätigst, ist für diese Kategorien kein Layout mehr zugewiesen.",
+        "confirmChangesTextCategoriesAssignedLayouts": "Einigen der ausgewählten Kategorien ist bereits ein Layout zugewiesen. Wenn Du fortfährst, werden die bestehenden Zuweisungen durch das aktuelle Layout ersetzt.",
+        "confirmChangesTextLandingPages": "Du hast Layout-Zuweisungen von Landingpages entfernt. Wenn Du diese Änderungen bestätigst, ist für diese Landingpages kein Layout mehr zugewiesen.",
+        "confirmChangesTextLandingPagesAssignedLayouts": "Einigen der ausgewählten Landingpages ist bereits ein Layout zugewiesen. Wenn Du fortfährst, werden die bestehenden Zuweisungen durch das aktuelle Layout ersetzt.",
+        "confirmChangesTextProducts": "Sie haben Layoutzuweisungen aus Produkten entfernt. Wenn Sie diese Änderungen bestätigen, ist diesen Produkten kein Layout mehr zugewiesen.",
+        "confirmChangesTextProductsAssignedLayouts": "Einige der ausgewählten Produkte haben bereits ein Layout zugewiesen. Wenn Sie fortfahren, werden die vorherigen Zuweisungen durch das aktuelle Layout ersetzt.",
+        "confirmChangesTextShopPages": "Du hast Layout-Zuweisungen von Shopseiten entfernt. Wenn Du diese Änderungen bestätigst, ist für diese Shopseiten kein Layout mehr zugewiesen.",
+        "confirmChangesText": "Möchtest Du Deine Änderungen übernehmen?",
+        "confirmChangesTitle": "Layout-Zuweisung bestätigen",
+        "shopPagesLoadError": "Shopseiten konnten nicht geladen werden",
+        "shopPagesSaveError": "Shopseiten konnten nicht gespeichert werden",
+        "tabCategories": "Kategorien",
+        "tabShopPages": "Shopseiten",
+        "tabLandingPages": "Landingpages",
         "shopPages": {
-          "tosPage": "",
-          "revocationPage": "",
-          "shippingPaymentInfoPage": "",
-          "privacyPage": "",
-          "imprintPage": "",
-          "404Page": "",
-          "maintenancePage": "",
-          "contactPage": "",
-          "newsletterPage": ""
+          "tosPage": "AGB-Seiten",
+          "revocationPage": "Widerrufsbelehrungen",
+          "shippingPaymentInfoPage": "Versand- und Zahlungsarten",
+          "privacyPage": "Datenschutz-Seiten",
+          "imprintPage": "Impressum",
+          "404Page": "404-Seiten",
+          "maintenancePage": "Wartungsseiten",
+          "contactPage": "Kontaktformulare",
+          "newsletterPage": "Newsletterseiten"
         },
         "products": {
-          "productAssignmentHeadline": "",
-          "productAssignmentPlaceholder": "",
-          "productAssignmentLabel": "",
-          "productAssignmentEmptyStateDescription": "",
-          "productStreamAssignmentEmptyStateDescription": "",
+          "productAssignmentHeadline": "Produkt-Zuweisung",
+          "productAssignmentPlaceholder": "Produkte durchsuchen und zuweisen ...",
+          "productAssignmentLabel": "Produkte",
+          "productAssignmentEmptyStateDescription": "Keine Produkte zugewiesen",
+          "productStreamAssignmentEmptyStateDescription": "Keine dynamische Produktgruppe zugewiesen",
           "columnNameLabel": "",
-          "columnManufacturerLabel": ""
+          "columnManufacturerLabel": "Hersteller"
         }
       },
       "cmsMissingElementModal": {
-        "headline": "",
-        "title": "",
-        "subtitle": "",
-        "paragraph": "",
-        "buttonSave": ""
+        "headline": "Fehlende Elemente",
+        "title": "Das Element <span>{element}</span> fehlt in dieser Produkt-Detailseite. | Die Elemente <span>{element}</span> fehlen in dieser Produkt-Detailseite.",
+        "subtitle": "Kunden, die diese Seite besuchen, erhalten möglicherweise nicht alle wichtigen Produkt-Informationen.",
+        "paragraph": "Möchtest Du das Layout trotzdem speichern?",
+        "buttonSave": "Layout speichern"
       },
       "cmsListItem": {
-        "emptyText": "",
-        "edit": "",
-        "rename": "",
-        "delete": "",
-        "duplicate": "",
-        "addPreviewImage": "",
-        "setAsDefaultProductList": "",
-        "setAsDefaultProductDetail": "",
-        "defaultLayout": "",
-        "defaultLayoutProductList": "",
-        "defaultLayoutProductDetail": "",
-        "removePreviewImage": "",
-        "notificationDeleteErrorMessage": "",
+        "emptyText": "Kein Layout zugewiesen",
+        "edit": "Bearbeiten",
+        "rename": "Umbenennen",
+        "delete": "Löschen",
+        "duplicate": "Duplizieren",
+        "addPreviewImage": "Vorschau hinzufügen",
+        "setAsDefaultProductList": "Als Standard für Kategorieseiten festlegen",
+        "setAsDefaultProductDetail": "Als Standard für Produkseiten festlegen",
+        "defaultLayout": "Standardlayout",
+        "defaultLayoutProductList": "Standardlayout - Kategorieseite",
+        "defaultLayoutProductDetail": "Standardlayout - Produktseite",
+        "removePreviewImage": "Vorschau entfernen",
+        "notificationDeleteErrorMessage": "Das Layout ist noch mindestens einer Kategorie zugewiesen.",
         "modal": {
-          "renameModalTitle": "",
-          "textRenameConfirm": "",
-          "textDeleteConfirm": "",
-          "buttonRename": "",
-          "buttonCancel": "",
-          "buttonDelete": ""
+          "renameModalTitle": "Layout umbenennen",
+          "textRenameConfirm": "Wähle einen neuen Namen für \"{pageName}\":",
+          "textDeleteConfirm": "Möchtest Du das Layout \"{pageName}\" wirklich löschen?",
+          "buttonRename": "Umbenennen",
+          "buttonCancel": "Abbrechen",
+          "buttonDelete": "Löschen"
         }
       }
     }
@@ -788,7 +788,7 @@
   "sw-privileges": {
     "permissions": {
       "cms": {
-        "label": ""
+        "label": "Erlebniswelten"
       }
     }
   }
