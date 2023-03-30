@@ -1,217 +1,217 @@
 {
     "global": {
         "error-codes": {
-            "ACTION_VALID_TO_VIOLATION": "",
-            "ACTION_DUPLICATE_NAME_VIOLATION": "",
-            "ACTION_SEARCH_TERM_DUPLICATE_TERM_VIOLATION": ""
+            "ACTION_VALID_TO_VIOLATION": "Das Ablaufdatum der Aktion darf sich nur nach dem Startdatum befinden.",
+            "ACTION_DUPLICATE_NAME_VIOLATION": "Dieser Name wird bereits in einer anderen Aktion verwendet.",
+            "ACTION_SEARCH_TERM_DUPLICATE_TERM_VIOLATION": "Dieser Suchbegriff '{value}' wird bereits in einer anderen Aktion verwendet."
         }
     },
     "swag-enterprise-search": {
         "general": {
-            "mainMenuItemGeneral": "",
-            "mainMenuEntry": ""
+            "mainMenuItemGeneral": "Shopware Erweiterte Suche",
+            "mainMenuEntry": "Shopware Erweiterte Suche"
         },
         "index": {
-            "title": "",
-            "buttonSave": "",
-            "entityConfigTitle": "",
-            "previewSearchTitle": "",
-            "relevanceTitle": "",
+            "title": "Erweiterte Suche Konfiguration",
+            "buttonSave": "Speichern",
+            "entityConfigTitle": "Übersicht",
+            "previewSearchTitle": "Vorschau",
+            "relevanceTitle": "Relevanzen",
             "boostingTitle": "",
-            "synonymsTitle": "",
-            "actionTitle": "",
-            "labelSalesChannelSelect": ""
+            "synonymsTitle": "Synonyme",
+            "actionTitle": "Aktionen",
+            "labelSalesChannelSelect": "Verkaufskanal"
         },
         "types": {
-            "category": "",
-            "product": "",
-            "product_manufacturer": ""
+            "category": "Kategorie",
+            "product": "Produkt",
+            "product_manufacturer": "Hersteller"
         },
         "generalSettings": {
-            "title": "",
-            "searchableInformation": "",
-            "whatIsIndexed": ""
+            "title": "Allgemeine Einstellungen",
+            "searchableInformation": "Durchsuchbare Informationen",
+            "whatIsIndexed": "Definiere Such-Index"
         },
         "entityConfig": {
-            "searchTitle": "",
+            "searchTitle": "Allgemeine Einstellungen",
             "appearance": {
-                "title": "",
-                "suggestTitle": "",
-                "suggestDescription": "",
-                "searchTitle": "",
-                "searchDescription": "",
-                "allResults": ""
+                "title": "Trefferanzahl",
+                "suggestTitle": "Vorschausuche",
+                "suggestDescription": "Definiere die Anzahl der Elemente, die in der jeweiligen Vorschausuche angezeigt werden sollen.",
+                "searchTitle": "Ergebnisseite",
+                "searchDescription": "Definiere die Anzahl der Elemente, die auf der jeweiligen Ergebnisseite angezeigt werden sollen.",
+                "allResults": "Alle Einträge anzeigen"
             }
         },
         "previewSearch": {
-            "title": "",
+            "title": "Vorschau",
             "name": "",
             "ranking": "",
-            "messageEmptyTitle": "",
-            "messageEmptySubline": "",
-            "detail": "",
-            "openProduct": "",
-            "placeholderSearchField": "",
-            "field": "",
-            "term": "",
-            "isImportant": "",
-            "value": "",
+            "messageEmptyTitle": "Keine Ergebnisse",
+            "messageEmptySubline": "Ändern Sie Ihre Relevanz-Einstellungen.",
+            "detail": "Details",
+            "openProduct": "Produkt öffnen",
+            "placeholderSearchField": "Suche nach ...",
+            "field": "Feld",
+            "term": "Suchbegriff",
+            "isImportant": "Ist wichtig",
+            "value": "Wert",
             "boostName": "",
-            "relevance": ""
+            "relevance": "Relevanzen"
         },
         "boosting": {
             "title": "",
-            "addBoosting": "",
-            "searchPlaceholder": "",
-            "messageEmptyTitle": "",
-            "messageEmptySubline": "",
+            "addBoosting": "Neues Boosting",
+            "searchPlaceholder": "Suche Boosting",
+            "messageEmptyTitle": "Noch keine Boostings",
+            "messageEmptySubline": "Verwaltung von Boostings.",
             "types": {
                 "product_stream": "",
                 "entity_stream": ""
             },
             "columnHeaders": {
                 "name": "",
-                "type": "",
+                "type": "Typ",
                 "boost": "",
-                "active": "",
-                "validFrom": "",
-                "validTo": ""
+                "active": "Aktiv",
+                "validFrom": "Aktiv von",
+                "validTo": "Aktiv bis"
             },
             "detail": {
                 "name": "",
                 "boost": "",
-                "active": "",
-                "validFrom": "",
-                "validTo": "",
+                "active": "Aktiv",
+                "validFrom": "Aktiv von",
+                "validTo": "Aktiv bis",
                 "productStream": "",
                 "entityStream": "",
-                "category": "",
-                "manufacturer": "",
-                "cancelModal": "",
-                "streamType": "",
-                "type": "",
-                "newBoosting": ""
+                "category": "Kategorie",
+                "manufacturer": "Hersteller",
+                "cancelModal": "Abbrechen",
+                "streamType": "Stream Typ",
+                "type": "Typ",
+                "newBoosting": "Neues Boosting"
             },
             "filter": {
-                "placeholderFieldSelect": "",
-                "placeholderOperatorSelect": ""
+                "placeholderFieldSelect": "Wähle eine Eigenschaft",
+                "placeholderOperatorSelect": "Wähle einen Operator"
             }
         },
         "synonyms": {
-            "title": "",
-            "addsynonyms": "",
-            "searchPlaceholder": "",
-            "messageEmptyTitle": "",
-            "messageEmptySubline": "",
+            "title": "Synonyme",
+            "addsynonyms": "Neues Synonym",
+            "searchPlaceholder": "Suche Synonym",
+            "messageEmptyTitle": "Noch keine Synonyme",
+            "messageEmptySubline": "Verwaltung von Synonymen.",
             "columnHeaders": {
                 "name": "",
-                "left": "",
-                "right": "",
-                "language": "",
+                "left": "Links",
+                "right": "Rechts",
+                "language": "Sprache",
                 "synonym": ""
             },
             "detail": {
                 "name": "",
                 "synonym": "",
-                "left": "",
-                "right": "",
-                "newsynonym": "",
-                "cancelModal": ""
+                "left": "Links",
+                "right": "Rechts",
+                "newsynonym": "Neues Synonym",
+                "cancelModal": "Abbrechen"
             },
             "explanation": {
-                "sameTitle": "",
-                "same": "",
-                "expandingTitle": "",
-                "expanding": ""
+                "sameTitle": "Gleichwertige Synonyme",
+                "same": "z.B. \"wifi, wlan, w-lan, wireless network\" sind vollkommen gleichwertig und nur in der Spalte \"Links\" eingetragen.",
+                "expandingTitle": "Definierende Synonyme",
+                "expanding": "z.B. ein iPhone ist ein Smartphone, aber nicht jedes Smartphone ist ein iPhone. Solche Konstrukte werden so eingetragen: \"Links\": \"smartphone\", \"Rechts\": \"iphone, i-phone, i phone, smartphone\""
             }
         },
         "relevance": {
-            "title": "",
-            "cancelModal": "",
-            "entity": "",
-            "noSearch": "",
+            "title": "Durchsuchbare Informationen",
+            "cancelModal": "Abbrechen",
+            "entity": "Entität",
+            "noSearch": "Wenn alle Felder auf \"Nicht durchsucht\" eingestellt sind, wird der Shopware-Standard für die Suche verwendet.",
             "columnHeaders": {
                 "fieldName": "",
-                "notIndexed": "",
-                "search": "",
-                "boosted": "",
-                "partialHit": "",
-                "compoundWords": ""
+                "notIndexed": "Nicht Durchsucht",
+                "search": "Durchsucht",
+                "boosted": "Priorisiert",
+                "partialHit": "Teiltreffer",
+                "compoundWords": "Zusammengesetzte Wörter"
             }
         },
         "configurationTable": {
             "columnHeaders": {
-                "active": "",
+                "active": "Aktiv",
                 "entityName": ""
             }
         },
         "entityStream": {
             "filter": {
                 "type": {
-                    "equals": "",
-                    "equalsAny": "",
-                    "contains": "",
-                    "greaterThan": "",
-                    "lessThan": "",
-                    "greaterThanEquals": "",
-                    "lessThanEquals": "",
-                    "notEquals": "",
-                    "notEqualsAny": "",
-                    "notContains": "",
-                    "range": ""
+                    "equals": "Gleich",
+                    "equalsAny": "Eins von",
+                    "contains": "Enthält",
+                    "greaterThan": "Größer als",
+                    "lessThan": "Kleiner als",
+                    "greaterThanEquals": "Größer/gleich",
+                    "lessThanEquals": "Kleiner/gleich",
+                    "notEquals": "Ungleich",
+                    "notEqualsAny": "Keins von",
+                    "notContains": "Enthält nicht",
+                    "range": "Spanne"
                 }
             }
         },
         "action": {
-            "title": "",
-            "addAction": "",
-            "searchPlaceholder": "",
-            "messageEmptyTitle": "",
-            "messageEmptySubline": "",
+            "title": "Aktionen",
+            "addAction": "Aktion hinzufügen",
+            "searchPlaceholder": "Suche Aktion",
+            "messageEmptyTitle": "Noch keine Aktionen",
+            "messageEmptySubline": "Verwaltung von Aktionen.",
             "columnHeaders": {
                 "name": "",
-                "type": "",
-                "active": "",
-                "validFrom": "",
-                "validTo": ""
+                "type": "Typ",
+                "active": "Aktiv",
+                "validFrom": "Aktiv von",
+                "validTo": "Aktiv bis"
             },
             "detail": {
-                "action": "",
-                "searchTerms": "",
+                "action": "Aktion",
+                "searchTerms": "Suchbegriffe",
                 "name": "",
-                "active": "",
-                "validFrom": "",
-                "validTo": "",
-                "type": "",
-                "typePlaceholder": "",
-                "cancelModal": "",
-                "newAction": ""
+                "active": "Aktiv",
+                "validFrom": "Aktiv von",
+                "validTo": "Aktiv bis",
+                "type": "Typ",
+                "typePlaceholder": "Wähle einen Typ aus...",
+                "cancelModal": "Abbrechen",
+                "newAction": "Neue Aktion"
             },
             "type": {
                 "forwardUrl": {
-                    "title": "",
+                    "title": "Weiterleiten zu URL",
                     "url": ""
                 },
                 "forwardProduct": {
-                    "title": "",
-                    "product": ""
+                    "title": "Weiterleiten zu Produkt",
+                    "product": "Produkt"
                 },
                 "forwardCategory": {
-                    "title": "",
-                    "category": ""
+                    "title": "Weiterleiten zu Kategorie",
+                    "category": "Kategorie"
                 }
             }
         }
     },
     "sw-settings-cache": {
         "section": {
-            "indexingElasticsearchButton": "",
-            "indexingElasticsearchText": "",
-            "indexingElasticsearchHeadline": ""
+            "indexingElasticsearchButton": "Indizes aktualisieren",
+            "indexingElasticsearchText": "Es werden alle Indizes asynchron aktualisiert.",
+            "indexingElasticsearchHeadline": "Elasticsearch Indizes"
         },
         "notifications": {
             "elasticsearchIndexing": {
-                "started": ""
+                "started": "Indizes werden aufgebaut."
             }
         }
     }
