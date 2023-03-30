@@ -1,0 +1,20 @@
+{
+    "swag-amazon-pay-payment-settings-extension": {
+        "helpText": ""
+    },
+    "swag-amazon-pay-overview-card": {
+        "title": "",
+        "switchLabel": "",
+        "settingsLink": "",
+        "paymentMethodHeadline": "",
+        "status": {
+            "connected": "",
+            "credentialsNeeded": ""
+        },
+        "instructions": {
+            "text": "",
+            "link": ""
+        },
+        "merchantIdLabel": ""
+    }
+}
