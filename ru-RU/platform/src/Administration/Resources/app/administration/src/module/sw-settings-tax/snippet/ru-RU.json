@@ -1,0 +1,91 @@
+{
+  "sw-settings-tax": {
+    "general": {
+      "mainMenuItemGeneral": "",
+      "taxRateSymbol": "",
+      "placeholderSearchBar": ""
+    },
+    "list": {
+      "textHeadline": "",
+      "textDeleteConfirm": "",
+      "columnName": "",
+      "columnDefaultTaxRate": "",
+      "columnDefault": "",
+      "buttonAddTax": "",
+      "contextMenuEdit": "",
+      "contextMenuDelete": "",
+      "messageDeleteSuccess": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "taxCardTitle": "",
+      "taxProvider": {
+        "cardTitle": "",
+        "changePriorityButton": "",
+        "editDetailsLink": "",
+        "labelActive": "",
+        "messageEmptyTitle": "",
+        "statusChangedSuccess": {
+          "active": "",
+          "inactive": ""
+        },
+        "sorting-modal": {
+          "modalTitle": "",
+          "subTitle": "",
+          "saveSuccessful": "",
+          "errorMessage": ""
+        }
+      }
+    },
+    "detail": {
+      "textHeadline": "",
+      "taxProviderInfoTitle": "",
+      "taxProviderInfoText": "",
+      "titleCard": "",
+      "labelName": "",
+      "labelDefaultTaxRate": "",
+      "placeholderName": "",
+      "placeholderDefaultTaxRate": "",
+      "buttonCancel": "",
+      "buttonSave": "",
+      "messageSaveError": "",
+      "messageSaveSuccess": "",
+      "defaultTaxLabel": "",
+      "defaultTaxHelpText": ""
+    },
+    "taxRuleCard": {
+      "tooltipCountries": "",
+      "labelTaxRate": "",
+      "labelAppliesOn": "",
+      "labelCountryName": "",
+      "cardTitle": "",
+      "searchBarPlaceholder": "",
+      "labelCreateNew": "",
+      "labelCancel": "",
+      "labelStates": "",
+      "labelZipCode": "",
+      "labelFromZipCode": "",
+      "labelToZipCode": "",
+      "emptyStateDescription": "",
+      "createStateDescription": "",
+      "textDeleteConfirm": "",
+      "placeholderStates": ""
+    },
+    "taxProviderDetail": {
+      "textHeadline": "",
+      "infoTitle": "",
+      "infoText": "",
+      "cardTitleSettings": "",
+      "cardTitleAvailability": "",
+      "labelPriority": "",
+      "labelActive": "",
+      "placeholderAvailabilityRule": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "tax": {
+        "label": ""
+      }
+    }
+  }
+}
