@@ -1,0 +1,309 @@
+{
+  "global": {
+    "error-codes": {
+      "DUPLICATED_PRODUCT_EXPORT_FILE_NAME": ""
+    }
+  },
+  "sw-sales-channel": {
+    "general": {
+      "tooltipOpenStorefront": "",
+      "titleMenuItems": "",
+      "titleMenuMoreItems": "",
+      "manageSalesChannels": ""
+    },
+    "list": {
+      "title": "",
+      "subTitle": "",
+      "placeholderSearchBar": "",
+      "buttonAddSalesChannel": "",
+      "columnName": "",
+      "columnType": "",
+      "columnStatus": "",
+      "columnCreatedAt": "",
+      "columnFavourite": "",
+      "status": {
+        "maintenance": "",
+        "online": "",
+        "offline": ""
+      },
+      "contextMenuEdit": "",
+      "productsLabel": "",
+      "productsCount": ""
+    },
+    "modal": {
+      "title": "",
+      "buttonAddChannel": "",
+      "titleDetailPrefix": "",
+      "buttonShowDetails": "",
+      "buttonBack": "",
+      "buttonCancel": "",
+      "titleDescription": "",
+      "messageNoProductStreams": ""
+    },
+    "detail": {
+      "messageSaveSuccess": "",
+      "messageSaveError": "",
+      "messageActivateWithoutThemeError": "",
+      "activateDisable": "",
+      "buttonSave": "",
+      "buttonCreateNewApiKeys": "",
+      "tabBase": "",
+      "tabTheme": "",
+      "tabAnalytics": "",
+      "tabProductComparison": "",
+      "tabProducts": "",
+      "titleProductComparisonTemplate": "",
+      "titleProductComparisonPreview": "",
+      "titleProductComparisonPreviewErrors": "",
+      "labelAccessKeyField": "",
+      "messageAPIError": "",
+      "titleGeneralSettings": "",
+      "labelInputName": "",
+      "labelInputActive": "",
+      "labelInputShippingMethods": "",
+      "labelInputPaymentMethods": "",
+      "labelInputCountries": "",
+      "countryMultiSelectHelpText": "",
+      "helpTextTaxCalculation": {
+        "label": "",
+        "linkText": ""
+      },
+      "labelInputTaxCalculation": "",
+      "labelOptionTaxVertical": "",
+      "labelOptionTaxHorizontal": "",
+      "labelInputCurrencies": "",
+      "labelInputLanguages": "",
+      "labelInputUrl": "",
+      "labelInputCategories": "",
+      "titleOptionsCard": "",
+      "labelInputDefaultShippingMethod": "",
+      "labelInputDefaultPaymentMethod": "",
+      "labelInputDefaultCountry": "",
+      "labelInputDefaultCurrency": "",
+      "labelInputDefaultLanguage": "",
+      "tooltipDisabledShippingMethod": "",
+      "tooltipDisabledPaymentMethod": "",
+      "tooltipDisabledCountry": "",
+      "warningDisabledCountries": "",
+      "warningDisabledPaymentMethod": "",
+      "warningDisabledShippingMethod": "",
+      "warningDisabledAddition": "",
+      "warningUnservedLanguage": "",
+      "textDeleteInfo": "",
+      "buttonDelete": "",
+      "deleteModalTitle": "",
+      "textConfirmDelete": "",
+      "buttonCloseDeleteModal": "",
+      "buttonConfirmDelete": "",
+      "textHeadline": "",
+      "placeholderName": "",
+      "placeholderInputCategories": "",
+      "titleDomains": "",
+      "titleDomainItem": "",
+      "labelInputCurrency": "",
+      "labelInputLanguage": "",
+      "labelInputSnippet": "",
+      "buttonDeleteDomain": "",
+      "buttonAddDomain": "",
+      "deleteDomainModalTitle": "",
+      "textConfirmDeleteDomain": "",
+      "buttonCloseDeleteDomainModal": "",
+      "buttonConfirmDeleteDomain": "",
+      "customerGroup": "",
+      "favouriteLabel": "",
+      "navigation": "",
+      "navigationCategoryId": "",
+      "navigationCategoryDepth": "",
+      "navigationCategoryHelpText": "",
+      "footerCategory": "",
+      "serviceCategory": "",
+      "titleOptionsApiKey": "",
+      "textDeleteSalesChannelWarning": "",
+      "buttonCopyApiKeyButton": "",
+      "titleStatus": "",
+      "titleGeneralInformation": "",
+      "titleAccount": "",
+      "titleDeleteSalesChannel": "",
+      "titleProductSync": "",
+      "titleSyncedProducts": "",
+      "titleCategoryMapping": "",
+      "titleTemplate": "",
+      "titleDomainHeadline": "",
+      "buttonEditDomain": "",
+      "titleCreateDomain": "",
+      "titleEditDomain": "",
+      "textDomainDescription": "",
+      "textApiAccessDescription": "",
+      "textActiveDescription": "",
+      "columnDomainUrl": "",
+      "columnDomainLanguage": "",
+      "columnDomainSnippetSet": "",
+      "maintenanceModeTitle": "",
+      "maintenanceModeDescription": "",
+      "labelMaintenanceActive": "",
+      "ipAddressWhitleList": "",
+      "ipAddressWhitleListHelpText": "",
+      "basicinformationLink": "",
+      "columnDomainCurrency": "",
+      "products": {
+        "titleEmptyState": "",
+        "titleEmptyStateTable": "",
+        "buttonAddProducts": "",
+        "columnProductName": "",
+        "columnActive": "",
+        "columnProductNumber": "",
+        "inheritVariantNotRemovableTooltip": ""
+      },
+      "productComparison": {
+        "inputHeaderLabel": "",
+        "inputBodyLabel": "",
+        "inputFooterLabel": "",
+        "buttonTestLabel": "",
+        "buttonPreviewLabel": "",
+        "settings": "",
+        "fileName": "",
+        "placeholderFileName": "",
+        "lastGenerationLabel": "",
+        "notYetGenerated": "",
+        "encoding": "",
+        "placeholderSelectEncoding": "",
+        "fileFormat": "",
+        "placeholderSelectFileFormat": "",
+        "accessKey": "",
+        "accessUrl": "",
+        "buttonCreateNewAccessKey": "",
+        "productStream": "",
+        "fileFormatLabels": {
+          "csv": "",
+          "xml": ""
+        },
+        "includeVariants": "",
+        "interval": "",
+        "generateByCronjob": "",
+        "notificationMessageValidateSuccessful": "",
+        "intervalLabels": {
+          "0": "",
+          "120": "",
+          "300": "",
+          "600": "",
+          "900": "",
+          "1800": "",
+          "3600": "",
+          "7200": "",
+          "14400": "",
+          "28800": "",
+          "43200": "",
+          "86400": "",
+          "172800": "",
+          "259200": "",
+          "345600": "",
+          "432000": "",
+          "518400": "",
+          "604800": ""
+        },
+        "storefront": "",
+        "storefrontDomain": "",
+        "storefrontDomainLanguage": {
+          "label": "",
+          "help": ""
+        },
+        "storefrontDomainCurrency": {
+          "label": ""
+        },
+        "storefrontSalesChannelCustomerGroup": {
+          "label": "",
+          "help": ""
+        },
+        "messageAccessKeyChanged": "",
+        "templates": {
+          "label": "",
+          "placeholderSelectTemplate": "",
+          "template-label": {
+            "billiger-de": "",
+            "idealo": "",
+            "google-product-search-de": ""
+          },
+          "modal-title": "",
+          "modal-message": "",
+          "modal-confirm": "",
+          "modal-cancel": "",
+          "message": {
+            "template-applied-message": ""
+          }
+        }
+      },
+      "hreflang": {
+        "title": "",
+        "titleCard": "",
+        "titleDescription": "",
+        "enableCheckbox": "",
+        "defaultDomain": "",
+        "domainSettings": {
+          "label": "",
+          "byIso": "",
+          "byIsoHelpText": "",
+          "byAbbreviation": "",
+          "byAbbreviationHelpText": ""
+        }
+      },
+      "analytics": {
+        "cardTitle": "",
+        "headline": "",
+        "description": "",
+        "fields": {
+          "trackingId": {
+            "label": "",
+            "placeHolder": "",
+            "helpText": ""
+          },
+          "active": {
+            "label": ""
+          },
+          "trackOrders": {
+            "label": ""
+          },
+          "anonymizeIp": {
+            "label": ""
+          }
+        }
+      },
+      "titleShippingPayment": "",
+      "labelTaxCalculation": "",
+      "descriptionTaxCalculation": "",
+      "taxCalculation": {
+        "verticalName": "",
+        "verticalDescription": "",
+        "horizontalName": "",
+        "horizontalDescription": ""
+      },
+      "productAssignmentModal": {
+        "title": "",
+        "singleProducts": "",
+        "categories": {
+          "title": "",
+          "textInfo": "",
+          "textSearch": "",
+          "emptySearchResults": ""
+        },
+        "dynamicProductGroups": {
+          "title": "",
+          "infoText": "",
+          "columnName": "",
+          "searchFieldPlaceholder": "",
+          "titleNoProductStreamsMatching": "",
+          "titleNoProductStreamsAvailable": ""
+        }
+      }
+    },
+    "sw-sales-channel-defaults-select": {
+      "messageError": ""
+    }
+  },
+  "sw-privileges": {
+    "permissions": {
+      "sales_channel": {
+        "label": ""
+      }
+    }
+  }
+}
