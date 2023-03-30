@@ -1,0 +1,59 @@
+{
+  "sw-privileges": {
+    "permissions": {
+      "warehouse": {
+        "label": ""
+      }
+    }
+  },
+  "sw-settings-warehouse": {
+    "general": {
+      "title": "",
+      "subtitle": "",
+      "notificationGeneric": ""
+    },
+    "list": {
+      "columnName": "",
+      "columnWarehouseGroups": "",
+      "actionDetail": "",
+      "actionDelete": "",
+      "actionCreate": "",
+      "actionCreateShort": "",
+      "textDeleteConfirm-1": "",
+      "textDeleteConfirm-2": "",
+      "textDeleteConfirm-3": "",
+      "buttonCancel": "",
+      "buttonDelete": "",
+      "whitespaceTitle": "",
+      "whitespaceSubTitle": "",
+      "warehouseMessages": {
+        "noRuleAssignedMessageTitle": "",
+        "noRuleAssignedMessage": ""
+      }
+    },
+    "detail": {
+      "title": "",
+      "titleCardMain": "",
+      "titleCardDelete": "",
+      "textDeleteWarehouseWarning": "",
+      "buttonSave": "",
+      "buttonDelete": "",
+      "buttonCancel": "",
+      "buttonDeleteModal": "",
+      "titleModalDelete": "",
+      "textDeleteConfirm-1": "",
+      "textDeleteConfirm-2": "",
+      "textDeleteConfirm-3": "",
+      "labelName": "",
+      "placeholderName": "",
+      "labelDescription": "",
+      "placeholderDescription": "",
+      "labelGroups": "",
+      "placeholderGroups": "",
+      "helpTextGroups": ""
+    },
+    "create": {
+      "title": ""
+    }
+  }
+}
