@@ -2,164 +2,164 @@
     "global": {
         "default": {
             "_comment": "",
-            "back": "",
-            "continue": "",
+            "back": "Zurück",
+            "continue": "Weiter",
             "optional": ""
         },
         "error-codes": {
-            "bd79c0ab-ddba-46cc-a703-a7a4b08de310": "",
-            "9ff3fdc4-b214-49db-8718-39c315e33d45": "",
-            "INVALID_VAT_ID_STRUCTURE": "",
-            "INVALID_ZIP_CODE_ERROR_NUMERIC": "",
-            "INVALID_ZIP_CODE_ERROR": "",
-            "INVALID_ZIP_CODE_ERROR_TO_SHORT": "",
-            "NO_ZIP_CODE_VALIDATION_POSSIBLE": "",
-            "SAAS_REQUEST__INVALID_PARAMETER": "",
-            "INVALID_DOMAIN": "",
-            "EMAIL_CONTAINS_MORE_THAN_ONE_AT": ""
+            "bd79c0ab-ddba-46cc-a703-a7a4b08de310": "Bitte gib eine valide E-Mail-Adresse ein",
+            "9ff3fdc4-b214-49db-8718-39c315e33d45": "Dieses Feld muss mindestens {limit} Zeichen haben",
+            "INVALID_VAT_ID_STRUCTURE": "Ungültige Umsatzsteuer-ID",
+            "INVALID_ZIP_CODE_ERROR_NUMERIC": "Die PLZ muss numerisch sein",
+            "INVALID_ZIP_CODE_ERROR": "Die PLZ muss genau {length} Zeichen lang sein",
+            "INVALID_ZIP_CODE_ERROR_TO_SHORT": "Die PLZ muss mindestens {length} Zeichen lang sein",
+            "NO_ZIP_CODE_VALIDATION_POSSIBLE": "Dieses Feld darf nicht leer sein",
+            "SAAS_REQUEST__INVALID_PARAMETER": "Dieses Feld darf nicht leer sein",
+            "INVALID_DOMAIN": "Bitte gib eine valide Domain ein",
+            "EMAIL_CONTAINS_MORE_THAN_ONE_AT": "Die E-Mail enthält mehrere @-Symbole"
         }
     },
     "sw-theme-manager": {
         "general": {
-            "lockedToolTip": ""
+            "lockedToolTip": "Dies ist ein Basis Theme. Du kannst es bearbeiten aber nicht löschen. Ausschließlich Duplikate dieses Themes können gelöscht werden."
         }
     },
     "sw-saas-rufus": {
         "component": {
             "saas-paypal-payment-card": {
                 "merchant-status": {
-                    "error": ""
+                    "error": "Händlerstatus konnte nicht abgerufen werden. Versuche es später noch einmal."
                 },
                 "paypal-settings": {
-                    "error": ""
+                    "error": "PayPal Einstellungen konnten nicht abgerufen werden. Versuche es später noch einmal."
                 },
                 "create-referral": {
-                    "error": ""
+                    "error": "Es konnte keine Verbindung zu PayPal hergestellt werden. Versuche es später noch einmal."
                 },
-                "headline": "",
-                "text": "",
-                "anchorText": "",
-                "connectRequest": "",
-                "buttonText": "",
-                "changeAccount": "",
-                "disconnectAccount": "",
-                "iconText": "",
-                "bottomText": "",
-                "testHintSignUp": "",
-                "testHintOrders": "",
-                "checkoutBanner": "",
-                "testMode": "",
-                "shippingAlertOnboarding": "",
-                "shippingAlertOnboardingDetails": ""
+                "headline": "Mehr Zahlungsmöglichkeiten in einer Lösung von PayPal",
+                "text": "Mit über 390 Millionen Kunden weltweit ermöglicht PayPal Deinen Kunden genauso zu bezahlen, wie sie es wollen: mit PayPal, Debit- oder Kreditkarte, PayPal Ratenzahlung und vielen lokalen Zahlungsmethoden wie SEPA Lastschrift, Rechnungskauf oder BLIK. Mit Zettle by PayPal kannst Du außerdem Zahlungen kontaktlos am POS und per QR Code akzeptieren.",
+                "anchorText": "Erfahre mehr über PayPal",
+                "connectRequest": "Melde Dich mit Deinem PayPal-Konto an, um Kunden die Bezahlung mit PayPal-Zahlungsmethoden zu ermöglichen.",
+                "buttonText": "Mit PayPal verbinden",
+                "changeAccount": "PayPal-Konto wechseln",
+                "disconnectAccount": "PayPal-Konto trennen",
+                "iconText": "+ viele weitere",
+                "bottomText": "Baue Dein Business mit PayPal auf einer sicheren und vertrauenswürdigen All-in-One-Plattform aus, ob online oder im Laden. Profitiere auch von weiteren PayPal-Lösungen, wie der Unternehmensfinanzierung oder der Business Debit Mastercard.",
+                "testHintSignUp": "Wenn Du PayPal nur testen möchtest, ist es nicht notwendig, sich zu registrieren.",
+                "testHintOrders": "Du wirst mit einem Demokonto verbunden, wenn Du für Testbestellungen bezahlst. Daher werden Testbestellungen nicht in Deinem PayPal-Dashboard angezeigt.",
+                "checkoutBanner": "Mit PayPal Checkout Kannst Du Deinen Kunden die Bezahlung per Rechnung, Kreditkarte und viele andere lokale Zahlungsmethoden anbieten. PayPal Checkout unterstützt Dich mit der neuesten Technologie und bringt Dir höchste Flexibilität. Aktiviere jetzt PayPal Checkout.  <a href=\"https://www.shopware.com/de/news/paypal-launcht-neues-produkt/\" target=\"_blank\">Mehr Informationen</a>",
+                "testMode": "Testmodus",
+                "shippingAlertOnboarding": "Um die neue Funktion der Sendungsverfolgung von PayPal nutzen zu können, musst du die Verbindung zu deinem PayPal Account in den <a href=\"#/sw/settings/payment/overview\">Zahlungsarten →</a> erneuern.",
+                "shippingAlertOnboardingDetails": "Um die neue Funktion der Sendungsverfolgung von PayPal nutzen zu können, musst du die Verbindung zu deinem PayPal-Account erneuern. Klicke hierzu auf \"PayPal-Account ändern\" und füge deinen Account erneut hinzu."
             },
             "saas-paypal-merchant-status": {
-                "emailStatusNotConfirmed": "",
-                "labelStatusConfirmed": "",
-                "labelStatusUnconfirmed": ""
+                "emailStatusNotConfirmed": "Die E-Mail-Adresse muss bestätigt werden. Prüfe Deinen Posteingang.",
+                "labelStatusConfirmed": "Verbunden",
+                "labelStatusUnconfirmed": "Unbestätigt"
             },
             "saas-rufus-dashboard-checklist": {
-                "headline": "",
-                "subheadline": "",
+                "headline": "Bringe Deinen Onlineshop an den Start!",
+                "subheadline": "Die step-by-step Checkliste für Deinen erfolgreichen Start im E-Commerce.",
                 "howToHeadline": "",
                 "howToUnderlineVideo": "",
-                "howToVideoLink": "",
-                "howToUnderlineDocs": "",
-                "howToDocsLink": "",
-                "launchBusiness": "",
+                "howToVideoLink": "Schaue das Video",
+                "howToUnderlineDocs": "Shopware-Dokumentation",
+                "howToDocsLink": "Lies den Artikel",
+                "launchBusiness": "Eröffne Deinen Shop",
                 "success-modal": {
-                    "titleSuccess": "",
-                    "textSuccess": "",
-                    "titleIsGoingLive": "",
-                    "textIsGoingLive": "",
-                    "labelBackBtn": "",
-                    "labelStoreLink": ""
+                    "titleSuccess": "Glückwunsch!",
+                    "textSuccess": "Dein Shop wurde erfolgreich eröffnet.",
+                    "titleIsGoingLive": "Shop wird eröffnet",
+                    "textIsGoingLive": "Dein Shop ist in wenigen Momenten online.",
+                    "labelBackBtn": "Zurück zum Dashboard",
+                    "labelStoreLink": "Wirf einen Blick auf Deinen neuen Shop"
                 },
                 "steps": {
                     "categoryQuestFinished": {
-                        "headline": "",
-                        "subHeadline": "",
-                        "description": "",
+                        "headline": "Lege Deine Kategorien an",
+                        "subHeadline": "Gib Deinem Onlineshop Struktur",
+                        "description": "Durch eine sinnvolle und klare Struktur der Produkt-Kategorien finden Deine Kunden schnell und einfach genau die Produkte, nach denen sie suchen.",
                         "createCategory": {
-                            "video": "",
-                            "buttonLabel": ""
+                            "video": "https://www.youtube-nocookie.com/embed/60rg5naRKqI?rel=0",
+                            "buttonLabel": "Kategorien jetzt anlegen"
                         }
                     },
                     "productQuestFinished": {
-                        "headline": "",
-                        "subHeadline": "",
-                        "description": "",
+                        "headline": "Füge Deine ersten Produkte hinzu",
+                        "subHeadline": "Bring Leben in Deine Storefront",
+                        "description": "Sei von Anfang an erfolgreich und erreiche mehr Kunden mit Deinem Produktsortiment.",
                         "createProduct": {
-                            "video": "",
-                            "buttonLabel": ""
+                            "video": "https://www.youtube-nocookie.com/embed/_6ovd7pkvTc?rel=0",
+                            "buttonLabel": "Jetzt Produkte anlegen"
                         }
                     },
                     "getToKnowAdminQuestFinished": {
-                        "headline": "",
-                        "subHeadline": "",
-                        "description": "",
+                        "headline": "Lerne Deine Administration kennen",
+                        "subHeadline": "Das ist Deine Admin",
+                        "description": "Die Administration ist das Herzstück Deines Onlineshops. Hier richtest Du Deinen Shop ein und verwaltest unterschiedliche Bereiche wie Produkte, Bestellungen, Kunden und vieles mehr. Lerne die wichtigsten Bereiche der Administration im User-Video kennen.",
                         "watchVideoGetToKnowAdmin": {
-                            "video": ""
+                            "video": "https://www.youtube-nocookie.com/embed/8LtkpHn75Ks?rel=0"
                         }
                     },
                     "themeQuestFinished": {
-                        "headline": "",
-                        "subHeadline": "",
-                        "description": "",
+                        "headline": "Verwende Dein eigenes Branding",
+                        "subHeadline": "Gestalte Deinen Onlineshop",
+                        "description": "Erschaffe eine starke und einheitliche Markenidentität. Setze Dich vom Wettbewerb ab mit individuellen Design-Features und lass' Deine Kunden wissen, wofür Du stehst. Wähle Theme, Logo und Farbpalette passend zu Deinem Geschäftsmodell aus und erhöhe den Wiedererkennungswert Deiner Marke.",
                         "changeTheme": {
-                            "video": "",
-                            "buttonLabel": ""
+                            "video": "https://www.youtube-nocookie.com/embed/3qgViJKNbbI?rel=0",
+                            "buttonLabel": "Jetzt Theme wählen und gestalten"
                         }
                     },
                     "shippingAndPaymentQuestFinished": {
-                        "headline": "",
-                        "subHeadline": "",
-                        "description": "",
+                        "headline": "Lege Versand- und Zahlungsarten fest",
+                        "subHeadline": "Hinterlege die beliebtesten Zahlungs- und Versandanbieter",
+                        "description": "Biete Deinen Kunden die beliebtesten Zahlungs- und Versandarten an und erhöhe damit die Kundenzufriedenheit.",
                         "updateShipping": {
-                            "video": "",
-                            "buttonLabel": ""
+                            "video": "https://www.youtube-nocookie.com/embed/0eqbI9EWFS0?rel=0",
+                            "buttonLabel": "Versandarten anlegen"
                         },
                         "updatePayment": {
-                            "video": "",
-                            "buttonLabel": ""
+                            "video": "https://www.youtube-nocookie.com/embed/-Cda9wB8Ne4?rel=0",
+                            "buttonLabel": "Zahlungsarten anlegen"
                         }
                     },
                     "legalRequirementQuestFinished": {
-                        "headline": "",
-                        "subHeadline": "",
-                        "description": "",
+                        "headline": "Erfülle gesetzliche Bestimmungen",
+                        "subHeadline": "Sichere Dein Business ab",
+                        "description": "Füge gesetzlich erforderliche Dokumente wie z.B. Impressum und Datenschutzhinweise hinzu.",
                         "changeImprintPage": {
-                            "video": "",
-                            "buttonLabel": ""
+                            "video": "https://www.youtube-nocookie.com/embed/-ldj7Hc46tk?rel=0",
+                            "buttonLabel": "Impressum"
                         },
                         "changePrivacyPage": {
-                            "video": "",
-                            "buttonLabel": ""
+                            "video": "https://www.youtube-nocookie.com/embed/-ldj7Hc46tk?rel=0",
+                            "buttonLabel": "Datenschutzhinweise"
                         },
                         "changeRevocationPage": {
-                            "video": "",
-                            "buttonLabel": ""
+                            "video": "https://www.youtube-nocookie.com/embed/-ldj7Hc46tk?rel=0",
+                            "buttonLabel": "Wiederrufsbelehrungen"
                         },
                         "changeTosPage": {
-                            "video": "",
-                            "buttonLabel": ""
+                            "video": "https://www.youtube-nocookie.com/embed/-ldj7Hc46tk?rel=0",
+                            "buttonLabel": "AGB's"
                         }
                     }
                 },
                 "finished": {
-                    "headline": "",
-                    "description": "",
+                    "headline": "Du hast alle Punkte aus der Checkliste erledigt und bist bereit für Deinen Start.",
+                    "description": "Besuche unsere Dokumentation, wenn Du noch unsicher bist oder eröffne Deinen Shop jetzt per Knopfdruck.",
                     "action": "",
-                    "helpCenter": "",
-                    "helpCenterLink": ""
+                    "helpCenter": "Dokumentation - Livegang",
+                    "helpCenterLink": "https://docs.shopware.com/de/shopware-6-de/cloud/livegang"
                 },
                 "numbers": {
-                    "two": "",
-                    "three": ""
+                    "two": "zwei",
+                    "three": "drei"
                 }
             },
             "saas-rufus-dashboard-videos": {
-                "headline": "",
-                "description": "",
+                "headline": "Werde Shopware 6 Experte!",
+                "description": "Mit unseren kostenlosen und flexiblen Online-Trainings lernst Du Shopware 6 bis ins kleinste Detail kennen. Darüber hinaus findest Du eine Vielzahl von Themen auf unserem Shopware YouTube-Kanal sowie in unseren live oder aufgezeichneten Shopware 6 Webinaren.",
                 "links": {
                     "link-1": {
                         "name": "",
@@ -170,530 +170,530 @@
                         "link": ""
                     },
                     "link-3": {
-                        "name": "",
-                        "link": ""
+                        "name": "Shopware 6\nWebinare",
+                        "link": "https://www.shopware.com/de/knowledge/webinars/"
                     }
                 }
             },
             "saas-rufus-going-live-bar": {
-                "textGoingLive": "",
-                "labelGoingLiveBtn": "",
-                "textTrialExpiresAt": "",
-                "textBookPlanFromTrial": "",
-                "textTrialDaysLeft": "",
-                "textTrialEndTomorrow": "",
-                "textTrialEndToday": "",
-                "textTrialHasExpired": "",
-                "labelBookPlanBtn": "",
-                "textTrialDescription": "",
-                "labelBookNowBtn": ""
+                "textGoingLive": "Alles abgehakt? Dann lass uns anfangen Produkte zu verkaufen!",
+                "labelGoingLiveBtn": "Eröffne Deinen Shop",
+                "textTrialExpiresAt": "Deine Testphase läuft noch bis zum {expiresAt}.",
+                "textBookPlanFromTrial": "Buche einen Free Plan und setze den Aufbau Deines Shops nahtlos fort.",
+                "textTrialDaysLeft": "Noch {count} Tag bis zum Ende Deiner Testphase | Noch {count} Tage bis zum Ende Deiner Testphase",
+                "textTrialEndTomorrow": "Deine Testphase endet morgen um {time}",
+                "textTrialEndToday": "Deine Testphase endet heute um {time}",
+                "textTrialHasExpired": "Deine Testphase ist abgelaufen",
+                "labelBookPlanBtn": "Wähle einen Plan",
+                "textTrialDescription": "Entdecke Shopware! Richte jetzt Deinen Onlineshop weiter ein und launche diesen einfach und nahtlos nach der Testphase.",
+                "labelBookNowBtn": "Jetzt buchen"
             },
             "saas-rufus-going-live-success-modal": {
-                "titleSuccess": "",
-                "textSuccess": "",
-                "titleIsGoingLive": "",
-                "textIsGoingLive": "",
-                "labelBackBtn": "",
-                "labelStoreLink": ""
+                "titleSuccess": "Glückwunsch!",
+                "textSuccess": "Dein Shop wurde erfolgreich eröffnet.",
+                "titleIsGoingLive": "Shop wird eröffnet",
+                "textIsGoingLive": "Dein Shop ist in wenigen Momenten online.",
+                "labelBackBtn": "Zurück zum Dashboard",
+                "labelStoreLink": "Wirf einen Blick auf Deinen neuen Shop"
             },
             "saas-rufus-storefront-locked": {
-                "titleSalesChannelsLocked": "",
-                "titleShopLocked": "",
-                "contactSupportTeam": "",
-                "contactLinkLabel": "",
-                "contactLinkUrl": ""
+                "titleSalesChannelsLocked": "Deine Verkaufskanäle und die jeweilige Storefront wurden aus diversen Gründen gesperrt und sind offline.",
+                "titleShopLocked": "Deine Administration ist gesperrt! Es gibt mehrere Gründe, warum Dein Shop aktuell offline ist.",
+                "contactSupportTeam": "Bitte wende Dich an unseren Support, damit wir das Problem finden und gemeinsam lösen können – damit Du bald wieder online bist.",
+                "contactLinkLabel": "Kontakt aufnehmen",
+                "contactLinkUrl": "https://ecommerce.shopware.com/fragen-zur-sperrung"
             },
             "sw-rufus-settings-plans-view": {
-                "payment": "",
+                "payment": "Zahlungsarten",
                 "planDetails": {
-                    "active": "",
-                    "activeSince": "",
-                    "nextBilling": "",
-                    "billingEmail": "",
-                    "upgrade": "",
-                    "oldPlanPrices": "",
-                    "newEditionsPrices": "",
+                    "active": "Aktiv",
+                    "activeSince": "Aktiv seit",
+                    "nextBilling": "Nächste Abrechnung",
+                    "billingEmail": "Rechnungs-E-Mail",
+                    "upgrade": "Plan upgraden",
+                    "oldPlanPrices": "{basePrice}€ / Monat +{revenueShare}% Umsatzbeteiligung zzgl. Mehrwertsteuer",
+                    "newEditionsPrices": "{basePrice}€ / Monat zzgl. Mehrwertsteuer|{basePrice}€ / Jahr zzgl. Mehrwertsteuer",
                     "emptyState": {
-                        "title": "",
-                        "text": "",
-                        "button": ""
+                        "title": "Finde den richtigen Plan für Dein Unternehmen",
+                        "text": "Du hast aktuell keinen Plan gebucht. Buche Deinen ersten Plan, damit Dein Shop live gehen kann.",
+                        "button": "Wähle einen Plan"
                     },
-                    "cancelled": "",
-                    "cancellationDate": "",
-                    "reactivate": ""
+                    "cancelled": "Abgebrochen",
+                    "cancellationDate": "Shop-Löschung am",
+                    "reactivate": "Reaktivieren"
                 },
-                "textStarterEditionDaysLeft": "",
+                "textStarterEditionDaysLeft": "Starter Edition noch {count} Tag verfügbar | Starter Edition noch {count} Tage verfügbar",
                 "endOfStarterEditionAnnouncement": {
-                    "free": "",
-                    "advanced": "",
-                    "professional": ""
+                    "free": "Bitte beachte, dass wir dich Anfang des Jahres bereits darauf hingewiesen haben, dass wir uns von der Starter Edition verabschieden werden. Darunter fällt auch dein “Free Plan”. <b>Bis zum 31. Dezember 2022</b> hast du die Möglichkeit ein Upgrade zu machen. Solltest du bei deinem Free Plan bleiben, wird dein Onlineshop zum 01. Januar 2023 automatisch mit dem Ablauf der Starter Edition gelöscht. Natürlich hoffen wir sehr, dass wir dich mit den leistungsstarken Features überzeugen können und dass du weiterhin ein wertvoller Teil der Shopware Community bleibst.",
+                    "advanced": "Bitte beachte, dass wir Dich Anfang des Jahres bereits darauf hingewiesen haben, dass wir uns am 01.01.2023 von der Starter Edition verabschieden werden. Darunter fällt auch Dein “Advanced Plan”. Am <strong>01. Januar 2023</strong> wechselst Du dann <strong>automatisch</strong> in die <strong>Professional Edition Cloud</strong> für 199,00€ pro Monat zzgl. 0,5% Umsatzbeteiligung. Du hast natürlich jederzeit die Möglichkeit, Deinen Plan zu kündigen. Wir hoffen jedoch sehr, dass wir Dich mit den leistungsstarken Features der Professional Edition überzeugen können und dass Du weiterhin ein wertvoller Teil der Shopware Community bleibst.",
+                    "professional": "Profitiere von maximaler Flexibilität und voller Skalierbarkeit. Bleib in der schnelllebigen Welt des E-Commerce mit dem innovativen Funktionsumfang von Shopware Evolve an der Spitze. Wir stellen dir ab sofort alle Features von Shopware Evolve zur Verfügung."
                 },
                 "professionalEdition": ""
             },
             "sw-rufus-settings-company-company": {
-                "companySelectCardTitle": "",
-                "labelCompanySelect": "",
-                "placeholderCompanySelect": "",
-                "labelAddCompany": "",
-                "labelNewCompany": "",
-                "vatIdCardTitle": "",
-                "contactCardTitle": "",
-                "billingCardTitle": "",
-                "companySelectTitle": "",
-                "companySelectDescription": ""
+                "companySelectCardTitle": "Firmenauswahl",
+                "labelCompanySelect": "Firmenauswahl",
+                "placeholderCompanySelect": "Wähle eine Firma ...",
+                "labelAddCompany": "Neue Firma hinzufügen",
+                "labelNewCompany": "Neue Firma",
+                "vatIdCardTitle": "Umsatzsteuer-Identifikationsnummer",
+                "contactCardTitle": "Kontaktinformationen",
+                "billingCardTitle": "Rechnungsinformationen",
+                "companySelectTitle": "Wähle Deine Firma um Rechnungsdaten zu hinterlegen",
+                "companySelectDescription": "Deine E-Mail-Adresse ist bereits mit einer oder mehreren registrierten Firmen verknüpft. Wähle die Firma mit der Du zahlen möchtest aus dem Dropdownmenü. Um eine neue Firma hinzuzufügen, wähle \"{labelAddCompany}\" aus dem Dropdownmenü."
             },
             "sw-rufus-settings-company-vat-id": {
-                "titleVatId": "",
-                "fixationTitle": "",
-                "fixationText": "",
-                "helpTextVatId": "",
-                "warningVatId": "",
-                "labelHasVatId": "",
-                "labelHasNoVatId": "",
-                "labelSmallTradesman": "",
-                "labelSmallTradesmanHelptext": "",
-                "placeholderVatId": ""
+                "titleVatId": "Umsatzsteuer-Identifikationsnummer",
+                "fixationTitle": "Festschreibung der buchhalterischen Informationen",
+                "fixationText": "Nach Deiner ersten Buchung bekommst Du Deine erste Rechnung. Dein Firmenmame und Deine USt-IdNr. werden für diese Rechnungen verwendet. Sollte in Zukunft eine Änderung der Daten gewünscht sein, sende uns bitte unter Angabe des Kundenkontos eine entsprechende E-Mail an <a href=\"mailto:financial.services@shopware.com\" tabindex=\"-1\">financial.services@shopware.com</a> mit aktueller Gewerbeanmeldung oder Handelsregisterauszug im Anhang.",
+                "helpTextVatId": "Die Umsatzsteuer-Identifikationsnummer wird von den Ländern der Europäischen Union an Firmen vergeben und dient der Abwicklung des innergemeinschafltichen Waren- und Dienstleistungsverkehrs für Umsatzsteuerzwecke. Hierdurch kann unter bestimmten Bedingungen die Steuerschuldenschaft umgekehrt werden. (Siehe <a href=\"https://www.gesetze-im-internet.de/ustg_1980/__13b.html\" target=\"_blank\" tabindex=\"-1\">§ 13b UStG - Leistungsempfänger als Steuerschuldner</a>)",
+                "warningVatId": "<strong>Achtung:</strong> Diese USt-ID darf nicht mit der (Umsatz-)Steuernummer oder auch der Schweizer UID verwechselt werden. Diese Nummern dürfen hier nicht eingegeben werden.",
+                "labelHasVatId": "Ich besitze eine Umsatzsteuer-ID",
+                "labelHasNoVatId": "Ich besitze keine Umsatzsteuer-ID",
+                "labelSmallTradesman": "Ich bin Kleingewerbetreibender",
+                "labelSmallTradesmanHelptext": "Diese Option kann nur ausgewählt werden, wenn Deine Rechnungsadresse in Deutschland ist.",
+                "placeholderVatId": "Gib eine Umsatzsteuer-ID ein ..."
             },
             "sw-rufus-settings-company-contact": {
-                "labelTitle": "",
-                "placeholderTitle": "",
-                "labelTitleMs": "",
-                "labelTitleMr": "",
-                "labelTitleNotSpecified": "",
-                "labelFirstName": "",
-                "placeholderFirstName": "",
-                "labelLastName": "",
-                "placeholderLastName": "",
-                "labelEmail": "",
-                "placeholderEmail": "",
+                "labelTitle": "Titel",
+                "placeholderTitle": "Wähle eine Anrede ...",
+                "labelTitleMs": "Frau",
+                "labelTitleMr": "Herr",
+                "labelTitleNotSpecified": "Keine Angabe",
+                "labelFirstName": "Vorname",
+                "placeholderFirstName": "Gib einen Vornamen ein ...",
+                "labelLastName": "Nachname",
+                "placeholderLastName": "Gib einen Nachnamen ein ...",
+                "labelEmail": "E-Mail-Adresse",
+                "placeholderEmail": "E-Mail-Adresse eingeben ...",
                 "labelPhoneNumber": "",
-                "placeholderPhoneNumber": "",
-                "labelCountry": "",
-                "placeholderCountry": ""
+                "placeholderPhoneNumber": "Telefonnummer eingeben ...",
+                "labelCountry": "Land",
+                "placeholderCountry": "Wähle ein Land aus ..."
             },
             "sw-rufus-settings-company-billing": {
-                "labelCompanyName": "",
-                "placeholderCompanyName": "",
-                "labelEmail": "",
-                "placeholderEmail": "",
-                "labelReminderEmail": "",
-                "labelDifferentReminder": "",
-                "labelStreet": "",
-                "placeholderStreet": "",
-                "labelZipCode": "",
-                "placeholderZipCode": "",
-                "labelCity": "",
-                "placeholderCity": "",
-                "labelCountry": "",
-                "placeholderCountry": "",
-                "labelBusinessSector": "",
-                "placeholderBusinessSector": ""
+                "labelCompanyName": "Firmenname",
+                "placeholderCompanyName": "Gib einen Firmennamen ein ...",
+                "labelEmail": "E-Mail-Adresse",
+                "placeholderEmail": "E-Mail-Adresse eingeben ...",
+                "labelReminderEmail": "E-Mail-Adresse für Mahnungen",
+                "labelDifferentReminder": "Mahnadresse ist abweichend von Rechnungsadresse",
+                "labelStreet": "Straße",
+                "placeholderStreet": "Gib eine Straße und Nr. ein ...",
+                "labelZipCode": "PLZ",
+                "placeholderZipCode": "Gib eine Postleitzahl ein ...",
+                "labelCity": "Stadt",
+                "placeholderCity": "Gib eine Stadt ein ...",
+                "labelCountry": "Land",
+                "placeholderCountry": "Wähle ein Land aus ...",
+                "labelBusinessSector": "Branche",
+                "placeholderBusinessSector": "Wähle eine Branche ..."
             },
             "sw-rufus-settings-paypal": {
-                "title": "",
-                "infoText": "",
-                "labelConnectNewPayPalAccount": "",
-                "defaultPaymentLabel": "",
-                "labelSetDefaultPayment": "",
+                "title": "Verbinde Dein PayPal-Konto",
+                "infoText": "Eine PayPal-Verbindung wird benötigt für die monatlichen Gebühren und die Umsatzbeteiligung. Bitte setze ein PayPal-Konto als Standard-Zahlungsmethode für Deine Unternehmenszahlungen.",
+                "labelConnectNewPayPalAccount": "Neues PayPal-Konto verbinden",
+                "defaultPaymentLabel": "Standardzahlungsart",
+                "labelSetDefaultPayment": "Zur Standardzahlungsart machen",
                 "errors": {
-                    "titleGenericFailure": "",
-                    "messageGenericFailure": ""
+                    "titleGenericFailure": "Fehler",
+                    "messageGenericFailure": "Es ist ein unbekannter Fehler aufgetreten."
                 },
-                "noCompanyTooltip": "",
-                "infoTextNoAccount": ""
+                "noCompanyTooltip": "Um ein PayPal Konto verbinden zu können, musst Du zuerst eine Firma erstellen.",
+                "infoTextNoAccount": "Eine PayPal-Verbindung wird benötigt für die monatlichen Gebühren und die Umsatzbeteiligung. Bitte verbinde Dein PayPal-Konto als Standard-Zahlungsmethode für Deine Unternehmenszahlungen."
             },
             "sw-email-address-field": {
-                "disabledHelpText": ""
+                "disabledHelpText": "Richte Custom Domains ein, um Deine Mail-Sender-Adresse konfigurieren zu können."
             },
             "sw-rufus-payment-method-lock": {
                 "error-complete-lock": {
-                    "title": "",
-                    "message": ""
+                    "title": "Dein Shop ist offline! Deine Zahlungsinformationen sind seit mehr als 7 Tagen fehlerhaft oder ungültig.",
+                    "message": "Ohne gültige Zahlungsinformationen wird Dein Plan nicht mehr fortgesetzt und Dein Shop bleibt offline. Um Deinen Shop wiederherzustellen, registriere ein neues gültiges PayPal-Konto für Deine Firma. Klicke dafür einfach auf den unten stehenden Button, welcher Dich dann automatisch zu PayPal weiterleitet."
                 },
                 "error-admin-lock": {
-                    "title": "",
-                    "message": ""
+                    "title": "Bei der Abbuchung Deiner Gebühren ist etwas schief gelaufen. Dein Shop wird in einem Tag gesperrt – bitte überprüfe Deine Zahlungsinformationen. | Bei der Abbuchung Deiner Gebühren ist etwas schief gelaufen. Dein Shop wird in {days} Tagen gesperrt – bitte überprüfe Deine Zahlungsinformationen.",
+                    "message": "Es sieht so aus als bestehe ein Problem mit Deinen Zahlungsinformationen, da keine Zahlung eingegangen ist. <b>Bitte sorge dafür, dass die Verbindung zu PayPal innerhalb des nächsten Tages wiederhergestellt wird</b>, um Deinen Shop online zu behalten und weiterhin für Kunden erreichbar zu sein. | Es sieht so aus als bestehe ein Problem mit Deinen Zahlungsinformationen, da keine Zahlung eingegangen ist. <b>Bitte sorge dafür, dass die Verbindung zu PayPal innerhalb der nächsten {days} Tage wiederhergestellt wird</b>, um Deinen Shop online zu behalten und weiterhin für Kunden erreichbar zu sein."
                 },
-                "billing-information": "",
-                "wiki": "",
-                "maintenance": "",
+                "billing-information": "Registriere ein neues PayPal-Konto",
+                "wiki": "Brauchst Du Hilfe? Kontaktiere den Support",
+                "maintenance": "Alle Verkaufskanäle in den Wartungsmodus setzen",
                 "maintenanceNotification": {
-                    "title": "",
-                    "message": ""
+                    "title": "Wartungsmodus aktiviert",
+                    "message": "Deine Storefronts befinden sich jetzt im Wartungsmodus. Denke daran, den Wartungsmodus zu beenden, wenn Du wieder Live gehen möchtest."
                 }
             },
             "sw-rufus-upgrade-trigger-alert": {
                 "labelButtonUpgrade": ""
             },
             "sw-rufus-nps-rating-overlay": {
-                "textHeadline": "",
-                "textNotLikely": "",
-                "textVeryLikely": "",
-                "textFeedbackHeadline": "",
-                "textFeedback": "",
-                "textFeedback--updated": "",
-                "placeholderLeaveComment": "",
-                "labelSubmit": ""
+                "textHeadline": "Wie wahrscheinlich würdest Du Shopware weiterempfehlen?",
+                "textNotLikely": "Nicht wahrscheinlich",
+                "textVeryLikely": "Sehr wahrscheinlich",
+                "textFeedbackHeadline": "Danke für Deine Zeit.",
+                "textFeedback": "Wir arbeiten ständig an der Verbesserung von Shopware und Dein Feedback hilft uns dabei sehr.",
+                "textFeedback--updated": "Wir arbeiten ständig an der Verbesserung von Shopware und Dein Feedback hilft uns dabei sehr.",
+                "placeholderLeaveComment": "Möchtest Du Deine Bewertung noch durch einen Kommentar ergänzen?",
+                "labelSubmit": "Abschicken"
             },
             "saas-rufus-reset-demo-shop-bar": {
-                "textDemoExpiresOn": "",
-                "textResetDemoshop": "",
-                "textResetShopOrExtendDemo": "",
-                "labelResetDemoshopBtn": "",
-                "labelRenewDemoshopBtn": ""
+                "textDemoExpiresOn": "Deine Demo läuft noch bis zum {expiresAt}.",
+                "textResetDemoshop": "Setze Deinen Shop zurück, um Dein eigenes Geschäft mit einem leeren Shop zu starten.",
+                "textResetShopOrExtendDemo": "Setze Deinen Shop zurück, um Dein eigenes Geschäft mit einem leeren Shop zu starten oder verlängere die Demo für weitere 30 Tage.",
+                "labelResetDemoshopBtn": "Shop zurücksetzen",
+                "labelRenewDemoshopBtn": "Demo verlängern"
             },
             "saas-rufus-reset-modal": {
-                "title": "",
-                "subtitle": "",
-                "description": ""
+                "title": "Wir setzen Deinen Shop zurück.",
+                "subtitle": "Das kann eine Weile dauern ...",
+                "description": "Dein Shop ist nicht verfügbar, während wir ihn zurücksetzen. Kehre später zurück oder warte einfach hier, bis wir Dich zu Deinem zurückgesetzten Shop umleiten."
             },
             "sw-rufus-settings-cancellation-modal": {
-                "title": "",
-                "titleTrial": "",
+                "title": "Kündigung",
+                "titleTrial": "Löschung",
                 "stepOne": {
-                    "title": "",
-                    "titleTrial": "",
-                    "paragraph": ""
+                    "title": "Warum möchtest Du Deinen Plan kündigen?",
+                    "titleTrial": "Warum möchtest Du Deinen Shop löschen?",
+                    "paragraph": "Wir sind ständig bemüht, unser Kundenerlebnis zu verbessern und sind daher sehr daran interessiert, warum Du kündigen möchtest. Bitte hilf uns, indem Du uns Deine Gründe für die Kündigung mitteilst."
                 },
                 "stepTwo": {
-                    "title": "",
-                    "titleTrial": "",
-                    "paragraph": "",
-                    "paragraphTrial": "",
-                    "deleteAtEndOfBillingPeriod": "",
-                    "deleteAtEndOfBillingPeriodDescription": "",
-                    "deleteImmediately": "",
-                    "deleteImmediatelyDescription": "",
-                    "alertParagraphOne": "",
-                    "alertParagraphTwo": ""
+                    "title": "Wann soll Dein Shop gelöscht werden?",
+                    "titleTrial": "Warum möchtest Du Deinen Shop löschen?",
+                    "paragraph": "Mit der Kündigung Deines Shops wird dieser auch gelöscht. Du kannst wählen, ob Du Deinen Shop sofort oder zum Ende des Abrechnungszeitraums ({endOfBillingPeriod}) löschen möchtest. Beachte, dass abhängig Deines gebuchten Plans und gemieteter Funktionen weiter Gebühren und umsatzbezogene Kosten entstehen können, die am Ende des Abrechnugszeitraums fällig werden.",
+                    "paragraphTrial": "Dadurch werden Dein Shop und alle seine Konfigurationen und Daten endgültig gelöscht. Du kannst dies nicht mehr rückgängig machen!\n\nBitte stelle sicher, dass Du vor der Bestätigung Sicherungen von rechtlich relevanten Daten wie z.B. Rechnungen gemacht hast.",
+                    "deleteAtEndOfBillingPeriod": "Shop am Ende des Abrechnungszeitraums löschen",
+                    "deleteAtEndOfBillingPeriodDescription": "Der Shop wird zum Ende des Abrechnungszeitraums ({endOfBillingPeriod}) gelöscht.",
+                    "deleteImmediately": "Shop sofort löschen",
+                    "deleteImmediatelyDescription": "Der Shop wird sofort gelöscht.",
+                    "alertParagraphOne": "Alle Inhalte und Daten des Shops werden unwiderruflich gelöscht. Exportiere alle rechtlich relevanten Daten, wie z. B. Rechnungen, vorab und bewahre diese an einem sicheren Ort auf.",
+                    "alertParagraphTwo": "Accounts, die mit externen Partnern wie PayPal verknüpft sind, müssen manuell gekündigt werden."
                 },
-                "cancelPlanButton": "",
-                "deleteShopButton": "",
+                "cancelPlanButton": "Plan kündigen",
+                "deleteShopButton": "Shop löschen",
                 "notificationSuccess": {
-                    "title": "",
-                    "message": ""
+                    "title": "Schade, dass Du uns verlassen möchtest!",
+                    "message": "Du hast die Kündigung Deines Plans erfolgreich hinterlegt."
                 },
                 "notificationError": {
-                    "message": ""
+                    "message": "Dieser Shop kann nur von dem Benutzer gelöscht werden, der ihn erstellt hat."
                 }
             },
             "saas-rufus-storefront-demo-link-card": {
-                "heading": "",
-                "description": "",
-                "labelButton": ""
+                "heading": "Teile Deinen Demo-Shop mit anderen",
+                "description": "Generiere einen Demolink, um Dritten den Zugang zur Storefront Deines Demoshops zu ermöglichen.",
+                "labelButton": "Vorschaulink generieren"
             },
             "saas-rufus-not-verified-admin-locked": {
-                "title": "",
-                "secondTitle": "",
-                "subtitle": "",
-                "buttonTitle": "",
-                "buttonLabel": "",
-                "contactLinkLabel": "",
-                "contactLinkUrl": "",
-                "resendNotificationTitle": "",
-                "resendNotificationMessage": "",
-                "resendNotificationErrorTitle": "",
-                "resendNotificationErrorMessage": ""
+                "title": "Oh sieht so aus, als ob Dein Shop eingeschränkt ist, weil Du Deine E-Mail noch nicht verifiziert hast.",
+                "secondTitle": "Verifiziere Deinen Shopware Account, um Deinen Shop wiederherzustellen!",
+                "subtitle": "Ohne einen verifizierten Shopware Account kannst Du mit Deinem Shopware Cloud-Shop nicht online gehen. Wir haben Dir eine E-Mail mit einem Verifizierungslink an <b>{email}</b> geschickt.",
+                "buttonTitle": "Hast Du Schwierigkeiten, die E-Mail zu finden?",
+                "buttonLabel": "E-Mail erneut schicken",
+                "contactLinkLabel": "Kontakt aufnehmen",
+                "contactLinkUrl": "https://ecommerce.shopware.com/fragen-zur-sperrung",
+                "resendNotificationTitle": "Erfolg",
+                "resendNotificationMessage": "Du solltest in Kürze eine E-Mail erhalten.",
+                "resendNotificationErrorTitle": "Fehler",
+                "resendNotificationErrorMessage": "E-Mail konnte nicht erneut versendet werden."
             },
             "saas-rufus-demo-modal": {
-                "continueDemoBtn": "",
-                "continueDemoBtn--updated": "",
-                "resetShopBtn": "",
-                "resetShopBtn--updated": "",
-                "titleDemoIsHalfOver": "",
-                "demoHalfExpiresText": "",
-                "demoResetText": "",
-                "messageDemoExpiration": "",
-                "titleDemoEnds": "",
-                "subtitleDemoEnds": "",
-                "demoExpiresText": "",
-                "messageContinueDemo": "",
-                "messageWarning": "",
-                "deleteShopBtn": "",
-                "supportFooter": ""
+                "continueDemoBtn": "Demo verlängern",
+                "continueDemoBtn--updated": "Demo verlängern",
+                "resetShopBtn": "Shop zurücksetzen",
+                "resetShopBtn--updated": "Shop zurücksetzen",
+                "titleDemoIsHalfOver": "Super, schon seit {days} Tagen nutzt Du Deinen Demoshop! Wir freuen uns, Dich auf dem Weg zu Deinem Erfolg zu begleiten.",
+                "demoHalfExpiresText": "Weitere {daysLeft} Tage kannst Du Shopware für Dein Business testen und Funktionen wie beispielsweise die Verkaufskanäle Instagram und Facebook ausprobieren oder Deine ersten Erlebniswelten mit den Demodaten gestalten.",
+                "demoResetText": "Du hast Dich bereits für Shopware entschieden und möchtest nun mit Deinen eigenen Produkten durchstarten? Dann resette jetzt den Demoshop und füge Deine eigenen Inhalte hinzu:",
+                "messageDemoExpiration": "Deine Demo läuft am {expiryDate} ab.",
+                "titleDemoEnds": "Deine Demo läuft heute ab! | Deine Demo läuft morgen ab! | Deine Demo läuft in 2 Tagen ab!",
+                "subtitleDemoEnds": "Gehe jetzt den nächsten Schritt für Dein Business.",
+                "demoExpiresText": "Für Deinen perfekten Start – resette Deinen Shop, damit Du Deine eigenen Inhalte und Produkte hinzufügen kannst und wähle Deinen passenden Plan aus.",
+                "messageContinueDemo": "Du brauchst noch etwas mehr Zeit? Du kannst Deinen Demoshop einfach hier um weitere 30 Tagen verlängern.",
+                "messageWarning": "<b>Bitte beachte:</b> Wenn Dein Demoshop abläuft, hast Du keinen Zugang mehr. Keine Sorge wir speichern Deine Ideen und Inhalte für einen Monat – so hast Du genügend Zeit, Deinen Demoshop-Zeitraum zu erneuern oder den Shop zurück zu setzen und mit einem Plan durchzustarten.",
+                "deleteShopBtn": "Shop dauerhaft löschen",
+                "supportFooter": "Wir unterstützen Dich gerne – melde Dich bei Fragen oder einer Beratung jederzeit direkt bei uns per E-Mail unter <a href=\"mailto:sales@shopware.com\">sales@shopware.com</a> oder per Telefon unter <a href=\"tel:+492555928850\">02555 – 928850</a>."
             },
             "sw-card-view": {
-                "demoInfoTitle": "",
-                "demoInfoWarning": ""
+                "demoInfoTitle": "Du benutzt Shopware momentan im Demomodus.",
+                "demoInfoWarning": "Alle Änderungen werden rückgängig gemacht, sobald Du zurück in den produktiven Modus wechselst."
             },
             "sw-version": {
-                "expiresIn": "",
-                "expiresTomorrow": "",
-                "expiresToday": "",
-                "expiredAt": "",
-                "demoMode": "",
-                "cancelledPlan": ""
+                "expiresIn": "Testphase endet in {expiresIn} Tagen.",
+                "expiresTomorrow": "Testphase endet morgen um {time}",
+                "expiresToday": "Testphase endet heute um {time}",
+                "expiredAt": "Testphase endete am {expiresAt}.",
+                "demoMode": "Demomodus",
+                "cancelledPlan": "Gekündigt zum {cancellationDate}"
             },
             "saas-rufus-demo-expired-card": {
-                "title": "",
-                "titleWithoutRenewDemo": "",
-                "messageReset": "",
-                "messageRenew": "",
-                "deletionNoticeHeading": ""
+                "title": "Deine Demo ist abgelaufen! Setze diesen Shop zurück oder erneuere Deine Demo, um fortzufahren.",
+                "titleWithoutRenewDemo": "Deine Demo ist abgelaufen! Setze diesen Shop zurück, um fortzufahren.",
+                "messageReset": "Du hast Shopware nun über einen Monat lang mit Deinem Demo-Shop ausprobiert. Wenn Du bereit bist, Dein eigenes Geschäft zu eröffnen, musst Du Deinen Shop zurücksetzen und einen Plan wählen, der am besten passt.",
+                "messageRenew": "Falls Du immer noch unentschlossen bist oder einfach nur weiter erkunden möchtest, hast Du die Möglichkeit, Deine Demo für weitere 30 Tage zu erneuern.",
+                "deletionNoticeHeading": "Möchtest Du uns verlassen?"
             },
             "saas-rufus-reset-confirm-modal": {
-                "confirmButton": "",
-                "titleConfirm": "",
-                "messageConfirm": "",
-                "messageReset": ""
+                "confirmButton": "Bestätigen und zurücksetzen",
+                "titleConfirm": "Shop zurücksetzen",
+                "messageConfirm": "Bist Du sicher, dass Du Deinen Shopware Shop zurücksetzen möchtest?",
+                "messageReset": "Falls Du etwas in der Testphase gemacht hast, das Du sowieso nicht behalten möchtest, kannst Du Deinen Shop auch zurücksetzen. Dabei werden alle hinzugefügten Produkte und Einstellungen entfernt, jedoch bleibt der Shop erhalten."
             },
             "saas-rufus-renew-demo-modal": {
-                "title": "",
-                "subtitle": "",
-                "messageError": "",
-                "messageContinueDemoSuccess": ""
+                "title": "Shopware-Demomodus erneuern ...",
+                "subtitle": "Das kann eine Weile dauern ...",
+                "messageError": "Dein Shopware-Demomodus konnte nicht verlängert werden.",
+                "messageContinueDemoSuccess": "Dein Shopware-Demomodus wurde verlängert."
             },
             "saas-rufus-dashboard-shop-cancelled": {
-                "textShopCancelled": ""
+                "textShopCancelled": "Der Plan für diesen Shop wurde zum {cancellationDate} gekündigt. Alle damit verbundenen Daten und Inhalte werden gelöscht. Speicher alle rechtlich relevanten Daten, wie Rechnungen, vorher an einem sicheren Ort. {revokeCancellationLink}"
             },
             "saas-rufus-custom-domain-link": {
-                "labelLink": ""
+                "labelLink": "Custom Domain einrichten"
             },
             "saas-rufus-generate-demo-link-modal": {
-                "title": "",
-                "description": "",
-                "labelTextFieldLink": "",
-                "labelButtonClose": ""
+                "title": "Demoshop-Vorschau",
+                "description": "Großartig. Gib diesen Vorschaulink an Deine Freunde weiter.",
+                "labelTextFieldLink": "Vorschaulink",
+                "labelButtonClose": "Schließen"
             },
             "saas-rufus-dashboard-test-orders": {
-                "title": "",
-                "textAdminTestOrders": "",
-                "adminOrderCta": "",
+                "title": "Teste Deinen Bestellprozess",
+                "textAdminTestOrders": "Erstelle eine Testbestellung über den unten stehenden Link. Für diese Testbestellungen fällt keine Umsatzbeteiligungen an.",
+                "adminOrderCta": "Erstelle eine manuelle Testbestellung im Bestellmodul",
                 "activeStorefront": {
-                    "textLive": "",
-                    "linkTextDemo": "",
-                    "textConstruction": "",
-                    "storefrontOrderCta": ""
+                    "textLive": "Du kannst über den Link hierunter Testbestellungen anlegen. Testbestellungen werden nicht zum Umsatz Deines Shops hinzugerechnet.",
+                    "linkTextDemo": "Generiere einen Vorschau-Link für Dritte",
+                    "textConstruction": "Du kannst über die Links hierunter Testbestellungen anlegen. Testbestellungen werden nicht zum Umsatz Deines Shops hinzugerechnet.",
+                    "storefrontOrderCta": "Erstelle eine Testbestellung in Deiner Storefront"
                 }
             },
             "saas-rufus-revoke-cancellation-modal": {
-                "title": "",
-                "headline": "",
-                "paragraph": "",
-                "paragraphPlanBooking": "",
-                "revokeCancellationButton": "",
+                "title": "Kündigung widerrufen",
+                "headline": "Schön, dass Du bei uns bleiben möchtest!",
+                "paragraph": "Wenn Du die Kündigung widerrufst, bleibt Dein {bookedPlanLabel} Plan aktiv. Der nächste Abrechnungszeitraum beginnt am {beginOfNextBillingPeriod}.",
+                "paragraphPlanBooking": "Der Plan dieses Shops wurde gekündigt. Wenn Du bestätigst, wird die Kündigung widerrufen und Du kannst den ausgewählten Plan buchen.",
+                "revokeCancellationButton": "Kündigung widerrufen",
                 "notificationSuccess": {
-                    "title": "",
-                    "message": ""
+                    "title": "Schön, dass Du wieder da bist!",
+                    "message": "Du hast die Kündigung Deines Plans erfolgreich widerrufen."
                 }
             },
             "saas-rufus-settings-account-cancellation-card": {
-                "descriptionTextModule": "",
+                "descriptionTextModule": "Kündigung Deines Shops",
                 "descriptionTextModuleTrial": "",
-                "cancellationCardTitle": "",
-                "cancellationCardTitleTrial": "",
-                "cancellationCardHeadline": "",
-                "cancellationCardHeadlineCancelled": "",
-                "cancellationCardParagraph": "",
-                "cancellationCardParagraphTrial": "",
-                "cancelPlanAndDeleteShopButton": "",
-                "deleteShopButton": "",
-                "cancellationWillTakeEffectOn": "",
-                "revokeCancellationButton": ""
+                "cancellationCardTitle": "Kündigung",
+                "cancellationCardTitleTrial": "Löschung",
+                "cancellationCardHeadline": "Es tut uns leid, dass Du uns verlassen möchtest!",
+                "cancellationCardHeadlineCancelled": "Bist Du sicher, dass Du uns verlassen möchtest?",
+                "cancellationCardParagraph": "Du kannst hier Deinen Plan kündigen und Deinen Shop löschen. Die Kündigung wird zum Ende des aktuellen Abrechnungszeitraums am {endOfBillingPeriod} wirksam.",
+                "cancellationCardParagraphTrial": "Wenn Du Deinen Shop aus verschiedenen Gründen nicht mehr betreiben möchtest, kannst Du Deinen Shop löschen lassen. Mit diesem Schritt löschen wir alle Inhalte und Daten Deines Shops. Dieser Schritt kann nicht rückgängig gemacht werden.",
+                "cancelPlanAndDeleteShopButton": "Plan kündigen und Shop löschen",
+                "deleteShopButton": "Shop löschen",
+                "cancellationWillTakeEffectOn": "Du hast Deinen Plan gekündigt und Dein Shop wird gelöscht. Die Kündigung wird zum Ende des aktuellen Abrechnungszeitraums am {cancellationDate} wirksam. Falls Du Deine Meinung änderst oder versehentlich gekündigt hast, kannst Du die Kündigung jederzeit widerrufen.",
+                "revokeCancellationButton": "Kündigung widerrufen"
             }
         },
         "module": {
             "sw-rufus-settings-company": {
-                "mainMenuItemGeneral": "",
-                "descriptionTextModule": "",
-                "buttonSave": ""
+                "mainMenuItemGeneral": "Firma",
+                "descriptionTextModule": "Verwaltung der Firmenzuordnung",
+                "buttonSave": "Speichern"
             },
             "sw-rufus-settings-plans": {
-                "mainMenuItemGeneral": "",
-                "descriptionTextModule": ""
+                "mainMenuItemGeneral": "Gebuchte Edition",
+                "descriptionTextModule": "Verwaltung der Planbuchung"
             },
             "sw-rufus-settings-domains": {
                 "mainMenuItemGeneral": "",
-                "buttonConnectDomains": "",
+                "buttonConnectDomains": "Domain verbinden",
                 "columnDomain": "",
-                "buttonDeleteDomain": "",
-                "titleDeleteError": "",
-                "messageLoadingError": "",
-                "messageDeleteErrorGeneric": "",
-                "messageDeleteErrorSalesChannelDomain": "",
-                "messageDeleteErrorDefaultMailer": "",
-                "messageDeleteErrorDefaultMailerAction": ""
+                "buttonDeleteDomain": "Entfernen",
+                "titleDeleteError": "Fehler",
+                "messageLoadingError": "Die Custom Domains konnten nicht neu geladen werden.",
+                "messageDeleteErrorGeneric": "Die Domain konnte nicht gelöscht werden.",
+                "messageDeleteErrorSalesChannelDomain": "Die Domain konnte nicht gelöscht werden, da sie als Sales Channel Domain verwendet wird.",
+                "messageDeleteErrorDefaultMailer": "Die Domain konnte nicht gelöscht werden, da sie als E-Mail-Sender-Adresse verwendet wird.",
+                "messageDeleteErrorDefaultMailerAction": "E-Mail-Einstellungen ändern"
             },
             "sw-rufus-settings-domains-modal": {
-                "titleConnectDomains": "",
-                "buttonNext": "",
-                "buttonBack": "",
-                "buttonFinish": "",
-                "textVerifyingDomain": "",
-                "textError": "",
-                "titleSetupProvider": "",
-                "textSetupProviderWithCNAME": "",
-                "textSetupProviderWithARecords": "",
+                "titleConnectDomains": "Verbinde Deine Domain",
+                "buttonNext": "Weiter",
+                "buttonBack": "Zurück",
+                "buttonFinish": "Abschließen",
+                "textVerifyingDomain": "Verifizierung Deiner Domain ...",
+                "textError": "Fehler beim Verifizieren Deiner Domain. Bitte vergewissere Dich, dass Deine Provider Einstellungen korrekt sind.",
+                "titleSetupProvider": "Richte Deinen Domain Provider ein",
+                "textSetupProviderWithCNAME": "Um Deine Domain zu verbinden, hinterlege den unten stehenden CNAME Record bei Deinem Provider.",
+                "textSetupProviderWithARecords": "Um Deine Domain zu verbinden, hinterlege alle unten stehenden A Records bei Deinem Provider.",
                 "labelDomain": "",
-                "placeholderDomain": "",
-                "titleSuccess": "",
-                "textSuccess": "",
-                "labelCnameRecord": "",
-                "labelARecord": "",
-                "headingDocumentation": "",
-                "textDocumentation": "",
-                "labelDocumentationLink": "",
-                "urlDocumentationLink": "",
-                "labelLinksSalesChannelDetailPage": ""
+                "placeholderDomain": "Gib eine Domain ein ...",
+                "titleSuccess": "Domain verifiziert",
+                "textSuccess": "Du kannst nun Deine Domain in Deinen Sales Channels verwenden.",
+                "labelCnameRecord": "CNAME-Record",
+                "labelARecord": "A-Record",
+                "headingDocumentation": "Du benötigst Hilfe beim Einrichten Deiner Domain?",
+                "textDocumentation": "In unserer Dokumentation findest Du ausführliche Informationen und Anleitungen, die Dir dabei helfen können, Deine Domain zu verbinden.",
+                "labelDocumentationLink": "Hier geht es zur Shopware Dokumentation",
+                "urlDocumentationLink": "https://docs.shopware.com/de/shopware-6-de/einstellungen/domaenen",
+                "labelLinksSalesChannelDetailPage": "Domain mit Storefront verknüpfen"
             },
             "sw-rufus-settings-cancellation": {
-                "mainMenuItemGeneral": "",
-                "mainMenuItemGeneralTrial": "",
-                "descriptionTextModule": "",
+                "mainMenuItemGeneral": "Kündigung",
+                "mainMenuItemGeneralTrial": "Löschung",
+                "descriptionTextModule": "Kündigung Deines Shops",
                 "descriptionTextModuleTrial": "",
-                "cancellationCardTitle": "",
-                "cancellationCardTitleTrial": "",
-                "cancellationCardHeadline": "",
-                "cancellationCardHeadlineCancelled": "",
-                "cancellationCardParagraph": "",
-                "cancellationCardParagraphTrial": "",
-                "cancelPlanAndDeleteShopButton": "",
-                "deleteShopButton": "",
-                "cancellationWillTakeEffectOn": "",
-                "revokeCancellationButton": ""
+                "cancellationCardTitle": "Kündigung",
+                "cancellationCardTitleTrial": "Löschung",
+                "cancellationCardHeadline": "Es tut uns leid, dass Du uns verlassen möchtest!",
+                "cancellationCardHeadlineCancelled": "Bist Du sicher, dass Du uns verlassen möchtest?",
+                "cancellationCardParagraph": "Du kannst hier Deinen Plan kündigen und Deinen Shop löschen. Die Kündigung wird zum Ende des aktuellen Abrechnungszeitraums am {endOfBillingPeriod} wirksam.",
+                "cancellationCardParagraphTrial": "Wenn Du Deinen Shop aus verschiedenen Gründen nicht mehr betreiben möchtest, kannst Du Deinen Shop löschen lassen. Mit diesem Schritt löschen wir alle Inhalte und Daten Deines Shops. Dieser Schritt kann nicht rückgängig gemacht werden.",
+                "cancelPlanAndDeleteShopButton": "Plan kündigen und Shop löschen",
+                "deleteShopButton": "Shop löschen",
+                "cancellationWillTakeEffectOn": "Du hast Deinen Plan gekündigt und Dein Shop wird gelöscht. Die Kündigung wird zum Ende des aktuellen Abrechnungszeitraums am {cancellationDate} wirksam. Falls Du Deine Meinung änderst oder versehentlich gekündigt hast, kannst Du die Kündigung jederzeit widerrufen.",
+                "revokeCancellationButton": "Kündigung widerrufen"
             },
             "sw-rufus-settings-payment": {
-                "paymentLabel": ""
+                "paymentLabel": "Zahlungsarten"
             }
         },
         "extension": {
-            "sw-admin-menu-accountItem": "",
-            "sw-settings-tabAccount": "",
+            "sw-admin-menu-accountItem": "Account Einstellungen",
+            "sw-settings-tabAccount": "Konto",
             "sw-settings-account-information": {
-                "title": "",
-                "text": "",
-                "link": ""
+                "title": "Dir fehlen Informationen?",
+                "text": "Weitere Informationen über Deine Shopdaten und Rechnungsdetails findest Du in Deinem Shopware Account. Du kannst Dich dort einfach mit Deinen Administrationsdaten anmelden.",
+                "link": "Shopware Account Einstellungen anzeigen"
             },
             "sw-settings-user": {
                 "status": {
-                    "invited": "",
-                    "active": "",
-                    "deactivated": "",
-                    "notVerified": ""
+                    "invited": "eingeladen",
+                    "active": "aktiv",
+                    "deactivated": "deaktiviert",
+                    "notVerified": "unverifiziert"
                 },
                 "sw-settings-user-list": {
-                    "labelbuttonInviteUser": "",
-                    "labelColumnStatus": "",
-                    "textDeleteModal": "",
-                    "tooltipCompanyNotSet": ""
+                    "labelbuttonInviteUser": "Benutzer einladen",
+                    "labelColumnStatus": "Benutzerstatus",
+                    "textDeleteModal": "Möchtest Du die Einladung an \"{email}\" wirklich zurückziehen?",
+                    "tooltipCompanyNotSet": "Du musst zuerst Deine Firmendaten vervollständigen, bevor Du andere Benutzer einladen kannst."
                 },
                 "sw-settings-user-detail": {
-                    "alertInviteNotAccepted": "",
-                    "alertChangeInSbp": ""
+                    "alertInviteNotAccepted": "Der Benutzer hat Deine Einladung noch nicht akzeptiert. Benutzerdaten stehen nur für Mitglieder in diesem Shop bereit.",
+                    "alertChangeInSbp": "Benutzerdaten können im Moment nur im <a href=\"{link}\" target=\"_blank\">Shopware Account</a> geändert werden."
                 },
                 "invitation-modal": {
-                    "title": "",
-                    "labelEmail": "",
-                    "placeholderEmail": "",
-                    "labelLanguage": "",
-                    "placeholderLanguage": "",
-                    "labelButtonInvite": ""
+                    "title": "Sende eine Einladung an einen Benutzer",
+                    "labelEmail": "E-Mail-Adresse",
+                    "placeholderEmail": "E-Mail-Adresse eingeben ...",
+                    "labelLanguage": "Sprache der Benutzeroberfläche",
+                    "placeholderLanguage": "Wähle eine Sprache aus ...",
+                    "labelButtonInvite": "Benutzer einladen"
                 },
                 "plan-usage": {
-                    "text": ""
+                    "text": "<strong>Dein Plan erlaubt nicht mehr als {allowed} Benutzer.</strong> Wenn Du Deinen Plan upgradest, erhältst Du Zugang zu mehr Benutzern."
                 }
             },
             "sw-sales-channel-modal": {
                 "plan-usage": {
-                    "text": "",
-                    "text--updated": ""
+                    "text": "<strong>Dein Plan erlaubt nicht mehr als einen Verkaufskanal.</strong> Wenn Du Deinen Plan upgradest, erhältst Du Zugang zu mehr Verkaufskanälen. | <strong>Dein Plan erlaubt nicht mehr als {allowed} Verkaufskanäle.</strong> Wenn Du Deinen Plan upgradest, erhältst Du Zugang zu mehr Verkaufskanälen.",
+                    "text--updated": "<strong>Dein Plan erlaubt keine weiteren Verkaufskanäle.</strong> Wenn Du Deinen Plan upgradest, erhältst Du Zugang zu mehr Verkaufskanälen. | <strong>Dein Plan erlaubt nicht mehr als {allowed} Verkaufskanäle.</strong> Wenn Du Deinen Plan upgradest, erhältst Du Zugang zu mehr Verkaufskanälen."
                 },
                 "additional-sales-channels": {
-                    "text": ""
+                    "text": "<strong>Dein Plan erlaubt keine weiteren Verkaufskanaltypen.</strong> Wenn Du Deinen Plan upgradest, erhältst Du Zugang zu mehr Verkaufskanaltypen."
                 }
             },
             "sw-sales-channel-detail-base": {
                 "plan-usage": {
-                    "tooltipLimitCurrency": "",
-                    "tooltipLimitCountry": "",
-                    "textCurrency": "",
-                    "textCountry": "",
-                    "textCombined": ""
+                    "tooltipLimitCurrency": "Dein aktueller Plan erlaubt nur {limit} Währungen.",
+                    "tooltipLimitCountry": "Dein aktueller Plan erlaubt nur {limit} Länder.",
+                    "textCurrency": "<strong>Dein Plan erlaubt nicht mehr als {currencyLimit} Währung.</strong> Wenn Du auf einen höheren Plan upgradest, kannst Du mehr Währungen auswählen.",
+                    "textCountry": "<strong>Dein Plan erlaubt nicht mehr als {countryLimit} Land.</strong> Wenn Du auf einen höheren Plan upgradest, kannst Du mehr Länder auswählen.",
+                    "textCombined": "<strong>Dein Plan erlaubt nicht mehr als {countryLimit} Land und {currencyLimit} Währung.</strong> Wenn Du auf einen höheren Plan upgradest, kannst Du mehr Länder und Währungen auswählen."
                 }
             },
             "sw-sales-channel": {
                 "sw-sales-channel-detail-domains": {
-                    "labelUrlSelect": ""
+                    "labelUrlSelect": "Url (und optional Pfad)"
                 }
             },
             "sw-dashboard-index": {
-                "introHeadline": "",
-                "introDescription": "",
-                "introHeadlineDemo": "",
-                "introDescriptionDemo": "",
-                "unverifiedAccountHintTitle": "",
-                "unverifiedAccountHintText": "",
-                "unverifiedAccountHintResendMail": ""
+                "introHeadline": "Hallo, {firstName}. | Willkommen in Deinem Shop.",
+                "introDescription": "Willkommen in der Shopware Community!",
+                "introHeadlineDemo": "Willkommen in Deinem Demoshop!",
+                "introDescriptionDemo": "Nimm Dir Zeit Shopware kennenzulernen.",
+                "unverifiedAccountHintTitle": "Verifiziere Deinen Shopware Account innerhalb der nächsten 24 Stunden",
+                "unverifiedAccountHintText": "Ohne einen verifizierten Shopware Account kann Dein Shopware Cloud-Shop nicht online gehen. Wir haben eine E-Mail mit einem Verifizierungslink an {email} geschickt. Wenn dies nicht Deine korrekte E-Mail ist, musst Du einen neuen Shop mit der korrekten E-Mail erstellen. Klicke auf E-Mail erneut senden, wenn Du unsere E-Mail nicht finden kannst.",
+                "unverifiedAccountHintResendMail": "E-Mail erneut senden"
             },
             "sw-theme-manager": {
                 "sw-theme-manager-list": {
-                    "linkLabelToCancellation": ""
+                    "linkLabelToCancellation": "Bundle-Abonnement kündigen"
                 }
             },
             "swag-migration": {
                 "dashboard": {
-                    "title": "",
-                    "information": "",
-                    "button": "",
+                    "title": "Migriere Deinen Shopware 5 Shop in die Cloud",
+                    "information": "Gemeinsam stellen wir eine Verbindung zwischen den Systemen her. Danach gelangst Du in den Migrations-Assistenten um eine Migration durchführen zu können. Lass uns damit beginnen, eine Verbindung anzulegen.",
+                    "button": "Jetzt Verbindung anlegen",
                     "shopInfoCard": {
                         "header": "",
-                        "button": "",
-                        "resetButton": "",
-                        "connected": "",
-                        "notConnected": "",
-                        "profile": "",
-                        "gateway": "",
-                        "connectionCheck": "",
-                        "lastMigration": "",
-                        "displayDateTime": "",
-                        "noMigrationDoneYet": ""
+                        "button": "Migrations-Assistenten öffnen",
+                        "resetButton": "Migration abschließen",
+                        "connected": "Verbunden",
+                        "notConnected": "Nicht verbunden",
+                        "profile": "System-Profil:",
+                        "gateway": "Schnittstelle:",
+                        "connectionCheck": "Verbindungscheck:",
+                        "lastMigration": "Letzte Migration:",
+                        "displayDateTime": "{time} Uhr - {date}",
+                        "noMigrationDoneYet": "bisher keine durchgeführt"
                     },
                     "resetNotification": {
-                        "title": "",
-                        "message": "",
-                        "actionReset": "",
-                        "actionClose": ""
+                        "title": "Migration jetzt abschließen",
+                        "message": "Du hast vor 14 Tagen eine Migration gestartet. Schließe die Migration ab, wenn Du alle Daten migriert hast, um temporäre und ungenutzte Daten aufzuräumen.",
+                        "actionReset": "Abschließen",
+                        "actionClose": "Später"
                     }
                 },
                 "resetMigrationConfirmDialog": {
-                    "content": ""
+                    "content": "Super! Schließe dann jetzt die Migration ab, um temporäre und ungenutzte Dateien aufzuräumen. <b>Bitte beachte:</b> Das Abschließen der Migration ist endgültig. Du kannst danach keine Migration mehr durchführen."
                 }
             },
             "swag-google-shopping": {
                 "productSync": {
-                    "disabled": ""
+                    "disabled": "Produktsynchronisation nicht möglich. Stelle sicher, dass der zugewiesene Storefront-Verkaufskanal aktiv ist und sich nicht im Wartungsmodus befindet. Zusätzlich muss Dein Shop im Live-Modus sein."
                 }
             },
             "sw-order": {
                 "list": {
-                    "buttonAddTestOrder": ""
+                    "buttonAddTestOrder": "Testbestellung anlegen"
                 },
                 "create": {
-                    "textNewTestOrder": "",
-                    "buttonSaveTestOrder": ""
+                    "textNewTestOrder": "Neue Testbestellung",
+                    "buttonSaveTestOrder": "Testbestellung speichern"
                 },
                 "createBase": {
-                    "testOrderHint": ""
+                    "testOrderHint": "Da Dein Shop noch nicht live ist, können nur Testbestellungen angelegt werden. Shopware berechnet keine Kosten für Testbestellungen und erhebt keine Umsatzbeteiligung."
                 },
                 "detailBase": {
-                    "testOrderHint": ""
+                    "testOrderHint": "Testbestellung - keine Umsatzbeteiligung fällig"
                 }
             },
             "sw-mail-template": {
                 "detail": {
                     "sidebar": {
-                        "onlyAdminEmailCanBeUsed": ""
+                        "onlyAdminEmailCanBeUsed": "Während der kostenlosen Testphase kann für das Test-Mailing nur die hinterlegte Administrator E-Mail Adresse verwendet werden."
                     }
                 }
             },
             "swag-paypal-pos": {
                 "connection": {
-                    "buttonConnect": "",
+                    "buttonConnect": "Mit Zettle verbinden",
                     "error": {
-                        "modalTitle": "",
-                        "headline": "",
-                        "infoDuplicate": "",
-                        "disclaimer": ""
+                        "modalTitle": "Verbindungsfehler",
+                        "headline": "Die Verbindung konnte nicht hergestellt werden.",
+                        "infoDuplicate": "Es existiert bereits ein Verkaufskanal mit diesen Zugangsdaten.",
+                        "disclaimer": "Fehlercode:"
                     }
                 }
             },
@@ -702,322 +702,322 @@
                     "component": {
                         "sw-extension-buy-modal": {
                             "alertCanNotBuy": {
-                                "inOrderToPurchase": ""
+                                "inOrderToPurchase": "Um diese Erweiterung hinzuzufügen, musst Du im nächsten Schritt die Kündigung Deines Plans widerrufen."
                             },
                             "revokeCancellationModal": {
-                                "paragraph": "",
-                                "revokeButtonLabel": ""
+                                "paragraph": "Um diese Erweiterung hinzufügen zu können, musst Du Deine Kündigung widerrufen. Dein {bookedPlanLabel} Plan bleibt dann nach der Bestätigung aktiv.",
+                                "revokeButtonLabel": "Kündigung widerrufen und Erweiterung hinzufügen"
                             }
                         }
                     }
                 },
                 "component": {
                     "sw-extension-card-base": {
-                        "incompatibleLabel": "",
-                        "incompatibleTooltip": ""
+                        "incompatibleLabel": "(nicht kompatibel)",
+                        "incompatibleTooltip": "Diese App ist nicht kompatibel mit der neuesten Shopware-Version. Die App wird automatisch geupdated, wenn eine kompatible Version zur Verfügung steht."
                     },
                     "sw-extension-card-bought": {
-                        "incompatibilityExpected": ""
+                        "incompatibilityExpected": "Inkompatibilität erwartet"
                     },
                     "sw-self-maintained-extension-card": {
-                        "privateAppLabel": "",
-                        "updateLabel": ""
+                        "privateAppLabel": "Privat",
+                        "updateLabel": "Aktualisierung"
                     },
                     "saas-rufus-private-app-upload": {
-                        "tooltip": "",
-                        "alertUploadModal": "",
+                        "tooltip": "Diese Funktion ist noch in der Beta-Phase. Der Funktionsumfang kann eingeschränkt sein und es können Fehler auftreten.",
+                        "alertUploadModal": "Du kannst eine hochgeladene Erweiterung nicht wieder herunterladen. Bitte behalte eine Kopie der Erweiterung auf Deinem lokalen System.",
                         "fileInputLabel": "",
-                        "fileInputBackgroundMessage": "",
-                        "warningUploadModal": "",
-                        "continue": "",
+                        "fileInputBackgroundMessage": "Wähle die Zip-Datei der Erweiterung aus, um sie hochzuladen.",
+                        "warningUploadModal": "Ich habe verstanden, dass Erweiterungen, die nicht im Shopware Store verfügbar sind, ein Risiko für meinen Shop darstellen können.",
+                        "continue": "Weiter",
                         "errorModal": {
-                            "header": "",
-                            "description": "",
-                            "download": "",
-                            "tryAgain": ""
+                            "header": "Sicherheitsüberprüfung für diese Erweiterung fehlgeschlagen",
+                            "description": "Die folgenden Mängel müssen behoben werden, damit Deine Erweiterung lauffähig wird.",
+                            "download": "Fehler-Log herunterladen",
+                            "tryAgain": "Erneut versuchen"
                         },
                         "selectFileModal": {
-                            "header": "",
-                            "headerUpdate": "",
-                            "description": "",
-                            "descriptionUpdate": ""
+                            "header": "Private Erweiterung hochladen",
+                            "headerUpdate": "Private Erweiterung aktualisieren",
+                            "description": "Lade neue Erweiterungen hoch oder aktualisiere bereits installierte Erweiterungen, indem Du eine andere Version hochlädst.",
+                            "descriptionUpdate": "Aktualisiere diese Erweiterung, indem Du eine andere Version hochlädst."
                         },
                         "successModal": {
-                            "header": "",
-                            "headerUpdate": "",
-                            "description": "",
-                            "descriptionUpdate": ""
+                            "header": "Erweiterung erfolgreich installiert",
+                            "headerUpdate": "Erweiterung erfolgreich aktualisiert",
+                            "description": "Du findest sie in der Auflistung Deiner Erweiterungen",
+                            "descriptionUpdate": "Du findest sie in der Auflistung Deiner Erweiterungen"
                         },
                         "loadingModal": {
-                            "header": "",
-                            "headerUpdate": "",
-                            "description": "",
-                            "descriptionUpdate": ""
+                            "header": "Erweiterung wird hochgeladen und installiert",
+                            "headerUpdate": "Erweiterung wird hochgeladen und aktualisiert",
+                            "description": "Dies kann bis zu einer Minute dauern ...",
+                            "descriptionUpdate": "Dies kann bis zu einer Minute dauern ..."
                         },
                         "alreadyInstalledModal": {
-                            "updateButton": "",
-                            "description": ""
+                            "updateButton": "Aktualisierung",
+                            "description": "Die Erweiterung \"<b>{appName}</b>\" ist bereits installiert. Möchten Sie die installierte Version mit der neu hochgeladenen Version aktualisieren?"
                         }
                     }
                 },
                 "errors": {
                     "FRAMEWORK__TOC_NOT_ACCEPTED": {
-                        "message": ""
+                        "message": "Du musst unsere Allgemeinen Geschäftsbedingungen akzeptieren, um fortzufahren."
                     },
                     "FRAMEWORK__EXTENSION_THEME_STILL_IN_USE": {
-                        "message": ""
+                        "message": "Das Theme wird aktuell noch in einem oder mehreren Verkaufskanälen genutzt."
                     },
                     "FRAMEWORK__INVALID_EXTENSION_ID": {
-                        "message": ""
+                        "message": "Die Identifikationsnummer der Erweiterung ist ungültig."
                     },
                     "FRAMEWORK__INVALID_VARIANT_ID": {
-                        "message": ""
+                        "message": "Die Identifikationsnummer des Preismodells der Erweiterung ist ungültig."
                     },
                     "FRAMEWORK__EXTENSION_PERMISSIONS_NOT_ACCEPTED": {
-                        "message": ""
+                        "message": "Du musst die Berechtigungen der Erweiterung akzeptieren, um fortzufahren."
                     },
                     "FRAMEWORK__INVALID_EXTENSION_RATING_VALUE": {
-                        "message": ""
+                        "message": "Die Bewertungsangabe ist ungültig."
                     },
                     "SAAS_EXTENSION_RESSOURCE_NOT_FOUND__EXTENSION": {
-                        "message": ""
+                        "message": "Die Erweiterung konnte nicht gefunden werden."
                     },
                     "SAAS_EXTENSION_RESSOURCE_NOT_FOUND__LICENSE": {
-                        "message": ""
+                        "message": "Die Lizenz für die Erweiterung konnte nicht gefunden werden."
                     },
                     "SAAS_EXTENSION_RESSOURCE_NOT_FOUND__BINARY": {
-                        "message": ""
+                        "message": "Die Dateien der Erweiterung konnten nicht gefunden werden."
                     },
                     "SAAS_EXTENSION_CANCELLATION__NOT_POSSIBLE": {
-                        "message": ""
+                        "message": "Die Erweiterung kann nicht gekündigt werden."
                     },
                     "SAAS_EXTENSION_CANCELLATION__STILL_IN_USE": {
-                        "message": ""
+                        "message": "Die Erweiterung kann nicht gekündigt werden, da sie noch verwendet wird."
                     },
                     "SAAS_EXTENSION_RATING__ALREADY_RATED": {
-                        "message": ""
+                        "message": "Die Erweiterung wurde bereits bewertet."
                     },
                     "SAAS_EXTENSION_LICENSE__NOT_ALLOWED_TO_REACTIVATE": {
-                        "message": ""
+                        "message": "Die Lizenz der Erweiterung darf nicht reaktiviert werden."
                     },
                     "SAAS_EXTENSION_DOWNLOAD__NOT_ALLOWED": {
-                        "message": ""
+                        "message": "Dein Shop darf die Erweiterung nicht herunterladen."
                     },
                     "SAAS_EXTENSION_ORDER__NOT_ALLOWED_PRICE_MODEL": {
-                        "message": ""
+                        "message": "Das gewählte Preismodell der Erweiterung ist nicht erlaubt."
                     },
                     "SAAS_EXTENSION_ORDER__NO_DEFAULT_PAYMENT_MEAN": {
-                        "message": "",
-                        "labelLink": ""
+                        "message": "Es ist kein Standardzahlungsmittel verfügbar.",
+                        "labelLink": "Standardzahlungsmittel einrichten"
                     },
                     "SAAS_EXTENSION_ORDER__INSUFFICIENT_BALANCE": {
-                        "message": ""
+                        "message": "Es ist nicht ausreichend Guthaben vorhanden."
                     },
                     "SAAS_EXTENSION_REQUEST__INVALID_CONTENT": {
-                        "message": ""
+                        "message": "Benötigte Request-Angaben fehlen oder sind ungültig."
                     },
                     "SAAS_EXTENSION_INVALID_BASKET__MULTIPLE_LICENSES_OR_LICENSE_ALREADY_OWNED": {
-                        "message": ""
+                        "message": "Der Warenkorb ist ungültig, da er mehrere oder bereits erworbene Lizenzen enthält."
                     },
                     "SAAS_EXTENSION_INVALID_BASKET__INVALID_ORDER_POSITION": {
-                        "message": ""
+                        "message": "Der Warenkorb enthält eine unzulässige Bestellposition."
                     },
                     "SAAS_EXTENSION_INVALID_BASKET__GENERAL": {
-                        "message": ""
+                        "message": "Der Warenkorb ist ungültig."
                     },
                     "SAAS_EXTENSION_INVALID_BASKET__INVALID_COMPANY": {
-                        "message": ""
+                        "message": "Der Warenkorb ist ungültig, da Deine Firma kein Land hinterlegt hat."
                     },
                     "SAAS_EXTENSION_RATING__INVALID_EXTENSION": {
-                        "message": ""
+                        "message": "Deine Bewertung konnte nicht gespeichert werden, da die betreffende Erweiterung unzulässig ist."
                     }
                 }
             },
             "sw-help-center": {
-                "supportLinkGenerate": "",
-                "supportLinkRegenerate": "",
-                "supportLink": "",
-                "supportLinkSubheading": "",
-                "supportLinkDetails": "",
-                "supportRequiresPaidEdition": "",
+                "supportLinkGenerate": "Zugangslink generieren",
+                "supportLinkRegenerate": "Neu generieren",
+                "supportLink": "Zugangslink kopieren",
+                "supportLinkSubheading": "Hilf uns, dir zu helfen!",
+                "supportLinkDetails": "Erstelle einen Link, über den sich unser Support-Team in Deine Administration einloggen kann. Sei vorsichtig, wenn Du diesen Link an andere Personen weitergibst.",
+                "supportRequiresPaidEdition": "Du musst eine kostenpflichtige und aktive Edition haben, um Supportanfragen stellen zu können. Wenn Du noch keine entsprechende Edition hast, kannst Du Deine Frage in unserem Support-Chat oder in den Shopware-Foren stellen.",
                 "notification": {
-                    "urlCopiedTitle": "",
-                    "urlCopiedText": "",
-                    "urlCopiedFailedTitle": "",
-                    "urlCopiedFailedText": ""
+                    "urlCopiedTitle": "Erfolg",
+                    "urlCopiedText": "URL in Zwischenablage kopiert.",
+                    "urlCopiedFailedTitle": "Gescheitert",
+                    "urlCopiedFailedText": "URL konnte nicht in die Zwischenablage kopiert werden."
                 }
             },
             "sw-extension-my-extensions-index": {
-                "incompatibleAppsTooltip": "",
-                "incompatibleThemesTooltip": ""
+                "incompatibleAppsTooltip": "Einige Apps werden inkompatibel.",
+                "incompatibleThemesTooltip": "Einige Themes werden inkompatibel."
             }
         },
         "notification": {
             "planLimitExceeded": {
-                "title": "",
+                "title": "Limit Deines aktuellen Plans erreicht",
                 "description": {
-                    "users": "",
-                    "salesChannels": "",
-                    "currencies": "",
-                    "countries": "",
-                    "premiumThemes": "",
-                    "customDomains": "",
-                    "customProducts": "",
-                    "cmsExtensions": "",
-                    "additionalSalesChannelTypes": "",
-                    "publisher": ""
+                    "users": "Das Nutzer-Limit von maximal einem Nutzer ist erreicht. Bitte upgrade Deinen Plan, um mehr Nutzer hinzufügen zu können. | Das Nutzer-Limit von maximal {limit} Nutzern ist erreicht. Bitte upgrade Deinen Plan, um mehr Nutzer hinzufügen zu können.",
+                    "salesChannels": "Das Verkaufskanal-Limit von maximal einem aktiven Verkaufskanal ist erreicht. Bitte upgrade Deinen Plan, um mehr Verkaufskanäle hinzufügen zu können. | Das Verkaufskanal-Limit von maximal {limit} aktiven Verkaufskanälen ist erreicht. Bitte upgrade Deinen Plan, um mehr Verkaufskanäle hinzufügen zu können.",
+                    "currencies": "Das Währungs-Limit von maximal einer verwendeten Währung ist erreicht. Bitte upgrade Deinen Plan, um mehr Währungen verwenden zu können. | Das Währungs-Limit von maximal {limit} verwendeten Währungen ist erreicht. Bitte upgrade Deinen Plan, um mehr Währungen verwenden zu können.",
+                    "countries": "Das Länder-Limit von maximal einem verwendeten Land ist erreicht. Bitte upgrade Deinen Plan, um mehr Länder verwenden zu können. | Das Länder-Limit von maximal {limit} verwendeten Ländern ist erreicht. Bitte upgrade Deinen Plan, um mehr Länder verwenden zu können.",
+                    "premiumThemes": "Dieses Theme ist in Deinem aktuellen Plan nicht enthalten. Bitte upgrade Deinen Plan um dieses Theme nutzen zu können.",
+                    "customDomains": "Das Custom Domain-Limit von maximal einer verwendeten Custom Domain ist erreicht. Bitte upgrade Deinen Plan, um mehr Custom Domains verwenden zu können. | Das Custom Domain-Limit von maximal {limit} verwendeten Custom Domains ist erreicht. Bitte upgrade Deinen Plan, um mehr Custom Domains verwenden zu können.",
+                    "customProducts": "Custom Products sind in Deinem aktuellen Plan nicht enthalten. Bitte upgrade Deinen Plan um Custom Products nutzen zu können.",
+                    "cmsExtensions": "Die CMS-Extensions sind in Deinem aktuellen Plan nicht enthalten. Bitte upgrade Deinen Plan um CMS-Extensions nutzen zu können.",
+                    "additionalSalesChannelTypes": "Dein Plan erlaubt keine zusätzlichen Verkaufskanaltypen. Bitte upgrade Deinen Plan, um andere Verkaufskanaltypen nutzen zu können.",
+                    "publisher": "Das Publisher-Plugin ist in Deinem aktuellen Plan nicht enthalten. Bitte upgrade Deinen Plan um dieses Plugin nutzen zu können."
                 },
-                "action": ""
+                "action": "Meinen Plan upgraden"
             },
             "incompatibleAppsDetected": {
-                "title": "",
-                "message": "",
+                "title": "Inkompatible Erweiterungen entdeckt",
+                "message": "Mindestens eine Deiner aktiven Erweiterungen wird bald inkompatibel zu Shopware. Bitte wende Dich an den Hersteller oder schaue Dich nach Alternativen um. <a href='{learnMoreUrl}' target='_blank'>{learnMore}</a>",
                 "actions": {
-                    "showExtensions": "",
-                    "remindMeLater": "",
-                    "learnMoreUrl": "",
-                    "learnMore": ""
+                    "showExtensions": "Erweiterungen anzeigen",
+                    "remindMeLater": "Später erinnern",
+                    "learnMoreUrl": "https://docs.shopware.com/de/shopware-6-de/saas/erweiterungen#inkompatible-apps",
+                    "learnMore": "Lerne mehr"
                 }
             }
         },
         "saas-errors": {
             "GENERIC_SBP_ERROR": {
-                "title": "",
-                "message": ""
+                "title": "Fehler",
+                "message": "Es ist ein unbekannter Fehler aufgetreten."
             },
             "SAAS_SBP__NOT_AVAILABLE": {
-                "title": "",
-                "message": ""
+                "title": "Verbindung gescheitert",
+                "message": "Das Sbp ist nicht erreichbar."
             },
             "SAAS_REQUEST__INVALID_CONTENT": {
-                "title": "",
-                "message": ""
+                "title": "Ungültige Eingaben",
+                "message": "Das Formular muss korrekt ausgefüllt werden."
             },
             "FRAMEWORK__INVALID_REQUEST_PARAMETER": {
-                "title": "",
-                "message": ""
+                "title": "Ungültige Eingaben",
+                "message": "Das Formular muss korrekt ausgefüllt werden."
             },
             "SAAS_ACCOUNT": {
-                "title": "",
-                "message": ""
+                "title": "Fehlende Rechte",
+                "message": "Du besitzt nicht die notwendigen Rechte. Diese kann ein Administrator in der Shop-Verwaltung vergeben."
             },
             "SAAS_PAYMENT__PAYMENT_MUST_BE_PAYPAL": {
-                "title": "",
-                "message": ""
+                "title": "Fehlende PayPal-Integration",
+                "message": "PayPal muss als Standardzahlungsart der Firma hinterlegt sein."
             },
             "SAAS_COMPANY__ALREADY_ASSIGNED": {
-                "title": "",
-                "message": ""
+                "title": "Speichern fehlgeschlagen",
+                "message": "Die ausgewählte Firma ist dem Shop bereits zugeordnet."
             },
             "SAAS_PAYMENT__HEIDELPAY_REDIRECT_TO_PAYPAL_FAILED": {
-                "title": "",
-                "message": ""
+                "title": "Weiterleitung fehlgeschlagen",
+                "message": "Die Weiterleitung zu PayPal ist fehlgeschlagen. Bitte versuche es erneut."
             },
             "SAAS_PAYMENT__HEIDELPAY_CHARGING_FAILED": {
-                "title": "",
-                "message": ""
+                "title": "Abbuchung fehlgeschlagen",
+                "message": "Die Abbuchung von Deinem PayPal-Konto ist fehlgeschlagen. Bitte überprüfe das verbundene PayPal-Konto und versuche es erneut."
             },
             "SAAS_PLAN__DOWNGRADE_CURRENTLY_NOT_PERMITTED": {
-                "title": "",
-                "message": ""
+                "title": "Zu frühe Buchung",
+                "message": "Du kannst erst 28 Tage nach der letzten Buchung auf den gewählten Plan wechseln."
             },
             "SAAS_PLAN__PLAN_ALREADY_BOOKED": {
-                "title": "",
-                "message": ""
+                "title": "Bereits gebuchter Plan",
+                "message": "Für diesen Shop wurde der angegebene Plan bereits gebucht."
             },
             "SAAS_PLAN__SHOP_HAS_WRONG_STATE": {
-                "message": ""
+                "message": "Mit Deinem aktuellen Shopstatus kann kein Plan gebucht werden."
             },
             "SAAS_PLAN__CONFLICTING_FEATURES": {
-                "message": ""
+                "message": "Der Plan konnte nicht gebucht werden, da noch Features genutzt werden, die nicht mit dem neuen Plan genutzt werden können."
             },
             "SAAS_SHOP_MEMBERSHIP__FORBIDDEN": {
-                "title": "",
-                "message": ""
+                "title": "Verboten",
+                "message": "Du darfst diese Aktion nicht ausführen."
             },
             "SAAS_SHOP_MEMBERSHIP__MEMBERSHIP_ALREADY_EXISTS": {
-                "message": ""
+                "message": "Dieser Benutzer ist bereits Mitglied in Deinem Shop."
             },
             "SAAS_SHOP_MEMBERSHIP__SHOP_OWNER_CANNOT_BE_REMOVED": {
-                "message": ""
+                "message": "Der Besitzer des Shops kann nicht gelöscht werden."
             },
             "SAAS_SHOP_MEMBERSHIP__NOT_A_SHOP_MEMBER": {
-                "message": ""
+                "message": "Der Benutzer ist nicht Mitglied in Deinem Shop."
             },
             "SAAS_SHOP_CHANGE_STATE__NOT_PERMITTED": {
-                "message": ""
+                "message": "Dein Shop kann gerade nicht in den von Dir angefragten Status wechseln. Vielleicht wurde der Status bereits gewechselt?"
             },
             "SAAS_SHOP_GOING_LIVE__NO_ACTIVE_SALES_CHANNEL_EXISTS": {
-                "message": ""
+                "message": "Du benötigst einen aktiven Verkaufskanal, um Deinen Shop zu eröffnen."
             },
             "SAAS_DEMO_EXTENSION__ALREADY_EXTENDED": {
-                "message": ""
+                "message": "Dein Shopware-Demomodus ist bereits einmalig verlängert worden."
             },
             "SAAS_DEMO_EXTENSION__CANNOT_EXTEND": {
-                "message": ""
+                "message": "Du kannst Deinen Shopware-Demomodus nicht verlängern."
             },
             "SAAS_SHOP_STATE__DEMOSHOP_REQUIRED": {
-                "message": ""
+                "message": "Die Aktion kann nicht ausgeführt werden, weil sich Dein Shop nicht im Demomodus befindet."
             },
             "SAAS_SHOP_STATE__CONSTRUCTION_REQUIRED": {
-                "message": ""
+                "message": "Die Aktion kann nur ausgeführt werden, wenn Du mit Deinem Shop noch nicht Live gegangen bist."
             },
             "SAAS_SHOP__HAS_PAYED_FEATURES": {
-                "message": ""
+                "message": "Die Aktion kann nicht ausgeführt werden, da Du bereits zahlungspflichtige Transaktionen ausgeführt hast."
             },
             "SAAS_SHOP_GOING_LIVE__GENERAL": {
-                "title": "",
-                "message": ""
+                "title": "Gescheitert",
+                "message": "Die Eröffnung Deines Shops ist fehlgeschlagen."
             },
             "SAAS_DEMO__BOOKING_NOT_PERMITTED": {
-                "message": ""
+                "message": "Im Demomodus kannst Du keine Buchung vornehmen."
             },
             "SAAS_SHOP__RESET_NOT_POSSIBLE": {
-                "message": ""
+                "message": "Das Zurücksetzen Deines Shops kann nur im Demomodus oder für Shops mit ausgelaufener Testphase durchgeführt werden."
             },
             "SAAS_ACCOUNT__NOT_ALLOWED_FOR_PITCH_DEMOSHOPS": {
-                "message": ""
+                "message": "Diese Aktion kann für Pitch-Demoshops nicht ausgeführt werden."
             },
             "SAAS_FRAMEWORK__ACTION_REQUIRES_PLAN": {
-                "message": ""
+                "message": "Du kannst die Aktion nur durchführen, wenn Du einen Plan gebucht hast."
             },
             "SAAS_BOOKING_NOT_ALLOWED__CANCELLATION_DEPOSITED": {
-                "title": "",
-                "message": ""
+                "title": "Buchung nicht möglich",
+                "message": "Da Dein Shop gekündigt wurde, kannst Du keine Buchungen mehr tätigen."
             },
             "SAAS_COMPANY__MISSING": {
-                "message": "",
-                "labelLink": ""
+                "message": "Es ist keine Firma hinterlegt.",
+                "labelLink": "Firma zuweisen"
             },
             "SAAS_PLAN__PLAN_CANCELLATION_ALREADY_DEPOSITED": {
-                "title": "",
-                "message": ""
+                "title": "Kündigung bereits hinterlegt",
+                "message": "Die Kündigung Deines Plans wurde bereits hinterlegt."
             },
             "SAAS_PLAN__PLAN_CANCELLATION_ALREADY_REVOKED": {
-                "title": "",
-                "message": ""
+                "title": "Kündigung bereits widerrufen",
+                "message": "Die Kündigung Deines Plans wurde bereits widerrufen."
             },
             "SAAS_PLAN__PLAN_CANCELLATION_ALREADY_PROCESSED": {
-                "title": "",
-                "message": ""
+                "title": "Kündigung bereits verarbeitet",
+                "message": "Die Kündigung Deines Plans wurde bereits verarbeitet."
             },
             "SAAS_FRAMEWORK__PLUGIN_LIFECYCLE_NOT_ALLOWED": {
-                "message": ""
+                "message": "Nur Apps sind in Shopware Cloud erlaubt. Plugins werden nicht unterstützt, da sie direkt auf den Shopware-Prozess und die Datenbank zugreifen."
             },
             "SAAS_FRAMEWORK__PRIVATE_APP_STORING_FAILED": {
-                "message": ""
+                "message": "Die private App konnte nicht gespeichert werden."
             },
             "SAAS_FRAMEWORK__PRIVATE_APP_MANIFEST_NOT_FOUND": {
-                "message": ""
+                "message": "Die \"manifest.xml\" der privaten App konnte nicht geladen werden."
             },
             "SAAS_FRAMEWORK__MANIFEST_NOT_FOUND_IN_ZIP": {
-                "message": ""
+                "message": "Es konnte keine \"manifest.xml\" in der Zip-Datei der App gefunden werden."
             }
         }
     },
     "sw-system-config": {
-        "helpTextReceiverEmailAddress": "",
-        "labelSenderEmailAddress": "",
-        "helpTextSenderEmailAddress": ""
+        "helpTextReceiverEmailAddress": "Diese E-Mail-Adresse wird für eingehende Kommunikation genutzt, z.B. Anfragen über Formulare.",
+        "labelSenderEmailAddress": "E-Mail-Sender-Adresse",
+        "helpTextSenderEmailAddress": "Diese E-Mail-Adresse wird genutzt als Absender-Adresse für alle ausgehenden E-Mails."
     }
 }
