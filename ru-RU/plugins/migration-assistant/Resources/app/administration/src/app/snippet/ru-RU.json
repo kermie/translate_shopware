@@ -1,0 +1,679 @@
+{
+  "swag-migration": {
+    "dashboard": {
+      "title": "",
+      "headline": "",
+      "information": "",
+      "button": "",
+      "shopInfoCard": {
+        "header": "",
+        "button": "",
+        "resetButton": ""
+      }
+    },
+    "general": {
+      "mainMenuItemGeneral": "",
+      "descriptionTextModule": "",
+      "tabMain": "",
+      "tabHistory": "",
+      "tabDataSelector": ""
+    },
+    "wizard": {
+      "buttonAbort": "",
+      "buttonLetsGo": "",
+      "buttonConnectionCreate": "",
+      "buttonConnectionSelect": "",
+      "buttonConnect": "",
+      "buttonToProfileInformation": "",
+      "buttonNext": "",
+      "buttonFinish": "",
+      "buttonEdit": "",
+      "buttonLater": "",
+      "buttonUseSsl": "",
+      "pages": {
+        "introduction": {
+          "title": "",
+          "contentHeadline": "",
+          "contentInformation": ""
+        },
+        "profileInstallation": {
+          "title": "",
+          "content": "",
+          "availabilityHeadline": "",
+          "availableVersionHeadline": "",
+          "installedHint": "",
+          "installationButton": "",
+          "shopwareProfileHeadline": "",
+          "magentoProfileHeadline": "",
+          "profileManufacturer": ""
+        },
+        "connectionSelect": {
+          "title": "",
+          "contentInformation": "",
+          "connectionLabel": "",
+          "connectionPlaceholder": ""
+        },
+        "connectionCreate": {
+          "title": "",
+          "contentInformation": "",
+          "profileLabel": "",
+          "profilePlaceholder": "",
+          "profileInstall": "",
+          "gatewayLabel": "",
+          "gatewayTooltip": "",
+          "gatewayPlaceholder": "",
+          "connectionLabel": "",
+          "connectionPlaceholder": "",
+          "connectionTooltip": "",
+          "gateways": {
+            "shopwareApi": "",
+            "shopwareLocal": ""
+          },
+          "hint": {
+            "local": ""
+          }
+        },
+        "profileInformation": {
+          "title": "",
+          "shopware55Api": {
+            "contentTitle": "",
+            "contentInformation": "",
+            "pluginLink": ""
+          },
+          "shopware6Api": {
+            "contentTitle": "",
+            "contentInformation": "",
+            "pluginLink": "",
+            "link": ""
+          }
+        },
+        "credentials": {
+          "title": "",
+          "emptyState": "",
+          "shopware55": {
+            "api": {
+              "contentInformation": "",
+              "apiKeyLabel": "",
+              "apiKeyTooltip": "",
+              "apiKeyPlaceholder": "",
+              "apiUserLabel": "",
+              "apiUserTooltip": "",
+              "apiUserPlaceholder": "",
+              "endpointLabel": "",
+              "endpointPlaceholder": "",
+              "endpointSSLLabel": ""
+            },
+            "local": {
+              "contentInformation": "",
+              "dbHostLabel": "",
+              "dbHostPlaceholder": "",
+              "dbPortLabel": "",
+              "dbNameLabel": "",
+              "dbNamePlaceholder": "",
+              "dbUserLabel": "",
+              "dbUserPlaceholder": "",
+              "dbPasswordLabel": "",
+              "dbPasswordPlaceholder": "",
+              "installationRoot": "",
+              "installationRootPlaceholder": ""
+            }
+          },
+          "shopware6": {
+            "api": {
+              "contentInformation": "",
+              "apiPasswordLabel": "",
+              "apiPasswordTooltip": "",
+              "apiPasswordPlaceholder": "",
+              "apiUserLabel": "",
+              "apiUserTooltip": "",
+              "apiUserPlaceholder": "",
+              "endpointLabel": "",
+              "endpointPlaceholder": "",
+              "endpointSSLLabel": ""
+            }
+          },
+          "statusTitle": "",
+          "success": {
+            "contentTitle": "",
+            "contentInformation": "",
+            "undefinedErrorMsg": "",
+            "SWAG_MIGRATION__REQUEST_CERTIFICATE_INVALID": ""
+          },
+          "error": {
+            "contentTitle": "",
+            "alertErrorTitle": "",
+            "undefinedErrorMsg": "",
+            "SWAG_MIGRATION__GATEWAY_READ": "",
+            "SWAG_MIGRATION__CONNECTION_AUTHENTICATION_INVALID": "",
+            "SWAG_MIGRATION__PLUGIN_NOT_INSTALLED": "",
+            "SWAG_MIGRATION__DATABASE_CONNECTION_ERROR": "",
+            "SWAG_MIGRATION__IS_RUNNING": "",
+            "SWAG_MIGRATION__SSL_REQUIRED": ""
+          }
+        }
+      }
+    },
+    "emptyScreen": {
+      "title": "",
+      "description": "",
+      "link": "",
+      "connectButton": ""
+    },
+    "index": {
+      "title": "",
+      "migrateButton": "",
+      "startButton": "",
+      "savePremapping": {
+        "saveButton": "",
+        "message": ""
+      },
+      "pauseButton": "",
+      "continueButton": "",
+      "abortButton": "",
+      "finishButton": "",
+      "backButton": "",
+      "migrationAlreadyRunning": "",
+      "pluginVersionText": "",
+      "shopInfoCard": {
+        "cardTitle": "",
+        "buttonEditSettings": "",
+        "buttonCreateConnection": "",
+        "buttonSelectConnection": "",
+        "buttonRemoveCredentials": "",
+        "buttonProfileInstallation": "",
+        "buttonResetChecksums": "",
+        "buttonResetMigration": "",
+        "connected": "",
+        "notConnected": "",
+        "profile": "",
+        "gateway": "",
+        "connectionCheck": "",
+        "lastMigration": "",
+        "displayDateTime": "",
+        "noMigrationDoneYet": "",
+        "removeCredentialsConfirmDialog": {
+          "title": "",
+          "content": "",
+          "contentHint": "",
+          "abortButtonText": "",
+          "confirmButtonText": ""
+        },
+        "resetChecksumsConfirmDialog": {
+          "title": "",
+          "content": "",
+          "contentHint": "",
+          "abortButtonText": "",
+          "confirmButtonText": ""
+        },
+        "resetMigrationConfirmDialog": {
+          "title": "",
+          "header": "",
+          "content": "",
+          "contentHint": "",
+          "abortButtonText": "",
+          "confirmButtonText": "",
+          "errorNotification": {
+            "title": "",
+            "message": ""
+          }
+        }
+      },
+      "assistantCard": {
+        "title": "",
+        "headline": "",
+        "finish": "",
+        "connection": {
+          "title": "",
+          "content": "",
+          "link": ""
+        },
+        "dataSelection": {
+          "title": "",
+          "content": ""
+        },
+        "migrationOverview": {
+          "title": "",
+          "content": ""
+        }
+      },
+      "selectDataCard": {
+        "cardTitle": "",
+        "dataHeader": "",
+        "dataTypes": {
+          "basicData": "",
+          "pluginData": ""
+        },
+        "headers": {
+          "name": "",
+          "dataType": "",
+          "total": ""
+        },
+        "dataSelection": {
+          "customersOrders": "",
+          "products": "",
+          "media": "",
+          "processMediaFiles": "",
+          "basicSettings": "",
+          "newsletterRecipient": "",
+          "productReviews": "",
+          "seoUrls": "",
+          "promotions": "",
+          "cms": "",
+          "customerWishlists": ""
+        },
+        "entities": {
+          "category": "",
+          "product": "",
+          "customer": "",
+          "delivery_time": "",
+          "order": "",
+          "media": "",
+          "translation": "",
+          "customer_group": "",
+          "product_option_relation": "",
+          "product_property_relation": "",
+          "property_group_option": "",
+          "number_range": "",
+          "order_document": "",
+          "order_document_base_config": "",
+          "order_document_inheritance": "",
+          "shipping_method": "",
+          "currency": "",
+          "sales_channel": "",
+          "sales_channel_domain": "",
+          "product_review": "",
+          "seo_url": "",
+          "seo_url_template": "",
+          "product_cross_selling": "",
+          "promotion": "",
+          "language": "",
+          "category_association": "",
+          "category_cms_page_association": "",
+          "tax": "",
+          "tax_rule": "",
+          "property_group": "",
+          "product_manufacturer": "",
+          "main_variant_relation": "",
+          "customer_wishlist": "",
+          "unit": "",
+          "media_folder": "",
+          "media_folder_inheritance": "",
+          "salutation": "",
+          "rule": "",
+          "country": "",
+          "custom_field_set": "",
+          "snippet": "",
+          "snippet_set": "",
+          "mail_template": "",
+          "product_feature_set": "",
+          "product_sorting": "",
+          "system_config": "",
+          "page_system_config": "",
+          "cms_page": "",
+          "product_stream": "",
+          "product_stream_filter_inheritance": "",
+          "country_state": ""
+        },
+        "noData": ""
+      },
+      "confirmWarningCard": {
+        "currencyMismatch": {
+          "title": "",
+          "text": "",
+          "question": "",
+          "checkboxLabel": ""
+        },
+        "languageMismatch": {
+          "title": "",
+          "text": "",
+          "question": "",
+          "checkboxLabel": ""
+        }
+      },
+      "premappingCard": {
+        "validTitle": "",
+        "validCaption": "",
+        "loadingTitle": "",
+        "loadingCaption": "",
+        "unfilledTitle": "",
+        "unfilledCaption": "",
+        "unfilledAlert": "",
+        "previousTitle": "",
+        "newAssignmentTitle": "",
+        "placeholder": "",
+        "filledCardTitle": "",
+        "expandTitle": "",
+        "collapseTitle": "",
+        "unfilledCardTitle": "",
+        "group": {
+          "order_state": "",
+          "order_delivery_state": "",
+          "transaction_state": "",
+          "payment_method": "",
+          "manufacturer": "",
+          "salutation": "",
+          "delivery_time": "",
+          "salesChannel": "",
+          "newsletter_status": ""
+        }
+      },
+      "loadingScreenCard": {
+        "flowChart": {
+          "premapping": "",
+          "fetchData": "",
+          "writeData": "",
+          "processMedia": "",
+          "finish": ""
+        },
+        "status": {
+          "FETCH_DATA": {
+            "long": "",
+            "caption": "",
+            "short": "",
+            "hint": ""
+          },
+          "WRITE_DATA": {
+            "long": "",
+            "caption": "",
+            "short": "",
+            "hint": ""
+          },
+          "PROCESS_MEDIA_FILES": {
+            "long": "",
+            "caption": "",
+            "short": "",
+            "hint": ""
+          },
+          "finish": ""
+        },
+        "result": {
+          "title": "",
+          "caption": "",
+          "historyLink": "",
+          "survey": {
+            "title": "",
+            "caption": "",
+            "buttonText": "",
+            "link": ""
+          },
+          "notification": {
+            "title": "",
+            "message": "",
+            "actionLabel": ""
+          },
+          "indexingNotification": {
+            "running": {
+              "title": "",
+              "message": ""
+            },
+            "finished": {
+              "title": "",
+              "message": ""
+            }
+          }
+        },
+        "pauseScreen": {
+          "title": "",
+          "message": ""
+        },
+        "takeoverScreen": {
+          "buttonCheck": "",
+          "buttonRedirect": "",
+          "running": {
+            "title": "",
+            "message": ""
+          },
+          "interrupted": {
+            "title": "",
+            "message": ""
+          },
+          "aborted": {
+            "title": "",
+            "message": ""
+          },
+          "forbidden": {
+            "title": "",
+            "message": ""
+          },
+          "takeoverModal": {
+            "title": "",
+            "message": "",
+            "hint": "",
+            "cancel": "",
+            "confirm": ""
+          },
+          "abortModal": {
+            "title": "",
+            "message": "",
+            "hint": "",
+            "cancel": "",
+            "confirm": ""
+          },
+          "redirectModal": {
+            "title": "",
+            "message": "",
+            "confirm": ""
+          }
+        },
+        "connectionLostScreen": {
+          "title": "",
+          "message": "",
+          "buttonNavigateToMain": ""
+        },
+        "mediaProcessScreen": {
+          "title": "",
+          "message": ""
+        }
+      },
+      "confirmAbortDialog": {
+        "title": "",
+        "content": "",
+        "hint": "",
+        "cancelRunning": "",
+        "cancelPause": "",
+        "confirm": ""
+      },
+      "errorTypes": {
+        "error": "",
+        "warning": "",
+        "info": ""
+      },
+      "error": {
+        "authorizationError": {
+          "information": ""
+        },
+        "canNotConnectToServer": "",
+        "customerExists": {
+          "information": ""
+        },
+        "gatewayNotFound": {
+          "information": ""
+        },
+        "gatewayRead": {
+          "information": ""
+        },
+        "localeNotFound": {
+          "information": ""
+        },
+        "migrationContextPropertyMissing": {
+          "information": ""
+        },
+        "migrationsWorkloadPropertyMissing": {
+          "information": ""
+        },
+        "noFileSystemPermissions": {
+          "information": ""
+        },
+        "profileNotFound": {
+          "information": ""
+        },
+        "undefinedIndex": {
+          "title": "",
+          "detail": "",
+          "information": ""
+        },
+        "unknownError": "",
+        "mediaProcessConnectionError": "",
+        "SWAG_MIGRATION__WRITER_NOT_FOUND": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__SHOPWARE_CANNOT_DOWNLOAD_DATA": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__SHOPWARE_PARENT_ENTITY_NOT_FOUND": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__SHOPWARE_ASSOCIATION_REQUIRED_MISSING": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__SHOPWARE_EMPTY_NECESSARY_DATA_FIELDS": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__SHOPWARE_UNSUPPORTED_OBJECT_TYPE": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__SHOPWARE_INVALID_UNSERIALIZED_DATA": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__SHOPWARE_CANNOT_COPY_DATA": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION_CANNOT_CONVERT_CHILD_ENTITY": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION_CANNOT_CONVERT_ENTITY": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION_CANNOT_GET_FILE": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__COULD_NOT_READ_ENTITY_COUNT": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__DATASET_NOT_FOUND": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION_ENTITY_ALREADY_EXISTS": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION_ENTITY_FIELD_REASSIGNED": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__PROCESSOR_NOT_FOUND": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION_ENTITY_UNKNOWN": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__INVALID_EMAIL_ADDRESS": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__SHOPWARE_UNSUPPORTED_NUMBER_RANGE_TYPE": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__SHOPWARE_UNSUPPORTED_SHIPPING_PRICE": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__SHOPWARE_UNSUPPORTED_SHIPPING_CALCULATION_TYPE": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__THEME_COMPILING_ERROR": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION_RUN_EXCEPTION": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__DEBUG": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__DOCUMENT_TYPE_NOT_SUPPORTED": {
+          "title": "",
+          "description": ""
+        },
+        "SWAG_MIGRATION__WRITE_EXCEPTION_OCCURRED": {
+          "title": "",
+          "description": ""
+        }
+      }
+    },
+    "history": {
+      "connectionName": "",
+      "profileAndGateway": "",
+      "status": "",
+      "importDateTime": "",
+      "shopDomain": "",
+      "shopSystem": "",
+      "selectedData": "",
+      "contextMenu": {
+        "details": "",
+        "downloadLogs": "",
+        "clearLogs": ""
+      },
+      "clearRunDialog": {
+        "title": "",
+        "content": "",
+        "contentHint": ""
+      },
+      "noData": "",
+      "detailPage": {
+        "title": "",
+        "timestamp": "",
+        "runStatus": "",
+        "status": {
+          "finished": "",
+          "aborted": "",
+          "running": ""
+        },
+        "data": "",
+        "errors": "",
+        "logDescription": "",
+        "logDownload": "",
+        "errorCode": "",
+        "errorCount": "",
+        "noErrorsOccurred": "",
+        "dataName": "",
+        "dataCount": "",
+        "close": ""
+      }
+    },
+    "worker-listener": {
+      "mediaProcessing": {
+        "title": "",
+        "message": "",
+        "titleSuccess": "",
+        "messageSuccess": ""
+      }
+    }
+  },
+  "global": {
+    "error-codes": {
+      "SWAG_MIGRATION_CONNECTION_NAME_ALREADY_EXISTS": "",
+      "SWAG_MIGRATION_CONNECTION_NAME_TO_SHORT": "",
+      "SWAG_MIGRATION_INVALID_API_KEY": ""
+    }
+  }
+}
