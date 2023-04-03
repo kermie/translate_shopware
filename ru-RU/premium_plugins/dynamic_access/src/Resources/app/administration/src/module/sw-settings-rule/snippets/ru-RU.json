@@ -1,0 +1,20 @@
+{
+    "swag-dynamic-access": {
+        "sw-settings-rule": {
+            "detail": {
+                "associations": {
+                    "productVisibility": "",
+                    "categoryVisibility": "",
+                    "landingPageVisibility": ""
+                }
+            }
+        }
+    },
+    "sw-restricted-rules": {
+        "restrictedAssignment": {
+            "swagDynamicAccessProducts": "",
+            "swagDynamicAccessCategories": "",
+            "swagDynamicAccessLandingPages": ""
+        }
+    }
+}
