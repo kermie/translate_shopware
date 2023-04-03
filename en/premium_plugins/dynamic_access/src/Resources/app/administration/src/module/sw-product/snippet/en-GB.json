@@ -1,0 +1,10 @@
+{
+    "swag-dynamic-access": {
+        "product": {
+            "title": "Dynamic Access",
+            "body": "Use rules to restrict access to this product. The product will only be visible if one of the selected rules applies.",
+            "fieldLabel": "Rules",
+            "fieldPlaceholder": "Select rules..."
+        }
+    }
+}

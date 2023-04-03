@@ -1,0 +1,10 @@
+{
+    "swag-dynamic-access": {
+        "product": {
+            "title": "Dynamic Access",
+            "body": "Verwende Regeln, um festzulegen welche Kunden Zugriff auf dieses Produkt haben. Das Produkt ist nur dann sichtbar, wenn eine der ausgewählten Regeln zutrifft.",
+            "fieldLabel": "Regeln",
+            "fieldPlaceholder": "Weise Regeln zu ..."
+        }
+    }
+}

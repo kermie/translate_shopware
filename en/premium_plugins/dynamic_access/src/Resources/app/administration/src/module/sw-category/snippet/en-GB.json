@@ -1,0 +1,16 @@
+{
+    "swag-dynamic-access": {
+        "category": {
+            "title": "Dynamic Access",
+            "body": "Use rules to restrict access to this category. The category will only be visible if one of the selected rules applies.",
+            "fieldLabel": "Rules",
+            "fieldPlaceholder": "Select rules..."
+        },
+        "landingPage": {
+            "title": "Dynamic Access",
+            "body": "Use rules to restrict access to landing page. The landing page will only be visible if one of the selected rules applies.",
+            "fieldLabel": "Rules",
+            "fieldPlaceholder": "Select rules..."
+        }
+    }
+}

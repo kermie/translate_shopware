@@ -1,0 +1,16 @@
+{
+    "swag-dynamic-access": {
+        "category": {
+            "title": "Dynamic Access",
+            "body": "Verwende Regeln, um festzulegen welche Kunden Zugriff auf diese Kategorie haben. Die Kategorie ist nur dann sichtbar, wenn eine der ausgewählten Regeln zutrifft.",
+            "fieldLabel": "Regeln",
+            "fieldPlaceholder": "Weise Regeln zu ..."
+        },
+        "landingPage": {
+            "title": "Dynamic Access",
+            "body": "Verwende Regeln, um festzulegen welche Kunden Zugriff auf diese Landingpage haben. Die Landingpage ist nur dann sichtbar, wenn eine der ausgewählten Regeln zutrifft.",
+            "fieldLabel": "Regeln",
+            "fieldPlaceholder": "Weise Regeln zu ..."
+        }
+    }
+}
