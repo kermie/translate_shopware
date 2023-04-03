@@ -1,0 +1,16 @@
+{
+    "swag-dynamic-access": {
+        "category": {
+            "title": "",
+            "body": "",
+            "fieldLabel": "Regeln",
+            "fieldPlaceholder": ""
+        },
+        "landingPage": {
+            "title": "",
+            "body": "",
+            "fieldLabel": "Regeln",
+            "fieldPlaceholder": ""
+        }
+    }
+}
