@@ -221,3 +221,11 @@ files:
     translation: /%locale%/premium_plugins/rufus/src/Resources/app/administration/src/snippets/entities/%locale%.json
   - source: /en/premium_plugins/rufus/src/Resources/app/administration/src/snippets/en-GB.json
     translation: /%locale%/premium_plugins/rufus/src/Resources/app/administration/src/snippets/%locale%.json
+  - source: /en/premium_plugins/dynamic_access/src/Resources/app/administration/src/module/sw-product/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/dynamic_access/src/Resources/app/administration/src/module/sw-product/snippet/%locale%.json
+  - source: /en/premium_plugins/dynamic_access/src/Resources/app/administration/src/module/sw-settings-rule/snippets/en-GB.json
+    translation: /%locale%/premium_plugins/dynamic_access/src/Resources/app/administration/src/module/sw-settings-rule/snippets/%locale%.json
+  - source: /en/premium_plugins/dynamic_access/src/Resources/app/administration/src/module/sw-category/snippet/en-GB.json
+    translation: /%locale%/premium_plugins/dynamic_access/src/Resources/app/administration/src/module/sw-category/snippet/%locale%.json
+  - source: /en/premium_plugins/dynamic_access/src/Resources/snippet/en_GB/storefront.en-GB.json
+    translation: /%locale%/premium_plugins/dynamic_access/src/Resources/snippet/en_GB/storefront.%locale%.json
