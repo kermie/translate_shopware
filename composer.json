@@ -1,0 +1,6 @@
+{
+    "name": "shopware/translate_shopware",
+    "require-dev": {
+        "boxblinkracer/phpunuhi": "^1.9"
+    }
+}

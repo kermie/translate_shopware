@@ -1,0 +1,28 @@
+<phpunuhi
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="./vendor/boxblinkracer/phpunuhi/config.xsd"
+>
+    <translations>
+
+        <set name="Platform Administration">
+            <format>
+                <json indent="4" sort="true"/>
+            </format>
+            <locales>
+                <locale name="en">./en/platform/src/Administration/Resources/app/administration/src/app/snippet/en-GB.json</locale>
+                <locale name="de-DE">./de-DE/platform/src/Administration/Resources/app/administration/src/app/snippet/de-DE.json</locale>
+            </locales>
+        </set>
+
+        <set name="Platform Administration sw-error-summary">
+            <format>
+                <json indent="4" sort="true"/>
+            </format>
+            <locales>
+                <locale name="en">./en/platform/src/Administration/Resources/app/administration/src/app/component/base/sw-error-summary/snippet/en-GB.json</locale>
+                <locale name="de-DE">./de-DE/platform/src/Administration/Resources/app/administration/src/app/component/base/sw-error-summary/snippet/de-DE.json</locale>
+            </locales>
+        </set>
+
+    </translations>
+</phpunuhi>
