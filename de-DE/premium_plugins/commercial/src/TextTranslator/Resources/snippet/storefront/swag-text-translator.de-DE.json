@@ -1,0 +1,10 @@
+{
+  "swag-text-translator": {
+    "button": {
+      "translateTo": "Bewertung auf %language% übersetzen",
+      "revertToOriginal": "Original anzeigen"
+    },
+    "translatedFrom": "Übersetzt von %language%",
+    "translateError": "Die Bewertung konnte nicht übersetzt werden. Bitte versuchen Sie es später erneut."
+  }
+}

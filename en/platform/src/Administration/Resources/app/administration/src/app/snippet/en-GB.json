@@ -698,6 +698,7 @@
         "orderCreatedByAdminRule": "Order created by admin",
         "orderTransactionStatusRule": "Payment status",
         "orderStatusRule": "Order status",
+        "orderCustomFieldRule": "Order with custom field",
         "yes": "Yes",
         "no": "No",
         "withTime": "Including timestamp",
@@ -755,6 +756,7 @@
         "lineItemStockRule": "Item available",
         "lineItemActualStockRule": "Item in stock",
         "lineItemProductStates": "Item with product state",
+        "numberOfReviews": "Number of submitted reviews",
         "paymentMethodRule": "Applied payment method",
         "shippingMethodRule": "Applied shipping method",
         "lineItemGoodsTotalRule": "Total quantity of all products",
@@ -773,7 +775,8 @@
               "placeholder": "Select fieldset..."
             },
             "customFieldSelect": {
-              "placeholder": "Select custom field..."
+              "placeholder": "Select custom field...",
+              "tooltip": "This custom field is currently not available in shopping carts. You can activate it for shopping carts in its <a href=\"{customFieldSettingsLink}\" target=\"_blank\">settings</a>."
             }
           }
         },
@@ -1556,5 +1559,8 @@
     },
     "and": "and",
     "or": "or"
+  },
+  "sw-ai-copilot-warning": {
+    "text": "AI responses can be inaccurate or misleading."
   }
 }

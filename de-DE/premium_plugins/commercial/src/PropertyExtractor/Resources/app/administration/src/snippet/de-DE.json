@@ -1,0 +1,43 @@
+{
+  "property-extractor": {
+    "property-modal": {
+      "assistant-label": "Open AI Copilot"
+    },
+    "assistant-modal": {
+      "title": "Eigenschaften",
+      "description": "Verwenden Sie die vorhandene Produktbeschreibung, oder fügen Sie Ihren eigenen Text hinzu, um automatisch Vorschläge für Eigenschaften und Eigenschaftswerte zu generieren.",
+      "textarea-label": "Produktbeschreibung",
+      "textarea-placeholder": "Produktbeschreibung eingeben ...",
+      "generate-button": {
+        "default": "Vorschläge generieren",
+        "new": "Neue Vorschläge generieren",
+        "tooltip": "Ändere die Produktbeschreibung, um neue Vorschläge generieren zu können."
+      },
+      "button-description": "Das Erzeugen neuer Eigenschaftsvorschläge überschreibt vorhandene Vorschläge.",
+      "reset-description-button-label": "Produktbeschreibung wiederherstellen",
+      "save-error-message": "Eigenschaften konnten nicht gespeichert werden",
+      "search-placeholder": "Werte suchen...",
+      "no-result": {
+        "title": "Keine Vorschläge",
+        "message": "Auf Grundlage dieser Produktbeschreibung sind keine Vorschläge verfügbar."
+      },
+      "no-suggestions": {
+        "title": "Keine neuen Vorschläge",
+        "message": "Auf Grundlage dieser Produktbeschreibung sind keine neuen Vorschläge verfügbar. Alle vorgeschlagenen Eigenschaften und Ausprägungen wurden bereits zugewiesen."
+      },
+      "help-text": {
+        "to-short": "Die Beschreibung muss mindestens 200 Zeichen lang sein.",
+        "to-long": "Die Beschreibung darf nicht länger als 4000 Zeichen sein."
+      },
+      "table": {
+        "name-label": "Eigenschaft",
+        "options-label": "Eigenschaftswert",
+        "new-indicator": "Neu",
+        "edit-action": "Bearbeiten",
+        "delete-action": "Löschen",
+        "error-message": "Der Service ist im Moment nicht verfügbar. Versuche es zu einem anderen Zeitpunkt nochmal.",
+        "error-save-message": "Eigenschaften konnten nicht gespeichert werden."
+      }
+    }
+  }
+}

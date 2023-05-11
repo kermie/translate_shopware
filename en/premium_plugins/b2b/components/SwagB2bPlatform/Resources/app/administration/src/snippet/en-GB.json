@@ -9,7 +9,7 @@
     "order": {
       "detail": {
         "orderReferenceLabel": "Order reference number",
-        "deliveryDateLabel": "Delivery date"
+        "deliveryDateLabel": "Requested delivery date"
       }
     },
     "customer": {
@@ -19,7 +19,7 @@
           "label": "Activate Easy Mode",
           "isActive": "Easy Mode is active",
           "isNotActive": "Easy Mode is not active",
-          "helpText": "The Easy Mode enabled a less complex management. This means that it is no longer necessary to maintain roles, budgets and contingents! To activate this mode, the user must not have created any roles."
+          "helpText": "The Easy Mode enables a simpler shop-management interface. This means that it is no longer necessary to maintain roles, budgets and restrictions! To activate this mode, the user must not have created any roles."
         }
       }
     }
@@ -30,11 +30,36 @@
         "label": "B2B user"
       },
       "b2b-offer": {
-        "label": "Offers"
+        "label": "Quotes"
       },
       "sales-representative-clients": {
         "label": "Sales representative clients"
       }
+    }
+  },
+  "global": {
+    "businessEvents": {
+      "b2b_contact_password_activation_mail": "Employee account activation",
+      "b2b_budget_notifiy_author": "Budget notification",
+      "b2b_order_clearance_accepted": "Order clearance accepted",
+      "b2b_order_clearance_inquiry_mail": "Order clearance request",
+      "b2b_offer_status_notify_mail": "Quotes status change"
+    }
+  },
+  "sw-flow": {
+    "triggers": {
+      "b2B": "B2B",
+      "budget": "Budget",
+      "contact": "Employee",
+      "password": "Password",
+      "offer": "Quote",
+      "status": "Status",
+      "activation": "Activation",
+      "notifiy": "Notify",
+      "notify": "Notify",
+      "author": "Author",
+      "clearance": "Clearance",
+      "inquiry": "Inquiry"
     }
   }
 }

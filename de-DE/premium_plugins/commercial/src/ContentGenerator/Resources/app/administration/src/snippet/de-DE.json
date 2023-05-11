@@ -1,0 +1,10 @@
+{
+  "sw-cms-generation": {
+    "placeholder": "Leertaste drücken, um den AI Copilot anzufragen ...",
+    "description": "Antworten der AI können falsch oder irreführend sein.",
+    "modalTitle": "Anfrage verwerfen",
+    "modalContent": "Möchtest Du Deine Anfrage an den AI Copilot verwerfen?",
+    "AIToggle": "AI Copilot",
+    "AITextButton": "AI Copilot"
+  }
+}

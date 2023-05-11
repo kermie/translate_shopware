@@ -1,0 +1,43 @@
+{
+  "property-extractor": {
+    "property-modal": {
+      "assistant-label": "Open AI Copilot"
+    },
+    "assistant-modal": {
+      "title": "Properties",
+      "description": "Use the existing product description, or add your own text, to automatically generate suggestions for properties and property values.",
+      "textarea-label": "Product description",
+      "textarea-placeholder": "Enter product description...",
+      "generate-button": {
+        "default": "Generate suggestions",
+        "new": "Generate new suggestions",
+        "tooltip": "Change the product description to be able to generate new suggestions."
+      },
+      "button-description": "Generating new property suggestions will overwrite existing suggestions.",
+      "reset-description-button-label": "Restore product description",
+      "save-error-message": "Properties could not be saved",
+      "search-placeholder": "Search values...",
+      "no-result": {
+        "title": "No suggestions",
+        "message": "Based on this product description there are no suggestions available."
+      },
+      "no-suggestions": {
+        "title": "No new suggestions",
+        "message": "Based on this product description there are no new suggestions available. All suggested properties and property values have already been assigned."
+      },
+      "help-text": {
+        "to-short": "Description must be at least 200 characters long.",
+        "to-long": "Description must not be longer than 4000 characters."
+      },
+      "table": {
+        "name-label": "Property",
+        "options-label": "Property value",
+        "new-indicator": "New",
+        "edit-action": "Edit",
+        "delete-action": "Delete",
+        "error-message": "The service is currently not available. Please try again later.",
+        "error-save-message": "Properties could not be saved."
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "sw-cms-generation": {
+    "placeholder": "Press the spacebar to inquire the AI Copilot...",
+    "description": "AI responses can be inaccurate or misleading.",
+    "modalTitle": "Discard request",
+    "modalContent": "Do you want to discard your request to the AI Copilot?",
+    "AIToggle": "AI Copilot",
+    "AITextButton": "AI Copilot"
+  }
+}

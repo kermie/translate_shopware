@@ -1,0 +1,15 @@
+{
+  "sw-label-ai": {
+    "AIToggle": "AI Copilot",
+    "AITextButton": "AI Copilot fragen"
+  },
+  "sw-text-field-ai": {
+    "ai": "AI",
+    "cancel": "Abbrechen",
+    "retry": "Wiederholen"
+  },
+  "error": {
+    "generate": "Bei der Bearbeitung des angefragten Textes ist ein Problem aufgetreten. Versuche es später noch einmal.",
+    "edit": "Bei der Bearbeitung des angefragten Textes ist ein Problem aufgetreten. Versuche es später noch einmal."
+  }
+}

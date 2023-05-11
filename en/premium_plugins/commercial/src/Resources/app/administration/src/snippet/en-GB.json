@@ -1,0 +1,15 @@
+{
+  "sw-label-ai": {
+    "AIToggle": "AI Copilot",
+    "AITextButton": "Ask AI Copilot"
+  },
+  "sw-text-field-ai": {
+    "ai": "AI",
+    "cancel": "Cancel",
+    "retry": "Retry"
+  },
+  "error": {
+    "generate": "There was a problem generating the requested text. Please try again later.",
+    "edit": "There was a problem editing the requested text. Please try again later."
+  }
+}

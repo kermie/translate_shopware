@@ -1,0 +1,8 @@
+{
+  "sw-flow": {
+    "triggers": {
+      "swagAmazonPay": "Amazon Pay",
+      "unlink": "Unlink"
+    }
+  }
+}

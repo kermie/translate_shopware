@@ -1,0 +1,13 @@
+{
+  "sw-settings-translator": {
+    "general": {
+      "title": "Bewertungen",
+      "notificationGeneric": "Ein Fehler ist aufgetreten."
+    },
+    "detail": {
+      "title": "Bewertungen",
+      "buttonSave": "Speichern",
+      "buttonCancel": "Abbrechen"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "commercial": {
+    "checkout-sweetener": {
+      "title": "Bestellabschluss-Nachricht",
+      "disclaimerHint": "“Dieser Text wurde vollständig von einer AI generiert.”",
+      "modalTitle": "Vorschau Bestellabschluss-Nachricht",
+      "modalDescription": "Verändere einzelne Parameter oder die Produktauswahl, um einen Eindruck von den AI-generierten Bestellabschluss-Nachrichten zu bekommen.",
+      "modalProductsSelection": "Produktauswahl",
+      "modalProductsPlaceholder": "Produkte auswählen ...",
+      "modalToneOfVoicePlaceholder": "Tonfall auswählen...",
+      "modalProductsHelperText": "Wähle hier mindestens eins oder mehrere Produkte aus.",
+      "modalGeneratePreview": "Vorschau generieren",
+      "modalPreview": "Bestellabschluss-Nachricht",
+      "messageSuccess": "Nachricht erfolgreich generiert.",
+      "messageFailure": "Der Dienst ist im Moment nicht verfügbar. Bitte versuche es später noch einmal.",
+      "keywordOptions": {
+        "neutral": "Neutral",
+        "exciting": "Angeregt",
+        "humorous": "Humorvoll"
+      },
+      "orderHelpText": "Die von der AI generierte Bestellabschluss-Nachricht wurde auf der Bestätigungsseite für diese Bestellung angezeigt. Diese Nachricht kann nicht geändert werden und wird hier zu Dokumentationszwecken gespeichert.",
+      "orderSettingsLink": "Einstellungen",
+      "availabilityRule": "Verfügbarkeitsregel",
+      "availabilityRuleHelpText": "Verwende Regeln, um den Geltungsumfang und die Zielgruppe von Bestellabschluss-Nachrichten zu beeinflussen.",
+      "activateAiCopilot": "Aktiviere AI-Copilot generierte Bestellabschluss-Nachrichten",
+      "toneOfVoiceHelpText": "Mit der Einstellung des Tonfalls kannst du die Stimmung der AI-generierten Texts beeinflussen.",
+      "toneOfVoice": "Tonfall",
+      "characterLimit": "Zeichenanzahl",
+      "characterLimitHelpText": "Die Zeichenanzahl ist nur ein Richtwert für die AI. Die AI wird versuchen, den Text so nah wie möglich an der Zeichenanzahl zu generieren. Produktnamen werden nicht auf die Zeichenanzahl angerechnet.",
+      "disclaimer": "AI-generierte Antworten können ungenau oder irreführend sein.",
+      "description": "Die von der AI generierten Nachrichten können auf der Bestätigungsseite am Ende des Bestellprozesses angezeigt werden. Eine individuelle Bestellabschluss-Nachricht erhöht den Personalisierungsgrad deines Shops.",
+      "preview": "AI-Copilot-Vorschau"
+    }
+  }
+}

@@ -698,6 +698,7 @@
         "orderCreatedByAdminRule": "Bestellung vom Administrator erstellt",
         "orderTransactionStatusRule": "Zahlungsstatus",
         "orderStatusRule": "Bestellstatus",
+        "orderCustomFieldRule": "Bestellung mit Zusatzfeld",
         "yes": "Ja",
         "no": "Nein",
         "withTime": "Mit Zeitabfrage",
@@ -755,6 +756,7 @@
         "lineItemActualStockRule": "Position mit Lagerbestand",
         "lineItemStockRule": "Position mit verfügbarem Bestand",
         "lineItemProductStates": "Position mit Produktzustand",
+        "numberOfReviews": "Anzahl abgegebener Bewertungen",
         "paymentMethodRule": "Verwendete Zahlungsart",
         "shippingMethodRule": "Verwendete Versandart",
         "lineItemGoodsTotalRule": "Gesamtanzahl aller Produkte",
@@ -773,7 +775,8 @@
               "placeholder": "Fieldset wählen ..."
             },
             "customFieldSelect": {
-              "placeholder": "Zusatzfeld wählen ..."
+              "placeholder": "Zusatzfeld wählen ...",
+              "tooltip": "Dieses Zusatzfeld ist aktuell in Warenkörben nicht verfügbar. In den <a href=\"{customFieldSettingsLink}\" target=\"_blank\">Einstellungen</a> dieses Zusatzfeldes kannst du es für Warenkörbe  aktivieren."
             }
           }
         },
@@ -1556,5 +1559,8 @@
     },
     "and": "und",
     "or": "oder"
+  },
+  "sw-ai-copilot-warning": {
+    "text": "AI-Antworten können ungenau oder irreführend sein."
   }
 }
