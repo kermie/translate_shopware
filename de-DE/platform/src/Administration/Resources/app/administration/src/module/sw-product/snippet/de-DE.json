@@ -534,6 +534,14 @@
         "label": "",
         "placeholder": "Wähle Tags aus ..."
       },
+      "productStatesFilter": {
+        "label": "Produktzustände",
+        "placeholder": "Produktzustand auswählen ...",
+        "options": {
+          "physical": "Physisch",
+          "digital": ""
+        }
+      },
       "messageEmptyTitle": "Nichts gefunden",
       "messageEmptySubline": "Bearbeite Deine Filter, um Ergebnisse zu finden."
     },
