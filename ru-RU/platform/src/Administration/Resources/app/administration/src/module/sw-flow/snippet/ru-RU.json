@@ -126,7 +126,11 @@
         "order": ""
       },
       "unknownLabel": "",
-      "warningText": ""
+      "warningText": "",
+      "downloadAccessLabel": {
+        "granted": "",
+        "revoked": ""
+      }
     },
     "rule": {
       "addRule": "",
