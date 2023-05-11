@@ -534,6 +534,14 @@
         "label": "",
         "placeholder": ""
       },
+      "productStatesFilter": {
+        "label": "",
+        "placeholder": "",
+        "options": {
+          "physical": "",
+          "digital": ""
+        }
+      },
       "messageEmptyTitle": "",
       "messageEmptySubline": ""
     },
