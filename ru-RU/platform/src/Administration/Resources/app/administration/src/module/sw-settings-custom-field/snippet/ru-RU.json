@@ -80,7 +80,10 @@
         "tooltipRequired": "",
         "infoText": "",
         "labelAllowCustomerWrite": "",
-        "tooltipAllowCustomerWrite": ""
+        "tooltipAllowCustomerWrite": "",
+        "labelAllowCartExpose": "",
+        "tooltipAllowCartExpose": "",
+        "tooltipCartExposeDisabled": ""
       },
       "list": {
         "labelCustomFieldLabel": "",
