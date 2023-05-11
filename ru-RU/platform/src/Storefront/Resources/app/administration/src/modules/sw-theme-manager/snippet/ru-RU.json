@@ -104,6 +104,9 @@
         "favicon": "",
         "shopLogo": ""
       },
+      "placeholder": {
+        "selectSalesChannel": ""
+      },
       "error": {
         "themeCompile": {
           "title": "",
