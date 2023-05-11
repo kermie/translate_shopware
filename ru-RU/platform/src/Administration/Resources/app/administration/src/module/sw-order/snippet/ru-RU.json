@@ -547,6 +547,10 @@
         "label": "",
         "placeholder": ""
       },
+      "promotionCodeFilter": {
+        "label": "",
+        "placeholder": ""
+      },
       "messageEmptyTitle": "",
       "messageEmptySubline": ""
     },
