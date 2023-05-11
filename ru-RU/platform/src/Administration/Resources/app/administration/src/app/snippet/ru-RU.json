@@ -698,6 +698,7 @@
         "orderCreatedByAdminRule": "",
         "orderTransactionStatusRule": "",
         "orderStatusRule": "",
+        "orderCustomFieldRule": "",
         "yes": "",
         "no": "",
         "withTime": "",
@@ -755,6 +756,7 @@
         "lineItemStockRule": "",
         "lineItemActualStockRule": "",
         "lineItemProductStates": "",
+        "numberOfReviews": "",
         "paymentMethodRule": "",
         "shippingMethodRule": "",
         "lineItemGoodsTotalRule": "",
@@ -773,7 +775,8 @@
               "placeholder": ""
             },
             "customFieldSelect": {
-              "placeholder": ""
+              "placeholder": "",
+              "tooltip": ""
             }
           }
         },
@@ -1556,5 +1559,8 @@
     },
     "and": "",
     "or": ""
+  },
+  "sw-ai-copilot-warning": {
+    "text": ""
   }
 }
