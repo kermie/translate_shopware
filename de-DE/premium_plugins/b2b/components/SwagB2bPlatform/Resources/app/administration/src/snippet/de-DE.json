@@ -9,7 +9,7 @@
     "order": {
       "detail": {
         "orderReferenceLabel": "Bestellreferenznummer",
-        "deliveryDateLabel": "Lieferdatum"
+        "deliveryDateLabel": "Wunschliefertermin"
       }
     },
     "customer": {
@@ -30,11 +30,36 @@
         "label": "B2B-Nutzer"
       },
       "b2b-offer": {
-        "label": "Angebote"
+        "label": ""
       },
       "sales-representative-clients": {
         "label": "Außendienstmitarbeiter-Kunden"
       }
+    }
+  },
+  "global": {
+    "businessEvents": {
+      "b2b_contact_password_activation_mail": "Aktivierung des Kontaktkontos",
+      "b2b_budget_notifiy_author": "Budget-Benachrichtigung",
+      "b2b_order_clearance_accepted": "Auftragsfreigabe akzeptiert",
+      "b2b_order_clearance_inquiry_mail": "Anfrage zur Auftragsfreigabe",
+      "b2b_offer_status_notify_mail": "Änderung des Angebotsstatus"
+    }
+  },
+  "sw-flow": {
+    "triggers": {
+      "b2B": "",
+      "budget": "",
+      "contact": "Kontakt",
+      "password": "Passwort",
+      "offer": "",
+      "status": "",
+      "activation": "Aktivierung",
+      "notifiy": "Benachrichtigung",
+      "notify": "Benachrichtigung",
+      "author": "Autor",
+      "clearance": "Freigabe",
+      "inquiry": "Anfrage"
     }
   }
 }
