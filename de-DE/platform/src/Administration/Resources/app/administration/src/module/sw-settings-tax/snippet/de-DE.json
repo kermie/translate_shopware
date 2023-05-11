@@ -29,8 +29,8 @@
           "inactive": "Steueranbieter \"{name}\" ist jetzt inaktiv."
         },
         "sorting-modal": {
-          "modalTitle": "",
-          "subTitle": "",
+          "modalTitle": "Priorität der Steuerservice-Anbieter ändern",
+          "subTitle": "Verwenden Sie Drag & Drop, um zu sortieren. Der oberste Eintrag hat die höchste Priorität.",
           "saveSuccessful": "Die Prioritäten der Steueranbieter wurden gespeichert.",
           "errorMessage": "Ein Fehler ist beim Speichern aufgetreten."
         }
