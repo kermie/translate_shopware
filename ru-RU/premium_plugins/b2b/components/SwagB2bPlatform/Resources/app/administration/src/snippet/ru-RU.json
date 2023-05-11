@@ -36,5 +36,30 @@
         "label": ""
       }
     }
+  },
+  "global": {
+    "businessEvents": {
+      "b2b_contact_password_activation_mail": "",
+      "b2b_budget_notifiy_author": "",
+      "b2b_order_clearance_accepted": "",
+      "b2b_order_clearance_inquiry_mail": "",
+      "b2b_offer_status_notify_mail": ""
+    }
+  },
+  "sw-flow": {
+    "triggers": {
+      "b2B": "",
+      "budget": "",
+      "contact": "",
+      "password": "",
+      "offer": "",
+      "status": "",
+      "activation": "",
+      "notifiy": "",
+      "notify": "",
+      "author": "",
+      "clearance": "",
+      "inquiry": ""
+    }
   }
 }
